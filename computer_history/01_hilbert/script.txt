@@ -1,0 +1,31 @@
+I. Intro
+
+L'histoire de l'ordinateur est soit vue d'un point de vue théorique. Les premiers ordinateurs seraient le fruit d'une réfléxion très théorique menée principalement par Turing et Von Neumann. Soit, l'autre version de la même histoire, c'est de considérer qu'il s'agit essentiellement d'une affaire d'ingénierie. De problèmes de calculs et de la mise au point de machines calculantes.
+
+Pour ma part, je pense que si on veut comprendre comment et pourquoi on a inventé les ordinateurs, il faut remonter au tout début du 20° siècle, en 1900, et commencer par parler de David Hilbert.
+
+
+II. Hilbert
+
+[Hilbert, prof. ordinaire, gottingen ... Résultats mathématiques ... en 1925, prog de fondement]
+1:30
+
+David Hilbert est un mathématicien allemand extrêmement influent au début du 20° siècle. Il est, depuis 1894, professeur ordinaire à Gottingen. C'est, pour un mathématicien, le poste le plus prestigieux au monde. D'une part parce que le poste de "professeur ordinaire" garantit un emploi et un financement à vie, et il n'y a, dans toute l'Allemagne, que cinq postes de professeurs ordinaires. Et d'autre part, parce que Gettingen à cette époque est la capitale internationale du monde mathématique.
+Alors Hilbert n'est pas arrivé là par hasard, il à été nommé après avoir résolu la "conjecture de reimann", qui est un problème de théorie des ensembles. Puis, hilbert s'est tourné vers d'autres branches des mathématiques. Il va travaille en staistiques sur le problème de "distributuon de reimann", en géométrie avec "les courbes de reimann", etc.
+Mais ce qui nous intéresse pour cet exposé, c'est ce qu'il va faire à partir de 1925, au moment où il lance son "programme de fondement"
+
+
+III. Prémisces du Programme de Fondement
+
+[conférence de 1900, 21 problémes ... méthode axiomatique ... problémes dans l'arithmétique, paradoxes, notions contesté infini actuel]
+
+Le but de ce "programme de fondement", c'est de redéfinir la base des mathématiques. Et ça n'est d'ailleurs pas une question nouvelle pour Hilbert qui à déjà travaillé sur ce sujet. Par exemple en 1900, à la seconde conférence internationnale des mathématiciens qui se donne à Paris, Hilbert est invité pour donner une lecture. Hilbert lui veut parler de l'histoire des mathématiques, mais c'est miskowsky qui va lui donner une autre idée et qui va dire : "si tu prédit le futur des mathématiques, on se souviendra encore de toi dans un siècle.". Alors Hilbert va faire une liste des problèmes qui vont se poser aux mathématiciens au cours du 20° siécle. Et le second problème de sa liste de 21 est précisément le problème auquel voudra répondre la programme de fondement, et il se lit comme ceci: "trouver une axiomatique constante à l'arithmétique".
+Alors pourquoi hilbert veut-il trouver une nouvelle axiomatique pour l'arithmétique ?
+
+IV. Programme de Fondement
+
+[publications 1925-1927 ... contestation de pointcarré ... conférence 1928 ... trois questions, complétude, non contradiction, décidabilité]
+
+V. Godel
+
+[théoréme d'incomplétude ... programme de fondement malmené ... clifhanger du 3° probléme]

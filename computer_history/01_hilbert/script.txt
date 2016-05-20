@@ -7,6 +7,25 @@ Pour ma part, je pense que si on veut comprendre comment et pourquoi on a invent
 
 II. Hilbert
 
+Aujourd'hui, Hilbert est unanimement reconnu comme une figure emblématique des mathématiques du 20° siècle. Il va commencer ses études en mathématiques, contre l'avis de son père, à l'université de Köningsberg, c'est la ville où il est né et à grandi, mais c'est aussi une des universités les plus réputées d'Allemagne.
+Là bas, les étudiants sont laissés extrêment libres. Ils choissisent les cours auquels ils assistent, et il n'y a pas d'examen avant l'examen final, à l'issue des quatres ans d'enseignement.
+À Köningsberg, Hilbert va faire deux rencontres importantes, d'abord avec Adolf Huritz, qui est l'un de ses professeurs, mais surtout, Hilbert va se lier d'amitié avec Hermann Minkowsky. Minkowsky est certes plus jeune de trois ans par rapport à Hilbert, mais il jouit déjà d'une reconnaissance internationnale pour un mémoire "décomposotion des nombres entiers en somme de cinq carrés" qui lui à fait gagner le grand prix de l'académie des sciences de Paris en 1881.
+C'est cette rencontre avec Huritz et Minkowski qui va prédestiner les sujets des travaux mathématiques de Hilbert. Il va dire, en 1920 : "Ainsi, alors que j'étais encore étudiant, j'ai été poussé par Hurwitz au coeur des débats scientifiques et j'ai eu la chance, en étant avec lui, d'apprendre à connaître, d'une façon plaisante, les deux écoles opposées mais parfaitement complémentaires, l'école géométrique de Klein et l'école algébrique-analytique de Berlin. Lorsqu'il revenait dans sa famille à Köningsberg, le génial Minkowski, avec qui je m'étais déjà lié, se joignait à nous. Au cours de ces innombrables promenades, jour après jour, pendant huit années, nous avons fouillé tous les coins du savoir mathématique."
+
+Hilbert dit "huit années" puisqu'il va devenir enseignant à Köningsberg de 1886 à 1895. Mais le statut d'enseignant n'est pas celui auquel on pense. Jusqu'en 1992, Hilbert sera "assistant", il a le droit d'enseigner mais il n'est rémunéré que les étudiants qui choississent d'assister à ses cours.
+Cela lui offre cependant une certaine liberté. Il va en profitera d'abord, et sur les conseils de Huritz, pour rencontrer Felix Klein, qui à son tour l'enverra à Paris, voir Poincaré, puis à Berlin, rencontrer Kronecker.
+C'est aussi à cette période que Hilbert, qui s'intéresse à la théorie des invariants, va obtenir son premier résultat mathématique. Le problème est de réussir à identifier certaines propriétés invariantes, pour des formes représentées dans des espaces à plusieurs dimensions. Les résultats les plus récents sont ceux de Paul Albert Gordan, qui datent de 20 ans et ne répondent à la question que pour les espaces en deux dimensions.
+Le problème majeur, c'est la quantité de calculs nécéssaires, qui déjà était impressionnante pour les espaces en deux dimensions, mais qui est totalement irréalisable pour un nombre de dimensions plus élévé.
+C'est précisément à ce moment que Hilbert va choisir de suivre une voie totalement différente. Dans un premier article, "De la théorie des formes algébriques", en 1890, il va réussir à montrer, sans aucun calcul, qu'il existe une famille génératrice de formes, pour un espace de n'importe quel nombre de dimensions. Gordan répondra : "Das ist nicht Mathematik. Das ist Theologie", "Ce n'est pas des mathématiques, c'est de la théologie".
+Hilbert, sans doute motivé par ce commentaire, continuera son travail et publiera, trois ans plus tard, dans le Mathematische Annalen, "Du système complet des invariants", qui explique comment calculer la famille génératrice pour un espace pour n'importe quel nombre de dimensions. Cela fera dire à Gordan que : "La théologie à parfois ses mérites", et Klein dans une lettre à Hilbert, commentera également : "Sans aucun doute, il s'agit du plus important travail sur l'algèbre générale jamais publié par les Annalen".
+Hilbert lui conclut, "les buts les plus importants de la théorie concernée par les invariants ont été atteints", et écrit à Minkowski : "Je quitte maintenant le domaine des invariants définitivement et je ne m'occuperais plus que de théorie des nombres".
+
+
+C'est d'ailleurs à la demande de Klein que seulement deux ans aprés son "théorème des bases", Hilbert sera nommé professeur ordinaire à l'université de Göttingen. Poste le plus prestigieux pour un enseignant, il n'en existe en mathématiques que six dans toute l'Allemagne. Et certainement Hilbert sera un professeur apprécié. Hermann Weyl, qui deviendra connu pour ses travaux, va écrire : "J'entends toujours la flûte douce de Hilbert nous séduisant pour nous conduire dans la rivière profonde des mathématiques [...] Les portes d'un monde nouveau s'ouvraient devant moi et je n'étais pas là depuis longtemps que déjà la résolution s'était formé dans mon jeune coeur de lire tout ce que cet homme avait écrit".
+
+
+
+
 [Hilbert, prof. ordinaire, gottingen ... Résultats mathématiques ... en 1925, prog de fondement]
 1:30
 
@@ -24,12 +43,7 @@ II. Hilbert
 1936: turing
 1943: mort
 
-- c'est brouwer qui donne le nom de "formalisme" au prog de H, pour l'opposer à son propre intuitionnisme
-- univ de konigsberg est une des + réputé d'allemagne, les éléves sont totalement libres, ils choissisent les cours et il n'y a aucun examen avant l'issue des 4 ans
-- Minkowski est trés doué en math et jouit déjà d'une rteconnaissance internatuinnale en 1883
-- hilbert, en 1920 à la mort de Huritz, "Ainsi, alors que j'étais encore étudiant, j'ai été poussé par Hurwitz au coeur des débats scientifiques et j'ai eu la chance, en étant avec lui, d'apprendre à connaître, d'une façon plaisante, les deux écoles opposées mais parfaitement complémentaires, l'école géométrique de Klein et l'école algébrique-analytique de Berlin. Lorsqu'il revenait dans sa famille à Köningsberg, le génial Minkowski, avec qui je m'étais déjà lié, se joingnait à nous. Au cours de ces innombrables promenades, jour après jour, pendant huit années, nous avons fouillé tous les coins du savoir mathématique."
-- aprés  son cursus, H soutient une thése de doctorat , puis, pour enseigner, il va préparer une habilitation qui le nommera "assistant", il peut enseigner mais n'est pas rémunéré, ce sont les étudiants qui choissent de venir à ses cours. Puis il il pourra espérer être nommé professeur associé, où il a un salaire régulier, puis, il pourra devenir professeur ordinaire, poste trés rare, et pour les mathématiques, on en compte six, trois berlin, deux gottingen, 1 konigsberg
-- pendant cette période, il voyage et rencontre Klein (sur les conseils de Huritz, qui a été son éléve), pointcaré, kronecker. il prend connaissance des débats des maths comtemporaines. (trois courants principaux, l'analyse avec Weierstrass, l'algébre abstraite avec Dedekind et Kronecker, puis la géométrie de Klein)
+- pendant cette période, il voyage et rencontre Klein (1885, sur les conseils de Huritz, qui a été son éléve), pointcaré(paris), kronecker(berlin). il prend connaissance des débats des maths comtemporaines. (trois courants principaux, l'analyse avec Weierstrass, l'algébre abstraite avec Dedekind et Kronecker, puis la géométrie de Klein)
 - maths à gottingen : attiré par l'influence de klein, H et Minkowski, les étudiant affluent (Born, Courant, Bohr, Weyl)
 - weyl, dans son livre 'david hilbert and his mathematical work' : "j'entends toujours la flûte douce de Hilbert nous séduisant pour nous conduire dans la rivière profonde des mathématiques [...] Les portes d'un monde nouveau s'ouvraient devant moi et je n'étais pas là depuis longtemps que déjà la résolution s'était formé dans mon jeune coeur de lire tout ce que cet homme avait écrit"
 - minkowski meurt en 1909.
@@ -44,8 +58,6 @@ II. Hilbert
 - 23 problémes
 
 
-- en 2 articles, "de la théorie des formes algébriques" en 1890, et "du système complet des invariants" en 1893, hilbert résoud le probléme fondamental de la théorie des invariants. l'idée est de prendre une forme (dans un espace à x dimensions) et de la représenter par une équation polynomiale, si le repére change, l'équation de la courbe change, mais certaines propriétés restent les même, ce sont les invariants. Le probléme est de déterminer les propriétés invariantes. Les primiers résultats sont obtenus par Gordant en 1868 (qui arrive à la solution pour un plan), personne n'améliore ce résultat en 20 ans. Dans le 1° article, hilbert montre qu'il existe une famille qui engendre par des opérations simples tous les invariants, mais ne donne pas de façon de calculer cette famille génératrice. Gordant rétorque "ce n'est pas des mathématiques, c'est de la théologie (Das ist nicht Mathematik. Das ist Theologie)", Klein lui écrit : "Sans aucun doute, il s'agit du plus important travail sur l'algèbre générale jamais publié par les Annalen" (Mathematische Annalen est le journal mathémlatique). le 2° article réussit à calculer la famille génératrice, et gordant admet que "la théologie a parfois ses mérites". Les calculs pour ce résultat sont tellements longs qu'ils ne peuvent être accomplis, Hilbert va choisir une méthode abstraite, en définissant une structure algébrique idéale, et résoud le probléme sans calcul. (c'est le "théoréme des bases")
-- il conclut que "les buts les plus importants de la théorie concernée par les invariants ont été atteints" et il confie à minkowski en 1893 "je quitte maintenant le domaine des invariants définitivement et je ne m'occuperais plus que de théorie des nombres" (lettre 29 sept 1892)
 - 1893-97, théorie des nombres
 - publie "la théorie des corps algébriques" 1897
 - algébre, tout ce qui peut être fait à la régle et au compas, donc addition, soustraction, multiplication et division

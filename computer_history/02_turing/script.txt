@@ -89,3 +89,59 @@ _ Les principia mathematica se basent, pour l'essentiel, sur les théses de Russ
 - deux autres problèmes :
 - définition de la calculabilité (dont dépends la généralisation du théoréme d'incomplétude)
 - définition de la vérité (avant, la vérité des axiomes était lié à la consistance du système, si le système est syntaxiquement consistant, les axiomes sont vrais, et les formules démontrables sont vraies aussi). Gödel, sur son travail, à commencé par distinguer démontrabilité et vérité. Tarski en 1935 donnera cette définition (le concept de vérité dans les languages formalisés)
+
+- à partir de 1933, Gödel voyage souvent à princeton (il s'y installera en 1939), où il rencontre Church, S.Kleene, et croise Turing.
+
+- le probléme de la calculabilité ressurgit avec le th d'incomplétude & le pb de décidabilité
+- le pb de la décidabilité est lié à la calculabilité : pour définir si une formule est démontrable, on traduit cette formule de son sens métamathématique à l'arithmétique (comme godel pour le th d'incomplétude), puis on voit si la fonction qui résulte de cette traduction est oui ou non calculable
+- définir la calculabilité = définir un ensemble de fonctions qui disposent d'un algorithme, d'une suite d'instructions que l'on peut suivre pour parvenir au résultat.
+
+- la méthode de diagonalisation semble empêcher la définition de la calculabilité (si on liste toute les fonctions calculables, infini dénombrable donc, on peut créer une nouvelle fonction calculable qui n'est pas dans la liste, donc la définition est mauvaise)
+- Keene 1979 : "Lorsque Church me proposa sa thèse [pour une définition de la calculabilité], je me mis aussitôt à la tâche de la réfuter par une diagonalisation de la classe des fonctions [calculables]. Mais, réalisant vite que la diagonalisation ne pouvait être faite de façon effective, je devins du jour au lendemain partisan de la thèse de Church".
+
+- une T-machine peut être représentée par une code, un entier. Mais tous les entiers ne représentent pas une T-machine
+- la solution du "le problème de l'arrêt" dit qu'il n'existe pas de T-machine qui peut dire, lorsqu'on lui soumet un code (un entier), si ce code représente une T-machine ou non.
+- on peut arriver à ce résultat par la diagonalisation, si il existe une T-machine capable de dire si un code est une T-machine ou pas, on peut, en testant successivement tous les entiers faire la liste des T-machines. Puis on définit une fonction f(n) = (valeur que donne la n-iéme T-machine à n) + 1. la fonction f serait donc calculable, mais pas par une T-machine (puisque f(n) est forcément différent de la valeur que donne la n-iéme T-machine à n).
+- comme la définition de "calculable" est "calculable par une T-machine", notre hypothèse de départ est fausse, et il ne peut pas exister de T-machine qui dit, pour un code donné, si ce code correspond à une T-machine.
+- donc il existe des fonctions qui ne sont pas calculables
+- et comme on peut traduire en arithmétique la proposition P(n) : n est le code d'une T-machine, il existe des problémes qu'une T-machine ne peut pas résoudre, donc l'arithmétique est indécidable.
+- Turing retourne en quelque sorte l'argument de la diagonale (qui au départ semblait poser un obstacle à la définition de calculabilité)
+- Lancan, 1973, résume dans une boutade : "j'ai trois frères, Jean, Jacques et moi."
+
+- l'article de Turing en 1937 est l'aboutissement d'une série de travaux sur la calculabilité
+- Gödel définit une classe de fonctions calculables en 1931, dite "fonctions récursives primitives"
+- Mais on connait depuis 1926 une fonction calculable qui n'est pas récursive primitive (dû à Ackermann, un éléve de Hilbert)
+- 1934, Church et Godel publient chacun une définition, elles sont équivalentes. Mais la difficulté est de trouver une justification épistémologique, de reconnaitre un sens intuitif à ces définition (Les machines de turing sont directement intuitives)
+- Turing prouvera aussi que sa définition est équivalente avec celles de church & godel.
+
+- Turing compare la machine à l'activité cérébrale humaine. lorsqu'on multiplie par exemple, les écritures qu'on réalise en deux dimensions sur une feuille de papier peuvent être reprotées sur une seule dimension, l'action du calculateur est déteriné par le symbole qui se trouve devant lui, et par l'état mental dans lequel il se trouve. L'homme qui calcule agit comme une machine.
+- L'humain ne dispose que d'une quantitée finie d'états mentaux.
+- Turing, "on computable numbers" 1937: "si nous admettions une infinité d'états d'esprit, certains d'entre eux seraient arbitrairement proches et se confondraient [dans le calcul]"
+- si on peut faire des calculs corrects, c'est qu'on ne confonds pas les états d'esprits, donc qu'ils sont finis, comme dans la machine
+
+- machines sans cercles = code correct, la machine arrive à une approximation de plus en plus précise d'un nombre, ou bien s'arrête.
+- machines circulaires = code incorrect
+- probléme de l'arret = deviner si une machine est circulaire ou pas.
+- décidabilité = probleme de l'arret
+
+- avec sa conclusion négative au pb de décidabilité, turing retrouve les résultats de Godel de 1931.
+- On dispose d'une machine qui peut lister une à une toutes les formules démontrables de l'arithmétique. Pour savoir si une formule est démontrable, il suffit de laisser tourner cette machine et d'attendre que la machine écrive soit la formule (démontrable) ou son contraire (réfutable).
+- Mais si on pouvait faire ça, on aurait du même coup une procédure de décidabilité.
+- donc la complétude sémantique implique la décidabilité.
+- la réponse négative au pb de décidabilité donne donc une nouvelle démonstration du th de godel
+
+- la nouvelle définition de Turing n'apporte rien de nouveau aux mathématiques (il y a déjà les définitions de church & godel), mais apportent un sens épistémologique. Les définition de church et godel se basaient sur des systèmes formels, dépourvus de sens. La définition de turing se base sur la définition de machine dans le language naturel.
+- le contenu épistémologique de church & godel étaient insuffisant.
+
+- Le probléme du fondement se tourne vers la différence entre l'esprit et la machine. Dans l'article de Turing, l'esprit est considéré comme une machine. Mais pour soutenir la thèse de la résolubilité de tout problème mathématique (comme hilbert, et Godel), il faut réussir à distinguer la différence entre la machine et l'esprit. pour cela, il faut montrer un raisonnement qui fait intervenir le sens des symboles, qu'une machine ne pourrait donc pas suivre (car elle évolue uniquement dans la manipulation des symboles, c'est un système formel)
+
+- dans un article de 1939, Turing ajoute un "oracle" à ses machines, qui permet de résoudre des problèmes arithmétique, et dont on peut seulement dire qu'il n'est pas mécanique
+- Turing renoncera à l'oracle, mais participe à la recherche de ce qu'il faut rajouter à une machine de Turing, pour en faire un "esprit". L'oracle permet à la machine de se comprendre elle-même (ce qui était impossible avant, puisqu'une machine ne peut pas prédire une autre machine, ou elle-même, donc, ne peut pas se comprendre elle-même)
+
+- Godel reproche à Turing, dans son analogie esprit-machine, de ne pas prendre en compte l'évolution de l'esprit (1972, conversations avec Wang) : "Ce que Turing à négligé [en identifiant l'esprit à une machine], c'est que l'esprit, en pratique, n'est pas statique mais en développement permanent"
+
+- La thése de Turing repose sur deux choses : Le nombre d'états interne du cerveau est limité (par le nombre de neurones dans le cerveau, et les états seraient représenté par les connections entre les neurones, qui sont soit ouvertes soit fermés (il faut que ça soit une valeur discréte))
+- et, les états du cerveaux sont un parralélisme avec les états de l'esprit. à chaque état du cerveau correspond un état d'esprit, et un changement dans l'état du cerveau implique un changement dans l'état d'esprit.
+- ces théses impliquent que le cerveau est une machine de Turing, et qu'i existe des problèmes indécidables pour l'esprit humain
+
+- Godel pense que l'esprit humain à la possibilité d'un progrés infini. Godel refuse l'hypothése du parralelisme du cerveau : (dans wang, 1972) "ce parallélisme est un préjugé de notre temps".

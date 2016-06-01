@@ -1,0 +1,23 @@
+livres :
+
+internet :
+History of Computers and Computing, Birth of the modern computer, The thinkers, Alonzo Church
+http://history-computer.com/ModernComputer/thinkers/Church.html
+
+Alonzo Church — Wikipédia
+https://fr.wikipedia.org/wiki/Alonzo_Church
+
+Alonzo Church - Wikipedia, the free encyclopedia
+https://en.wikipedia.org/wiki/Alonzo_Church
+
+Lambda-calcul — Wikipédia
+https://fr.wikipedia.org/wiki/Lambda-calcul#La_normalisation_:_notion_de_calcul
+
+Lambda calculus - Wikipedia, the free encyclopedia
+https://en.wikipedia.org/wiki/Lambda_calculus
+
+Thèse de Church — Wikipédia
+https://fr.wikipedia.org/wiki/Th%C3%A8se_de_Church
+
+Church–Turing thesis - Wikipedia, the free encyclopedia
+https://en.wikipedia.org/wiki/Church%E2%80%93Turing_thesis

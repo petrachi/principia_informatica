@@ -1,3 +1,7 @@
+===
+Gödel (Livre)
+===
+
 - Paradoxe De Burali-Forti (1897):
 - Cantor dévelloppe la théorie des ensembles de 1873-1897 pour répondre à des problème d'analyses
 - Un des premiers réultat est la distinction entre continu et dénombrable (deux puissances d'infini) -> Tous les infinis ne se valent pas, certains sont plus grand que d'autres.
@@ -145,3 +149,80 @@ _ Les principia mathematica se basent, pour l'essentiel, sur les théses de Russ
 - ces théses impliquent que le cerveau est une machine de Turing, et qu'i existe des problèmes indécidables pour l'esprit humain
 
 - Godel pense que l'esprit humain à la possibilité d'un progrés infini. Godel refuse l'hypothése du parralelisme du cerveau : (dans wang, 1972) "ce parallélisme est un préjugé de notre temps".
+
+- Gödel  quitte l'Allemagne en 1939
+- été 1937, Gödel établit la consistance de l'hypothése du continu
+- Gödel démontre que l'hypothése du continu ne peut pas être réfutée
+- Il conjecture qu'elle est indécidable (donc également non démontrable, ça sera prouvé en 1966 par P.Cohen)
+- à noter, elle est indécidable par rapport aux axiomes existant dans la théorie des ensembles, il n'est pas dit qu'elle le reste avec de nouveaux axiomes.
+- GÖdel pense que l'hypothése du continu est vraie (et sera démontrés avec de nouveaux axiomes)
+
+- Gôdel croit en l'existance en soi des objets mathématiques (en ooposition à l'intuitionnisme, pour lequel un objet existe quand le mathématicien le crée)
+- Gödel 1947 : "[...] les concepts et les théorémes de la théorie des ensembles décrivent une réalité bien déterminée, dans laquelle la conjecture de Cantor est vraie ou fausse. Ainsi son indécidabilité à partir des axiomes acceptés aujourd'hui peut seulement signifier que ces axiomes ne contiennent pas une description complète de cette réalité."
+- Gödel 1947 : "les mathématiques décrivent une réalité non sensible, qui existe indépendament des actes et des facultés de l'esprit humain et n'est que perçue, et probablement perçue de façon très incomplète."
+
+- Gödel croit comme Hilbert à la résolubilité de tout problème. De mêm, il croit que les mathématiques existent.
+- Pointcarré a le même point de vue "constructionniste" que les intuitionnistes, il croit que les objets mathématiques existent une fois qu'ils ont été construits par le mathématicien. D'où son analyse des paradoxes comprenant un cercle vicieux : Pour le paradoxe de Richard par exemple, on contruit un ensemble E, puis on construit un nombre qui appartient à E, mais pour le construire, on fait référence à E. Donc le nombre fait référence ç lui même dans sa construction (== construction imprédicative). Pointcaré veut interdire ce genre de cercle vicieux et uniquement authoriser les construction prédicatives, celles où un objet est crée à partir d'autres objets, de hiérarchie plus faible dans l'ordre de construction.
+- Le constructionnisme de Poincaré ne reconnait pas l'existence des objets mathématiques, et donc, ne reconnait pas l'infini actuel, et donc le tiers exclu, etc.
+- Mais l'intuitionnisme, qui est aussi constructionniste, posséde des incohérences, puisqu'il a parfois recours à des raisonnements imprédicatifs.
+- principe du cercle vicieux, Russell : "Ce qui présuppose tous les éléments d'une collection ne doit pas être l'un des éléments de la collection; ou, sous la forme converse, si, du fait qu'une collection était totalisable, elle contiendrait des éléments qui ne seraient définissables qu'en termes de cette totalisation, alors la dite collection n'est pas totalisable".
+
+- Pour son retour au programme de fondement, Gödel dit qu'on doit justifier les mathématiques avec une théorie plus étendue que le finitisme de H, et donc, justifier épistémologiquement la notion de l'infini. Pour cela, il veut justifier l'existance en soi de l'infini, et par la même, la capacité de l'esprit humain à raisonner dans l'infini.
+- Turing comparait l'esprit à une machine, pour Gödel, comme il n'y a pas de problèmes insolubles, et qu'il en existe pour les machines, il faut différencier l'esprit de la machine.
+- Godel 1961 "Dans l'établissement systématique des axiomes mathématiques, de nouveaux axiomes, qui ne découlent pas formellement des précédents, deviennent évidents [...]. C'est ce devenir évident de nouveaux axiomes, sur la base du sens des notions primitives, qu'une machine ne peut pas imiter".
+
+- la diagonalisation nous oblige à admettre l'existance des objets mathématiques en soi, ou bien à refuser la proposition dans laquelle il intervient.
+- diagolasition apparait chez Cantor en 1891.
+
+
+===
+Church (web)
+===
+
+- In 1936, Church created a method for defining functions called the lambda calculus (λ-calculus). Within λ-calculus, he defined an encoding of the natural numbers called the Church numerals. A function on the natural numbers is called λ-computable if the corresponding function on the Church numerals can be represented by a term of the λ-calculus (which is equivalent to using general recursive functions).
+- In computability theory, the Church–Turing thesis is a hypothesis ("thesis") about the nature of computable functions. In simple terms, the Church–Turing thesis states that a function on the natural numbers is computable in an informal sense (i.e., computable by a human being using a pencil-and-paper method, ignoring resource limitations) if and only if it is computable by a Turing machine.
+- In 1941 Church wrote the monograph The Calculi of Lambda-conversion, which was later useful to others in the development of semantics for programming languages. Today the λ-calculus is a major research topic in theoretical computer science.
+- As one of his colleagues remembered, "Church read everything and forgot nothing". When asked what made Church a world-class scholar, he had a remarkably simple answer: "He was just smarter than anybody else."
+
+- Church fait ses études à l'université de Princeton (new jersey, proche de NY)
+- Avec son doctorat il reçoit une bourse de recherche nationale11 qu'il utilise pour voyager. Ainsi, durant l'été 1927 il est instructeur à l'Université de Chicago. Il passe deux ans à l'Université Harvard (1927-1928), puis se rend à l'Université de Göttingen où il rencontre David Hilbert et Paul Bernays puis à l'Université d'Amsterdam où il rencontre Luitzen Egbertus Jan Brouwer (1928-1929)
+- Princeton dans les années 1930, est un lieu propice aux échanges en logique car John von Neumann s'y trouve, ainsi que trois étudiants brillants de Church, Stephen Kleene, John Barkley Rosser et Alan Turing. Kurt Gödel, après plusieurs déplacements à l'Institute for Advanced Study entre 1933 et 1935, y donne plusieurs conférences sur son théorème d'incomplétude, et s'y installe définitivement vers 1940.
+- Les travaux de son équipe (Church, Kleene et Rosser) précèdent, sur le problème de l'arrêt, le travail d'Alan Turing, qui va d'ailleurs les rejoindre. C'est Church qui, le premier, a l'idée que l'on peut définir le concept de fonction calculable dans un sens très large, cette idée avait déjà été entrevue par Herbrand, mais sa mort prématurée ne lui avait pas permis de la pousser plus loin. Church en a eu l'idée par le lambda-calcul. Church démontre en 1936 l'existence d'un problème insoluble par algorithme, autrement qui ne peut pas être résolu par un calcul mécanisable.
+
+- After graduating from Ridgefield in 1920, Church attended Princeton University where he was an exceptional student, publishing his first paper, on Lorentz transformations, and graduating in 1924 with a degree in mathematics. He stayed at Princeton, earning a Ph.D. in mathematics in three years under Oswald Veblen.
+- He taught philosophy and mathematics at Princeton, 1929–1967
+- The lambda calculus emerged in his 1936 paper showing the unsolvability of the Entscheidungsproblem. This result preceded Alan Turing's work on the halting problem, which also demonstrated the existence of a problem unsolvable by mechanical means. Church and Turing then showed that the lambda calculus and the Turing machine used in Turing's halting problem were equivalent in capabilities, and subsequently demonstrated a variety of alternative "mechanical processes for computation." This resulted in the Church–Turing thesis.
+- The lambda calculus influenced the design of the LISP programming language and functional programming languages in general. The Church encoding is named in his honor.
+
+- L'idée de base du lambda-calcul est que tout est fonction. Une fonction est en particulier exprimée par une expression qui peut contenir des fonctions qui ne sont pas encore définies et qui sont alors remplacées par des variables. Il y a donc, parmi les expressions du lambda-calcul, des expressions qui contiennent des variables. Que peut-on faire avec les fonctions ? On peut les « appliquer » à des valeurs qui sont elles-mêmes des fonctions, puisque tout est fonction. On a donc une opération de base, que l'on appelle « application ». Appliquer l'expression A  (qui décrit une fonction) à l'expression B  (qui décrit une fonction) se note A.B .
+- Sur cette base, on peut construire quelques fonctions intéressantes, comme la fonction identité I , qui est la fonction qui à x  fait correspondre x , autrement dit la fonction λx.x . On peut aussi construire les fonctions constantes égales à x , à savoir λy.x . De là on peut construire la fonction qui fabrique les fonctions constantes, pourvu qu'on lui donne la constante comme paramètre, autrement dit la fonction λx.(λy.x)} , c'est-à-dire la fonction qui à x  fait correspondre la fonction constamment égale à x .
+- L'idée du lambda-calcul consiste à fournir un langage précis pour décrire les fonctions et les simplifier.
+- Le calcul associé à un lambda-terme est la suite de réductions qu'il engendre. Le terme est la description du calcul et la forme normale du terme10 (si elle existe) en est le résultat. Un lambda-terme t est dit en forme normale si aucune bêta-contraction ne peut lui être appliquée, c'est-à-dire si t ne contient aucun rédex, ou encore s'il n'existe aucun lambda-terme u tel que t → u.
+
+- Lambda calculus (also written as λ-calculus) is a formal system in mathematical logic for expressing computation based on function abstraction and application using variable binding and substitution. It was first introduced by mathematician Alonzo Church in the 1930s as part of an investigation into the foundations of mathematics.
+The lambda calculus was introduced by mathematician Alonzo Church in the 1930s as part of an investigation into the foundations of mathematics.[7][8] The original system was shown to be logically inconsistent in 1935 when Stephen Kleene and J. B. Rosser developed the Kleene–Rosser paradox. Subsequently, in 1936 Church isolated and published just the portion relevant to computation, what is now called the untyped lambda calculus.[9] In 1940, he also introduced a computationally weaker, but logically consistent system, known as the simply typed lambda calculus.[10]
+- Computable functions are a fundamental concept within computer science and mathematics. The λ-calculus provides a simple semantics for computation, enabling properties of computation to be studied formally. The λ-calculus incorporates two simplifications that make this semantics simple. The first simplification is that the λ-calculus treats functions "anonymously", without giving them explicit names. The second simplification is that the λ-calculus only uses functions of a single input (currying).
+- exemple : square_sum(x, y) => x*x + y*x
+- becomes : (x, y) => x*x + y*y
+- and then : x => (y => x*x + y*y)
+- à l'appel : ((x => (y => x*x + y*y))(5))(2) - (y => 2*2 + y*y)(5) - 29
+
+- A function F: N → N of natural numbers is a computable function if and only if there exists a lambda expression f such that for every pair of x, y in N, F(x)=y if and only if f x =β y,  where x and y are the Church numerals corresponding to x and y, respectively and =β meaning equivalence with beta reduction. This is one of the many ways to define computability
+- There is no algorithm that takes as input two lambda expressions and outputs TRUE or FALSE depending on whether or not the two expressions are equivalent. This was historically the first problem for which undecidability could be proven. As is common for a proof of undecidability, the proof shows that no computable function can decide the equivalence. Church's thesis is then invoked to show that no algorithm can do so.
+- Church's proof first reduces the problem to determining whether a given lambda expression has a normal form. A normal form is an equivalent expression that cannot be reduced any further under the rules imposed by the form. Then he assumes that this predicate is computable, and can hence be expressed in lambda calculus. Building on earlier work by Kleene and constructing a Gödel numbering for lambda expressions, he constructs a lambda expression e that closely follows the proof of Gödel's first incompleteness theorem. If e is applied to its own Gödel number, a contradiction results.
+
+- Bien que Church soit sans nul doute le premier, au début des années 1930, à avoir pensé pouvoir définir formellement la calculabilité intuitive (par la λ-définissabilité)3, c'est cependant l'article d'Alan Turing de 1936 et son modèle mécanique de calculabilité, qui ont définitivement emporté l'adhésion, selon Gödel, Kleene et Church lui-même.
+
+- La thèse de Church-Turing dit juste que ces définitions de calculabilités sont des bonnes définitions. C'est plus une hypothése qu'une thése (elle n'a pas été démontrée). Tout ce qui peut être calculé par une "procédure effective" peut être calculé par un lambda calcul, une machine de Turing, ...
+
+- In 1933, Austrian-American mathematician Kurt Gödel, with Jacques Herbrand, created a formal definition of a class called general recursive functions. The class of general recursive functions is the smallest class of functions (possibly with more than one argument) which includes all constant functions, projections, the successor function, and which is closed under function composition and recursion.
+- In 1936, Alonzo Church created a method for defining functions called the λ-calculus. Within λ-calculus, he defined an encoding of the natural numbers called the Church numerals. A function on the natural numbers is called λ-computable if the corresponding function on the Church numerals can be represented by a term of the λ-calculus.
+- Also in 1936, before learning of Church's work, Alan Turing created a theoretical model for machines, now called Turing machines, that could carry out calculations from inputs by manipulating symbols on a tape. Given a suitable encoding of the natural numbers as sequences of symbols, a function on the natural numbers is called Turing computable if some Turing machine computes the corresponding function on encoded natural numbers.
+- Church[2] and Turing[3] proved that these three formally defined classes of computable functions coincide: a function is λ-computable if and only if it is Turing computable if and only if it is general recursive. This has led mathematicians and computer scientists to believe that the concept of computability is accurately characterized by these three equivalent processes.
+
+- Turing, 1939, Systems of Logic Based on Ordinals, " We shall use the expression 'computable function' to mean a function calculable by a machine, and let 'effectively calculable' refer to the intuitive idea without particular identification with any one of these definitions."
+- Same "It was stated ... that 'a function is effectively calculable if its values can be found by some purely mechanical process.' We may take this literally, understanding that by a purely mechanical process one which could be carried out by a machine. The development ... leads to ... an identification of computability† with effective calculability."
+
+- The debate began when Church proposed to Gödel that one should define the "effectively computable" functions as the λ-definable functions. Gödel, however, was not convinced and called the proposal "thoroughly unsatisfactory".[12] Rather, in correspondence with Church (ca 1934–5), Gödel proposed axiomatizing the notion of "effective calculability"; indeed, in a 1935 letter to Kleene, Church reported that: "His [Gödel's] only idea at the time was that it might be possible, in terms of effective calculability as an undefined notion, to state a set of axioms which would embody the generally accepted properties of this notion, and to do something on that basis"
+- Gödel said that "he was, at the time of these [1934] lectures, not at all convinced that his concept of recursion comprised all possible recursions".[16] By 1963–4 Gödel would disavow Herbrand–Gödel recursion and the λ-calculus in favor of the Turing machine as the definition of "algorithm" or "mechanical procedure" or "formal system"
+- Church was quick to recognise how compelling Turing's analysis was. In his review of Turing's paper[24] he made clear that Turing's notion made "the identification with effectiveness in the ordinary (not explicitly defined) sense evident immediately".

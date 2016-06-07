@@ -327,3 +327,116 @@ skip	1	scanright	space	right
 - In 1936, however, Turing’s immediate purpose was purely theoretical. And indeed it was to show not what could be mechanized in mathematics, but what could not. In 1931, Gödel’s theorem had shown that there were limits to what could be proved in mathematics, and Turing wanted to understand the boundaries of what could ever be done by any systematic procedure in mathematics.
 
 - William Newman (son of max newman) picks the story up: "At one point he posed his class a question: could the provability of mathematical statements be discovered by a mechanical process? This question lodged in Alan's mind, and gradually he developed the paper that was to make his reputation in the mathematical world, and later in computer science: On Computable Numbers, with an Application to the Entscheidungsproblem."
+
+- imagine a program; it takes inputs, and give an outpout. Let's look at all programs and ask 'it this program is going to give us an anwser, or will it never end ?' (halt or not halt). The decision proble is very similar as the halting problem. Their solution is the same.
+- let's suppose there is a program that can telle is an another problem will halt. call it H. (it takes another program in arguments)
+- Now, make another program, it add a little bit on H. call it H+. If H says 'yes', H+ will loop forver, if H says 'no', H+ will stop.
+- Question : does H+ stops when it is asked about itself ? (does H+ halt given H+ as argument)
+- If H+ does halt, then H says 'yes', then H+ loop forver, so it doesn't halt.
+- If h+ doesn't halt, H says 'no', but then H+ stops, so it halt.
+- Than means that our hypotheses where bad, H can't exist.
+
+- once it defined the Turing machine, Turing asked 'it must be something here that is undecidebale'
+- The H+ machine delevers a halt for all turing machine that does not halt themselves (it look like the barber paradox, the barber shave all those who does not shave themselves)
+
+- when does this affect me (as a developper writing classic programs) ? We get into difficulties with self-referentiel (barber if self referential, so is the set of all set (russel), or the H+ machine that feed itself). So, pb w/ programs who generates other programs. (how to show that this will no run into paradoxes ? we can't :). Pb w/ parsers for example, in compilers (check if the code will not make contradictions).
+
+===
+Turing (books)
+===
+
+- is it decidable by a mechanical procedure whether a particular given statement can be proved from some assumptions?
+- von Neumann conjectured in 1926 that it must have a negative solution and added, “we have no idea how to prove this”
+- Gödel built on that work when introducing general recursive functions via his equation calculus in "On Undecidable Propositions of Formal Mathematical Systems", the write-up of lectures given at the Institute for Advanced Study
+- However, despite appearances to the contrary, Gödel insisted in a letter to one of the authors (see [14]) that he was not prepared at that time to conclude that his formulation accomplished that goal, because until Kleene’s elucidations [40], it was not clear that the notion was sufficiently robust.
+- Church "An unsolvable problem of elementary number theory" : "The fact, however, that two such widely different and (in the opinion of the author) equally natural definitions of effective calculability turn out to be equivalent adds to the strength of the reason adduced below for believing that they constitute as general a characterization of this notion as is consistent with the usual intuitive understanding of it."
+- Godel "Undecidable diophantine propositions" : "That this really is the correct definition of mechanical [our emphasis] computability was established beyond any doubt by Turing."
+- And ". . . the computable functions defined in this way are exactly those for which you can construct a machine with a finite number of parts which will do the following thing. If you write down any number n1;:::; nr on a slip of paper and put the slip into the machine and turn the crank, then after a finite number of turns the machine will stop and the value of the function for the argument n1;:::; nr will be printed on the paper."
+
+- The story has been told frequently, especially during the centenary year of 2012, of how Turing learned from Max Newman’s lectures in Cambridge that although it was widely believed that there was no algorithm for provability in first-order logic, no one had proved this, and how he went on to develop his concept of computability as a key step in demonstrating that this is indeed the case.
+
+- Post (travaille sur le pb de définition de calculabilité, & sur le pb de décision dés 1921, à partir des principia mathematica. He will define something really close to a turing machine to decribe calculability)
+- il écrit à Godel : he had in mind "“something of the sort of thing Turing does in his computable number paper"
+- aussi : "“ . . . the best I can say is that I would have proved Gödel’s Theorem in 1921—had I been Gödel"
+
+- Turing
+- Indeed, he uses computer to refer to human computing agents who proceed mechanically; his machines, our Turing machines, are referred to as machines!
+- the paper is divided into squares “like a child’s arithmetic book”.
+- , Turing formulates a crucial requirement: symbolic configurations relevant for a computor’s actions have to be recognized immediately or at a glance
+- it is impossible for a computor to determine at a glance whether 9889995496789998769 is identical with 98899954967899998769. This sensory limitation of computors leads directly to boundedness and locality conditions
+- “We may now construct a machine to do the work of this computer [i.e., computor].”
+
+- In the work of Turing and his contemporaries, the terms “procedure”, “finite process”, and (as mostly used by Turing) “machine” occur more often than “algorithm”. All these terms, however, point to the same idea: a process of symbolic computation fixed by an unambiguous and finite description.
+- The word “algorithm” originates in the medieval “algorism” as a recipe to perform calculations with numbers, originally just natural numbers. “Algorism” goes back to one of the most brilliant scientists of the islamic culture, Al-Khwarizmi (around 780–850)
+- The most influential ones were his book on algebra (“Kitab al-mukhtasar fi ¯hisab al-jabr wa’l-muqabala”) and his text “Computing with the Indian Numbers” (“Kitab al-Jam ¯ ˘wa-l-tafr{Nq bi-Phisab al-Hind”) ... in which he describes the execution of the basic operations of arithmetic
+- Le texte original à été perdu, ainsi que les sources, et ce qu'on a de mieux est une traduction latin conservée à l'université de Cambridge. Le livre cependant apparait cryptique, il y est confondu citation (de al kawarismi) et des commentaires (du copiste). Plusieurs parties où auraient du apparaitre des chiffres sont laissées vides (le moine ne devait probablement pas vouloir écrire ces signes étranges). Et il apparait plusieurs fois dans le livre la phrase : "but now let us return to the book". également, plusieurs paragraphes commencent par "Dixit Algorizmi", which motivated the term “algorism” for the procedures described in this work.
+- It is noteworthy that this concept of “algorithm” clearly refers to a process of symbol manipulation, in contrast to calculations performed on the abacus.
+
+- Liebniz
+- As he suggests, logic should be applied by procedures of “alphabet’s combination”
+- This idea of “arithmetization of logic” (which later Hilbert pursued in his program to show the consistency of mathematics) is raised in two ways
+- In his paper “Non inelegans specimen demonstrandi in abstractis” of 1685 [15] (“A not inelegant example of abstract proof method”), he develops the rudiments of Boolean algebra, using equations such as “A + A = A” with “+” as a sign for union
+- For example, since man is a rational animal (and since gold is the heaviest metal), if hence the number for animal (for metal) is a (such as 2) (m such as 3) and of rational (heaviest) r such as 3 (p such as 5), then the number for man or h will be the same as ar, which in our example is 2 * 3, i.e. 6 (and the number for gold, s, will be the same as mp, which in this example is 3 * 5, i.e. 15).
+- We see very clearly the idea to represent elementary concepts by prime numbers and their conjunction by products of prime numbers, which allows to reestablish the factors
+- This prepares the idea of Gödel numbering ... using number theoretic facts to code complex objects (like statements or proofs) by numbers—in a way that allows unique decomposition.
+- Liebniz 1677 "When this language is introduced sometime by the missionaries, then the true religion which is unified to the best with rationality, will be founded firmly, and one does not need to fear a renunciation of man from it in the future, just as one does not need to fear a renunciation from algebra and geometry."
+- This process (realization of liebniz ideas in mechanical computation) started with George Boole who developed the vague sketch of Leibniz into a proper theory: “Boolean algebra”. The breakthrough in devising a universal scientific calculus was then achieved by Gottlob Frege. ... His own work on the foundations of arithmetic, and in particular the subsequent enormous effort undertaken by Russell and Whitehead in their “Principia Mathematica”, opened a way to capture mathematics in a formal system.
+- The fundamental results of Gödel (completeness of the first-order proof calculus and incompleteness of any axiomatic system of arithmetic) made it clear that only in a fragmentary way there was hope to fulfill Hilbert’s program. An essential ingredient in Gödel’s approach was the arithmetization of logic (today called “Gödelization”), transforming Leibniz’s hint mentioned above into a powerful method.
+- a framework emerged in which most of mathematics could be formally simulated. This framework clarified to a large extent which kind of symbolic manipulations are necessary to do logic algorithmically—as Al-Khwarizmi had explained this centuries before for numeric calculations.
+- Hilbert did—as far as we know—not adopt the view that formalization would help in any way to solve concrete mathematical problems, by performing the algorithmic execution of proofs. For him and most logicians in his tradition, the formalization of mathematics is an approach to understand its methodological foundations.
+
+- Turing learned about Hilbert’s Entscheidungsproblem in lectures of Max Newman in Cambridge, after 4 years of (very successful) studies of mathematics.
+- In fact, the solution of the Entscheidungsproblem (which was solved independently by Alonzo Church [3]) is only one of at least seven innovations which Turing offered in his paper:
+  1. A machine model capturing computability
+  2. Its justification
+  3. Conception and implementation of a universal program
+  4. Establishment of a non-solvable problem
+  5. Proof that Hilbert’s Entscheidungsproblem is undecidable
+  6. Equivalence between Turing machines and œ-calculus
+  7. Initial steps to computable analysis
+- It should be noted that a variant of this model (“finite combinatory processes”) was presented in the same year 1936 by Emil Post
+- after presenting his model of Turing machine, he immediately exhibits a problem that is not solvable with this model. For this, he develops the idea of a universal machine, enters the technicalities of actually constructing one (and, as an aside, introduces the programming technique today called “macros” for this purpose), and then applies a diagonalization argument.
+
+- Godel : 1946 : "Tarski has stressed [::: ] (and I think justly) the great importance of the concept of general recursiveness (or Turing’s computability). It seems to me that this importance is largely due to the fact that with this concept one has for the first time succeeded in giving an absolute definition of an interesting epistemological notion, i.e., one not depending on the formalism chosen. [::: ] By a kind of miracle it is not necessary to distinguish orders."
+
+- Each of the pioneers mentioned above in connection with Turing, namely Church, Kleene, and Post, as well es Turing himself, were active in this launch of a new scientific subject. Turing himself turned, for example, to questions that are hosted today in the field of “computer architecture”, but he also addressed many further issues, such as program verification. In 1957, Church formulated a fundamental problem beyond program verification—“Application of recursive arithmetic to the problem of circuit synthesis” [4]—thus opening a fascinating branch of computer science, in which today game theoretic methods are used for the automatic construction of interactive programs (see, e.g. [22]). Kleene should be noted for his path-breaking work [12] on regular events and finite automata, establishing the basic equivalence result in automata theory. Finally, Post was the first to exhibit purely combinatorial (and thus purely “mathematical”, as opposed to logical) undecidable problems (among them Post’s Correspondence Problem [19]), and he developed in
+
+- These procedures are far away from the simple set-up of symbolic computation considered by Turing in his paper of 1936. But it was exactly Turing who was aware of the perspective of a widening of the horizon of algorithmic methods— at a very early stage
+- Turing (1950) : "We may hope that machines will eventually compete with men in all purely intellectual fields"
+- And : "One way to setting about our task of building a “thinking machine” would be to take a man as a whole and try to replace all parts of him by machinery. This would include television cameras, microphones, loudspeakers, wheels, and “handling servo-mechanisms”, as well as some sort of “electronic brain”"
+
+- At Cambridge, during the first three months of 1935, the young Alan Turing attended a course of advanced lectures on the Foundations of Mathematics, given by Max Newman, a Fellow of St John’s College.107 It was in these lectures that Turing heard of David Hilbert’s Entscheidungsproblem, or decision problem. Yorick Smythies attended the lectures in 1934 and took detailed notes. Newman covered the Hilbert programme, propositional and predicate calculus, cardinals, theory of types and the axiom of reducibility, Peano arithmetic, Hilbert on proving consistency, and Gödel’s first and second incompleteness theorems; and he mentioned that the Entscheidungsproblem had been settled only in the special case of monadic expressions.
+- ": Is there a general (mechanical) process for determining whether a given formula A of the functional calculus K is provable"
+
+- Newman’s own contribution was not limited to bringing the Entscheidungsproblem to Turing’s notice. In his lectures, Newman defined a constructive process as one that a machine can carry out. He explained in an interview: "And this of course led [Turing] to the next challenge, what sort of machine, and this inspired him to try and say what one would mean by a perfectly general computing machine.""
+
+
+===
+Turing (on conmputable numbers)
+===
+
+- "The "computable" numbers may be described briefly as the real numbers whose expressions as a decimal are calculable by finite means."
+- "According to my definition, a number is computable if its decimal can be written down by a machine."
+- "Although the class of computable numbers is so great, and in many Avays similar to the class of real numbers, it is nevertheless enumerable. In § 81 examine certain arguments which would seem to prove the contrary. By the correct application of one of these arguments, conclusions are reached which are superficially similar to those of Godel"
+- "These results have valuable applications. In particular, it is shown (§11) that the Hilbertian Entscheidungsproblem can have no solution."
+- "In a recent paper Alonzo Church f has introduced an idea of "effective calculability", which is equivalent to my "computability", but is very differently defined. Church also reaches similar conclusions about the EntscheidungsproblemJ. The proof of equivalence between "computability" and "effective calculability" is outlined in an appendix to the present paper."
+
+- We may compare a man in the process of computing a real number to ;i machine which is only capable of a finite number of conditions q1: q2. .... qI; which will be called " m-configurations ". The machine is supplied with a "tape " (the analogue of paper) running through it, and divided into sections (called "squares") each capable of bearing a "symbol". At any moment there is just one square, say the r-th, bearing the symbol ϱ(r) which is "in the machine". We may call this square the "scanned square ". The symbol on the scanned square may be called the " scanned symbol". The "scanned symbol" is the only one of which the machine is, so to speak, "directly aware". However, by altering its m-configuration the machine can effectively remember some of the symbols which it has "seen" (scanned) previously. The possible behaviour of the machine at any moment is determined by the m-configuration qn and the scanned symbol ϱ(r). This pair qn, ϱ(r) will be called the '' configuration'': thus the configuration determines the possible behaviour of the machine. In some of the configurations in which the scanned square is blank (i.e. bears no symbol) the machine writes down a new symbol on the scanned square: in other configurations it erases the scanned symbol. The machine may also change the square which is being scanned, but only by shifting it one place to right or left. In addition to any of these operations the m-configuration may be changed. Some of the symbols written down will form the sequence of figures which is the decimal of the real number which is being computed. The others are just rough notes to "assist the memory ". It will only be these rough notes which will be liable to erasure. It is my contention that these operations include all those which are used in the computation of a number.
+
+- If at each stage the motion of a machine (in the sense of § 1) is completely determined by the configuration, we shall call the machine an "automatic machine" (or a-machine).
+- If an a-machine prints two kinds of symbols, of which the first kind (called figures) consists entirely of 0 and 1 (the others being called symbols of the second kind), then the machine will be called a computing machine.
+- If a computing machine never writes down more than a finite number of symbols of the first kind, it will be called circular. Otherwise it is said to be circle-free.
+- A machine will be circular if it reaches a configuration from which there is no possible move, or if it goes on moving, and possibly printing symbols of the second kind, but cannot print any more symbols of the first kind.
+- A sequence is said to be computable if it can be computed by a circle-free machine. A number is computable if it differs by an integer from the number computed by a circle-free machine.
+
+- A machine can be constructed to compute the sequence 01010...
+- The machine is to have the four m-configurations "b" , "c" , "f" , "e" and is capable of printing " 0 " and " 1 ". The behaviour of the machine is described in the following table in which " R " means "the machine moves so that it scans the square immediately on the right of the one it was scanning previously". Similarly for "L". "E" means "the scanned symbol is erased" and "P " stands for "prints".
+- The machine starts in the m-configuration b with a blank tape.
+Configuration Behaviour
+b None P0, R c
+c None R e
+e None P1, R f
+f None R b
+
+- As a slightly more difficult example we can construct a machine to compute the sequence 001011011101111011111
+[see assets/01011011101111]

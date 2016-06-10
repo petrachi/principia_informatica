@@ -440,3 +440,77 @@ f None R b
 
 - As a slightly more difficult example we can construct a machine to compute the sequence 001011011101111011111
 [see assets/01011011101111]
+
+- A computable sequence y is determined by a description of a machine which computes y. Thus the sequence 001011011101111... is determined by the table on p. 234, and, in fact, any computable sequence is capable of being described in terms of such a table.
+- From each line of form (N^ let us form an expression q( Sj]Sb L qm; from each line of form (N2) we form an expression qiSjSkRqm; and from each line of form (N3) we form an expression #,•#, SkNqm.
+- Let us write down all expressions so formed from the table for the machine and separate them by semi-colons. In this way we obtain a complete description of the machine.
+- In this description we shall replace Qi by the letter "D" followed by the letter "A" repeated i times, and Sj by " D " followed by "C" repeated j times. [...] It is made up entirely from the letters "A", " C", "D", "L", "R", "N", and from ';'
+- If finally we replace "A" by "1" , "C" by "2" , "D" by "3" , " L" by "4" , "R" by c '5" , "N" by "6" , and ";" by "7" we sh,all have a description of the machine in the form of an arabic numeral.
+- To each computable sequence there corresponds at least one description number, while to no description number does there correspond more than one computable sequence. The computable sequences and numbers are therefore enumerable.
+
+- For machine I (paragraphe 3)
+- DADDCRDAA;DAADDRDAAA;DAAADDCCRDAAAA;DAAAADDRDA
+- 31332531173113353111731113322531111731111335317
+[see assets/SD_DN]
+
+- It is possible to invent a single machine which can be used to compute any computable sequence.
+- If this machine U is supplied with a tape on the beginning of which is written the S.D of some computing machine M, then U will compute the same sequence as M.
+- Each instruction consists of five consecutive parts
+(i) "D " followed by a sequence of letters "A". This describes the relevant m-configuration.
+(ii) "D" followed by a sequence of letters " C". This describes the scanned symbol.
+(iii) "D " followed by another sequence of letters "C". This describes the symbol into which the scanned symbol is to be changed.
+(iv) " L " , "R" , or "N", describing whether the machine is to move to left, right, or not at all
+(v) "D " followed by a sequence of letters "A". This describes the final m-configuration.
+- The machine U is to be capable of printing "A", "C", "D" , "0" , "1" , "u", "v", "w", "z" , "y", "z". The S.D is formed from ";" , "A", "C", "D" , "L" , "R", "N".
+- Full table : [see assets/TableU(1-2-3)]
+
+- It may be thought that arguments which prove that the real numbers are not enumerable would also prove that the computable numbers and sequences cannot be enumerable*. (* Cf. Hobson, Theory of functions of a real variable (2nd ed., 1921), 87, 88.)
+- It might, for instance, be thought that the limit of a sequence of computable numbers must be computable. This is clearly only true if the sequence of computable numbers is defined by some rule.
+- Or we might apply the diagonal process.
+[see assets/diagonal
+- The fallacy in this argument lies in the assumption that B(beta) is computable. It would be true if we could enumerate the computable sequences by finite means, but the problem of enumerating computable sequences is equivalent to the problem of finding out whether a given number is the D.N of a circle-free machine, and we have no general process for doing this in a finite number of steps. In fact, by applying the diagonal process argument correctly, we can show that there cannot be any such general process.]
+- The simplest and most direct proof of this is by showing that, if this general process exists, then there is a machine which computes B(beta). This proof, although perfectly sound, has the disadvantage that it may leave the reader with a feeling that "there must be something wrong". The proof which I shall give has not this disadvantage, and gives a certain insight into the significance of the idea "circle-free".
+
+- Let us suppose that there is such a process; that is to say, that we can invent a machine D which, when supplied with the S.D of any computing machine M will test this S.D and if M is circular will mark the S.D with the symbol "u" and if it is circle-free will mark it with " s ".
+- By combining the machines D and U we could construct a machine H to compute the sequence B'.
+- From the construction of H we can see that H is circle-free. Each section of the motion of H comes to an end after a finite number of steps.
+- Now let K be the D.N(description number) of H. What does H do in the K-th. section of its motion ?
+- Since K is the D.N of H and since H is circle-free, the verdict cannot be "u". On the other hand the verdict cannot be "s".
+- For if it
+were, then in the K-th. section of its motion J I- would be bound to compute the first R(K—1) + 1 = R(K) figures of the sequence computed by the machine with K as its D.N and to write down the R(K)-th as a figure of the sequence computed by ill. The computation of the first R(K) — l figures would be carried out all right, but the instructions for calculating the R(K)-th. would amount to "calculate the first R(K) figures computed by H and write down the R(K)-th". This R{K)-th figure would never be found. I.e., H is circular, contrary both to what we have found in the last paragraph and to the verdict "s" .
+- Thus both verdicts are impossible and we conclude that there can be no machine D.
+- We can show further that there can be no machine E which, when supplied with the S.D of an arbitrary machine M, will determine whether M ever prints a given symbol (0 say).
+
+- The expression "there is a general process for determining..." has been used throughout this section as equivalent to "there is a machine which will determine ... ". This usage can be justified if and only if we can justify our definition of "computable".
+
+- No attempt has yet been made to show that the " computable " numbers include all numbers which would naturally be regarded as computable. Al I arguments which can be given are bound to be, fundamentally, appeals to intuition, and for this reason rather unsatisfactory mathematically. The real question at issue is " What are the possible processes which can be carried out in computing a number?"
+- The arguments which I shall use are of three kinds.
+(a) A direct appeal to intuition.
+(b) A proof of the equivalence of two definitions (in case the new definition has a greater intuitive appeal).
+(c) Giving examples of large classes of numbers which are computable.
+
+-(a) This argument is only an elaboration of the ideas of § 1. Computing is normally done by writing certain symbols on paper. "We may suppose this paper is divided into squares like a child's arithmetic book. In elementary arithmetic the two-dimensional character of the paper is sometimes used. But such a use is always avoidable, and I think that it will be agreed that the two-dimensional character of paper is no essential of computation. I assume then that the computation is carried out on one-dimensional paper, i.e. on a tape divided into squares. I shall also suppose that the number of symbols which may be printed is finite. If we were to allow an infinity of symbols, then there would be symbols differing to an arbitrarily small extent j . The effect of this restriction of the number of symbols is not very serious. It is always possible to use sequences of symbols in the place of single symbols. Thus an Arabic numeral such as 17 or 999999999999999 is normally treated as a single symbol. Similarly in any European language words are treated as single symbols (Chinese, however, attempts to have an enumerable infinity of symbols). The differences from our point of view between the single and compound symbols is that the compound symbols, if they are too lengthy, cannot be observed at one glance. This is in accordance with experience. We cannot tell at a glance whether 9999999999999999 and 999999999999999 are the same.
+-(a) The behaviour of the computer at any moment is determined by the symbols which he is observing, and his " state of mind " at that moment. We may suppose that there is a bound B to the number of symbols or squares which the computer can observe at one moment. If he wishes to observe more, he must use successive observations. We will also suppose that the number of states of mind which need be taken into account is finite. The reasons for this are of the same character as those which restrict the number of symbols. If we admitted an infinity of states of mind, some of them will be '' arbitrarily close " and will be confused. Again, the restriction is not one which seriously affects computation, since the use of more complicated states of mind can be avoided by writing more symbols on the tape.
+-(a) Let us imagine the operations performed by the computer to be split up into "simple operations" which are so elementary that it is not easy to imagine them further divided. Every such operation consists of some change of the physical system consisting of the computer and his tape. We know the state of the system if we know the sequence of symbols on the tape, which of these are observed by the computer (possibly with a special order), and the state of mind of the computer. We may suppose that in a simple operation not more than one symbol is altered. Any other changes can be split up into simple changes of this kind. The situation in regard to the squares whose symbols may be altered in this way is the same as in regard to the observed squares. We may, therefore, without loss of generality, assume that the squares whose symbols are changed are always "observed" squares.
+-(a) Besides these changes of symbols, the simple operations must include changes of distribution of observed squares. The new observed squares must be immediately recognisable by the computer. I think it is reasonable to suppose that they can only be squares whose distance from the closest of the immediately previously observed squares does not exceed a certain fixed amount. Let us say that each of the new observed squares is within L squares of an immediately previously observed square.
+-(a) In connection with "immediate recognisability ", it may be thought that there are other kinds of square which are immediately recognisable. In particular, squares marked by special symbols might be taken as immediately recognisable. Now if these squares are marked only by single symbols there can be only a finite number of them, and we should not upset our theory by adjoining these marked squares to the observed squares. If. on the other hand, they are marked by a sequence of symbols, we cannot regard the process of recognition as a simple process. This is a fundamental point and should be illustrated. In most mathematical papers the equations and theorems are numbered. Normally the numbers do not go beyond (say) 1000. It is, therefore, possible to recognise a theorem at a glance by its number. But if the paper was very long, we might reach Theorem 157767733443477 ; then, further on in the paper, we might find "... hence (applying Theorem 157767733443477) we have ... ". In order to make sure which was the relevant theorem we should have to compare the two numbers figure by figure, possibly ticking the figures off in pencil to make sure of their not being counted twice. If in spite of this it is still thought that there are other "immediately recognisable" squares, it does not upset my contention so long as these squares can be found by some process of which my type of machine is capable. This idea is developed in III below
+- The simple operations must therefore include:
+(a) Changes of the symbol on one of the observed squares.
+(b) Changes of one of the squares observed to another square within L squares of one of the previously observed squares.
+- It may be that some of these changes necessarily involve a change of state of mind. The most general single operation must therefore be taken to be one of the following:
+(A) A possible change (a) of symbol together with a possible change of state of mind.
+(B) A possible change (b) of observed squares, together with a possible change of state of mind.
+- The operation actually performed is determined, as has been suggested on p. 250, by the state of mind of the computer and the observed symbols. In particular, they determine the state of mind of the computer after the operation is carried out.
+- We may now construct a machine to do the work of this computer. To each state of mind of the computer corresponds an " m-configuration " of the machine. The machine scans B squares corresponding to the B squares observed by the computer. In any move the machine can change a symbol on a scanned square or can change any one of the scanned squares to another square distant not more than L squares from one of the other scanned squares. The move which is done, and the succeeding configuration, are determined by the scanned symbol and the m-configuration. The machines just described do not differ very essentially from computing machines as defined in § 2, and corresponding to any machine of this type a computing machine can be constructed to compute the same sequence, that is to say the sequence computed by the computer.
+
+- The results of § 8 have some important applications. In particular, they can be used to show that the Hilbert Entscheidungsproblem can have no solution. For the present I shall confine myself to proving this particular theorem. For the formulation of this problem I must refer the reader to Hilbert and Ackermann's Grundziige der Theoretischen Logik (Berlin, 1931), chapter 3.
+- It should perhaps be remarked that what I shall prove is quite different from the well-known results of Godel
+
+- Corresponding to each computing machine M we construct a formula Un(M) and we show that, if there is a general method for determining whether Un(M) is provable, then there is a general method for determining whether M ever prints 0.
+- (a) If S1 appears on the tape in some complete configuration of M, then Un(M) is provable.
+(b) If Un(M) is provable, then S1 appears on the tape in some complete configuration of M.
+- We are now in a position to show that the Entscheidungsproblem cannot be solved. Let us suppose the contrary. Then there is a general (mechanical) process for determining whether Un(M) is provable. By Lemmas 1 and 2, this implies that there is a process for determining whether M ever prints 0, and this is impossible, by §8. Hence the Entscheidungsproblem cannot be solved.
+
+- Appendix
+- The theorem that all effectively calculable (A-definable) sequences are computable and its converse are proved below in outline. It is assumed, that the terms "well-formed formula " (W.F.F.) and "conversion " as used by Church and Kleene are understood.
+- To show that every A(lambda)-definable sequence y is computable, we have to show how to construct a machine to compute y.

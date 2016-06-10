@@ -1,4 +1,10 @@
 livres :
+Turing's Revolution - Birkhäuser - 2015
+  Conceptual Confluence in 1936: Post and Turing - Martin Davis and Wilfried Sieg
+  Algorithms: From Al-Khwarizmi to Turing and Beyond - Wolfgang Thomas
+  The Stored-Program Universal Computer: Did Zuse Anticipate Turing and von Neumann? - B. Jack Copeland and Giovanni Sommaruga
+On computable numbers - Alan Turing - 1936-37
+
 
 internet :
 History of Computers and Computing, Birth of the modern computer, The thinkers, Alonzo Church
@@ -60,3 +66,24 @@ http://www-history.mcs.st-andrews.ac.uk/Biographies/Turing.html
 
 Turing Machines – what they are, what they aren't. | Good Math Bad Math
 http://goodmath.scientopia.org/2012/06/24/turing-machines-what-they-are-what-they-arent/
+
+Turing & The Halting Problem - Computerphile - YouTube
+https://www.youtube.com/watch?v=macM_MtS_w4
+
+Turing Meets Paradoxes (History of Undecidability Part 3) - Computerphile - YouTube
+https://www.youtube.com/watch?v=lLWnd6-vSGo
+
+8cejl.Turings.Revolution.The.Impact.of.His.Ideas.about.Computability.pdf
+file:///Users/thomaspetrachi/Downloads/8cejl.Turings.Revolution.The.Impact.of.His.Ideas.about.Computability.pdf
+
+TuringPaper1936.pdf
+https://people.cs.umass.edu/~immerman/cs601/TuringPaper1936.pdf
+
+turing_Oncomputablenumbers.pdf
+http://history-computer.com/Library/turing_Oncomputablenumbers.pdf
+
+turing-compnum.pdf
+http://l3d.cs.colorado.edu/~ctg/classes/lib/canon/turing-compnum.pdf
+
+Browse the Turing Digital Archive
+http://www.turingarchive.org/browse.php/B/12

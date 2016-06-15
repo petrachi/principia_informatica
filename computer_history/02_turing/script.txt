@@ -2,34 +2,8 @@
 Gödel (Livre)
 ===
 
-- Paradoxe De Burali-Forti (1897):
-- Cantor dévelloppe la théorie des ensembles de 1873-1897 pour répondre à des problème d'analyses
-- Un des premiers réultat est la distinction entre continu et dénombrable (deux puissances d'infini) -> Tous les infinis ne se valent pas, certains sont plus grand que d'autres.
-- l'hypothése du continu de cantor suggére qu'il n'y a pas de puissance intermédiaire entre le dénombrable et le continu
-- pour mesurer la puissance de l'infini, Cantor développe les nombres ordinaux (1883 + 1895-97).
-- ω est l'ordinal de la suite des nombres entiers
-- ω1 est l'ordinal de la suite des ordinaux dénombrables
-- l'hypothése de Cantor est que l'infini continu à la même puissance que ω1
-- BF cherche à créer l'ordinal de la suite des ordinaux. Une suite devrait générer un ordinal, mais comme un nouvel ordinal serait inclus dans cette suite, ça ne serait pas l'orinal de la suite des oridinaux, donc il ne peux pas y avoir d'ordinal pour cette suite, mais une suite devrait avoir un ordinal.
+- Il faut noter la présence à cette conférence (bologne, 1928) de Kurt Gödel, un jeune mathématicien, et qui jouera un rôle majeur dans la suite du programme formaliste.
 
-
-- Russell, l'ensemble des cuilleres à thé n'est pas une cuieller à thé, il ne s'appartient pas à lui même.
-- "être vert" est une propriété (la pomme est verte), qui ne s'applique pas à elle même (le concept "être vert" n'est pas vert lui même). On appelle hétérologie le concept des concepts qui ne s'appliquent pas à eux même. Mais l'héterologie est elle hétérologique ? S'il était hétérologique, il s'appliquerait à lui même, et ne serait pas hétérologique. S'il n'était pas hétérologique, il ne s'appliquerait pas à lui même et serait hétérologique.
-
-- Ponicaré meurt en 1912, sans avoir eu le temps de proposer sa propre solution au pb des fondements
-
-_ Les principia mathematica se basent, pour l'essentiel, sur les théses de Russell (article 1908, "la logique mathématique fondée sur la théorie des types")
-
-- l'infini actuel est utilisé dés l'arithmétique élémentaire, avec le principe du tiers exclu
-- principe du tiers exclus : ou bien tous les entiers vérifient P, ou bien il en existe au moins un pour lequel P est faux. Si on est dans le second cas, on affirme l'existence d'un entier qui ne vérifie pas P, avant même de l'avoir calculé
-- Le tiers exclu suppose que tous les nombres existent en soi, et ont des propriétés.
-- Pointcaré prône le principe de constructivité : un objet mathématique n'existe pas tant que le mathématicien ne l'a pas crée.
-- L'intuitionisme admet la même chose, les objets sont engendrés par la consience mathématicienne, qui vit dans le temps. (donc, pour le paradoxe de Richard, le nombre crée à partir de l'ensemble E ne peut pas y appartenir, puisqu'on l'à crée après l'ensemble E)
-- H admet pour le programme formaliste le principe de constructivité -> math finitiste, plus strct que l'intuitionnisme
-
-- l'axiomatique, c'est comme la grammaire d'une langue, pas besoin de connaitre le sens des phrases
-
-- le calcul des prédicats représente la structure logique la plus générale des domaines mathématiques.
 
 - Skolem 1923 montre qu'aucun systéme de mathématique classique n'est catégorique. c-a-d: un systéme qui correspondrait point par point à un domaine mathématique, ce qui les rendrait indiscernables.
 - systéme = systéme d'axiome
@@ -40,24 +14,12 @@ _ Les principia mathematica se basent, pour l'essentiel, sur les théses de Russ
 - catégoricité implique complétude syntaxique
 - complétude syntaxique implique décidabilité (on ne le savait pas du temps d'H)
 
-- Zermelo axiomatise la théorie des ensembles en 1908, et élimine les paradoxes
-
 - second théoreme d'incomplétude: la consistance d'un systéme ne peut pas être établie au moyen de raisonnements qui se laisseraient formaliser dans le systéme.
 - la mathématique finiste est formalisable en arithmétique, on ne peut pas l'utiliser pour prouver la consistance de l'arithmétique.
 
 - 1931 ne clot pas les recherches autour du programme formaliste, il reste la décidabilité : Existe-t-il une procédure uniforme, mécanique, capable de décider ...
 - Il faut donner une définition formelle à la notion de "procédure mécanique", qui jusque là ne porte que son sens intuitif.
 - entre 1934 et 1937, Gödel, Church et Turing vont donner une définition chacun.
-
-- calcul des prédicats :
-- "Si Jean chante, il pleut. Jean chante. Par conséquent, il pleut"
-- "Jean aime Marie. Par conséquent, quelqu'un aime Marie"
-- 1 = (p -> q   p)/q (qui se lit, p implique q, p alors q)
-- 2 = (Rab)/(Ex Rxb) (qui se lit, Relation entre ab et b alors il existe x tel que Relation entre x et b)
-- 1 = calcul des propositions
-- 2 = calcul des prédicats (fait intervenir la structure interne des proposition, via des quatificateur (ici le 'il existe'))
-- à lexception de l'analyse, toutes les théories mathématiques sont formalisées à l'aide du calcul des prédicats.
-- la 1° formalisation est due à Frege dans 'idéographie' en 1871. Puis modifiés dans principia mathematica (godel utilise celles la), puis aujourd'hui, on utilise celles de H et Ackermann dans "éléments de la logique théorie (1928)"
 
 - théormes d'incomplétude
 - 1° théoréme : été 1930
@@ -161,11 +123,6 @@ _ Les principia mathematica se basent, pour l'essentiel, sur les théses de Russ
 - Gödel 1947 : "[...] les concepts et les théorémes de la théorie des ensembles décrivent une réalité bien déterminée, dans laquelle la conjecture de Cantor est vraie ou fausse. Ainsi son indécidabilité à partir des axiomes acceptés aujourd'hui peut seulement signifier que ces axiomes ne contiennent pas une description complète de cette réalité."
 - Gödel 1947 : "les mathématiques décrivent une réalité non sensible, qui existe indépendament des actes et des facultés de l'esprit humain et n'est que perçue, et probablement perçue de façon très incomplète."
 
-- Gödel croit comme Hilbert à la résolubilité de tout problème. De mêm, il croit que les mathématiques existent.
-- Pointcarré a le même point de vue "constructionniste" que les intuitionnistes, il croit que les objets mathématiques existent une fois qu'ils ont été construits par le mathématicien. D'où son analyse des paradoxes comprenant un cercle vicieux : Pour le paradoxe de Richard par exemple, on contruit un ensemble E, puis on construit un nombre qui appartient à E, mais pour le construire, on fait référence à E. Donc le nombre fait référence ç lui même dans sa construction (== construction imprédicative). Pointcaré veut interdire ce genre de cercle vicieux et uniquement authoriser les construction prédicatives, celles où un objet est crée à partir d'autres objets, de hiérarchie plus faible dans l'ordre de construction.
-- Le constructionnisme de Poincaré ne reconnait pas l'existence des objets mathématiques, et donc, ne reconnait pas l'infini actuel, et donc le tiers exclu, etc.
-- Mais l'intuitionnisme, qui est aussi constructionniste, posséde des incohérences, puisqu'il a parfois recours à des raisonnements imprédicatifs.
-- principe du cercle vicieux, Russell : "Ce qui présuppose tous les éléments d'une collection ne doit pas être l'un des éléments de la collection; ou, sous la forme converse, si, du fait qu'une collection était totalisable, elle contiendrait des éléments qui ne seraient définissables qu'en termes de cette totalisation, alors la dite collection n'est pas totalisable".
 
 - Pour son retour au programme de fondement, Gödel dit qu'on doit justifier les mathématiques avec une théorie plus étendue que le finitisme de H, et donc, justifier épistémologiquement la notion de l'infini. Pour cela, il veut justifier l'existance en soi de l'infini, et par la même, la capacité de l'esprit humain à raisonner dans l'infini.
 - Turing comparait l'esprit à une machine, pour Gödel, comme il n'y a pas de problèmes insolubles, et qu'il en existe pour les machines, il faut différencier l'esprit de la machine.
@@ -514,3 +471,42 @@ were, then in the K-th. section of its motion J I- would be bound to compute the
 - Appendix
 - The theorem that all effectively calculable (A-definable) sequences are computable and its converse are proved below in outline. It is assumed, that the terms "well-formed formula " (W.F.F.) and "conversion " as used by Church and Kleene are understood.
 - To show that every A(lambda)-definable sequence y is computable, we have to show how to construct a machine to compute y.
+
+===
+Turing (livre)
+===
+
+- Max newman, professeur chargé du cours optionnel de logique mathématique à cambridge, était spécialiste de topologie (l'étude des fondements de la théorie des ensembles servent de base à cette spécialité).
+- Le cours de printemps 35 (que suivait Turing) s'intitulait "fondement des mathématiques". Le cours exposais les questions ouvertes de Hilbert sur les fondements, que Hilbert avait exposé au Congrès internationnal des mathématiciens à bologne en 1928 (newman y a assisté).
+
+- Godel en 31 démontre qu'une structure formelle suceptible de servir de réplique à l'arithmétique est structurellement incompléte
+- Hilbert en 28 annonce que ackerman et von neumann sont parvenus ç prouver la consistance de l'axiomatique formelle. Godel en 31 démontre que la consistance ne peut pas être prouvée par des procédure effectives (comme l'exigait l'approche métamathématique)
+
+- calcul
+- à partir de l'émergence au 18E siécle de la théorie des fonctions, la notion de calcul fut associée à la notion de fonction, que l'on considérait équivalente à une procédure de calcul.
+- mais la notion de fonction évolue au 19° pour signifier une correspondance entre un ensemble de départ et un ensemble d'arrivé, sans forcément de procédure de calcul effective.
+- on étudie le rapport entre procédure de calcul et fonction, pour définir les fonctions "calculables"
+- question, comment circonscrire le sous ensemble des fonctions calculables ?
+- la notion de calcul posséde un équivalent, la notion d'algorithme
+- un algorithme est une liste d'instructions que ln doit suivre pour atteindre un résultat aprés un nombre fini d'étapes.
+- de cette façon, PI est calculable ( il existe un algorithme pour approcher la valeur de PI de plus en plus prés, donc Pi est, en droit, calculable, donné un temps infini), ou e
+
+- le calcul c'est :
+- l'intuition d'un processus constructif (Weyl, 1921)
+- l'effectivement calculable (Herbrand 1931 : "toutes les fonctions introduites devront être effectivement calculables pour toutes les valeurs de leurs arguments, par des opérations décrites entièrement d'avance")
+- une instruction mécanique (Von neumann, 1927 : (à propos des maths si le programme de hilbert était confirmé) "à leur place, il y aurait une instruction absolument mécanique à l'aide de laquelle quiconque pourrait décider, à partir de n'importe quelle formule donnée, si elle est ou non démontrable")
+
+- la vision mécanique s'est répandue en grande bretagne, on la retrouve chez Hardy (1928), et Newman (cours de logique 1935), qui déclarait qu'il n'y avait "évidemment pas" de procédure mécanique pour démontrer ou réfuter une proposition, et qu'il fallait s'en réjouir "Supposons, par exemple, que nous puission trouver un système fini de règles qui nous permettrait de dire si une formule quelconque est ou non démontrable. Ce système contiendrait un théorème de métamathématique. Évidemment, ce théorème n'existe pas et c'est heureux, parceue s'il existait, nous aurions un ensemble mécanique de règles nous permettant de trouver la solution de tous les problèmes mathématiques et notre activité en tant que mathématiciens cesserait d'exister."
+
+- un algorithme correspond à une machine de turing (et vice versa)
+- caractérisation formelle du calcul : "toute fonction cal culable par un être humain en suivant un algorithme peut être calculée par une machine de Turing"
+
+- description machine de turing, chap 1
+- Max newmann commença par douter qu'une telle structure, si simple, püt parvenir à effectuer tous les calculs.
+- La description minimaliste de la machine est volontaire, de cette façon, Turing demande explicitement au lecteur de faire fonctionner la machine sur des exemples. Et donc, de se mettre à la place de la machine.
+- C'est lié à la vision de Turing de considérer la machine de Turing comme analogue à la pensée, et de le justifier uniquement par l'intuition. L'identification forcée du lecteur à la machine peut renforcer cet argument
+
+- la méthode de Turing pour le pb de décision est généralissable, la méthode permet d'obtenir tout un panorama de preuves d'impossibilités. (c'est bien pour les mathématiciens, cette méthode sera reprise par d'autres, ex: Wang)
+- note de Godel aux th d'incomplétudes - 28 aout 1963 : "Grâce à certains travaux qui ont suivi cet article, en particulier ceux de A. M. Turing, nous disposons désormais d'une définition sûre, précise et adéquate du concept de sustème formel [...] dont la proprièté est qu'en son sein, et en principe, le raisonnement peut être entièrement remplacé par des règles mécaniques"
+- démontrer, c'est calculer. ça n'est pas établir la vérité
+- Hilbert espérait la solubilité de tout pb mathématique. Au final, le résultat de Turing ne remet pas fondamentalement en cause cette croyance, un probléme décrété insoluble à été, d'une certaine façon, résolu, puisqu'il n'est plus besoin d'utiliser son intelligence mathématique à trouver une solution positive au problème.

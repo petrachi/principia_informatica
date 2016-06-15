@@ -1,0 +1,49 @@
+
+- Paradoxe De Burali-Forti (1897):
+- Cantor dévelloppe la théorie des ensembles de 1873-1897 pour répondre à des problème d'analyses
+- Un des premiers réultat est la distinction entre continu et dénombrable (deux puissances d'infini) -> Tous les infinis ne se valent pas, certains sont plus grand que d'autres.
+- l'hypothése du continu de cantor suggére qu'il n'y a pas de puissance intermédiaire entre le dénombrable et le continu
+- pour mesurer la puissance de l'infini, Cantor développe les nombres ordinaux (1883 + 1895-97).
+- ω est l'ordinal de la suite des nombres entiers
+- ω1 est l'ordinal de la suite des ordinaux dénombrables
+- l'hypothése de Cantor est que l'infini continu à la même puissance que ω1
+- BF cherche à créer l'ordinal de la suite des ordinaux. Une suite devrait générer un ordinal, mais comme un nouvel ordinal serait inclus dans cette suite, ça ne serait pas l'orinal de la suite des oridinaux, donc il ne peux pas y avoir d'ordinal pour cette suite, mais une suite devrait avoir un ordinal.
+
+- Russell, l'ensemble des cuilleres à thé n'est pas une cuieller à thé, il ne s'appartient pas à lui même.
+- "être vert" est une propriété (la pomme est verte), qui ne s'applique pas à elle même (le concept "être vert" n'est pas vert lui même). On appelle hétérologie le concept des concepts qui ne s'appliquent pas à eux même. Mais l'héterologie est elle hétérologique ? S'il était hétérologique, il s'appliquerait à lui même, et ne serait pas hétérologique. S'il n'était pas hétérologique, il ne s'appliquerait pas à lui même et serait hétérologique.
+
+- Ponicaré meurt en 1912, sans avoir eu le temps de proposer sa propre solution au pb des fondements
+
+_ Les principia mathematica se basent, pour l'essentiel, sur les théses de Russell (article 1908, "la logique mathématique fondée sur la théorie des types")
+
+- l'infini actuel est utilisé dés l'arithmétique élémentaire, avec le principe du tiers exclu
+- principe du tiers exclus : ou bien tous les entiers vérifient P, ou bien il en existe au moins un pour lequel P est faux. Si on est dans le second cas, on affirme l'existence d'un entier qui ne vérifie pas P, avant même de l'avoir calculé
+- Le tiers exclu suppose que tous les nombres existent en soi, et ont des propriétés.
+- Pointcaré prône le principe de constructivité : un objet mathématique n'existe pas tant que le mathématicien ne l'a pas crée.
+- L'intuitionisme admet la même chose, les objets sont engendrés par la consience mathématicienne, qui vit dans le temps. (donc, pour le paradoxe de Richard, le nombre crée à partir de l'ensemble E ne peut pas y appartenir, puisqu'on l'à crée après l'ensemble E)
+- H admet pour le programme formaliste le principe de constructivité -> math finitiste, plus strct que l'intuitionnisme
+
+- l'axiomatique, c'est comme la grammaire d'une langue, pas besoin de connaitre le sens des phrases
+
+- Zermelo axiomatise la théorie des ensembles en 1908, et élimine les paradoxes
+
+- calcul des prédicats :
+- "Si Jean chante, il pleut. Jean chante. Par conséquent, il pleut"
+- "Jean aime Marie. Par conséquent, quelqu'un aime Marie"
+- 1 = (p -> q   p)/q (qui se lit, p implique q, p alors q)
+- 2 = (Rab)/(Ex Rxb) (qui se lit, Relation entre ab et b alors il existe x tel que Relation entre x et b)
+- 1 = calcul des propositions
+- 2 = calcul des prédicats (fait intervenir la structure interne des proposition, via des quatificateur (ici le 'il existe'))
+- à lexception de l'analyse, toutes les théories mathématiques sont formalisées à l'aide du calcul des prédicats.
+- la 1° formalisation est due à Frege dans 'idéographie' en 1871. Puis modifiés dans principia mathematica (godel utilise celles la), puis aujourd'hui, on utilise celles de H et Ackermann dans "éléments de la logique théorie (1928)"
+
+- Gödel croit comme Hilbert à la résolubilité de tout problème. De mêm, il croit que les mathématiques existent.
+- Pointcarré a le même point de vue "constructionniste" que les intuitionnistes, il croit que les objets mathématiques existent une fois qu'ils ont été construits par le mathématicien. D'où son analyse des paradoxes comprenant un cercle vicieux : Pour le paradoxe de Richard par exemple, on contruit un ensemble E, puis on construit un nombre qui appartient à E, mais pour le construire, on fait référence à E. Donc le nombre fait référence ç lui même dans sa construction (== construction imprédicative). Pointcaré veut interdire ce genre de cercle vicieux et uniquement authoriser les construction prédicatives, celles où un objet est crée à partir d'autres objets, de hiérarchie plus faible dans l'ordre de construction.
+- Le constructionnisme de Poincaré ne reconnait pas l'existence des objets mathématiques, et donc, ne reconnait pas l'infini actuel, et donc le tiers exclu, etc.
+- Mais l'intuitionnisme, qui est aussi constructionniste, posséde des incohérences, puisqu'il a parfois recours à des raisonnements imprédicatifs.
+- principe du cercle vicieux, Russell : "Ce qui présuppose tous les éléments d'une collection ne doit pas être l'un des éléments de la collection; ou, sous la forme converse, si, du fait qu'une collection était totalisable, elle contiendrait des éléments qui ne seraient définissables qu'en termes de cette totalisation, alors la dite collection n'est pas totalisable".
+
+- l'axiomatique formelle est-elle compléte ? (toute formule peut y être démontrée ou réfutée), est elle consistante (aucune formule contradictoire ne peut y être engendrée à partir des axiomes), est-elle décidable ? ( il existe une méthode effective pour décider si une formule quelconque est vraie ou fausse)
+- dés 1928, hilbert et ackermann pensent être en mesure d'apporter la preuve de la complérude pour les "prédicats du premier ordre", en fait c'est en 1929 que K Godel prouva la complétude de cette partie de l'arithmétique
+
+- le calcul des prédicats représente la structure logique la plus générale des domaines mathématiques.

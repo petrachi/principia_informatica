@@ -47,3 +47,291 @@ _ Les principia mathematica se basent, pour l'essentiel, sur les théses de Russ
 - dés 1928, hilbert et ackermann pensent être en mesure d'apporter la preuve de la complérude pour les "prédicats du premier ordre", en fait c'est en 1929 que K Godel prouva la complétude de cette partie de l'arithmétique
 
 - le calcul des prédicats représente la structure logique la plus générale des domaines mathématiques.
+
+- Le plus souvent considéré comme autrichien, il est né à Brno en Autriche-Hongrie, est naturalisé tchécoslovaque à 12 ans, puis autrichien à 23 ans. Lorsque Hitler ordonne l'annexion de l'Autriche, Gödel devient allemand (il a alors 32 ans). Il part aux États-Unis pendant la Seconde Guerre mondiale, et obtient la double nationalité austro-américaine à 42 ans.
+- À la fin de 1947, Gödel doit subir un examen en vue de sa naturalisation, avec pour témoins ses amis Oskar Morgenstern et Albert Einstein. Pour une personne possédant ses références il s'agit d'une formalité, mais Gödel se prépare avec une extrême minutie, et alors qu'il étudie la Constitution américaine, il y découvre une faille logique qui permettrait de transformer en toute légalité le régime politique du pays en régime dictatorial. Il fait part de sa découverte à ses deux amis, fort inquiets que Gödel n'aborde le sujet avec le juge chargé de l'entretien préalable à la naturalisation. Tous deux sont convaincus d'avoir réussi à en dissuader Gödel, malheureusement en quelques phrases le sujet vient sur le tapis : le juge s'enquiert d'abord du régime politique en vigueur en Autriche, Gödel répond que celui-ci, autrefois une démocratie, s'est transformé en dictature ; le juge rétorque qu'une telle chose ne pourrait arriver en Amérique, mais Gödel soutient le contraire, et dit qu'il peut le prouver. Fort heureusement, le juge, qui connaît Einstein, décide d'interrompre là l'entretien
+
+- Kurt attended school in Brünn, completing his school studies in 1923. His brother Rudolf said: "Even in High School my brother was somewhat more one-sided than me and to the astonishment of his teachers and fellow pupils had mastered university mathematics by his final Gymnasium years. ... Mathematics and languages ranked well above literature and history. At the time it was rumoured that in the whole of his time at High School not only was his work in Latin always given the top marks but that he had made not a single grammatical error."
+
+- Skolem 1923 montre qu'aucun systéme de mathématique classique n'est catégorique. c-a-d: un systéme qui correspondrait point par point à un domaine mathématique, ce qui les rendrait indiscernables.
+- systéme = systéme d'axiome
+- domaine = théorie mathématique, qui se rapporte à un domaine d'objet (les nombres en arithmétique, les points en géométrie)
+
+- complétude sémantique : un systéme qui peut s'appliquer dans différents domaines, de sorte que ce qui est vrai dans un domaine est également vrai dans un autre
+- complétude syntaxique : tout est soit vrai, soit faux
+- catégoricité implique complétude syntaxique
+- complétude syntaxique implique décidabilité (on ne le savait pas du temps d'H)
+
+- Il faut noter la présence à cette conférence (bologne, 1928) de Kurt Gödel, un jeune mathématicien, et qui jouera un rôle majeur dans la suite du programme formaliste.
+
+- second théoreme d'incomplétude: la consistance d'un systéme ne peut pas être établie au moyen de raisonnements qui se laisseraient formaliser dans le systéme.
+- la mathématique finiste est formalisable en arithmétique, on ne peut pas l'utiliser pour prouver la consistance de l'arithmétique.
+
+- théormes d'incomplétude
+- 1° théoréme : été 1930
+- il fait la différence entre vérité et démontrabilité, et cherche une formule vraie qui n'est pas démontrable
+- il communique son résultat dans une lettre à Carnap le 26 aout 1930, puis le présente dans un colloque à Köningsberg (où sont présents Carnap, Heyting et von Neumann)
+- Von Neumann est le seul à réaliser l'importance du théorème, et suggére quelques modification à Gödel.
+- Von Neumann écrit quelques mois plus tard à Gödel, en disant qu'il à déduit un second théorème à partir du premier. Gödel est arrivé à la même conclusion et a envoyé quelques jours avant un manuscrit à une revue de Vienne, qui publiera en 1931.
+- L'article sera présenté comme thése d'habilitation pour Gödel, et sera accepté à 49 contre 1. Gödel pourra enseigner à Vienne à partir de 1933.
+
+
+- Dans la foulée, Hilbert annonce qu'avec Ackermann, ils pensent être en mesure de prouver la complétude d'une partie de l'arithmétique : les "prédicats du premier ordre". C'est extrêment important car le calcul des prédicats décrit des règles logiques que l'on peut utiliser en mathématiques. Finalement, c'est Gödel qui apportera cette preuve en 1929.
+
+- Hilbert annonce également qu'Ackermann et Von Neumann sont parvenus à prouver la consistance de l'axiomatique formelle. Cette fois encore, c'est Gödel qui donnera la solution au probléme de complétude, par la négative cette fois.
+
+- En 1931, Gödel publie son théorème d'incomplétude. Ce qu'il arrive à démontrer, c'est que, peu importe le système d'axiomes que l'on utilise, tant que ce système d'axiome est assez large pour décrire l'arithmétique élémentaire, on peut toujours construire une proposition qui dit : "Je ne suis pas démontrable". Et ça aura un énorme impact impact sur la possibilité d'une preuve de non contradiction. Soit on arrive à démontrer cette proposition, et c'est une catastrophe, puisqu'on a un système d'axiome qui démontre des choses fausse. Soit, elle n'est pas démontrable, dans ce cas, la proposition est vraie. Mais puisqu'on a une proposition vraie et qu'on ne peut pas démontrer, alors le système est incomplet.
+
+- Le théorème d'incomplétude montre que, pour n'importe quelle axiomatique susceptible de servir de réplique à l'arithmétique, elle sera nécéssairement soit contradictoire, soit incomplète. Et cela remet totalement en cause le programme formaliste comme il est formulé, et la thése d'Hilbert de réussir à fonder la mathématique formelle à l'aide de la mathématique finitiste. Gödel commentera d'ailleurs que c'est la réticence à utiliser des raisonnements non-finitistes qui est à l'origine du fait qu'il ait fallu attendre 1931 pour démontrer le théorème d'incomplétude, alors que c'est une conséquence "presque triviale" d'un article de Skolem de 1922, mais Skolem ne s'en était pas aperçu, faute de ne pas avoir quitté le point de vue strictement finitaire.
+
+- John Von Neumann montrera peu de temps après que la preuve de consistance formulée par Ackerman était incorrecte.
+
+- Le théoréme d'incomplétude ne marque cependant pas la fin du programme formaliste. Et si Gödel exclut les mathématiques contentuelle comme fondement pour le reste des mathématiques, il laisse la porte ouverte à d'autre théories : "il reste un espoir pour que dans le futur on puisse trouver des méthodes satisfaisantes [...] dépassant les limites du système [finitiste de Hilbert] et permettant de fonder l'arithmétique classique et l'analyse. Cette question ouvre un champ de recherches fécond".
+
+- John Von Neumann, en 1958, à l'époque où Gödel retourne sur les problèmes de fondement, commentera de la même manière : "Ce résultat imposant de l'analyse de Godel ne doit pas être mal compris: il n'exclut pas une preuve  méta-mathématique de la consistance de l'arithmétique. Ce qu'il exclut est une preuve de cohérence qui peut être reflétée par les déductions formelles de l'arithmétique. Les preuves méta-mathématiques de la consistance de l'arithmétique ont, en fait, été construits, notamment par Gerhard Gentzen, un membre de l'école de Hilbert, en 1936, et par d'autres depuis. ... Mais ces preuves méta-mathématiques ne peuvent pas être représentés dans le calcul arithmétique; et, comme ils ne sont pas finitiste, elles ne réalisent pas les objectifs proclamés du programme original de Hilbert. ... La possibilité de construire une preuve absolue finitiste de cohérence pour l'arithmétique n'est pas exclue par les résultats de Gödel. Gödel a montré qu'aucune preuve n'est possible qui peut être représentée au sein de l'arithmétique. Son argument ne supprime pas la possibilité de preuves strictement finitiste qui ne sont pas représentés au sein de l'arithmétique. Mais personne aujourd'hui ne semble avoir une idée claire de ce qu'une preuve finitiste serait qui ne serait pas formulable dans l'arithmétique."
+
+- tout language formel, consistant, et suffisamment riche pour exprimer les nombres entiers et les opérations d'addition et de multiplication, permettent de formuler des propositions indécidables.
+
+- 1931 ne clot pas les recherches autour du programme formaliste, il reste la décidabilité : Existe-t-il une procédure uniforme, mécanique, capable de décider ...
+- Il faut donner une définition formelle à la notion de "procédure mécanique", qui jusque là ne porte que son sens intuitif.
+- entre 1934 et 1937, Gödel, Church et Turing vont donner une définition chacun.
+- un language incomplet peut être complété (en ajoutant les propositions indécidables comme axiomes), ce faisant on crée un nouveau language, encore une fois incomplet. Mais on peut supposer qu'une suite indéfinie de languages forme un édifice complet.
+
+
+- en plus de l'arithmétique élémentaire, ces deux théorèmes fonctionnement pour des systèmes ajoutant un nombre indéfini d'axiomes. Par cela, on s'attend à ce que pour systéme formel, il existe une procédure uniforme, une liste d'instruction à appliquer de façon mécanique, qui puisse reconnaitre les formules.
+- il n'existe pas de définition de "procédure mécanique" en 1931. La portée de ces théorème est suspendue à la définition de "procédure mécanique", cad, de "calculabilité"
+- une autre question est de savoir s'il existe des formules indécidables parmis les problémes qu'étudient les mathématiciens (la formule de Gödel est ad hoc, et ne signifie rien pour le mathématicien)
+- H croit que tout probléme à une solution. Gödel ne renie par cette pensée, il dit juste que certains problémes n'ont pas de solution dans certains systèmes. (un probléme indécidable en arithmétique pourra avoir une solution en théorie des ensembles)
+
+- Godel, 193? : .
+
+- les théorèmes remettent aussi en question les autres axiomatisations que l'arithmétique. Puisqu'il est possible de construire des systèmes consistants, mais dont certains axiomes seraient absurde (cad faux, dans un sens classique du terme, mais vrai mathématiquement puisque ce sont des axiomes). Donc, pour justifier une axiomatique, il ne suffit plus de prouver sa consistance, il faut également redonner leurs sens aux formules. On en revient aux discutions épistémologiques de 1910, sur l'existance "en soi" des objets mathématiques.
+
+- deux autres problèmes :
+- définition de la calculabilité (dont dépends la généralisation du théoréme d'incomplétude)
+- définition de la vérité (avant, la vérité des axiomes était lié à la consistance du système, si le système est syntaxiquement consistant, les axiomes sont vrais, et les formules démontrables sont vraies aussi). Gödel, sur son travail, à commencé par distinguer démontrabilité et vérité. Tarski en 1935 donnera cette définition (le concept de vérité dans les languages formalisés)
+
+- à partir de 1933, Gödel voyage souvent à princeton (il s'y installera en 1939), où il rencontre Church, S.Kleene, et croise Turing.
+
+- le probléme de la calculabilité ressurgit avec le th d'incomplétude & le pb de décidabilité
+- le pb de la décidabilité est lié à la calculabilité : pour définir si une formule est démontrable, on traduit cette formule de son sens métamathématique à l'arithmétique (comme godel pour le th d'incomplétude), puis on voit si la fonction qui résulte de cette traduction est oui ou non calculable
+- définir la calculabilité = définir un ensemble de fonctions qui disposent d'un algorithme, d'une suite d'instructions que l'on peut suivre pour parvenir au résultat.
+
+
+
+- calcul
+- à partir de l'émergence au 18E siécle de la théorie des fonctions, la notion de calcul fut associée à la notion de fonction, que l'on considérait équivalente à une procédure de calcul.
+- mais la notion de fonction évolue au 19° pour signifier une correspondance entre un ensemble de départ et un ensemble d'arrivé, sans forcément de procédure de calcul effective.
+- on étudie le rapport entre procédure de calcul et fonction, pour définir les fonctions "calculables"
+- question, comment circonscrire le sous ensemble des fonctions calculables ?
+- la notion de calcul posséde un équivalent, la notion d'algorithme
+- un algorithme est une liste d'instructions que ln doit suivre pour atteindre un résultat aprés un nombre fini d'étapes.
+- de cette façon, PI est calculable ( il existe un algorithme pour approcher la valeur de PI de plus en plus prés, donc Pi est, en droit, calculable, donné un temps infini), ou e
+
+
+
+- la méthode de diagonalisation semble empêcher la définition de la calculabilité (si on liste toute les fonctions calculables, infini dénombrable donc, on peut créer une nouvelle fonction calculable qui n'est pas dans la liste, donc la définition est mauvaise)
+- Keene 1979 : "Lorsque Church me proposa sa thèse [pour une définition de la calculabilité], je me mis aussitôt à la tâche de la réfuter par une diagonalisation de la classe des fonctions [calculables]. Mais, réalisant vite que la diagonalisation ne pouvait être faite de façon effective, je devins du jour au lendemain partisan de la thèse de Church".
+
+- In 1936, Church created a method for defining functions called the lambda calculus (λ-calculus). Within λ-calculus, he defined an encoding of the natural numbers called the Church numerals. A function on the natural numbers is called λ-computable if the corresponding function on the Church numerals can be represented by a term of the λ-calculus (which is equivalent to using general recursive functions).
+- In computability theory, the Church–Turing thesis is a hypothesis ("thesis") about the nature of computable functions. In simple terms, the Church–Turing thesis states that a function on the natural numbers is computable in an informal sense (i.e., computable by a human being using a pencil-and-paper method, ignoring resource limitations) if and only if it is computable by a Turing machine.
+- In 1941 Church wrote the monograph The Calculi of Lambda-conversion, which was later useful to others in the development of semantics for programming languages. Today the λ-calculus is a major research topic in theoretical computer science.
+- As one of his colleagues remembered, "Church read everything and forgot nothing". When asked what made Church a world-class scholar, he had a remarkably simple answer: "He was just smarter than anybody else."
+
+- Church fait ses études à l'université de Princeton (new jersey, proche de NY)
+- Avec son doctorat il reçoit une bourse de recherche nationale11 qu'il utilise pour voyager. Ainsi, durant l'été 1927 il est instructeur à l'Université de Chicago. Il passe deux ans à l'Université Harvard (1927-1928), puis se rend à l'Université de Göttingen où il rencontre David Hilbert et Paul Bernays puis à l'Université d'Amsterdam où il rencontre Luitzen Egbertus Jan Brouwer (1928-1929)
+- Princeton dans les années 1930, est un lieu propice aux échanges en logique car John von Neumann s'y trouve, ainsi que trois étudiants brillants de Church, Stephen Kleene, John Barkley Rosser et Alan Turing. Kurt Gödel, après plusieurs déplacements à l'Institute for Advanced Study entre 1933 et 1935, y donne plusieurs conférences sur son théorème d'incomplétude, et s'y installe définitivement vers 1940.
+- Les travaux de son équipe (Church, Kleene et Rosser) précèdent, sur le problème de l'arrêt, le travail d'Alan Turing, qui va d'ailleurs les rejoindre. C'est Church qui, le premier, a l'idée que l'on peut définir le concept de fonction calculable dans un sens très large, cette idée avait déjà été entrevue par Herbrand, mais sa mort prématurée ne lui avait pas permis de la pousser plus loin. Church en a eu l'idée par le lambda-calcul. Church démontre en 1936 l'existence d'un problème insoluble par algorithme, autrement qui ne peut pas être résolu par un calcul mécanisable.
+
+- After graduating from Ridgefield in 1920, Church attended Princeton University where he was an exceptional student, publishing his first paper, on Lorentz transformations, and graduating in 1924 with a degree in mathematics. He stayed at Princeton, earning a Ph.D. in mathematics in three years under Oswald Veblen.
+- He taught philosophy and mathematics at Princeton, 1929–1967
+- The lambda calculus emerged in his 1936 paper showing the unsolvability of the Entscheidungsproblem. This result preceded Alan Turing's work on the halting problem, which also demonstrated the existence of a problem unsolvable by mechanical means. Church and Turing then showed that the lambda calculus and the Turing machine used in Turing's halting problem were equivalent in capabilities, and subsequently demonstrated a variety of alternative "mechanical processes for computation." This resulted in the Church–Turing thesis.
+- The lambda calculus influenced the design of the LISP programming language and functional programming languages in general. The Church encoding is named in his honor.
+
+
+- L'idée de base du lambda-calcul est que tout est fonction. Une fonction est en particulier exprimée par une expression qui peut contenir des fonctions qui ne sont pas encore définies et qui sont alors remplacées par des variables. Il y a donc, parmi les expressions du lambda-calcul, des expressions qui contiennent des variables. Que peut-on faire avec les fonctions ? On peut les « appliquer » à des valeurs qui sont elles-mêmes des fonctions, puisque tout est fonction. On a donc une opération de base, que l'on appelle « application ». Appliquer l'expression A  (qui décrit une fonction) à l'expression B  (qui décrit une fonction) se note A.B .
+- Sur cette base, on peut construire quelques fonctions intéressantes, comme la fonction identité I , qui est la fonction qui à x  fait correspondre x , autrement dit la fonction λx.x . On peut aussi construire les fonctions constantes égales à x , à savoir λy.x . De là on peut construire la fonction qui fabrique les fonctions constantes, pourvu qu'on lui donne la constante comme paramètre, autrement dit la fonction λx.(λy.x)} , c'est-à-dire la fonction qui à x  fait correspondre la fonction constamment égale à x .
+- L'idée du lambda-calcul consiste à fournir un langage précis pour décrire les fonctions et les simplifier.
+- Le calcul associé à un lambda-terme est la suite de réductions qu'il engendre. Le terme est la description du calcul et la forme normale du terme10 (si elle existe) en est le résultat. Un lambda-terme t est dit en forme normale si aucune bêta-contraction ne peut lui être appliquée, c'est-à-dire si t ne contient aucun rédex, ou encore s'il n'existe aucun lambda-terme u tel que t → u.
+
+
+- Lambda calculus (also written as λ-calculus) is a formal system in mathematical logic for expressing computation based on function abstraction and application using variable binding and substitution. It was first introduced by mathematician Alonzo Church in the 1930s as part of an investigation into the foundations of mathematics.
+The lambda calculus was introduced by mathematician Alonzo Church in the 1930s as part of an investigation into the foundations of mathematics.[7][8] The original system was shown to be logically inconsistent in 1935 when Stephen Kleene and J. B. Rosser developed the Kleene–Rosser paradox. Subsequently, in 1936 Church isolated and published just the portion relevant to computation, what is now called the untyped lambda calculus.[9] In 1940, he also introduced a computationally weaker, but logically consistent system, known as the simply typed lambda calculus.[10]
+- Computable functions are a fundamental concept within computer science and mathematics. The λ-calculus provides a simple semantics for computation, enabling properties of computation to be studied formally. The λ-calculus incorporates two simplifications that make this semantics simple. The first simplification is that the λ-calculus treats functions "anonymously", without giving them explicit names. The second simplification is that the λ-calculus only uses functions of a single input (currying).
+- exemple : square_sum(x, y) => x*x + y*x
+- becomes : (x, y) => x*x + y*y
+- and then : x => (y => x*x + y*y)
+- à l'appel : ((x => (y => x*x + y*y))(5))(2) - (y => 2*2 + y*y)(5) - 29
+
+- A function F: N → N of natural numbers is a computable function if and only if there exists a lambda expression f such that for every pair of x, y in N, F(x)=y if and only if f x =β y,  where x and y are the Church numerals corresponding to x and y, respectively and =β meaning equivalence with beta reduction. This is one of the many ways to define computability
+- There is no algorithm that takes as input two lambda expressions and outputs TRUE or FALSE depending on whether or not the two expressions are equivalent. This was historically the first problem for which undecidability could be proven. As is common for a proof of undecidability, the proof shows that no computable function can decide the equivalence. Church's thesis is then invoked to show that no algorithm can do so.
+- Church's proof first reduces the problem to determining whether a given lambda expression has a normal form. A normal form is an equivalent expression that cannot be reduced any further under the rules imposed by the form. Then he assumes that this predicate is computable, and can hence be expressed in lambda calculus. Building on earlier work by Kleene and constructing a Gödel numbering for lambda expressions, he constructs a lambda expression e that closely follows the proof of Gödel's first incompleteness theorem. If e is applied to its own Gödel number, a contradiction results.
+
+- In 1933, Austrian-American mathematician Kurt Gödel, with Jacques Herbrand, created a formal definition of a class called general recursive functions. The class of general recursive functions is the smallest class of functions (possibly with more than one argument) which includes all constant functions, projections, the successor function, and which is closed under function composition and recursion.
+- In 1936, Alonzo Church created a method for defining functions called the λ-calculus. Within λ-calculus, he defined an encoding of the natural numbers called the Church numerals. A function on the natural numbers is called λ-computable if the corresponding function on the Church numerals can be represented by a term of the λ-calculus.
+- Also in 1936, before learning of Church's work, Alan Turing created a theoretical model for machines, now called Turing machines, that could carry out calculations from inputs by manipulating symbols on a tape. Given a suitable encoding of the natural numbers as sequences of symbols, a function on the natural numbers is called Turing computable if some Turing machine computes the corresponding function on encoded natural numbers.
+- Church[2] and Turing[3] proved that these three formally defined classes of computable functions coincide: a function is λ-computable if and only if it is Turing computable if and only if it is general recursive. This has led mathematicians and computer scientists to believe that the concept of computability is accurately characterized by these three equivalent processes.
+
+- Turing, 1939, Systems of Logic Based on Ordinals, " We shall use the expression 'computable function' to mean a function calculable by a machine, and let 'effectively calculable' refer to the intuitive idea without particular identification with any one of these definitions."
+- Same "It was stated ... that 'a function is effectively calculable if its values can be found by some purely mechanical process.' We may take this literally, understanding that by a purely mechanical process one which could be carried out by a machine. The development ... leads to ... an identification of computability† with effective calculability."
+
+- The debate began when Church proposed to Gödel that one should define the "effectively computable" functions as the λ-definable functions. Gödel, however, was not convinced and called the proposal "thoroughly unsatisfactory".[12] Rather, in correspondence with Church (ca 1934–5), Gödel proposed axiomatizing the notion of "effective calculability"; indeed, in a 1935 letter to Kleene, Church reported that: "His [Gödel's] only idea at the time was that it might be possible, in terms of effective calculability as an undefined notion, to state a set of axioms which would embody the generally accepted properties of this notion, and to do something on that basis"
+- Gödel said that "he was, at the time of these [1934] lectures, not at all convinced that his concept of recursion comprised all possible recursions".[16] By 1963–4 Gödel would disavow Herbrand–Gödel recursion and the λ-calculus in favor of the Turing machine as the definition of "algorithm" or "mechanical procedure" or "formal system"
+
+- Church spent two years as a National Research Fellow, one year at Harvard University then a year at Göttingen and Amsterdam. He returned to the United States becoming Assistant Professor of Mathematics at Princeton in 1929.
+- Enderton writes in 1995: "Princeton in the 1930's was an exciting place for logic. There was Church together with his students Rosser and Kleene. There was John von Neumann. Alan Turing, who had been thinking about the notion of effective calculability, came as a visiting graduate student in 1936 and stayed to complete his Ph.D. under Church. And Kurt Gödel visited the Institute for Advanced Study in 1933 and 1935, before moving there permanently."
+- He created the λ-calculus in the 1930's which today is an invaluable tool for computer scientists. The article 1997 is in three parts and in the last of these Manzano: "... attempt[s] to show that Church's great discovery was lambda calculus and that his remaining contributions were mainly inspired afterthoughts in the sense that most of his contributions, as well as some of his pupils', derive from that initial achievement."
+
+- le calcul c'est :
+- l'intuition d'un processus constructif (Weyl, 1921)
+- l'effectivement calculable (Herbrand 1931 : "toutes les fonctions introduites devront être effectivement calculables pour toutes les valeurs de leurs arguments, par des opérations décrites entièrement d'avance")
+- une instruction mécanique (Von neumann, 1927 : (à propos des maths si le programme de hilbert était confirmé) "à leur place, il y aurait une instruction absolument mécanique à l'aide de laquelle quiconque pourrait décider, à partir de n'importe quelle formule donnée, si elle est ou non démontrable")
+
+- Il a été nommé maître de conférences en mathématiques à Cambridge en 1924. Ses conférences sur les fondements des mathématiques ont inspiré Alan Turing. Après la Seconde Guerre mondiale, il a pris la tête du département de mathématiques de l'université de Manchester, jusqu'à sa retraite en 1964.
+- Après s'être assuré que l'origine allemande de son père ne lui nuirait pas, Newman accepte en août 1942 la proposition qui lui était faite d'entrer au service de la Government Code & Cypher School à Bletchley Park. Il y participe à la conception d'un superordinateur destiné à casser les codes secrets.
+
+- Max Newman was born Maxwell Neumann in Chelsea, London, England to a Jewish family, on 7 February 1897.[1] His father was Herman Alexander Neumann, originally from the German city of Bromberg (now in Poland) who had emigrated with his family to London at the age of 15.
+- His studies were postponed by World War I. His father was interned as an enemy alien after the start of the war in 1914, and upon his release he returned to Germany. In 1916, Newman changed his name by deed poll to the anglicised "Newman" and Sarah did likewise in 1920.
+- He was called up for military service in February 1918, but claimed conscientious objection due to his beliefs and his father's country of origin, and thereby avoided any direct role in the fighting.
+
+- He was appointed a lecturer in mathematics at Cambridge in 1927,[1] where his 1935 lectures on the Foundations of Mathematics and Gödel's Theorem inspired Alan Turing to embark on his pioneering work on the Entscheidungsproblem (decision problem) using a hypothetical computing machine.[16][17] In spring 1936, Newman was presented by Turing with a draft of "On Computable Numbers with an Application to the Entscheidungsproblem". He realised the paper's importance and helped ensure swift publication.[13] Newman subsequently arranged for Turing to visit Princeton where Alonzo Church was working on the same problem but using his Lambda calculus.[12] During this period, Newman started to share Turing's dream of building a stored-program computing machine.
+
+- Newman resumed his studies at St. John’s in 1919 and graduated in 1921 with a first class degree in Mathematics. Two years later he was appointed a Fellow of St. John’s and became a lecturer at Cambridge in 1927. In 1935, Alan Turing attended one of Newman’s lectures.
+
+- While at Cambridge Newman taught a course on the foundations of mathematics. It was these lectures which introduced Turing to the concept of 'decidability' that in turn inspired Turing's famous paper, On Computable Numbers, with an application to the Entscheidungsproblem. which was published with considerable help from Newman.  Without Newman's encouragement, Turing might not have done this work and got drawn into codebreaking.
+
+- Max newman, professeur chargé du cours optionnel de logique mathématique à cambridge, était spécialiste de topologie (l'étude des fondements de la théorie des ensembles servent de base à cette spécialité).
+- Le cours de printemps 35 (que suivait Turing) s'intitulait "fondement des mathématiques". Le cours exposais les questions ouvertes de Hilbert sur les fondements, que Hilbert avait exposé au Congrès internationnal des mathématiciens à bologne en 1928 (newman y a assisté).
+
+- Godel en 31 démontre qu'une structure formelle suceptible de servir de réplique à l'arithmétique est structurellement incompléte
+- Hilbert en 28 annonce que ackerman et von neumann sont parvenus ç prouver la consistance de l'axiomatique formelle. Godel en 31 démontre que la consistance ne peut pas être prouvée par des procédure effectives (comme l'exigait l'approche métamathématique)
+
+- calcul
+- à partir de l'émergence au 18E siécle de la théorie des fonctions, la notion de calcul fut associée à la notion de fonction, que l'on considérait équivalente à une procédure de calcul.
+- mais la notion de fonction évolue au 19° pour signifier une correspondance entre un ensemble de départ et un ensemble d'arrivé, sans forcément de procédure de calcul effective.
+- on étudie le rapport entre procédure de calcul et fonction, pour définir les fonctions "calculables"
+- question, comment circonscrire le sous ensemble des fonctions calculables ?
+- la notion de calcul posséde un équivalent, la notion d'algorithme
+- un algorithme est une liste d'instructions que ln doit suivre pour atteindre un résultat aprés un nombre fini d'étapes.
+- de cette façon, PI est calculable ( il existe un algorithme pour approcher la valeur de PI de plus en plus prés, donc Pi est, en droit, calculable, donné un temps infini), ou e
+
+- la vision mécanique s'est répandue en grande bretagne, on la retrouve chez Hardy (1928), et Newman (cours de logique 1935), qui déclarait qu'il n'y avait "évidemment pas" de procédure mécanique pour démontrer ou réfuter une proposition, et qu'il fallait s'en réjouir "Supposons, par exemple, que nous puission trouver un système fini de règles qui nous permettrait de dire si une formule quelconque est ou non démontrable. Ce système contiendrait un théorème de métamathématique. Évidemment, ce théorème n'existe pas et c'est heureux, parceue s'il existait, nous aurions un ensemble mécanique de règles nous permettant de trouver la solution de tous les problèmes mathématiques et notre activité en tant que mathématiciens cesserait d'exister."
+
+
+- "Gödel's Incompleteness Theorems". In 1931 he published these results in Über formal unentscheidbare Sätze der Principia Mathematica und verwandter Systeme. He proved fundamental results about axiomatic systems, showing in any axiomatic mathematical system there are propositions that cannot be proved or disproved within the axioms of the system.
+
+- Gödel met Zermelo in Bad Elster in 1931. Olga Taussky-Todd, who was at the same meeting, wrote: "The trouble with Zermelo was that he felt he had already achieved Gödel's most admired result himself. Scholz seemed to think that this was in fact the case, but he had not announced it and perhaps would never have done so. ... The peaceful meeting between Zermelo and Gödel at Bad Elster was not the start of a scientific friendship between two logicians."
+
+- However, Gödel suffered a nervous breakdown as he arrived back in Europe and telephoned his brother Rudolf from Paris to say he was ill. He was treated by a psychiatrist and spent several months in a sanatorium recovering from depression.
+- However after Schlick, whose seminar had aroused Gödel's interest in logic, was murdered by a National Socialist student in 1936, Gödel was much affected and had another breakdown. His brother Rudolf wrote: "This event was surely the reason why my brother went through a severe nervous crisis for some time, which was of course of great concern, above all for my mother. Soon after his recovery he received the first call to a Guest Professorship in the USA."
+
+- Now 1933 was the year that Hitler came to power. At first this had no effect on Gödel's life in Vienna; he had little interest in politics.
+- Most who held the title of privatdozent in Austria became paid lecturers after the country became part of Germany but Gödel did not and his application made on 25 September 1939 was given an unenthusiastic response. It seems that he was thought to be Jewish, but in fact this was entirely wrong, although he did have many Jewish friends. Others also mistook him for a Jew, and he was once attacked by a gang of youths, believing him to be a Jew, while out walking with his wife in Vienna.
+- When the war started Gödel feared that he might be conscripted into the German army. Of course he was also convinced that he was in far too poor health to serve in the army, but if he could be mistaken for a Jew he might be mistaken for a healthy man. He was not prepared to risk this, and after lengthy negotiation to obtain a U.S. visa he was fortunate to be able to return to the United States, although he had to travel via Russia and Japan to do so. His wife accompanied him.
+
+- In 1940 Gödel arrived in the United States, becoming a U.S. citizen in 1948 (in fact he believed he had found an inconsistency in the United States Constitution, but the judge had more sense than to listen during his interview!)
+
+- He received the Einstein Award in 1951, and National Medal of Science in 1974. He was a member of the National Academy of Sciences of the United States, a fellow of the Royal Society, a member of the Institute of France, a fellow of the Royal Academy and an Honorary Member of the London Mathematical Society. However, it says much about his feelings towards Austria that he refused membership of the Academy of Sciences in Vienna, then later when he was elected to honorary membership he again refused the honour. He also refused to accept the highest National Medal for scientific and artistic achievement that Austria offered him. He certainly felt bitter at his own treatment but equally so about that of his family.
+
+- Concerns with his health became increasingly worrying to Gödel as the years went by. Rudolf, Gödel's brother, was a medical doctor so the medical details given by him in the following will be accurate. He wrote: "My brother had a very individual and fixed opinion about everything and could hardly be convinced otherwise. Unfortunately he believed all his life that he was always right not only in mathematics but also in medicine, so he was a very difficult patient for doctors. After severe bleeding from a duodenal ulcer ... for the rest of his life he kept to an extremely strict (over strict?) diet which caused him slowly to lose weight."
+- Gödel became convinced that he was being poisoned and, refusing to eat to avoid being poisoned, essentially starved himself to death [3]: "A slight person and very fastidious, Gödel was generally worried about his health and did not travel or lecture widely in later years. He had no doctoral students, but through correspondence and personal contact with the constant succession of visitors to Princeton, many people benefited from his extremely quick and incisive mind. Friend to Einstein, von Neumann and Morgenstern, he particularly enjoyed philosophical discussion". He died : "... sitting in a chair in his hospital room at Princeton, in the afternoon of 14 January 1978".
+
+- By 1933 Turing had already introduced himself to Russell and Whitehead's Principia Mathematica and so to the then arcane area of mathematical logic. Bertrand Russell had thought of logic as a solid foundation for mathematical truth, but many questions had since been raised about how truth could be captured by any formalism. In particular, in 1931 Gödel had shattered Russell's picture by showing the incompleteness of mathematics: the existence of true statements about numbers which could not be proved by the formal application of set rules of deduction. In 1935, Turing learnt from the lecture course of the Cambridge topologist M. H. A. Newman that a further question, posed by Hilbert, still lay open. It was the question of Decidability, the Entscheidungsproblem. Could there exist, at least in principle, a definite method or process by which it could be decided whether any given mathematical assertion was provable?
+
+- Il n'est admis qu'au King's College de l'université de Cambridge, alors qu'il avait demandé Trinity College en premier choix. Il étudie de 1931 à 1934 sous la direction de Godfrey Harold Hardy, mathématicien alors titulaire de la chaire sadleirienne puis responsable du centre de recherches et d'études en mathématiques. Il suit également les cours d'Arthur Eddington et, la dernière année, de Max Newman qui l'initie à la logique mathématique, notamment aux problèmes fondamentaux posés quelques années plus tôt par l'Allemand David Hilbert. En 1935, Turing est élu fellow du King's College, l'équivalent d'une bourse de thèse, grâce à sa démonstration du théorème central limite5.
+
+- William Newman (son of max newman) picks the story up: "At one point he posed his class a question: could the provability of mathematical statements be discovered by a mechanical process? This question lodged in Alan's mind, and gradually he developed the paper that was to make his reputation in the mathematical world, and later in computer science: On Computable Numbers, with an Application to the Entscheidungsproblem."
+
+- "The "computable" numbers may be described briefly as the real numbers whose expressions as a decimal are calculable by finite means."
+- "According to my definition, a number is computable if its decimal can be written down by a machine."
+- "Although the class of computable numbers is so great, and in many Avays similar to the class of real numbers, it is nevertheless enumerable. In § 81 examine certain arguments which would seem to prove the contrary. By the correct application of one of these arguments, conclusions are reached which are superficially similar to those of Godel"
+- "These results have valuable applications. In particular, it is shown (§11) that the Hilbertian Entscheidungsproblem can have no solution."
+- "In a recent paper Alonzo Church f has introduced an idea of "effective calculability", which is equivalent to my "computability", but is very differently defined. Church also reaches similar conclusions about the EntscheidungsproblemJ. The proof of equivalence between "computability" and "effective calculability" is outlined in an appendix to the present paper."
+
+- We may compare a man in the process of computing a real number to a machine which is only capable of a finite number of conditions q1, q2, .... qI; which will be called "m-configurations ". The machine is supplied with a "tape" (the analogue of paper) running through it, and divided into sections (called "squares") each capable of bearing a "symbol". At any moment there is just one square, say the r-th, bearing the symbol ϱ(r) which is "in the machine". We may call this square the "scanned square". The symbol on the scanned square may be called the "scanned symbol". The "scanned symbol" is the only one of which the machine is, so to speak, "directly aware". However, by altering its m-configuration the machine can effectively remember some of the symbols which it has "seen" (scanned) previously. The possible behaviour of the machine at any moment is determined by the m-configuration qn and the scanned symbol ϱ(r). This pair qn, ϱ(r) will be called the ''configuration'': thus the configuration determines the possible behaviour of the machine. In some of the configurations in which the scanned square is blank (i.e. bears no symbol) the machine writes down a new symbol on the scanned square: in other configurations it erases the scanned symbol. The machine may also change the square which is being scanned, but only by shifting it one place to right or left. In addition to any of these operations the m-configuration may be changed. Some of the symbols written down will form the sequence of figures which is the decimal of the real number which is being computed. The others are just rough notes to "assist the memory". It will only be these rough notes which will be liable to erasure. It is my contention that these operations include all those which are used in the computation of a number.
+
+- un algorithme correspond à une machine de turing (et vice versa)
+- caractérisation formelle du calcul : "toute fonction calculable par un être humain en suivant un algorithme peut être calculée par une machine de Turing"
+
+- description machine de turing, chap 1
+- Max newmann commença par douter qu'une telle structure, si simple, püt parvenir à effectuer tous les calculs.
+- La description minimaliste de la machine est volontaire, de cette façon, Turing demande explicitement au lecteur de faire fonctionner la machine sur des exemples. Et donc, de se mettre à la place de la machine.
+- C'est lié à la vision de Turing de considérer la machine de Turing comme analogue à la pensée, et de le justifier uniquement par l'intuition. L'identification forcée du lecteur à la machine peut renforcer cet argument
+
+- A machine can be constructed to compute the sequence 01010...
+- The machine is to have the four m-configurations "b" , "c" , "f" , "e" and is capable of printing "0" and "1". The behaviour of the machine is described in the following table in which "R" means "the machine moves so that it scans the square immediately on the right of the one it was scanning previously". Similarly for "L". "E" means "the scanned symbol is erased" and "P" stands for "prints".
+- The machine starts in the m-configuration b with a blank tape.
+Configuration Behaviour
+b None P0, R c
+c None R e
+e None P1, R f
+f None R b
+
+- If at each stage the motion of a machine (in the sense of § 1) is completely determined by the configuration, we shall call the machine an "automatic machine" (or a-machine).
+- If an a-machine prints two kinds of symbols, of which the first kind (called figures) consists entirely of 0 and 1 (the others being called symbols of the second kind), then the machine will be called a computing machine.
+- If a computing machine never writes down more than a finite number of symbols of the first kind, it will be called circular. Otherwise it is said to be circle-free.
+- A machine will be circular if it reaches a configuration from which there is no possible move, or if it goes on moving, and possibly printing symbols of the second kind, but cannot print any more symbols of the first kind.
+- A sequence is said to be computable if it can be computed by a circle-free machine. A number is computable if it differs by an integer from the number computed by a circle-free machine.
+
+
+- As a slightly more difficult example we can construct a machine to compute the sequence 001011011101111011111
+[see assets/01011011101111]
+
+- A computable sequence y is determined by a description of a machine which computes y. Thus the sequence 001011011101111... is determined by the table on p. 234, and, in fact, any computable sequence is capable of being described in terms of such a table.
+- From each line of form (N^ let us form an expression q( Sj]Sb L qm; from each line of form (N2) we form an expression qiSjSkRqm; and from each line of form (N3) we form an expression #,•#, SkNqm.
+- Let us write down all expressions so formed from the table for the machine and separate them by semi-colons. In this way we obtain a complete description of the machine.
+- In this description we shall replace Qi by the letter "D" followed by the letter "A" repeated i times, and Sj by " D " followed by "C" repeated j times. [...] It is made up entirely from the letters "A", " C", "D", "L", "R", "N", and from ';'
+- If finally we replace "A" by "1" , "C" by "2" , "D" by "3" , " L" by "4" , "R" by c '5" , "N" by "6" , and ";" by "7" we sh,all have a description of the machine in the form of an arabic numeral.
+- To each computable sequence there corresponds at least one description number, while to no description number does there correspond more than one computable sequence. The computable sequences and numbers are therefore enumerable.
+
+- For machine I (paragraphe 3)
+- DADDCRDAA;DAADDRDAAA;DAAADDCCRDAAAA;DAAAADDRDA
+- 31332531173113353111731113322531111731111335317
+[see assets/SD_DN]
+
+- It is possible to invent a single machine which can be used to compute any computable sequence.
+- If this machine U is supplied with a tape on the beginning of which is written the S.D of some computing machine M, then U will compute the same sequence as M.
+- Each instruction consists of five consecutive parts
+(i) "D " followed by a sequence of letters "A". This describes the relevant m-configuration.
+(ii) "D" followed by a sequence of letters " C". This describes the scanned symbol.
+(iii) "D " followed by another sequence of letters "C". This describes the symbol into which the scanned symbol is to be changed.
+(iv) " L " , "R" , or "N", describing whether the machine is to move to left, right, or not at all
+(v) "D " followed by a sequence of letters "A". This describes the final m-configuration.
+- The machine U is to be capable of printing "A", "C", "D" , "0" , "1" , "u", "v", "w", "z" , "y", "z". The S.D is formed from ";" , "A", "C", "D" , "L" , "R", "N".
+- Full table : [see assets/TableU(1-2-3)]
+
+
+- une T-machine peut être représentée par une code, un entier. Mais tous les entiers ne représentent pas une T-machine
+- la solution du "le problème de l'arrêt" dit qu'il n'existe pas de T-machine qui peut dire, lorsqu'on lui soumet un code (un entier), si ce code représente une T-machine ou non.
+- on peut arriver à ce résultat par la diagonalisation, si il existe une T-machine capable de dire si un code est une T-machine ou pas, on peut, en testant successivement tous les entiers faire la liste des T-machines. Puis on définit une fonction f(n) = (valeur que donne la n-iéme T-machine à n) + 1. la fonction f serait donc calculable, mais pas par une T-machine (puisque f(n) est forcément différent de la valeur que donne la n-iéme T-machine à n).
+- comme la définition de "calculable" est "calculable par une T-machine", notre hypothèse de départ est fausse, et il ne peut pas exister de T-machine qui dit, pour un code donné, si ce code correspond à une T-machine.
+- donc il existe des fonctions qui ne sont pas calculables
+- et comme on peut traduire en arithmétique la proposition P(n) : n est le code d'une T-machine, il existe des problémes qu'une T-machine ne peut pas résoudre, donc l'arithmétique est indécidable.
+- Turing retourne en quelque sorte l'argument de la diagonale (qui au départ semblait poser un obstacle à la définition de calculabilité)
+- Lancan, 1973, résume dans une boutade : "j'ai trois frères, Jean, Jacques et moi."
+
+
+- It may be thought that arguments which prove that the real numbers are not enumerable would also prove that the computable numbers and sequences cannot be enumerable*. (* Cf. Hobson, Theory of functions of a real variable (2nd ed., 1921), 87, 88.)
+- It might, for instance, be thought that the limit of a sequence of computable numbers must be computable. This is clearly only true if the sequence of computable numbers is defined by some rule.
+- Or we might apply the diagonal process.
+[see assets/diagonal
+- The fallacy in this argument lies in the assumption that B(beta) is computable. It would be true if we could enumerate the computable sequences by finite means, but the problem of enumerating computable sequences is equivalent to the problem of finding out whether a given number is the D.N of a circle-free machine, and we have no general process for doing this in a finite number of steps. In fact, by applying the diagonal process argument correctly, we can show that there cannot be any such general process.]
+- The simplest and most direct proof of this is by showing that, if this general process exists, then there is a machine which computes B(beta). This proof, although perfectly sound, has the disadvantage that it may leave the reader with a feeling that "there must be something wrong". The proof which I shall give has not this disadvantage, and gives a certain insight into the significance of the idea "circle-free".
+
+- Let us suppose that there is such a process; that is to say, that we can invent a machine D which, when supplied with the S.D of any computing machine M will test this S.D and if M is circular will mark the S.D with the symbol "u" and if it is circle-free will mark it with " s ".
+- By combining the machines D and U we could construct a machine H to compute the sequence B'.
+- From the construction of H we can see that H is circle-free. Each section of the motion of H comes to an end after a finite number of steps.
+- Now let K be the D.N(description number) of H. What does H do in the K-th. section of its motion ?
+- Since K is the D.N of H and since H is circle-free, the verdict cannot be "u". On the other hand the verdict cannot be "s".
+- For if it
+were, then in the K-th. section of its motion J I- would be bound to compute the first R(K—1) + 1 = R(K) figures of the sequence computed by the machine with K as its D.N and to write down the R(K)-th as a figure of the sequence computed by ill. The computation of the first R(K) — l figures would be carried out all right, but the instructions for calculating the R(K)-th. would amount to "calculate the first R(K) figures computed by H and write down the R(K)-th". This R{K)-th figure would never be found. I.e., H is circular, contrary both to what we have found in the last paragraph and to the verdict "s" .
+- Thus both verdicts are impossible and we conclude that there can be no machine D.
+- We can show further that there can be no machine E which, when supplied with the S.D of an arbitrary machine M, will determine whether M ever prints a given symbol (0 say).
+
+- The results of § 8 have some important applications. In particular, they can be used to show that the Hilbert Entscheidungsproblem can have no solution. For the present I shall confine myself to proving this particular theorem. For the formulation of this problem I must refer the reader to Hilbert and Ackermann's Grundziige der Theoretischen Logik (Berlin, 1931), chapter 3.
+- It should perhaps be remarked that what I shall prove is quite different from the well-known results of Godel
+
+- Corresponding to each computing machine M we construct a formula Un(M) and we show that, if there is a general method for determining whether Un(M) is provable, then there is a general method for determining whether M ever prints 0.
+- (a) If S1 appears on the tape in some complete configuration of M, then Un(M) is provable.
+(b) If Un(M) is provable, then S1 appears on the tape in some complete configuration of M.
+- We are now in a position to show that the Entscheidungsproblem cannot be solved. Let us suppose the contrary. Then there is a general (mechanical) process for determining whether Un(M) is provable. By Lemmas 1 and 2, this implies that there is a process for determining whether M ever prints 0, and this is impossible, by §8. Hence the Entscheidungsproblem cannot be solved.

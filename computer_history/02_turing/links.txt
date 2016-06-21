@@ -339,3 +339,12 @@ https://en.wikipedia.org/wiki/Universal_Turing_machine
 
 AlanTuring.net What is a Turing machine?
 http://www.alanturing.net/turing_archive/pages/Reference%20Articles/What%20is%20a%20Turing%20Machine.html
+
+How To Count Past Infinity - YouTube
+https://www.youtube.com/watch?v=SrU9YDoXE88
+
+Incompleteness: The Proof and Paradox of Kurt Gödel (Great Discoveries) - Rebecca Goldstein - Google Books
+https://books.google.de/books?id=UXk2AAAAQBAJ&pg=PA188&lpg=PA188&dq=hilbert+reaction+g%C3%B6del+incompleteness+theorem&source=bl&ots=_4o3gA7qyJ&sig=CSWFPWd5yLS6N-yv6uUEd5xhDNM&hl=de&sa=X&ei=0SNQVJ_GDKPcywP-hYK4BA&redir_esc=y#v=onepage&q=hilbert%20reaction%20g%C3%B6del%20incompleteness%20theorem&f=false
+
+Turing 2004 talk _Final David Anderson_.PDF
+http://www.bcs.org/upload/pdf/ewic_tur04_paper3.pdf

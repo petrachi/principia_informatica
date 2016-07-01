@@ -1,6 +1,7 @@
 livres :
 Hilbert - Pierre Cassou-Noguès - Figures du savoir - LES BELLES LETTRES - 2004
 Turing - Jean Lassègue - figures du savoir - LES BELLES LETTRES - 2003
+Logicomix - Apostolos Doxiadis & Christos Papadimitriou - Vuibert - 2009
 
 internet :
 David Hilbert - Wikipedia, the free encyclopedia

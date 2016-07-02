@@ -78,3 +78,43 @@ Les nombres ordinaux servent à décrire à la fois la quantité, et l'ordre des
 Mais s'il calcule le nombre ordinal de la suite des ordinaux, il n'a pas vraiment calculé le nombre ordinal de la suite de tous les nombres ordinaux, mais seulement le nombre ordinal associé à la suite de tous les nombres ordinaux sauf lui-même. Et même s'il l'on calculait une nouvelle fois un nombre ordinal en incluant celui précédement calculé, on obtiendrait un nouvel nombre ordinal qui n'aurait pas été pris en compte dans la liste.
 
 C'est le paradoxe : N'importe quelle suite devrait posséder un nombre ordinal, pourtant il y ne peut pas exister de nombre ordinal pour la suite des nombres ordinaux.
+
+Le second paradoxe est mis à jour par Bertrand Russell en 1902. Il dit : l'ensemble des cuillères à thé n'est pas lui-même une cuillière à thé, il ne s'appartient pas à lui-même. Mais considérons ensemble l'ensemble de tous les ensembles qui ne s'appartiennent pas à eux-mêmes, est-ce que cet ensemble là s'appartient à lui-même ou pas ?
+
+Si il s'appartenait à lui-même, il correspondrait à sa propre définition d'une ensemble qui ne s'appartient pas à lui-même, donc s'il s'appartenait à lui-même, il ne s'appartiendrait pas à lui-même. Mais s'il ne s'appartient pas à lui-même, alors il mérite de faire partie des ensembles qui ne s'appartiennent pas à eux-mêmes, et donc, il s'appartiendrait à lui-même.
+
+Russell va aussi appliquer la même logique à l'ordre des concepts. "Être vert" est un concept, on peut dire qu'une pomme "est verte", mais "être vert" n'est pas vert lui-même, il ne s'applique pas à lui-même. Il y a un nom pour cela, c'est ce qu'on appelle l'hétérologie, un concept hétérologique est une concept qui ne s'applique pas à lui-même.
+
+Maintenant, est-ce que l'hétérologie est hétérologique ? Si le concept était hétérologique, il s'appliquerait à lui-même, et donc, ne pourrait pas être hétérologique. Mais s'il n'est pas hétérologique, il ne s'applique pas à lui-même, alors il est hétérologique.
+
+Hilbert n'est pas surpris par les réflexions de Russull, dans une lettre à Frege, il explique que Zermelo lui aussi est arrivé à la même conclusion que Russell, et que le paradoxe est connu à Göttingen depuis déjà trois ou quatre ans.
+
+Puis, c'est en 1905 que le dernier paradoxe de la série va être mis à jour par Jules Antoine Richard, qui va au passage emprunter la méthode de "diagonalisation" de Cantor. Il commence par définir l'ensemble de tous les nombres définissables en moins de milles mots, puis, à l'aide de la diagonalisation, crée à partir de cette liste un nouveau nombre. Ce nouveau nombre à été définit en moins de milles mots, puisque la méthode de diagonalisation s'explique en moins de milles mots, donc il devrait être dans la liste, pourtant il ne peut pas être dans la liste, puisque c'est le principe même de la construction par diagonalisation, d'où le paradoxe.
+
+Il faut bien comprendre que tous ces paradoxes, même s'ils ne concernent directement que la théorie des ensembles, se répercutent sur l'arithmétique, et donc sur l'ensemble des mathématiques. Il s'agit alors pour les mathématiciens de repenser l'axiomatique de l'arithmétique, afin de supprimer les paradoxes connus, et de se prévenir contre de futurs paradoxes, en garantissant la consistance, la non-contradiction, des axiomes de l'arthmétique. Le problème ? C'est que personne à ce moment là n'à la moindre de comment construire une preuve de consistance pour l'arithmétique.
+
+Hilbert s'était déjà exprimé sur la nécéssité d'une preuve de consistance pour l'arithmétique. En 1900, au congrès internationnal des mathématiciens, le plus important rassemblement du monde mathématique qui se tient tous les quatres ans, et qui en 1900, se déroule à Paris, juste à côté de l'exposition internationale, Hilbert va donner une conférence. Il envisage d'abord de faire un exposé général sur les mathématiques, mais c'est Minkowski, son ami, qui va lui donner une autre idée. Il écrit à Hilbert en janvier 1900, le 5 janvier, et dit : "Il serait intéressant de regarder dans le futur et de faire une liste des problèmes sur lequels les mathématiciens travaillerons dans le siécle qui vient. Avec un tel sujet, on parlera encore de ton exposé dans plusieurs décénies".
+
+En effet Minkowski ne s'est pas trompé et la liste des 23 problèmes de Hilbert au congrès de 1900 va occuper la quasi-totalité de la recherche mathématique du 20ème siècle, et encore aujourd'hui, certains problèmes ne sont toujours pas résolus.
+
+Mais c'est, pour notre histoire, le second problème de cette liste qui va avoir une résonnance particulière : "Peut-on prouver la cohérence de l'arithmétique ? En d'autres termes, peut-on démontrer que les axiomes de l'arithmétique ne sont pas contradictoires ?".
+
+Hilbert va tenter en 1904, dans le cadre d'une conférence intitulée "Sur les fondements de la logique et de l'arithmétique", une démonstrations de consistance pour un système minimaliste d'axiomes qui ne représentent que les nombres entiers, et la notion d'égalité entre ces nombres.
+
+Cette démonstartion sera vivement critiqué par Henri Pointacré, trés influent dans le monde des mathématiques, et qui ne partage pas les idées d'Hilbert.
+
+Hilbert estime que les objets mathématiques, comme les nombres, existent. Tous les nombres, même si personne ne les a jamais écrits, même si on ne sait pas les calculers, tous les nombres existent. Pour Pointcaré, c'est le contraire, les nombres n'existent pas, ils sont construits par la méthématicien.
+
+Ça ne parait rien mais ça a de grande implication sur la façon de faire des mathématiques. Pour Pointacré, on ne peux pas parler d'infini, puisque les nombres n'existent pas, on ne saurait avoir une collection qui regroupe tous les nombres, ou d'ensemble de tous les ensemble, comme dans la paradoxe de Russell.
+
+Pour le paradoxe de Richard, pas de Paradoxe ! On définit l'ensemble de tous les nombres définits en moins de milles mots, puis on définit un nouveau nombre, à partir de la l'ensemble, mais qui aurait dû appartenir à cet ensemble. Comment ? dit Pointcaré, comment ce nombre aurait-il pu appartenir à l'ensemble puisqu'au moment où on a crée l'ensemble, il n'existait pas ? Il n'y a pas de paradoxe pour Pointcaré, simplement une construction en deux étapes, d'abord on construit une liste, puis à partir de cette liste, on construit un nombre qui n'existait pas avant.
+
+Pointcaré fait reposer les paradoxes sur un principe de cercle vicieux : des objets qui se références eux-mêmes dans leurs définition. Pour le paradoxe de Burali-Forti, on cherche le nombre ordinal de tous les nombres ordinaux. Le nombre ordinal que l'on cherche à besoin de lui-même pour se calculer, c'est le cercle vicieux, et c'est exactement ce que Pointcaré reproche à la démonstration de consistance de Hilbert en 1904.
+
+Hilbert définit quelques axiomes pour représenter les nombres, puis il utilise des nombres pour prouver la consistance de ses axiomes, c'est le cercle vicieux. Il ne peux pas utiliser les nombres pour prouver les nombres.
+
+Pointcaré va mourir en 1912, avant d'avoir pu proposer sa propre solution au problème de la consistance des axiomes de l'arithmétique, mais c'est depuis ses critiques sur le principe de cercle vicieux qu'il est apparu clairement qu'on devrait séparer deux choses : ce qu'on voulait prouver, et les notions qu'on allait utiliser pour le prouver.
+
+Puisque c'est principalement la notion de l'infini qui fait débat, en particulier l'infini actuel, qui présuppose l'existance en soi des objets mathématiques, Hilbert va choisir de diviser l'arithmétique en deux domaines. D'un côté, la mathématique formelle, qui décrit l'ensembles des mathématiques, et que l'on veut prouver. Et d'un autre côté la mathématique contentuelle et finististe, c'est à dire l'arithmétique classique, privée de la notion d'infini.
+
+Mais avant Hilbert, qui ne va s'impliquer qu'à partir de 1917 - 1918 sur ce qu'on appelle le probléme de fondement, justifier les fondements des mathématiques, ce sont trois mathématiciens qui vont tenter de trouver une solution au problème de fondement, Russel et Whitehead d'un Côté, et Brouwer de l'autre.

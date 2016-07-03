@@ -127,4 +127,28 @@ Et pourtant, l'intuitionisme de Brouwer ira jusqu'à convaincre Herman Weyl, l'a
 
 Hilbert répondra, toujours en 1927, aux intuitionistes : "Oter le [tiers exclu] au mathématicien serait comme si on voulait enlever à l'astronome son télescope, au boxeur le droit de se servir de son poing. [... C'est] quasiment à renoncer à la science mathématique. Car que sont les misérables restes, qu'est-ce que la poignée de résultats incomplets et disparates que les intuitionistes ont pu élaborer [...] à l'égard de l'étendue formidable de la mathématique contemporaine ?".
 
-[cette idée sera d'ailleurs au centre de son programme, la complétude]
+Alors on a vu Brouwer avec l'intuitionisme et la méthode constructiviste, Russell et Whitehead avec les Principas Mathematica et la théorie des types, regardons maintenant comment Hilbert va répondre au problème de fondement.
+
+Hilbert retourne au problème du fondement en 1917, avec une conférence "La Pensée Axiomatique", mais c'est véritablement à partir de 1922, et jusqu'en 1930, qu'Hilbert va tâcler le problème dans une série d'article qui introduit le programme formaliste.
+
+L'objectif du programme formaliste, programme de fondement ou programme d'Hilbert, est d'établir une mathématique formelle, pure de forme et vide de sens. C'est la méthode axiomatique poussée à son paroxysme, une mathématique faite uniquement d'axiomes et de règles logiques, où l'intuition et l'évidence immédiate n'ont pas leur place.
+
+D'un autre côté, Hilbert définit la mathématique finitiste, une arithmétique privée de la notion d'infini, et de tout ce qui fait débat parmis les mathématiciens, le tiers exclu, le principe d'induction complète, etc. Puisque la mathématique finitiste ne contient que des notions immédiatement évidentes, son rôle sera de fournir un preuve de consistance pour la mathématique formelle. Pour Hilbert : il s'agit de "s'assurer par le fini le droit d'opérer sur l'infini".
+
+La force du programme formaliste, c'est qu'il utilise les mathématiques pour justifier les mathématiques, ainsi, Hilbert n'a "besoin ni du Bon Dieu, comme Kronecker, ni de l'hypothèse d'une faculté de conscience accordée au principe d'induction complète, comme Pointcarré, ni de l'intuition originelle de Brouwer, ni non plus des axiomes de l'infini [comme Russell et Whitehead]". Il ira même plus loin : formaliser "c'est dépeindre l'activité de notre intellignece", c'est "dresser un inventaire des règles d'après lesquelles fonctionne réellement notre pensée".
+
+Mais malgrès la force de leurs arguments épistémologique, les mathématiciens engagés dans le programme, Hilbert, Bernays, Von Neumann ou Ackermann, pour n'en citer que quelques-uns, n'ont toujours pas de résultats. Toutes les différentes tentatives d'axiomatisation et de preuve de consistence ont échoués.
+
+C'est alors que Hilbert prendra la parole, au congrès internationnal de Bologne, en 1928. Là, il lance à ses pairs trois problèmes ouverts : L'axiomatique formelle est-elle compléte ? consistante ? et décidable ?
+
+L'axiomatique formelle est-elle complète ? C'est à dire que n'importe quelle proposition ou formule crée à partir des axiomes est nécéssairement soit démontrable, soit réfutable. Ça serait la validation du principe du tiers exclu et de l'idée de la résolubilité de tout problème mathématique. "Jamais le mathématicien ne sera réduit à dire Ignorabimus" !
+
+L'axiomatique formelle est-elle consistante ? C'est la preuve de non-contradiction que cherchent les mathématiciens depuis l'apparition des paradoxes en théorie des ensembles. Qui permettrait de justifier la totalité de l'édifice mathématique et de donner à la science des fondations solides, irréfutables.
+
+L'axiomatique formelle est-elle décidable ? Est-ce qu'il existe une méthode effective, qui permette de décider si une formule donnée est démontrable ou réfutable ? Si elle est vraie ou fausse ?
+
+Bien entendu, Hilbert espére que les trois réponses à ces trois problèmes seront positives. C'est même à cette condition seulement que pourrait se poursuivre le programme formaliste. D'ailleurs, tout semble bien parti, toujours au cours de la conférence, Hilbert annonce qu'Ackermann et Von Neumann sont parvenus à prouver la consistance de l'axiomatique formelle.
+
+Il annonce aussi que lui-même et Ackermann pensent pouvoir bientôt amener la preuve de la complétude des "prédicats du premier ordre". Certes, le calcul des prédicats ne représentent pas toute l'arithmétique, mais c'est la partie la plus importante : ils décrivent les règles de la logique. Sans calcul des prédicats, impossible de construire une démonstration ou un théorème en mathématique.
+
+[tout va bien, puis Kurt !]

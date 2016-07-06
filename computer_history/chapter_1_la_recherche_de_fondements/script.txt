@@ -151,4 +151,44 @@ Bien entendu, Hilbert espére que les trois réponses à ces trois problèmes se
 
 Il annonce aussi que lui-même et Ackermann pensent pouvoir bientôt amener la preuve de la complétude des "prédicats du premier ordre". Certes, le calcul des prédicats ne représentent pas toute l'arithmétique, mais c'est la partie la plus importante : ils décrivent les règles de la logique. Sans calcul des prédicats, impossible de construire une démonstration ou un théorème en mathématique.
 
-[tout va bien, puis Kurt !]
+Mais si tout s'annonce bien, c'était sans compter sur la présence au congrés de Bologne d'un mathématicien d'origine Autrichienne : Kurt Gödel.
+
+La nationalité de Gödel fait débat : il est né à Brno, en Autriche-Hongrie, mais sera naturalisé Tchécoslovaque en 1918, à la dissolution de l'Autriche-Hongrie. Attaché à ses racines, il retrouvera la nationnalité Autrichienne en 1929, seulement pour devenir Allemand aprés l'annexion de son pays en 1938. Il finirat par s'exiler aux États-Unis, où il n'obtient la nationnalité que grâce au support de son ami, Albert Einstein.
+
+Mais laiisons là cette histoire et retournons aux fondements. Je vous avais dit qu'en 1928 congrés de Bologne, Hilbert avait annoncé pouvoir apporter la preuve de la complétude des prédicats du premier ordre avec Ackermann. C'est en fait Gödel qui arrivera le premier à démontrer la complétude de cette partie de l'arithmétique, en 1929.
+
+Mais c'est ensuite, en 1931, que Gödel va marquer l'histoire de la recherche des fondements en mathématiques. Le 26 Août 1930, Gödel assiste à une conférence à Köningsberg, Heyting y parle de l'intuitionnisme, Von Neumann parle du formalisme, et Hilbert annonce sa retraite dans un discourt : "Contrairement à l'Ignorabimus stupide, notre credo est: Nous devons savoir. Nous le saurons!", "Wir müssen wissen. Wir werden wissen!", des mots qui seront inscrits sur son épitaphe.
+
+Au cours d'une discussion fortuite, Gödel va présenter à quelques-une de ses pairs le premier théorème d'incomplétude : "Si l'arithmétique élémantaire est ω-consistante, elle comporte des formules fermées qui ne sont ni démontrables, ni réfutables à partir des axiomes". Von Neumann commentera instantanément : "Tout est fini" !
+
+Et il a raison, puisque le théoréme d'incomplétude signe la fin du programme formaliste dans sa forme actuelle. En clair, le théorème dit que n'importe quelle axiomatique, à partir du moment où elle suffisament expressive pour représenter les nombres entiers et les opérations d'addition et de multiplication, est nécéssairement soit inconsistante, soit incompléte. Pour Hilbert qui voulait contruire une axiomatique, qui soit à la fois consistante, compléte et décidable, c'est la catastrophe.
+
+Gödel parvient à ce résultat en montrant que pour n'importe quelle axiomatique, dans laquelle on puisse représenter l'arithématique élémentaire, il peut construire une proposition qui dit "Je ne suis pas démontrable".
+
+De là, deux possibilités, soit la formuler est démontrable, et c'est terrible puisqu'on vient de démontrer quelquechose d'évidement faux, donc le système est inconsistant. Soit, la formule n'est pas démontrable, auquel cas, elle dit vrai. On se retrouve alors avec une formule vraie, mais qui n'est pas démontrable, donc le système est incomplet (dans un système complet, toute les formules vraies sont démontrables).
+
+Von Neumann écrira à Gödel le 20 Novembre 1930 pour lui dire qu'il à trouvé un second théorème à partir du premier : "la consistance d'un systéme ne peut pas être établie au moyen de raisonnements qui se laisseraient formaliser dans le systéme".
+
+Gödel est en fait déjà arrivé à la même conclusion quelques jours plus tôt. Pour le programme formaliste, c'est un nouveau coup dur, Hilbert voulait démontrer l'axiomatique formelle à l'aide de la mathématique finitiste, ce que le second théorème d'incomplétude interdit.
+
+Les deux thèorèmes seront publiés en Janvier 1931 dans une revue mathématique Viennoise. En apprenant les théorèmes de Gödel, Hilbert rentra dans une colère noire. Peut-être parcequ'il n'a pas trouvé lui même ce que Gödel considére comme une "conséquence presque triviale" des travaux de Skolem, mais qu'il n'avait pas remarqué de faute de n'avoir pas quité un point de vue strictement finitiste. Ou alors, plus simplement, parceque ces deux théorèmes d'incomplétude semblent signer la fin du programme formaliste et de la recherche de fondement.
+
+Ce n'est pourtant pas le cas, Gödel commentera d'ailleurs : "il reste un espoir pour que dans le futur on puisse trouver des méthodes satisfaisantes [...] dépassant les limites du système [finitiste de Hilbert] et permettant de fonder l'arithmétique classique et l'analyse. Cette question ouvre un champ de recherches fécond". Et ajoute dans un second commentaire : "la conviction dans la décidabilité de tout problème mathématique n'est pas ébranlée par ce résultat".
+
+Une autre citation, de Von Neumann cette fois : "Ce résultat imposant de l'analyse de Godel ne doit pas être mal compris: il n'exclut pas une preuve  méta-mathématique de la consistance de l'arithmétique. [...] Gödel a montré qu'aucune preuve n'est possible qui peut être représentée au sein de l'arithmétique. Son argument ne supprime pas la possibilité de preuves strictement finitiste qui ne sont pas représentés au sein de l'arithmétique. Mais personne aujourd'hui ne semble avoir une idée claire de ce qu'une preuve finitiste serait qui ne serait pas formulable dans l'arithmétique".
+
+De toute façon, avant de clôre le programme formaliste, il reste à régler la question de la décidabilité. L'axiomatique formelle est-elle décidable ? Et même si depuis les résultats de Gödel, on pense que la réponse sera négative : non il n'existe pas de procédure effective qui puisse décider si une formuler est démontrable ou non, cela reste à prouver.
+
+Et ça va devenir d'autant plus important qu'au sein de la question de la décidabilité se trouve la notion de procédure effective, et si Hilbert disait qu'il existe une réponse pour n'importe quelle question correctement formulée, celle-là ne l'est pas.
+
+Le terme qu'utilise Hilbert de "procédure effective" ne dispose pas de définition formelle. En fait, la notion de "procédure effective" renvoie à la notion de "calculabilité".
+
+Depuis le 18éme siècle, les mathématiciens ont associé l'idée de calcul avec l'idée de fonction. Mais les fonctions évoluent au 19èeme siécle pour ne plus décrire qu'une correspondance entre un point de départ et un point d'arrivé, sans qu'une procédure effective de calcul n'ait besoin d'être réalisée. On commence alors à dissocier les fonctions endeux groupes, celles qui ont une procédure de calcul effective, les fonction calculables, et les autres, les non-calculables.
+
+Il s'agit alors de trouver une définition au terme de "procédure effective", de "calculabilité", qui engloble toute les fonctions calculables, et mette les autres de côté.
+
+Si je vous ai dit que la question de la décidabilité était devenue d'autant plus importante après les théorèmes d'incomplétude de Gödel, c'est que les théorèmes sont généralisables, mais cette généralisation ne peut se faire qu'une fois qu'on aura une définition satisfaisante de la calculabilité.
+
+Alors ce sont trois mathématiciens qui vont tenter de résoudre ce problème. Gödel d'abord, mais on ne parlera pas de ses recherches, elles sont compliquées et n'aboutissent pas. En revanche, on va parler un peu des travaux d'Alonzo Chruch, et surtout, on verra en détail l'article fondateur d'un jeune anglais : Alan Turing.
+
+--17

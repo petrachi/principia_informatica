@@ -189,6 +189,22 @@ Il s'agit alors de trouver une définition au terme de "procédure effective", d
 
 Si je vous ai dit que la question de la décidabilité était devenue d'autant plus importante après les théorèmes d'incomplétude de Gödel, c'est que les théorèmes sont généralisables, mais cette généralisation ne peut se faire qu'une fois qu'on aura une définition satisfaisante de la calculabilité.
 
-Alors ce sont trois mathématiciens qui vont tenter de résoudre ce problème. Gödel d'abord, mais on ne parlera pas de ses recherches, elles sont compliquées et n'aboutissent pas. En revanche, on va parler un peu des travaux d'Alonzo Chruch, et surtout, on verra en détail l'article fondateur d'un jeune anglais : Alan Turing.
+Alors ce sont trois mathématiciens qui vont tenter de résoudre ce problème. Gödel d'abord, mais on ne parlera pas de ses recherches, elles sont compliquées et n'aboutissent pas. En revanche, on va parler un peu des travaux d'Alonzo Chruch, et surtout, on verra en détail l'article fondateur d'un jeune mathématicien anglais : Alan Turing.
 
---17
+Church d'abord, établit à Princeton aux États-Unis, il publie en 1936 une preuve de l'indécidabilité de l'arithématique, à l'aide d'un système de calcul qu'il développe en 1932 et 1933, le λ-calcul.
+
+Le λ-calcul est un système formel qui permet de décrire l'ensemble des fonctions calculables. Une fonction est décrire par une expression, qui peut elle-même contenir d'autres fonctions. Afin de créer des fonctions de plus en plus complexes, on peut "appliquer" une fonction à une autre, en clair, on doit d'abord calculer le résultat d'une première fonction, pour ensuite réutiliser ce résultat lors du calcul de la second fonction.
+
+C'est à partir de cette base seulement que l'on peut construire n'importe quelle fonction calculable. Pour vous donner quelques exemples simples, on peut construire la fonction d'identité, qui ne modifie pas la valeur qu'on lui donne : λx.x. On peut aussi construire une fonction constante qui à n'importe quelle valeur fait correspondre la valeur 2 : λx.2.
+
+À partir de ces deux fonctions, on peut les assembler pour créer une fonction qui fabrique des fonctions constantes : λx(λy.x). SI j'envoie la valeur 2, je récupére la fonction constante à 2 : λy.2.
+
+Le λ-calcul permet à Church d'identifier la limite des fonctions calculables, et va lui servir de base pour fournir la démonstration que l'arithmétique n'est pas décidable. Mais si le principe est simple, le λ-calcul est difficile à lire et à relire, et la vérification des résultats de Church est un vrai casse-tête pour le reste des mathématiciens. Tous ne sont pas convaincu.
+
+Stephen Kleene par exemple, un étudiant d'Hilbert qui se souvient de la méthode de diagonalisation de Cantor. Kleene pense que la diagonalisation empêche toute définition formelle de la calculabilité. L'idée est simple : si on a une définition, on peut alors faire une liste de toutes les fonctions calculables, puis, par diagonalisation, on va créer une nouvelle fonction calculable qui n'était pas dans la liste, donc qui n'était pas incluse par la définition de calculabilité, donc la définition est mauvaise.
+
+C'est ce qu'il va immédiatement tenter de faire : "Lorsque Church me proposa sa thèse [pour une définition de la calculabilité], je me mis aussitôt à la tâche de la réfuter par une diagonalisation de la classe des fonctions [calculables]. Mais, réalisant vite que la diagonalisation ne pouvait être faite de façon effective, je devins du jour au lendemain partisan de la thèse de Church".
+
+La définition de Church, de la calculabilité, est bonne, mais quelques mois plus tard, et sans connaitre les travaux de Church, Alan Turing propose une autre définition, identique du point de vue mathématique, mais bien plus simple à comprendre et à réaliser, c'est cette définition qui restera dans l'histoire, c'est la machine de Turing.
+
+--26

@@ -219,4 +219,78 @@ On le sait pour deux raisons, d'abord, parceque Turing mentionne les travaux de 
 
 Et aussi, parceque Turing va s'installer pendant deux ans à l'université de Princeton, travailler sur des problèmes de logiques sous la direction de Church. C'est son professeur de Cambridge, Max Newman, qui à arrangé cette collaboration, il écrit dans une lettre à Church : "Je dois mentionner que le travail de Turing est entièrement indépendant: il a travaillé sans supervision ou critique de quiconque. Cela rend d'autant plus important qu'il devrait entrer en contact le plus tôt possible avec les principaux travailleurs de ce domaine, de sorte qu'il ne devrait pas se transformer en un solitaire confirmé."
 
--- 32
+Alors maintenant que nous avons décrit le contexte d'écriture de cet article fondateur de Turing, fondateur à plusieurs niveau on en parlera ensuite, on peut regarder et lire la définition dans le premier chapitre de l'article de cette fameuse machine de Turing.
+
+"On peut comparer un homme en train de calculer un nombre à une machine qui est seulement capable d'un nombre fini de conditions, qui seront appelés "m-configurations". La machine est livrée avec une "bande" (l'analogue du papier) qui la traverse, et est divisée en sections (appelé "carrés") capables chacun de porter un "symbole". A tout moment, il y a juste un carré [...] qui est "dans la machine". Nous pouvons appeler cette place le "carré lu". Le symbole sur la carré lu peut être appelé le "symbole lu". Le "symbole lu" est le seul dont la machine est, pour ainsi dire, "directement au courant". Cependant, en modifiant sa m-configuration la machine peut se rappeler efficacement certains des symboles qu'elle a "vu" précédemment. Le comportement de la machine possible à tout moment est déterminé par la m-configuration [...] et [...] le symbole lu. Cette paire [...] sera appelé "configuration" : ainsi la configuration détermine le comportement possible de la machine. Dans certaines configurations dans lesquelles le carré lu est vierge (i.e. il ne porte pas de symbole), la machine écrit un nouveau symbole sur la place balayée: dans d'autres configurations, il efface le symbole lu. La machine peut également changer le carré en cours de lecture, mais seulement en le déplaçant d'une case à droite ou à gauche. En plus de l'une de ces opérations, la m-configuration peut être modifiée. Certains des symboles écrits formeront la séquence de chiffres [...] du nombre [...] qui est calculé. Les autres ne sont que des brouillons pour "aider la mémoire". [...] Je soutiens que ces opérations comprennent toutes celles qui sont utilisés dans le calcul d'un nombre."
+
+Alors on a une description qui est très courte, et minimaliste, mais c'est tout à fait vonlontaire de la part de Turing puisqu'il veut forcer le lecteur qui veut comprendre à s'identifier à la manichine en train de réaliser un calcul. Et cette identification va renforcer les arguments épistémologiques, philosophiques de Turing par rapport à la justesse de sa machine.
+
+On va passer sur quelques exemples donc, et on va d'ailleurs réutiliser les mêmes exemples que Alan Turing donne dans son article : "Une machine peut être construite pour calculer la séquence 0101001 ... [...] La machine posséde quatre m-configurations "b", "c", "f", "e" et est capable d'écrire "0" et "1". Le comportement de la machine est décrite dans le tableau suivant dans lequel "R" [ndl: Right en anglais, Droite] signifie "la machine se déplace de sorte à lire le carré immédiatement à la droite de celui qui était auparavant lu". De même, pour "L" [ndl: Left, Gauche]. "E" [ndl: Erase] signifie "le symbole lu est effacé" et "P" [ndl: Print] signifie "écrire". La machine démarre dans la m-configuration "b" et une bande vide. [b None P0, R c; c None R e; e None P1, R f; f None R b]"
+
+Il faut que j'insiste sur un point avant de continuer. La table d'instruction qui décrit le comportement de la machine est unique pour chaque machine. La machine que nous venons de décrire n'est capable que de produire la suite 010101 ... De la même manière, il existe une machine capable de faire une soustraction, une pour la multiplication et une autre qui calcule π. Pour chaque calcul, chaque séquence calculable, il existe une machine de Turing.
+
+On peut du coup considérer qu'un calcul en particulier est définissable par rapport à la machine de Turing qui effectue ce calcul. La séquence 010101 ... peut donc être définie par rapport à la machine qu'on a utilisé tout à l'heure. Et cette machine est caractérisé par rapport à sa table d'instruction.
+
+Et si on code chaque ligne de la table d'instruction, on peut obtenir un nombre, que Turing apelle le "nombre standard", qui nous permet de représenter une machine de Turing, et donc, un calcul, sous forme numérique.
+
+Pour faire ça, Turing propose une méthode : On commence la lister les m-configurations de la machines, de façon à pouvoir les identifier comme la "première" m-configuration, ou la "cinquième" m-configuration. On peut alors coder une m-configuration spécifique en utilisant la lettre "D", suivie par la lettre "A" autant de fois que nécéssaire pour décrire sa position dans la liste. Ainsi, la première m-configuration sera codée par "DA", la seconde par "DAA", la cinquième par "DAAAAA".
+
+Et on peut procéder de la même manière pour les symboles qu'écrit la machine. On fait une liste de tout les symboles et on les code avec la lettre "D" suivi de la lettre "C". Le premier symbole sera "DC" et le troisième sera "DCCC".
+
+En plus des m-configurations et des symboles, on va associer une lettre spécifique pour chaque opération de la machine, ainsi, on peut représenter la table d'instriction d'une machine par un code uniquement composé des caractères "A", "C", "D", "L", "R", "N" et ";". Le ";" est utilisé comme séparateur, pour différentier une ligne de l'autre.
+
+La dernière étape est d'associer à chaque caractère un chiffre. Le "A" est remplacé par un "1", le "C" par "2", "D" par "3", "L" par "4", "R" par "5", "N" par "6" et finalement, ";" par "7".
+
+Si je reprends la table d'instruction de notre machine d'exemple, on commence par renommer les m-configurations et les symboles : [table, q est m-configuration, S est symbole] [q1 S0 PS1,R q2; q2 S0 PS0,R q3; q3 S0 PS2,R q4; q4 S0 PS0,R q1]
+
+Puis, on code chaque ligne de la table pour déterminier la "définition standard" : "DADDCRDAA;DAADDRDAAA;DAAADDCCRDAAAA;DAAAADDRDA". Et à partir de là, le nombre de la définition : 31332531173113353111731113322531111731111335317.
+
+L'interêt de cette notation de Turing, c'est qu'on dispose maintenant d'un nombre qui décrit une machine de Turing. Et qu'on va pouvoir se servir de ce nombre pour étudier les propriètés de la machine qu'il décrit. Et en particulier, Turing cherche à savoir si il est possible de prédire, à partir du nombre standard d'une machine de Turing prise au hasard, si cette machine va aboutir à un résultat ou non.
+
+On l'a déjà dit, Turing utilise ses machines pour définir la calculabilité, donc l'ensemble des machines de Turing représentent l'ensemble de tout ce qui est calculable. Mais il faut bien remarquer que les calculs n'aboutissent pas tous à un résultat. On peut très bien imaginer une machine de Turing qui inscrirait successivement, sur le même carrée de la bande, le symbole "0", puis "1", puis "2", puis "0", puis "1", puis "2", puis "0", et ainsi de suite, pour toujours. C'est ce que Turing appelle les machines "circulaires", elles tournent en boucle et n'arrivent jamais nulle part.
+
+Alors c'est ça que Turing veut parvenir à deviner, décider à l'avance si une machine s'arrêtera ou non. C'est le problème de l'arrêt, et l'interêt de ce problème, c'est qu'il est presque identique au problème de la décision. Si on résouds le problème de l'arrêt, on aura également résolu le problème de la décision d'Hilbert.
+
+Alors comme pour le problème de la décision, on peut supposer que c'est impossible de décider à l'avance si une machine de Turing que l'on choisit aléatoirement, appelons-la la machine M, si cette machine M est circulaire, donc qu'elle ne s'arrête jamais, ou bien si elle est sans cercle, c'est à dire qu'elle s'arrête.
+
+Mais imaginons pour une seconde qu'il existe une procédure effective, donc une machine de Turing qui puisse décider à l'avance si la machine M est circulaire ou non. On appelera cette machine la machine D.
+
+Comment fonctionne cette machine D ? On commence par lui donner, sur le ruban, le nombre de la description standard de la machine M, si la machine M s'arrête, la machine D va inscrire sur le ruban le symbole "s". En revanche, si la machine M est circulaire, si elle ne s'arrête jamais, la machine D va inscrire sur son ruban le symbole "u".
+
+Maintenant, Turing nous propose de construire une autre machine, la machine U. Son fonctionnement est simple, si elle lit sur le ruban le symbole "u", la machine s'arrête immédiatement. Par contre, si elle lit le symbole "s", la machine U rentre dans une configuration où elle ne s'arrêtera pas.
+
+On sait que cette machine U existe puisqu'il est finalement assez simple de trouver sa table d'instruction.
+
+À partir des machines D et U, en les associants, on va créer la machine H. Donc la machine H, on lui fournit d'abord la description standard d'une machine de Turing, n'importe laquelle, la machine M.
+
+La machine H calcule d'abord un résultat intermédiaire, soit le symbole "u", soit le symbole "s", en fonction si la machine M est circulaire ou non. Et puis, la machine H va soit s'arrêter immédiatement, soit ne jamais s'arrêter, en fonction de ce résultat intermédiaire.
+
+Alors, que se passe t'il si on donne à la machine H sa propre définition stadard ? D'abord, elle doit calculer le résultat intermédiaire, deux solutions, soit la machine D prédit que la machine H s'arrête, soit que la machine H ne s'arrête pas, qu'elle est circulaire.
+
+Si la machine H s'arrete, alors elle inscrit le symbole "s" sur la bande, et rentre dans une configuration où elle ne s'arrête pas. En court, si elle s'arrête, elle ne s'arrête pas. Et si elle ne s'arrête pas ? Dans ce cas, le résultat intermédiaire est un "u", donc la machine H s'arrête.
+
+On a là une double contradiction, une situation impossible, ce qui signifie que les suppositions que l'on avait faites au départ, nos hypothéses, sont fausses. Et la seule hypothése que l'on avait faite, c'était qu'il existe une machine D qui puisse prédire si une autre machine de Turing est circulaire ou non. Cette machine D ne peut donc pas exister. On ne peux pas prédire à l'avance si une machine de Turing s'arrêtera.
+
+Et exactement avec la même démonstration, on peut prouver qu'il n'existe pas de machine de Turing, de procédure effective, qui puisse déterminer si une autre machine inscrira le symbole "0" à un moment donnée dans son exécution.
+
+C'est important pour le problème de la décision, puisque Turing va prouver, dans un language mathématique avancé que je ne développerais pas ici, que si il existe une méthode générale capable de décider si une formule est prouvable, alors, il existe une méthode générale pour déterminer si la machine de Turing correspondante à cette formule écrit "0".
+
+Et comme on a déjà montré qu'une telle machine ne peux pas exister, alors, il n'y a également pas de processus pour déterminer si une formule est prouvable. D'où le problème de la décision ne peut pas être résolu.
+
+Dans la suite de l'article, Turing va exposer plusieurs argument épistémologiques, philosophiques afin de justifier la validité de sa définition, des machines de Turing. Il va les comparer au cahier d'algébre, quadrillé, qu'utilisent les écoliers lorsqu'ils apprenant à calculer. Pour lui, le fonctionnement de ses machines est une bonne description de la façon que nous avons nous, humains, de penser.
+
+C'est d'ailleurs cette validation philosophique qui fera la force de la définition de Turing, du modéle des machines de Turing pour décrire la calculabilité. C'est ce qui manquait au λ-calcul de Church.
+
+Mais je vous avait dit que l'article de Turing était fondateur, alors il n'est pas fondateur pour les mathématiques. Il n'y a finalement aucun résultat nouveau dans ce que présente Turing.
+
+Il propose une définition correcte de la calculabilité, mais on en avait déjà une avec celle de Church. Et d'ailleurs, au moment où l'article est publié, en janvier 1937, Turing à rajouté un appendice dans lequel il prouve que tout ce qu'on peut faire avec les machines de Turing, on peut le faire avec le λ-calcul. Et tout ce qu'on peut faire avec le λcalcul, on peut le faire avec les machines de Turing.
+
+Alors les deux définitions sont bien équivalentes. Même si celle de Turing, qui est largement plus simple, fera l'objet d'une plus largeme approbation, et de l'avis de Church en premier lieu : l'identification avec l'effectivité dans l'ordinaire [...] semble immédiatement évident", ce sont le mots de Church.
+
+On a aussi Gödel qui ajoutera en note à ses théorèmes d'incomplétudes : Grâce à certains travaux qui ont suivi cet article, en particulier ceux de A. M. Turing, nous disposons désormais d'une définition sûre, précise et adéquate du concept de système formel [...] dont la proprièté est qu'en son sein, et en principe, le raisonnement peut être entièrement remplacé par des règles mécaniques".
+
+On a aussi dans l'article la solution, négative, au problème de la décision d'Hilbert. Mais là aussi, Church avait devancé Turing.
+
+Alors si cet article est devenu tellement important par la suite, c'est à cause d'un chapitre dont je ne vous ai pas encore parlé, et qui décrit ce que Turing apelle la machine universelle.
+
+--41 to 44

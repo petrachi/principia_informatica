@@ -94,105 +94,163 @@ Pourtant, la méthode commence à poser problème. Entre 1897 et 1905, trois par
 
 La théorie des nombres algébrique ne serait pas aussi sûre que ça. Il faudrait donc pouvoir prouver la consistance de l’algèbre elle-même, mais personne n’a de méthode pour ça. On ne peux pas comparer l’algèbre avec elle-même comme on le faisait pour les autres théories.
 
-Alors c’est le début de la quête du fondement, la quête d’une preuve de consistance des axiomes de l’arithmétique. Mais avant de vraiment continuer, il faut que je vous explique quels sont les trois paradoxes qui ont provoque ce véritable tremblement de terre en mathématiques. 
+Alors c’est le début de la quête du fondement, la quête d’une preuve de consistance des axiomes de l’arithmétique. Mais avant de vraiment continuer, il faut que je vous explique quels sont les trois paradoxes qui ont provoqués ce véritable tremblement de terre en mathématiques. 
 
-La théorie des ensembles à été développée entre 1873 et 1897 par Georg Cantor, qui va , à l’aide de la théorie des ensembles, parvenir à des conclusions assez étranges, en tout cas complètement contre-intuitifs.
+La théorie des ensembles, dans laquelle se passent les paradoxes, à été développée entre 1873 et 1897 par Georg Cantor, qui va , à l’aide de cette théorie, parvenir à des conclusions contres-intuitives, qu’on pourrait même qualifier d’étranges.
 
-Alors cette théorie, du fait de ces résultats inattendus, provoquera un certain scepticisme chez certains mathématiciens, comme Kronecker ou Pointcaré. Hilbert d’un autre côté sera un vif supporter cette théorie.
+Alors cette théorie, du fait de ces résultats inattendus, provoquera un certain scepticisme chez des mathématiciens comme Kronecker et Pointcaré. Hilbert d’un autre côté sera lui, un vif supporter de la théorie.
 
+La théorie des ensembles qui permet d'étudier des collections d'objets, qui sont définis par une propriété commune. Par exemple on peut considérer l’ensemble de tous les nombres pairs, ou l'ensemble des nombres inférieurs à trois. 
+
+Pour compter, pour définir la « taille » d’un ensemble, Cantor propose la notion de « cardinalité ». Deux ensembles qui contiennent le même nombre d’éléments possèdent la même cardinalité, et c’est bien pratique lorsqu’on cherche à comparer des ensembles très grands, voir infinis.
+
+Comment comparer, si ce n’est grâce à la cardinalité, l’ensemble des nombres pairs, qui est infini, et l’ensemble des nombres entiers, qui est également infini ?
+
+Alors on peut tenter d’associer chaque élément d’un ensemble, à un seul et unique élément d’un autre ensemble, c’est ce qui s’appelle en mathématique faire une correspondance bi-univoque.
+
+On peut associer le nombre « 1 » de l’ensemble des nombres entiers, au nombre « 2 » de l’ensemble des entiers pairs. Et on peut continuer e associant le « 2 » des nombres entiers au « 4 » des nombres pairs, puis le « 3 » au « 6 ».
+
+Et il apparait une sorte de règle générale, puisqu’on peut associer les éléments des deux ensembles en suivant une règle de calcul très simple : le nombre « x » des entiers est associé au nombre « x*2 » des entiers pairs.
+
+Ainsi, chaque éléments du premier ensemble est associé à un et un seul élément du deuxième ensemble, et réciproquement. 
+
+On peut donc affirmer que ces deux ensembles possédent la même "cardinalité", c'est à dire, la même taille. Et c’est déjà un premier résultat étrange, puisqu’on vient de montrer que l’infini de tous les nombres entiers fait exactement la même taille que l’infini des nombres pairs, alors qu’on aurait pu croire qu’il existe plus de nombres entiers que de nombres entiers pairs.
+
+Alors on pourrait penser maintenant que tous les infinis se valent, qu’il sont tous de la même « taille ». Mais c’est justement ce que Cantor va contredire, en cherchant un ensemble infini pour lequel on ne pourrait pas faire de correspandece bi-univoque avec l’ensemble des nombres entiers.
+
+Et il va le trouver, cet ensemble, c’est l’ensemble des nombres réels, ce sont les nombres à virgules, qui forment une ligne continue si on les représentait graphiquement, à l’inverse d la nature « discrète » des nombres entiers, qui laissent des espaces vides entre les valeurs.
+
+Alors la peule de Cantor est très intéressante, c’est ce qu’on appelle la méthode de « diagonalisation ». 
+
+Cantor commence par imaginer que l’enseble des nombres entiers et l’ensembles des nombres réels possèdent la même cardinalité, donc on peut faire une association un à un de tous les éléments que ces deux ensembles contiennent.
+
+Et Cantor présente cette association sous forme de liste, le nombre « 1 » est associé à un nombre réel choisi aléatoirement, en dessous de lui, le nombre « 2 » est associé à un autre réel, puis le « 3 », le « 4 », et ainsi de suite jusqu’à l’infini.
+
+À partir de cette liste, Cantor nous propose de sélectionner des chiffres spécifiques choisis, c’est la diagonalisation. On prends le chiffre à la première position du premier nombre réel, celui à la seconde position du second nombre réel, à la troisième position du troisième réel, etc.
+
+Puis, nous allons modifier chacun de ces chiffres ainsi récupérés, en suivant une règle simple : Si le chiffre est un 0, on le remplacera par un 1, si c’est autre chose qu’un 0, on le remplacera par un 0.
+
+En positionnant tous ces chiffres les uns à la suite des autres, nous avons crée un nouveau nombre réel, mais qui a une particularité essentielle, il est différent de tous les nombres de la liste.
+
+Il est différent du premier nombre puisque le chiffre à la première position est différent, il est différent du second nombre puisque le chiffre à la seconde position est différent, et de même pour tous les nombres de la liste.
+
+Mais si on peut créer un nombre, qui est un nombre réel, et qui n’est pas déjà dans la liste, ça veut dire qu’on ne peut pas, c’est impossible, faire de correspondance bi-univoque entre l’ensemble des réels et l’ensemble des entiers.
+
+L’infini des nombres réels est donc « plus grand » que l’infini des nombres entiers. C’est une idée que je ne sais pas vraiment comment qualifier, peut-être terrifiante. il est déjà difficile de s’imaginer l’infini, mais comment est-ce que l’on peut se représenter quelque chose qui est plus grand que l’infini, c’est terrible.
+
+Et c’est justement pour étudier encore les différentes « tailles » d’infinis que Cantor va ajouter à la théorie des ensembles ce qu’il appelle les nombres ordinaux.
+
+Les nombres ordinaux servent à décrire à la fois la quantité, mais aussi l'ordre des éléments d'un ensemble. Alors à chaque ensemble, ordonné, corresponds un nombre ordinal. 
+
+Et c’est là que le mathématicien italien, Cesare Burali-Forti, va trouver un problème de taille en 1897, avec les nombres ordinaux.
+
+Burali-Forti cherche à calculer le nombre ordinal associé à l’ensemble de tous les nombres ordinaux. Problème, dés qu’il calcule le nombre ordinal, l’ensemble de tous les ordinaux, qui sert de base au calcul, est modifié, donc le nouveau nombre ordinal ne représente pas tous les nombres ordinaux, seulement tous ceux qui le précédent.
+
+Et c’est là le paradoxe : Tous les ensembles ordonnés devraient être associé à un nombre ordinal, et pourtant, il y ne peut pas exister de nombre ordinal pour l’ensemble des nombres ordinaux. Alors c’est un problème.
+
+Ensuite, c’est Bertrand Russell qui, en 1902, va mettre à jour un second paradoxe, il va dire : l'ensemble des cuillères à thé n'est pas lui-même une cuillère à thé, il ne s'appartient pas à lui-même. Qu’en est-il pour l'ensemble de tous les ensembles qui ne s'appartiennent pas à eux-mêmes ?
+
+Si cet ensemble s'appartenait à lui-même, il correspondrait à sa propre définition,  c’est à dire un ensemble qui ne s'appartient pas à lui-même, donc s'il s'appartient à lui-même, il ne s'appartient pas à lui-même. Mais s'il ne s'appartient pas à lui-même, alors il mérite de faire partie de l’ensemble des ensembles qui ne s'appartiennent pas à eux-mêmes, donc, il s'appartient à lui-même.
+
+Pris dans son élan, Russell va appliquer la même logique à l'ordre des concepts. "Être vert" est un concept, on peut dire qu'une pomme "est verte", mais "être vert" n'est pas vert lui-même, il ne s'applique donc pas à lui-même. C’est ce qu’on appelle un concept hétérologique.
+
+Mais l’hétérologie elle-même est-elle hétérologique ? Si oui, alors le concept s’appliquerait à lui-même et ne serait donc pas hétérologique, mais s’il ne l’est pas, alors, comme il ne s’applique pas à lui-même, il devient hétérologique.
+
+David Hilbert n'est pas surpris par les réflexions de Russuel, dans une lettre à Frege, il raconte qu’un autre mathématicien est lui aussi est arrivé à la même conclusion que Russell, et que le paradoxe est  déjà connu à Göttingen depuis trois ou quatre ans.
+
+Le dernier paradoxe de la série sera attribué à Antoine Richard, en 1905, qui va emprunter la méthode de diagonalisation de Cantor.
+
+Richard commence par faire la liste de tous les nombres définis en moins de mille mots, puis, par diagonalisation, crée une nouveau nombre qui n’est pas déjà dans la liste. Problème, la méthode de diagonalisation s’explique en moins de mille mots, donc le nouveau nombre devrait être déjà dans la liste, ce que la diagonalisation empêche.
+
+Alors, on pourrait penser que le problème, finalement, c’est la théorie des ensembles, qui n’est pas correcte, mais souvenez vous que la validité de la théorie des ensembles repose sur la validité de l’arithmétique. Les paradoxes trouvés en théorie des ensemble se répercutent donc sur l’arithmétique, et finalement sur l’ensemble de toutes les différentes branches mathématiques dont l’arithmétique est le support.
+
+Il s'agit maintenant pour les mathématiciens de refaire l'arithmétique, de repenser ses axiomes, afin de supprimer les paradoxes déjà connus, et de se prévenir contre des paradoxes futurs. Il faudra fournir aux nouveaux axiomes de l’arithmétique une preuve de consistance, seulement, personne n’a la moindre idée de comment faire.
+
+Hilbert en 1900 s'était déjà exprimé sur la nécessité d'une preuve de consistance pour l'arithmétique. C’était au congrès international des mathématiciens à Paris.
+
+Hilbert devait y donner une conférence, un exposé général sur les mathématiques, mais c'est Minkowski, son ami de Köningsberg qui va lui donner une autre idée. Il écrit à Hilbert le 5 janvier : "Il serait intéressant de regarder dans le futur et de faire une liste des problèmes sur lesquels les mathématiciens travaillerons dans le siècle qui vient. Avec un tel sujet, on parlera encore de ton exposé dans plusieurs décennies".
+
+Il n’avait pas tort Minkowski, et Hilbert va présenter une liste de 23 problèmes qui vont occuper la quasi-totalité de la recherche mathématique sur la première moitié du 20ème siècle, et encore aujourd'hui, certains problèmes ne sont toujours pas résolus.
+
+Alors, dans cette liste, j’aimerais vous lire le second problème, qui trouve au coeur de la recherche des fondements une résonance particulière : "Peut-on prouver la cohérence de l'arithmétique ? En d'autres termes, peut-on démontrer que les axiomes de l'arithmétique ne sont pas contradictoires ?".
+
+En 1904 ensuite, Hilbert va tenter dans le cadre d'une conférence intitulée "Sur les fondements de la logique et de l'arithmétique", une démonstrations de consistance pour un système minimaliste d'axiomes qui ne représentent que les nombres entiers, et la notion d'égalité entre ces nombres.
+
+La démonstration sera vivement critiqué par Pointacré, mathématicien influent, qui ne partage pas certaines idées d'Hilbert.
+
+Hilbert estime que les objets mathématiques, les nombres par exemple, existent, qu’ils sont réels. Un nombre, n’importe lequel, existe, même si personne ne l’a jamais écrit, même si personne ne l’a jamais calculé, ce nombre, et tous les autres nombres, fonctions, droites, vecteurs, existent. 
+
+C’est une conviction que Pointcaré ne partage pas, tout au contraire, pour lui, les nombres sont construit par les mathématiciens, un nombre n’existe qu’une fois que le mathématicien l’a calculé, ou définit.
+
+Et ces différents points de vue sur les mathématiques changent la façon de faire des mathématiques.
+
+Pour Pointacré par exemple, on ne peux pas parler d'infini, puisque les nombres n'existent pas, on ne saurait avoir une collection qui regroupe tous les nombres, ou avoir l’ensemble de tous les ensemble, comme dans la paradoxe de Russell.
+
+Pointcaré va expliquer les paradoxes du point de vue du constructivisme. Pour le paradoxe de Richard, le dernier que je vous ai raconté, il n’y a pas de paradoxe, simplement une mauvaise utilisation des mathématiques.
+
+Pourquoi le nombre crée à partir de la diagonalisation aurait dû être dans la liste des nombres définit en moins de milles mots. On ne pouvais pas l’inclure dans cette liste puisqu’au moment de créer la liste, le nombre en question n’existait tout simplement pas.
+
+Chez Pointacré, les paradoxes s’expliquent par le principe du cercle vicieux : ce sont tous des objets qui font référence à eux-mêmes dans leur propre définitions, ils ont besoin de déjà exister pour exister. 
+
+Et c’est le même reproche que Pointcaré fait à la démonstration de Hilbert de 1904. Hilbert utilise les nombres pour définir les nombres, c’est le cercle vicieux qu’il faudrait interdire des mathématiques.
+
+Tout le monde, bien entendu, ne partage pas le sentiment de Pointcaré sur les mathématiques, à commencer par Hilbert. Mais il est apparu, depuis la mise en évidence du cercle vicieux, que pour donner une preuve de consistance de l’arithmétique, il fallait différencier deux choses : d’un côté, les notions que l’on veut prouver, et de l’autre, celles qui serviront à la preuve.
+
+Principalement, c’est la notion de l'infini qui pose problème, puisque l’infini présuppose l'existence en soi des objets mathématiques. 
+
+Alors Hilbert va choisir de diviser l'arithmétique en deux domaines. D'un côté, la mathématique formelle, qui décrit l'ensembles des mathématiques, l’infini y compris. Et d'un autre côté, ce qu’on va appeler la mathématique contentuelle, puisqu’elle conserve le sens usuel, le contenu des notions mathématiques, et qui se limite à ce qui est immédiatement évident : les nombres entiers, les opérations basiques, etc.
+
+L’idée d’Hilbert est simple, réussir à prouver l’ensemble de l’édifice mathématique grâce à des notions que personne ne conteste. Puisqu’en dehors du formalisme d’Hilbert, il existe d’autres courants et d’autres mathématiciens qui se sont penchés sur la question du fondement.
+
+Parlons d'abord de Bertrand Russell, et de son ami, Alfred North Whitehead. Ils vont tenter une axiomatisation de l’ensemble des mathématiques, inspirés par un précédent article de Russell : « La logique mathématique fondée sur la théorie des types ».
+
+La théorie des types cherche à hiérarchiser les différentes notions des mathématiques. Ainsi, le notions de rang 1 s’appliquent à celles de rang 2, qui s’appliquent aux notions de rang 3, etc.
+
+Cette hiérarchie permet d'éviter qu'une notion ne s'applique à elle-même, et donc d’éviter le cercle vicieux décrit par Pointcaré.
+
+Russell et Whitehead vont publier leur axiomatique globale en plusieurs énormes volumes, intitulés « Principia Mathematica ». Mais il y manque la preuve de consistance.
+
+Russell, qui s’occupe principalement des questions philosophiques liées à l’ouvrage, estime que les axiomes sont des notions intuitives, évidentes, et nécessairement vraies. Une preuve de consistance ne serait qu’une simple validation de l’évidence des axiomes, et elle n’est finalement pas très importante.
+
+Mais Hilbert commentera, quelques années plus tard : "La théorie des fondements de Russell et Whitehead [...] fait reposer les mathématiques sur l'axiome de l'infini et sur un axiome dit de réductibilité. Or ces deux axiomes sont d'authentiques hypothèses qui ne peuvent s'appuyer [...] sur une preuve de consistance [... et] dont la validité universelle reste même ouverte au doute".
+
+L’évidence des axiomes de Russell et Whitehead n’est donc pas si évidente que ça.
+
+Ailleurs, aux Pays-Bas, on trouve Brouwer, qui place l’évidence immédiate et l’intuition au coeur des mathématiques. Pour lui et le reste des « intuitionnistes », il faut bannir des mathématiques tout ce qui n’est pas immédiatement évident.
+
+Les paradoxes étaient un avertissement : un usage abusif des règles de la logique, qui font abstraction, comme on l’a vu, du sens des notions, crée finalement des énoncés vides, et des paradoxes.
+
+Brouwer est finalement assez proche des positions de Pointcaré, il prône une vision constructiviste des mathématiques, et bannit l’infini, même si pour ça, il doit renoncer à certains outils les plus pratiques des mathématiques, et en particulier, le principe du « tiers exclu »..
+
+Le principe du tiers exclu, qui repose sur les notions d'infini et d'existence en soi des objets mathématiques, permet de dire que soit une propriété est vraie, soit son opposé est vrai, il n’y a pas de troisième option.
+
+Avec le tiers exclu, un problème mathématique est soit vrai, soit faux, c'est ce qui fera dire à Brouwer que : "La question de la validité du tiers exclu équivaut à celle de la possibilité de problèmes mathématiques non résolubles".
+
+On se rappelle, Hilbert avait défendu la résolubilité de tout problème mathématique. Il avait dit au congrès international en 1900 : « Jamais le mathématicien ne sera réduit à dire Ignorabimus ! ».
+
+Ignorabimus, la citation latine qui signifie « on ne sait pas, et on ne saura pas ».
+
+Mais l’intuitionnisme va gagner en influence, au point même de convaincre Herman Weyl, un ancien étudiant de Hilbert qui s'oppose maintenant à son professeur : "Si les mathématiques doivent rester une préoccupation culturelle sérieuse, alors un certain sens doit être attaché au jeu de formules de Hilbert, et je ne vois qu'une seule possibilité de lui attribuer un sens intellectuel indépendant. En physique théorique, nous avons devant nous le grand exemple d'une connaissance d'un caractère tout à fait différent de la connaissance commune qui exprime purement ce qui est donné dans l'intuition".
+
+Comprenons, en physique, l’intuition, c’est à dire l’expérience, prends le pas sur les formules de calculs. Mais les mathématiques, qui représente la pensée logique, et la physique, qui décrit les phénomènes réels, ne sont pas tout à fait les même sciences.
+
+Alors Hilbert répondra également aux intuitionnistes, et va leur dire : "Oter le [tiers exclu] au mathématicien serait comme si on voulait enlever à l'astronome son télescope, au boxeur le droit de se servir de son poing. [... C'est] quasiment à renoncer à la science mathématique. Car que sont les misérables restes, qu'est-ce que la poignée de résultats incomplets et disparates que les intuitionnistes ont pu élaborer [...] à l'égard de l'étendue formidable de la mathématique contemporaine ?".
+
+C’est vrai qu’il y a un certain panache dans cette déclaration, mais encore faut-il qu’Hilbert élabore sa propre réponse au problème du fondement. Et les choses vont se préciser à partir de 1922 et jusqu’en 1930, avec une série d’article dans lesquels Hilbert dessine petit à petit son programme formaliste.
+
+L'objectif du programme est d'établir une mathématique formelle, pure de forme et vide de sens. C'est la méthode axiomatique poussée à son maximum. Une mathématique d'axiomes et de logique, où l'intuition et l'évidence immédiate n'ont pas leur place.
+
+Et pour valider, pour justifier cette mathématique formelle, Hilbert définit la mathématique contentuelle, on parlera aussi de mathématique finitiste, qui n’utilise que les notions clairement établies, et acceptées par la communautés mathématique dans son ensemble le plus large.
+
+Comme le dit Hilbert, il s'agit de "s'assurer par le fini le droit d'opérer sur l'infini".
+
+C’est la force du programme formaliste, on utilise les mathématiques pour justifier les mathématiques, et c’est ce qui permettra à Hilbert un petit commentaire, disant qu’il n’a "besoin ni du Bon Dieu, comme Kronecker, ni de l'hypothèse d'une faculté de conscience accordée au principe d'induction complète, comme Pointcarré, ni de l'intuition originelle de Brouwer, ni non plus des axiomes de l'infini [comme Russell et Whitehead]". 
+
+D’ailleurs, et ce sont les paroles de Hilbert encore, formaliser "c'est dépeindre l'activité de notre intelligence", c'est "dresser un inventaire des règles d'après lesquelles fonctionne réellement notre pensée".
 
 
 ——
 
-
-
-La théorie des ensembles propose d'étudier des collections d'objets définis par une propriété commune. L'ensemble des nombres pairs, ou l'ensemble des nombres inférieurs à trois, l'ensemble des rectagles dont le périmétre est égal à 1, etc. Au sein de la théorie des ensembles, on trouve la notion de "cardinalité", ou de "taille" d'un ensemble, c'est une notion bien pratique lorsqu'on veut comparer la taille de deux ensembles, en particulier lorsqu'on a affaire à des ensembles contenants un nombre infinis d'éléments, comme l'ensemble des nombres pairs.
-
-L'ensemble des nombres pairs est-il plus grand, ou plus petit, que l'ensemble des nombres entiers ? Si l'on considérait des ensembles finis, les nombres pairs entre 0 et 100, et les nombres entiers entre 0 et 100, la réponse serait évidente, mais comment comparer des ensembles infinis ?
-
-C'est là où la notion de cardinalité est utile puisqu'il ne s'agit pas directement de compter le nombre d'éléments d'un ensemble, ce qui, pour des ensembles infinis serait impossible. En particulier, on peut considérer que deux ensembles possédent la même cardinalité, la même taille, si l'on peut réaliser une correspondance bi-univoque entre ux, c'est à dire, une association terme à terme pour chaque élément des deux ensembles.
-
-Ainsi, je peux associer dans l'ensemble de tous les nombres entiers le nombre "1", au nombre "2" de l'ensemble des nombres pairs. Le nombre "2" des entiers au "4" des pairs, le "3" au "6" et ainsi de suite. D'une façon générale, un nombre x de l'ensemble des entiers est associé au nombre "x*2" des pairs. Ainsi, chaque éléments de l'ensemble des nombres entiers est associer à un et un seul élément de l'ensemble des nombres pairs. Et inversement. On peut dire que les deux ensembles ont la même "cardinalité", c'est à dire, la même taille. L'infini des entiers n'est pas plus grand que l'infini des nombres pairs.
-
-C'est déjà surprenant, mais ce qui va être plus surprenant encore, c'est ce que Cantor va montrer ensuite. Certains infinis sont plus grands que d'autres. On trouve dans certains ensembles infinis nécéssairement plus d'éléments que dans d'autres ensembles infinis.
-
-Ce que fait Cantor c'est qu'il choisit de prendre l'ensemble des nombres entiers, qu'il catégorise d'infini dénombrable, ou listable, et de le comparer à l'ensemble des nombres réels, les nombres à virgule. Pour commencer, Cantor présuppose que ces deux ensembles ont la même cardinalité, la même taille, donc, on il peut réaliser une sorte de liste où à côté de chaque nombre entier serait associé un nombre réel. Dans cette liste, il procéde à une "diagonalisation". Il prends le chiffre à la première position du prmier nombre, celui à la seconde position du second nombre, à la troisième position du troisième nombre, et ainsi de suite pour l'ensemble des nombres de la liste.
-
-Avec cette suite de chiffres, il construit un nouveau nombre en appliquant une régle spéciale : si le chiffre est un "0", je le remplace par un "1", si c'est autre chose qu'un "0", alors je le remplace par un "0". De cette façon, le nombre nouvelle construit est nécéssairement différent de tous les nombres de la liste. Il est différent du premier nombre de la liste puisque le chiffre à la première position est différent, il est différent du second nombre puisque le chiffre à la seconde position est différent, etc.
-
-Mais puisque Cantor à réussit à construire un nouveau nombre, qui est un nombre réel, et qui n'était pas déjà dans la liste, cela signifie qu'il est impossible de faire une correspondance bi-univoque entre ces deux ensembles, et que l'ensemble des nombres réels est "plus grand" que l'ensemble des nombres entiers. Tous les infinis ne se valent pas. D'un côté, les infinis dénombrables, comme les nombres entiers, d'un autre, les infinis continus, comme les nombres réels.
-
-Une question qui va hanter ensuite Cantor est de savoir si il existe des infinis de taille intermédiaire, plus petits que le continu mais plus grand que le dénombrable. C'est ce qu'on appelle "l'hypothése du continu" de Cantor, et c'est pour répondre à cette question que Cantor va développer les nombres ordinaux, qui servent de support au premier paradoxe de la théorie des ensembles.
-
-Les nombres ordinaux servent à décrire à la fois la quantité, et l'ordre des éléments d'un ensemble. À chaque suite d'éléments correspond un nombre ordinal, et à chaque nombre ordinal correspond une suite d'éléments. Le mathématicien Italien Burali-Forti va tenter de calculer le nombre ordinal associé à la suite de tous les nombres ordinaux.
-
-Mais s'il calcule le nombre ordinal de la suite des ordinaux, il n'a pas vraiment calculé le nombre ordinal de la suite de tous les nombres ordinaux, mais seulement le nombre ordinal associé à la suite de tous les nombres ordinaux sauf lui-même. Et même s'il l'on calculait une nouvelle fois un nombre ordinal en incluant celui précédement calculé, on obtiendrait un nouvel nombre ordinal qui n'aurait pas été pris en compte dans la liste.
-
-C'est le paradoxe : N'importe quelle suite devrait posséder un nombre ordinal, pourtant il y ne peut pas exister de nombre ordinal pour la suite des nombres ordinaux.
-
-Le second paradoxe est mis à jour par Bertrand Russell en 1902. Il dit : l'ensemble des cuillères à thé n'est pas lui-même une cuillière à thé, il ne s'appartient pas à lui-même. Mais considérons ensemble l'ensemble de tous les ensembles qui ne s'appartiennent pas à eux-mêmes, est-ce que cet ensemble là s'appartient à lui-même ou pas ?
-
-Si il s'appartenait à lui-même, il correspondrait à sa propre définition d'une ensemble qui ne s'appartient pas à lui-même, donc s'il s'appartenait à lui-même, il ne s'appartiendrait pas à lui-même. Mais s'il ne s'appartient pas à lui-même, alors il mérite de faire partie des ensembles qui ne s'appartiennent pas à eux-mêmes, et donc, il s'appartiendrait à lui-même.
-
-Russell va aussi appliquer la même logique à l'ordre des concepts. "Être vert" est un concept, on peut dire qu'une pomme "est verte", mais "être vert" n'est pas vert lui-même, il ne s'applique pas à lui-même. Il y a un nom pour cela, c'est ce qu'on appelle l'hétérologie, un concept hétérologique est une concept qui ne s'applique pas à lui-même.
-
-Maintenant, est-ce que l'hétérologie est hétérologique ? Si le concept était hétérologique, il s'appliquerait à lui-même, et donc, ne pourrait pas être hétérologique. Mais s'il n'est pas hétérologique, il ne s'applique pas à lui-même, alors il est hétérologique.
-
-Hilbert n'est pas surpris par les réflexions de Russull, dans une lettre à Frege, il explique que Zermelo lui aussi est arrivé à la même conclusion que Russell, et que le paradoxe est connu à Göttingen depuis déjà trois ou quatre ans.
-
-Puis, c'est en 1905 que le dernier paradoxe de la série va être mis à jour par Jules Antoine Richard, qui va au passage emprunter la méthode de "diagonalisation" de Cantor. Il commence par définir l'ensemble de tous les nombres définissables en moins de milles mots, puis, à l'aide de la diagonalisation, crée à partir de cette liste un nouveau nombre. Ce nouveau nombre à été définit en moins de milles mots, puisque la méthode de diagonalisation s'explique en moins de milles mots, donc il devrait être dans la liste, pourtant il ne peut pas être dans la liste, puisque c'est le principe même de la construction par diagonalisation, d'où le paradoxe.
-
-Il faut bien comprendre que tous ces paradoxes, même s'ils ne concernent directement que la théorie des ensembles, se répercutent sur l'arithmétique, et donc sur l'ensemble des mathématiques. Il s'agit alors pour les mathématiciens de repenser l'axiomatique de l'arithmétique, afin de supprimer les paradoxes connus, et de se prévenir contre de futurs paradoxes, en garantissant la consistance, la non-contradiction, des axiomes de l'arthmétique. Le problème ? C'est que personne à ce moment là n'à la moindre de comment construire une preuve de consistance pour l'arithmétique.
-
-Hilbert s'était déjà exprimé sur la nécéssité d'une preuve de consistance pour l'arithmétique. En 1900, au congrès internationnal des mathématiciens, le plus important rassemblement du monde mathématique qui se tient tous les quatres ans, et qui en 1900, se déroule à Paris, juste à côté de l'exposition internationale, Hilbert va donner une conférence. Il envisage d'abord de faire un exposé général sur les mathématiques, mais c'est Minkowski, son ami, qui va lui donner une autre idée. Il écrit à Hilbert en janvier 1900, le 5 janvier, et dit : "Il serait intéressant de regarder dans le futur et de faire une liste des problèmes sur lequels les mathématiciens travaillerons dans le siécle qui vient. Avec un tel sujet, on parlera encore de ton exposé dans plusieurs décénies".
-
-En effet Minkowski ne s'est pas trompé et la liste des 23 problèmes de Hilbert au congrès de 1900 va occuper la quasi-totalité de la recherche mathématique du 20ème siècle, et encore aujourd'hui, certains problèmes ne sont toujours pas résolus.
-
-Mais c'est, pour notre histoire, le second problème de cette liste qui va avoir une résonnance particulière : "Peut-on prouver la cohérence de l'arithmétique ? En d'autres termes, peut-on démontrer que les axiomes de l'arithmétique ne sont pas contradictoires ?".
-
-Hilbert va tenter en 1904, dans le cadre d'une conférence intitulée "Sur les fondements de la logique et de l'arithmétique", une démonstrations de consistance pour un système minimaliste d'axiomes qui ne représentent que les nombres entiers, et la notion d'égalité entre ces nombres.
-
-Cette démonstartion sera vivement critiqué par Henri Pointacré, trés influent dans le monde des mathématiques, et qui ne partage pas les idées d'Hilbert.
-
-Hilbert estime que les objets mathématiques, comme les nombres, existent. Tous les nombres, même si personne ne les a jamais écrits, même si on ne sait pas les calculers, tous les nombres existent. Pour Pointcaré, c'est le contraire, les nombres n'existent pas, ils sont construits par la méthématicien.
-
-Ça ne parait rien mais ça a de grande implication sur la façon de faire des mathématiques. Pour Pointacré, on ne peux pas parler d'infini, puisque les nombres n'existent pas, on ne saurait avoir une collection qui regroupe tous les nombres, ou d'ensemble de tous les ensemble, comme dans la paradoxe de Russell.
-
-Pour le paradoxe de Richard, pas de Paradoxe ! On définit l'ensemble de tous les nombres définits en moins de milles mots, puis on définit un nouveau nombre, à partir de la l'ensemble, mais qui aurait dû appartenir à cet ensemble. Comment ? dit Pointcaré, comment ce nombre aurait-il pu appartenir à l'ensemble puisqu'au moment où on a crée l'ensemble, il n'existait pas ? Il n'y a pas de paradoxe pour Pointcaré, simplement une construction en deux étapes, d'abord on construit une liste, puis à partir de cette liste, on construit un nombre qui n'existait pas avant.
-
-Pointcaré fait reposer les paradoxes sur un principe de cercle vicieux : des objets qui se références eux-mêmes dans leurs définition. Pour le paradoxe de Burali-Forti, on cherche le nombre ordinal de tous les nombres ordinaux. Le nombre ordinal que l'on cherche à besoin de lui-même pour se calculer, c'est le cercle vicieux, et c'est exactement ce que Pointcaré reproche à la démonstration de consistance de Hilbert en 1904.
-
-Hilbert définit quelques axiomes pour représenter les nombres, puis il utilise des nombres pour prouver la consistance de ses axiomes, c'est le cercle vicieux. Il ne peux pas utiliser les nombres pour prouver les nombres.
-
-Pointcaré va mourir en 1912, avant d'avoir pu proposer sa propre solution au problème de la consistance des axiomes de l'arithmétique, mais c'est depuis ses critiques sur le principe de cercle vicieux qu'il est apparu clairement qu'on devrait séparer deux choses : ce qu'on voulait prouver, et les notions qu'on allait utiliser pour le prouver.
-
-Puisque c'est principalement la notion de l'infini qui fait débat, en particulier l'infini actuel, qui présuppose l'existance en soi des objets mathématiques, Hilbert va choisir de diviser l'arithmétique en deux domaines. D'un côté, la mathématique formelle, qui décrit l'ensembles des mathématiques, et que l'on veut prouver. Et d'un autre côté la mathématique contentuelle et finististe, c'est à dire l'arithmétique classique, privée de la notion d'infini.
-
-Mais avant Hilbert, qui ne va s'impliquer qu'à partir de 1917-18 sur ce qu'on appelle le probléme de fondement, justifier les fondements des mathématiques, ce sont trois mathématiciens qui vont tenter de trouver une solution au problème de fondement, Russel et Whitehead d'un Côté, et Brouwer de l'autre.
-
-Parlons d'abord de Russell, de Whitehead et des "Principia Mathematica", une tentative d'axiomatisation globale de toutes les branches des mathématiques. Les "Principias" sont largement inspirées d'un précédent article de Russell de 1908 : "La logique mathématique fondée sur la théorie des types", dans lequel il tente de hiérarchiser les différentes notions mathématiques. Les notions du rang 1 s'appliquent au rang 2, celles du rang 2 au rang 3 et ainsi de suite.
-
-Cette hiérarchie permet d'éviter qu'une notion ne s'applique à elle-même, et évite donc le cercle vicieux décrit par Pointcaré, mais les "Principias" peinent à convaincres. Un défaut particulier, Russell et Whitehead ne présentent pas de preuve de consistance de leurs axiomes. Pour Russell, ces axiomes sont des notions intuitives, et donc, nécéssairement vraies, la démonstration de consistance ne serait qu'une confirmation de leur vérité. En 1927, après être revenu aux probléme du fondement, Hilbert a contester l'évidence de certains axiomes : "La théorie des fondements de Russell et Whitehead [...] fait reposer les mathématiques sur l'axiome de l'infini et sur un axiome dit de réductibilité. Or ces deux axiomes sont d'authentiques hypothèses qui ne peuvent s'appuyer [...] sur une preuve de consistance [... et] dont la validité universelle reste même ouverte au doute".
-
-Un autre qui ira plus loin encore pour placer l'évidence de l'intuition au centre des mathématiques, c'est Brouwer. Pour lui, les paradoxes révélent un usage abusif des règles de la logique, qui font abstraction du sens du contenu, et créent ainsi des énoncés vides de sens, puis finalement, des paradoxes. Comme Pointcaré, il adopte une vision constructiviste des mathématiques, même si cela le force à abandonner certains principes fondamentaux des mathématiques contemporaines, en particulier le "tiers exclu".
-
-Le principe du tiers exclu, qui d'ailleurs repose sur les notions d'infini actuel et d'existence en soi des objets mathématiques, deux notions que défend Hilbert mais que Brouwer comme Pointcaré rejettent. Le principe du tiers exclu donc, permet de dire d'une propriété qui s'applique à un ensemble d'éléments, que soit tous les éléments de l'ensemble vérifient cette propriété, soit il existe au moins un élément qui ne posséde pas cette propriété. En clair, une propriété est soit vraie, soit fausse, et il n'y a pas de troisième option. C'est ce qui fera dire à Brouwer que : "La question de la validité du tiers exclu équivaut à celle de la possibilité de problémes mathématiques non résolubles".
-
-On ne peut pas être plus à l'opposé des idées de Hilbert, qui annonçait haut et fort au congrés international de 1900, Jamais le mathématicien ne sera réduit à dire Ignorabimus !". Ignorabimus : on ne sait pas, et on ne saura pas.
-
-Et pourtant, l'intuitionisme de Brouwer ira jusqu'à convaincre Herman Weyl, l'ancien étudiant de Hilbert qui s'oppose à son ancien professeur : "Si les mathématiques doivent rester une préoccupation culturelle sérieuse, alors un certain sens doit être attaché au jeu de formules de Hilbert, et je ne vois qu'une seule possibilité de lui attribuer un sens intellectuel indépendant. En physique théorique, nous avons devant nous le grand exemple d'une connaissance d'un caractère tout à fait différent de la connaissance commune qui exprime purement ce qui est donné dans l'intuition".
-
-Hilbert répondra, toujours en 1927, aux intuitionistes : "Oter le [tiers exclu] au mathématicien serait comme si on voulait enlever à l'astronome son télescope, au boxeur le droit de se servir de son poing. [... C'est] quasiment à renoncer à la science mathématique. Car que sont les misérables restes, qu'est-ce que la poignée de résultats incomplets et disparates que les intuitionistes ont pu élaborer [...] à l'égard de l'étendue formidable de la mathématique contemporaine ?".
-
-Alors on a vu Brouwer avec l'intuitionisme et la méthode constructiviste, Russell et Whitehead avec les Principas Mathematica et la théorie des types, regardons maintenant comment Hilbert va répondre au problème de fondement.
-
-Hilbert retourne au problème du fondement en 1917, avec une conférence "La Pensée Axiomatique", mais c'est véritablement à partir de 1922, et jusqu'en 1930, qu'Hilbert va tâcler le problème dans une série d'article qui introduit le programme formaliste.
-
-L'objectif du programme formaliste, programme de fondement ou programme d'Hilbert, est d'établir une mathématique formelle, pure de forme et vide de sens. C'est la méthode axiomatique poussée à son paroxysme, une mathématique faite uniquement d'axiomes et de règles logiques, où l'intuition et l'évidence immédiate n'ont pas leur place.
-
-D'un autre côté, Hilbert définit la mathématique finitiste, une arithmétique privée de la notion d'infini, et de tout ce qui fait débat parmis les mathématiciens, le tiers exclu, le principe d'induction complète, etc. Puisque la mathématique finitiste ne contient que des notions immédiatement évidentes, son rôle sera de fournir un preuve de consistance pour la mathématique formelle. Pour Hilbert : il s'agit de "s'assurer par le fini le droit d'opérer sur l'infini".
-
-La force du programme formaliste, c'est qu'il utilise les mathématiques pour justifier les mathématiques, ainsi, Hilbert n'a "besoin ni du Bon Dieu, comme Kronecker, ni de l'hypothèse d'une faculté de conscience accordée au principe d'induction complète, comme Pointcarré, ni de l'intuition originelle de Brouwer, ni non plus des axiomes de l'infini [comme Russell et Whitehead]". Il ira même plus loin : formaliser "c'est dépeindre l'activité de notre intellignece", c'est "dresser un inventaire des règles d'après lesquelles fonctionne réellement notre pensée".
 
 Mais malgrès la force de leurs arguments épistémologique, les mathématiciens engagés dans le programme, Hilbert, Bernays, Von Neumann ou Ackermann, pour n'en citer que quelques-uns, n'ont toujours pas de résultats. Toutes les différentes tentatives d'axiomatisation et de preuve de consistence ont échoués.
 

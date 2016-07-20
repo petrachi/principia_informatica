@@ -1,0 +1,19 @@
+1//
+
+123 to 217 = 94 = 38min
+eta : 175min = 2h55
+global eta : 175min = 2h55
+
+225 to 325 = 100 = 31min
+eta : 134min = 2h14
+global eta : 154min = 2h34
+
+325 to 395 = 70 = 29min
+eta : 134min = 3h
+global eta : 161min = 2h41
+
+395 to 435 = 40 = 22min
+eta : 239min = 3h59
+global eta :  171min = 2h51
+
+total pages : 435

@@ -1,80 +1,80 @@
-Bonjour. Aujourd'hui on va se lancer dans une longue histoire, un exposé de la naissance des premiers ordinateurs. Mais avant de commencer, j'aimerais vous répéter ce que m'a dit Jean Lassègue dans un entretient pendant que j'effectuais mes recherches. Il me disait que l'histoire de l'ordinateur peut-être soit vue d'un point de vue théorique. Les premiers ordinateurs seraient le fruit d'une réfléxion très théorique menée principalement par Turing et Von Neumann. Soit, l'autre version de la même histoire, c'est de considérer qu'il s'agit essentiellement d'une affaire d'ingénierie, et de la mise ou point, ou de la perfection, de machines calculantes.
+Aujourd'hui on se lance dans une longue histoire, un exposé sur la naissance des premiers ordinateurs. Mais avant de commencer, j'aimerais vous répéter ce que m'a dit Jean Lassègue au cours d’ entretient que j’ai eu avec lui, au moment où j'effectuais mes recherches. Il m’a dit, l'histoire de l'ordinateur peut-être soit vue d'un point de vue théorique. Les premiers ordinateurs seraient le fruit d'une réflexion très théorique menée principalement par Turing et Von Neumann. Soit, l'autre version de la même histoire, c'est de considérer qu'il s'agit essentiellement d'une affaire d'ingénierie, et de la mise ou point, ou de la perfection, de machines calculantes.
 
-Alors, on va essayer ensemble d'explorer les deux versans de cette histoire. Et pour commencer, on va remonter un peu avant le début du 20ème siècle, et suivre à travers le travail de David Hilbert ce que l'on appelle la quête du fondement mathématique, et qui va mener aux première théories de la science informatique.
+Vous avez bien compris, dun côté on a la théorie, et de l’autre, on ala pratique. Alors de quel côté est-ce que l’ordinateur est sorti, c’est ce qu’on va essayer de voir ensemble. Et pour commencer, on va remonter au tout début du 20ème siècle, et même un petit peu avant, en commençant par le côté théorique de cette histoire, à travers le travail de David Hilbert ce que l'on appelle la quête du fondement.
 
-Donc, David Hilbert, c'est un Allemand, et il va démarrer ses études en mathémtiques, contre l'avis de son père, à l'université de Köningsberg, qui, il faut le dire, est une des universités les plus réputés d'Allemagne.
+Donc, David Hilbert, il est Allemand, et il va démarrer ses études en mathématiques à l'université de Köningsberg, qui, il faut le dire, est l’une des universités les plus réputés d'Allemagne.
 
-C'est à Köningsberg qu'Hilbert va faire deux grandes rencontres. D'abord, il croise le chemin d'Adolf Huritz, qui est l'un de ses professeurs à l'unversité, mais surtout, Hilbert va se lier d'une trés grande amitié avec une autre étudiant, c'est Hermann Minkowsky.
+À Köningsberg, Hilbert va faire deux grandes rencontres. D'abord, il croise le chemin d'Adolf Huritz, qui est l'un de ses professeurs à l'unversité, mais surtout, Hilbert va se lier d'une grande amitié avec un autre étudiant, Hermann Minkowsky.
 
-Alors on a un témoignage direct de Hilbert de cette époque : "Ainsi, alors que j'étais encore étudiant, j'ai été poussé par Hurwitz au coeur des débats scientifiques et j'ai eu la chance, en étant avec lui, d'apprendre à connaître, d'une façon plaisante, les deux écoles opposées mais parfaitement complémentaires, l'école géométrique de Klein et l'école algébrique-analytique de Berlin. Lorsqu'il revenait dans sa famille à Köningsberg, le génial Minkowski, avec qui je m'étais déjà lié, se joignait à nous. Au cours de ces innombrables promenades, jour après jour, pendant huit années, nous avons fouillé tous les coins du savoir mathématique."
+Alors on a un témoignage direct de Hilbert qui nous raconte cette époque à Köningsberg : "Ainsi, alors que j'étais encore étudiant, j'ai été poussé par Hurwitz au coeur des débats scientifiques et j'ai eu la chance, en étant avec lui, d'apprendre à connaître, d'une façon plaisante, les deux écoles opposées mais parfaitement complémentaires, l'école géométrique de Klein et l'école algébrique-analytique de Berlin. Lorsqu'il revenait dans sa famille à Köningsberg, le génial Minkowski, avec qui je m'étais déjà lié, se joignait à nous. Au cours de ces innombrables promenades, jour après jour, pendant huit années, nous avons fouillé tous les coins du savoir mathématique."
 
-Après ses études, et après avoir pris le temps de voyager et de rencontrer certaines grands mathématiciens de son époque, Klein, Kronecker, Pointcaré; Hilbert va devenir "Privatdozent", que l'on peut traduire par "assistant".
+Après ses études, et après avoir pris le temps de voyager et de rencontrer certaines grands mathématiciens de son époque, Klein, Kronecker, Pointcaré; Hilbert va être nommé à Köningsberg "Privatdozent", que l'on peut traduire en français par « Assistant ».
 
-C'est classique dans le système éducatif de l'époque, le "Privatdozent" peut enseigner mais ne touche pas de rémunération fixe, il est directement payé par les élèves qui choississent d'assister à ses cours, puisqu'il n'y a pas dans les universités de classes imposés. Les étudiants sont totalement libres, pendant quatres ans, jusqu'à l'examen final.
+C'est classique dans le système éducatif de l'époque, le "Privatdozent" peut enseigner mais il ne touche pas de rémunération fixe, il est directement payé par les élèves qui choisissent d'assister à ses cours, puisqu’on n’a pas de classes imposés. Les étudiants sont totalement libres, pendant quatre ans, jusqu'à l'examen final.
 
-Mais ce statut lui offre également le temps, la flexibilité nécéssaire pour commencer un travail de recherche, et en particulier, Hilbert va s'intèresser à la théorie des invariants qui, depuis 20 ans maintenant, attends des réponses.
+Ce statut particulier lui offre le temps, la flexibilité nécessaire pour commencer un travail de recherche, et en particulier, Hilbert va s’intéresser à la théorie des invariants qui est au point mort depuis presque vingt ans maintenant.
 
-Le problème que l'on cherche à résoudre en théorie des invariants, c'est d'identifier certaines propriètés invariantes, qui ne changent pas, pour des formes représentées dans des espaces à plusieurs dimensions.
+Le problème en théorie des invariants, c'est de réussir à identifier certaines propriétés invariantes, qui ne changent pas, pour des formes qui sont représentées dans des espaces à plusieurs dimensions.
 
-C'est grâce aux travaux de Gordan que l'on sait identifier les propriétés invariantes pour des formes dans des espaces à deux dimensions. Mais Gordant à dû réaliser une quantité déjà monumentale de calculs, et pour un nombre de dimensions supérieur on fait face à un problème de taille, la quantité de calculs nécéssaires rends la tâche tout simplement irréalisable.
+Depuis les travaux Gordan, on sait identifier les propriétés invariantes pour des formes dans des espaces à deux dimensions. Mais Gordan à dû déjà réaliser une quantité assez monumentale de calculs, et pour un nombre de dimensions supérieur on fait face à un problème de taille, la quantité de calculs nécessaires rends la tâche tout simplement irréalisable.
 
-Alors Hilbert, qui s'attaque à ce problème, décide de tenter une autre voie. Il démontre qu'il existe une famille génératrice de formes, qui existe pour n'importe quel nombre de dimensions, et tout ça sans aucun calcul !
+Alors Hilbert, qui s'attaque à ce problème, décide de d’emprunter un autre chemin. Il démontre qu'il existe une famille génératrice de formes, qui existe pour n'importe quel nombre de dimensions.
 
-Le problème des invariants est donc résolu puisque les propriétés invariantes sont les propriétés de la famille génératrice, si on a la famille génératrice, on a les propriétés invariantes. Mais c'est bien là qu'est le problème, Hilbert ne sait pas comment calculer cette fameuse famille génératrice de formes.
+Le problème des invariants est donc résolu puisque les propriétés invariantes sont les propriétés de la famille génératrice, si on a la famille génératrice, on a les propriétés invariantes. Mais aussi là qu'est le problème, Hilbert ne sait pas comment calculer cette fameuse famille génératrice de formes.
 
-Il n'a, rapellons-le, utilisé aucun calcul pour parvenir à ce résultat. À la place, il a étudié, grâce à cet outil mathématique qu'es la méthode abstraite, il a étudié les relations des différents objets, des différentes formes entre-elles.
+Je vous avais dit qu’il a emprunté une voie différente de son prédécesseur, et il n’a, en réalité, fait aucun calcul. À la place, il a étudié, grâce à ce qu’on appelle la méthode abstraite, les relations entre les différents objets mathématiques.
 
-Et il va publier ses résultats en 1890 dans un article intitulé "De la théorie des formes algébriques", auquel Gordant répondra : "Ce n'est pas des mathématiques, c'est de la théologie".
+Il va publier ses résultats en 1890 dans un article intitulé "De la théorie des formes algébriques", auquel Gordan répondra : "Ce n'est pas des mathématiques, c'est de la théologie".
 
-Trois ans plus tard, Hilbert publie à nouveau, et cette fois, il fournit une méthode afin de calculer la famille génératrice de forme. Et Gordant sera obligé d'admettre : "La théologie à parfois ses mérites".
+Alors trois ans plus tard, Hilbert va publier à nouveau, et cette fois, il fournit une méthode afin de calculer la famille génératrice de forme. Gordan sera obligé d'admettre : "La théologie à parfois ses mérites".
 
-De son côté, Hilbert écrit à Minkowski, il dit : "Je quitte maintenant le domaine des invariants définitivement et je ne m'occuperais plus que de théorie des nombres". C'est aussi parceque l'association des mathématiciens Allemands vient de lui demander un rapport sur la théorie des nombres algébriques, puisque Kummer et Kronecker, qui sont les deux grandes figures du domaine, ont peu publiés. Le rapport, qui sera publié en 1897 deviendra plus tard un véritable ouvrage de référence, nottament pour les travaux d'Emmy Noether dans les années vingt.
+De son côté, Hilbert écrit à Minkowski, il lui dit : "Je quitte maintenant le domaine des invariants définitivement et je ne m'occuperais plus que de théorie des nombres". C'est aussi parce que l'association des mathématiciens Allemands vient de lui demander un rapport sur la théorie des nombres algébriques, puisque Kummer et Kronecker, qui sont les deux grandes figures du domaine, ont peu publiés leurs travaux. Le rapport, qui sera finalement édité en 1897 deviendra plus tard un véritable ouvrage de référence, et surtout pour les travaux d'Emmy Noether, la première femme à enseigner dans une université allemande,  dans les années 1920.
 
-C'est aussi à cette époque que Hilbert arrive à Göttingen. À l'invitation de Klein, il est nommé professeur ordinaire à l'université en 1895, puis à son tour, il fera nommer Minkowski en 1902. L'influence de Klein, de Hilbert et de Minkowski va faire de Göttingen un centre incontournable des mathématiques, on pourrait presque dire la capitale des mathématiques.
+C'est aussi à cette époque que Hilbert arrive à Göttingen. À l'invitation de Felix Klein, il est nommé professeur ordinaire à l'université en 1895, puis à son tour, il fera nommer son ami Minkowski en 1902. L'influence de Klein, de Hilbert et de Minkowski va faire de Göttingen un centre incontournable des mathématiques, on pourrait presque parler de capitale mondiale des mathématiques.
 
 Ainsi, l'université attire de nombreux étudiants, l'un d'entre eux, Hermann Weyl, écrira en 1944 : "J'entends toujours la flûte douce de Hilbert nous séduisant pour nous conduire dans la rivière profonde des mathématiques [...] Les portes d'un monde nouveau s'ouvraient devant moi et je n'étais pas là depuis longtemps que déjà la résolution s'était formé dans mon jeune coeur de lire tout ce que cet homme avait écrit."
 
-Alors il aura des choses à lire ce jeune homme, puisqu'aprés avoir publié son rapport sur la théorie des nombres, il change une fois encore de domaine et s'intéresse cette fois à la géométrie.
+Alors il aura des choses à lire ce jeune homme, puisqu’après avoir publié son rapport sur la théorie des nombres, Hilbert va changer une fois encore de domaine mathématique et s'intéresse cette fois à la géométrie.
 
-Je vous avais dit quand il s'occupait de théorie des invariants qu'il avait résolu le problème en appliquant une nouvelle méthode au problème, la méthode abstraite. Et c'est exactement ce qu'il va faire pour la géométrie, en allant encore un peu loin que la méthode abstraite, jusqu'à l'axiomatique.
+Alors on se souvient, quand il s'occupait de théorie des invariants, il avait résolu le problème en choisissant un autre chemin que Gordan, celui de la méthode abstraite. Et c'est encore ce qu'il va faire pour la géométrie, en dépassant même la méthode abstraite, jusqu'à l'axiomatique.
 
-C'est Euclide, qui à vécu en 300 avant notre ère, qui a, le premier, établi un ensemble de régles pour décrire ce qu'on peut faire en géométrie, et ce que nous ne pouvons pas faire. C'est la première axiomatisation.
+C'est Euclide, qui à vécu en 300 avant notre ère, qui a, le premier, établi un ensemble de règles pour décrire ce qu'on peut faire et ce que nous ne pouvons pas faire, en géométrie. C'est la toute première axiomatisation de la géométrie, et d’ailleurs de n’importe quelle autre branche des mathématiques.
 
-C'est à dire : définir un ensemble de régles, qu'on appelle les axiomes, qui vont former la base de l'édifice mathématique. Toutes les propositions, tous les théorèmes seront déduis des axiomes.
+L’axiomatisation, axiomatiser, c’est définir un ensemble de règles, qu'on appelle les axiomes, qui vont former la base de l'édifice mathématique. Toutes les propositions, tous les théorèmes seront déduis des axiomes.
 
-Les axiomes sont donc les seules propositions mathématiques qu'il n'est pas nécéssaire de prouver. Mais cela rends la tâche d'autant plus complexe, puisqu'il faut alors réussir à trouver des axiomes qui soient suffisament simples et évident pourqu'il n'y ait pas besoin de prouver leur vérité.
+Les axiomes sont donc les seules propositions mathématiques qu'il n'est pas nécessaire de prouver. Mais cela rends la tâche d'autant plus complexe, puisqu'il faut alors réussir à trouver des axiomes qui soient suffisamment simples et évident pour qu’il n'y ait pas besoin de devoir prouver leur vérité afin de convaincre le reste des mathématiciens de la justesse des axiomes.
 
-Depuis Euclide, la méthode axiomatique s'est étendue à tous les domaines mathématiques, chaque branche des mathématiques poséde sa propre axiomatique, les régles qui définissent pour chaque domaine comment manipuler les différentes notions.
+Depuis Euclide, la méthode axiomatique s'est étendue à tous les domaines des mathématiques, chaque branche possède sa propre axiomatique, un ensemble de règles qui définissent pour chaque domaine comment manipuler les différentes notions mathématiques.
 
-Mais l'axiomatisation de la géométrie, donc celle d'Euclide est critiquée, depuis longtemps d'ailleurs, puisque déjà à son époque, Archiméde avait ajouté un axiome qui lui semblait manquer.
+Mais pour la géométrie, l’axiomatisation d'Euclide est critiquée, depuis assez longtemps d'ailleurs, puisque déjà, Archiméde avait ajouté des axiomes supplémentaires qui lui semblait manquer.
 
-Le défaut de l'axiomatisation d'Euclide, c'est qu'il n'y a pas suffisament d'axiomes pour répondre à certains problèmes de façon purement logique, et il est parfois nécéssaire de recourir au sens évident d'une chose au cours d'une démonstration afin de pallier au manque d'axiomes.
+Le défaut de l'axiomatisation d'Euclide, c'est qu'il n'y a pas suffisamment d'axiomes pour répondre à certains problèmes de façon purement logique, comme on le fait en mathématiques, et il est parfois nécessaire de recourir au sens évident, au sens usuel d'une notion ou d’un concept au cours d'une démonstration.
 
-Il faut que je vous donne un exemple pour que vous compreniez bien, on peux commencer par déclarer un axiome dans une nouvelle branche des mathématiques :  "Socrates est un homme", c'est notre premier axiome. Et dans un article, dans une publication mathématique, on pourrait trés bien affirmer que, puisque socrates est un homme, alors Socrates est mortel.
+Alors je vais essayer de vous donner un exemple afin de bien comprendre le problème. imaginons un tout nouvel axiome dans une toute nouvelle branche des mathématiques :  "Socrates est un homme", c'est notre premier axiome. Et dans un article, dans une publication mathématique, on pourrait arriver à la conclusion que, puisque socrates est un homme, alors Socrates est mortel.
 
-Ça paraît évident, puisque tous les hommes sont mortels, c'est une vérité que l'on connait tous et qui est tiré de notre expérience vécue, mais c'est aussi une preuve mathématique très faible.
+Ça paraît évident, puisque tous les hommes sont mortels, c'est une vérité que l'on connait tous et qui est tiré de notre propre expérience, de notre vécu, mais c'est aussi une preuve mathématique faible.
 
-Les mathématiques sont un language formel, c'est à dire que tout doit y être définit sans ambiguité. Dans ce contexte, rien ne nous permet d'affirmer que tous les hommes sont mortels, sauf si cette proposition était un axiome.
+Les mathématiques forment un language formel, c'est à dire que tout doit y être définit sans ambiguité. Dans ce contexte, rien finalement ne nous permet d'affirmer que tous les hommes sont mortels, à moins que cette proposition soit un axiome.
 
-La validité de la conclusion, que Socrates est mortel, dépends de l'existence en tant qu'axiome de la proposition "Tous les hommes sont mortels".
+La validité de notre conclusion, « Socrates est mortel », dépends de l'existence en tant qu'axiome de la proposition "Tous les hommes sont mortels".
 
-Dans notre exemple, je ne crois pas que la publication finale aurait fait débat, du fait  de l'évidence immédiate de notre axiome manquant, que tous les hommes soient mortels.
+Dans notre exemple, je ne crois pas que, si on avait publié, il n’y aurait pas eu de débats, du fait de l'évidence immédiate de notre axiome manquant, que tous les hommes soient mortels.
 
-Mais on trouve en mathématiques des notions beaucoup plus floues et qui ne sont pas nécéssairement érigées en tant qu'axiomes, comme par exemple la notion de l'infini, qui fera, comme on le vera, l'objet de profonds désacords dans la communautée.
+Mais on trouve en mathématiques des notions beaucoup plus floues et qui ne sont pas nécessairement déclarées dans les axiomes, comme par exemple la notion de l'infini, qui va faire l’objet, comme on le vera, de profonds désaccords dans la communauté mathématique.
 
-C'est ce problème, le manques d'axiomes en géométrie, que Hilbert veut résoudre en proposant une toute nouvelle axiomatisation. Et cette fois encore, il va différentier son point de vue par rapport au reste de ses pairs.
+C'est ce problème, le manques d'axiomes en géométrie, que Hilbert veut résoudre en proposant une nouvelle axiomatisation de la géométrie. Et il va, comme précédemment, différentier son point de vue par rapport au reste de ses pairs.
 
-D'ordinaire, les axiomes servent à décrire directement les objets mathématiques. En géométrie on parle de points, de droites et de plans. Hilbert, lui, va se servir des axiomes pour décrire plutôt les interactions, les relations des différents objets entre eux, sans jamais les définirs directement.
+D'ordinaire, les axiomes servent à décrire directement les objets mathématiques. En géométrie on parle de points, de droites et de plans. Hilbert, lui, va se servir des axiomes pour décrire plutôt les interactions, les relations entre les différents objets, sans jamais les définirs directement.
 
-La démarche est particulièrement bien illustrée par cette petite anecdote. Hilbert est à la terrasse d'un café avec ses étudiants et leur dit : "L'on devrait pouvoir parler en géométrie de tables, de chaises et de chopes de bière, au lieu de points, de droites et de plan".
+Cette démarche est particulièrement bien illustrée par une petite anecdote. Hilbert, qui est à la terrasse d'un café avec ses étudiants leur dit : "L'on devrait pouvoir parler en géométrie de tables, de chaises et de chopes de bière, au lieu de points, de droites et de plan".
 
 Le cours de géométrie qu'il donne d'ailleurs ne mentionne que dans son introduction les notions de points, de  droites et de plans : "Nous pensons trois systèmes différents de choses. Nous nommons les choses du premier système des points [...]. Nous nommons droites les choses du deuxièmes système [...]. Nous appelons plans les choses du troisième système. [...]. Entre les points, les droites et les plans, nous imaginons certaines relations que nous exprimons par des expressions telles que "être sur", "entre", "congruent". La description exacte et appropriée au but des mathématiques de ces relations est donnée par les axiomes de la géométrie".
 
-Alors pourquoi une telle démarche ? L'intérêt, dans l'idée de Hilbert, est de retirer totalement le sens usuel, les définitions courantes et le sens intuitif que l'on peut accorder à certains mots, certaines notions qui sont utilisées en mathématiques, et en géométrie plus particuliérement.
+Alors pourquoi une telle démarche ? L'intérêt, dans l'idée de Hilbert, est de retirer totalement le sens usuel, les définitions courantes et le sens intuitif que l'on peut accorder à certains mots, certaines notions qui sont utilisées en mathématiques, et en géométrie plus particulièrement.
 
 Pour reprendre notre exemple de tout à l'heure, au lieu de "Socrates est un homme" et "Tous les hommes sont mortels", on aurait "X est un A", "Tous les A sont des P", desquels on pourrait conclure que "X est un P".
 
-Aprés avoir terminé son axiomatisation de la géométrie, Hilbert va s'attaquer entre 1901 et 1908 à l'axiomatisation de l'analyse, la branche des mathématiques qui sert à étudier la notion de "limite".
+Après avoir terminé son axiomatisation de la géométrie, Hilbert va s'attaquer entre 1901 et 1908 à l'axiomatisation de l'analyse, la branche des mathématiques qui sert à étudier la notion de "limite".
 
 C'est à ce moment qu'il va développer ce qu'il appelle la "théorie spectrale", connue aujourd'hui comme la "théorie des espace de Hilbert".
 
@@ -82,151 +82,153 @@ Ces travaux, qui offrent de nouvelle méthodes pour résoudre des équations int
 
 Heisenberg va dire : "Indirectement, Hibert exerça la plus grande influence sur le développement de la physique [...] Les méthodes mathématiques de la mécanique quantique sont une application directe de la théorie hilbertienne des équations intégrales".
 
-Alors le travail d’axiomatisation, qui est finalement la constante dans le parcours mathématique d’Hilbert, n’est pas simplement d’établir une liste d’axiomes. Il faut également pouvoir montrer que ces axiomes sont cohérents, et qu’on ne peut pas construire à partir des axiomes de propositions contradictoires.
+Alors le travail d’axiomatisation, qui est finalement la constante dans le parcours mathématique d’Hilbert, n’est pas simplement d’établir une liste d’axiomes. Il faut également pouvoir montrer que ces axiomes sont cohérents, et qu’on ne peut pas construire à partir des axiomes des propositions contradictoires.
 
 Pour cela, Hilbert, comme le reste des mathématiciens, procède par analogie. Si il peut exprimer les axiomes de la géométrie, ou de l’analyse, sous forme algébriques, alors ces axiomes sont considérés comme valides, ou consistants comme on le dit en mathématiques.
 
 L’idée est que, la théorie des nombres algébriques est le domaine mathématique le plus sûr et le plus fiable que nous possédons. Si les axiomes de la géométrie par exemple étaient contradictoires, alors, cette contradiction s’étendrait à l’algèbre, une fois les axiomes « traduits ».
 
-Puisque l’algèbre est sûre et peu contestable, une traduction des axiomes vers l’algèbre constitue un preuve de consistance suffisante pour la communauté mathématique.
+Puisque l’algèbre est sûre et peu contestable, une traduction des axiomes vers l’algèbre constitue un preuve de consistance suffisante pour la communauté mathématique. En tout cas, pour un temps.
 
-Pourtant, la méthode commence à poser problème. Entre 1897 et 1905, trois paradoxes vont être révélés en théorie des ensembles, et ces paradoxes, qui révèlent des contradictions dans la théorie des ensembles, s’étendent alors à l’algèbre.
+Entre 1897 et 1905, trois paradoxes vont être révélés en théorie des ensembles, et ces paradoxes, qui rélèvent des contradictions dans la théorie des ensembles, vont s’étendre à l’algèbre.
 
-La théorie des nombres algébrique ne serait pas aussi sûre que ça. Il faudrait donc pouvoir prouver la consistance de l’algèbre elle-même, mais personne n’a de méthode pour ça. On ne peux pas comparer l’algèbre avec elle-même comme on le faisait pour les autres théories.
+Alors il faudrait, pour être sûr, pouvoir prouver la consistance de l’algèbre elle-même, mais personne n’a de méthode pour ça. On ne peux pas comparer l’algèbre avec l’algébre comme on le faisait pour les autres théories.
 
-Alors c’est le début de la quête du fondement, la quête d’une preuve de consistance des axiomes de l’arithmétique. Mais avant de vraiment continuer, il faut que je vous explique quels sont les trois paradoxes qui ont provoqués ce véritable tremblement de terre en mathématiques. 
+Et c’est le début de la quête du fondement, la quête d’une preuve de consistance des axiomes de l’algèbre. Mais avant de continuer là dessus, il faut que je vous parle des trois paradoxes qui ont provoqués ce tremblement de terre dans les mathématiques.
 
-La théorie des ensembles, dans laquelle se passent les paradoxes, à été développée entre 1873 et 1897 par Georg Cantor, qui va , à l’aide de cette théorie, parvenir à des conclusions contres-intuitives, qu’on pourrait même qualifier d’étranges.
+La théorie des ensembles, dans laquelle évoluent les paradoxes, à été développée entre 1873 et 1897 par Georg Cantor, qui va , à l’aide de cette théorie, parvenir à des conclusions contres-intuitives, qu’on pourrait même qualifier d’étranges.
 
-Alors cette théorie, du fait de ces résultats inattendus, provoquera un certain scepticisme chez des mathématiciens comme Kronecker et Pointcaré. Hilbert d’un autre côté sera lui, un vif supporter de la théorie.
+Alors cette théorie, du fait de ces résultats inattendus, provoquera un certain scepticisme chez des mathématiciens comme Kronecker et Pointcaré. Hilbert d’un autre côté sera lui, un vaillant  supporter de cette théorie.
 
-La théorie des ensembles qui permet d'étudier des collections d'objets, qui sont définis par une propriété commune. Par exemple on peut considérer l’ensemble de tous les nombres pairs, ou l'ensemble des nombres inférieurs à trois. 
+La théorie des ensembles permet d'étudier des collections d'objets, qui sont définis par une propriété commune. Par exemple on peut considérer l’ensemble de tous les nombres pairs, ou l'ensemble des nombres qui sont inférieurs à trois. 
 
-Pour compter, pour définir la « taille » d’un ensemble, Cantor propose la notion de « cardinalité ». Deux ensembles qui contiennent le même nombre d’éléments possèdent la même cardinalité, et c’est bien pratique lorsqu’on cherche à comparer des ensembles très grands, voir infinis.
+Pour mesurer, pour définir la « taille » d’un ensemble, Cantor propose la notion de « cardinalité ». Deux ensembles qui contiennent le même nombre d’éléments possèdent la même cardinalité, et c’est assez pratique lorsqu’on cherche à comparer des ensembles, et en particulier des ensembles infinis.
 
-Comment comparer, si ce n’est grâce à la cardinalité, l’ensemble des nombres pairs, qui est infini, et l’ensemble des nombres entiers, qui est également infini ?
+En effet, comment comparer, si ce n’est grâce à la cardinalité, l’ensemble des nombres pairs, qui est infini, et l’ensemble des nombres entiers, qui est également infini ?
 
 Alors on peut tenter d’associer chaque élément d’un ensemble, à un seul et unique élément d’un autre ensemble, c’est ce qui s’appelle en mathématique faire une correspondance bi-univoque.
 
-On peut associer le nombre « 1 » de l’ensemble des nombres entiers, au nombre « 2 » de l’ensemble des entiers pairs. Et on peut continuer e associant le « 2 » des nombres entiers au « 4 » des nombres pairs, puis le « 3 » au « 6 ».
+On peut associer le nombre « 1 » de l’ensemble des nombres entiers, au nombre « 2 » de l’ensemble des entiers pairs. Et on peut continuer e associant le « 2 » des nombres entiers au « 4 » des nombres pairs, puis le « 3 » au « 6 », etc.
 
-Et il apparait une sorte de règle générale, puisqu’on peut associer les éléments des deux ensembles en suivant une règle de calcul très simple : le nombre « x » des entiers est associé au nombre « x*2 » des entiers pairs.
+Et il apparait, entre ces deux ensembles, une sorte de règle générale, puisqu’on peut associer leurs éléments en suivant une règle de calcul, finalement assez simple : le nombre « x » des entiers est associé au nombre « x*2 » de l’ensemble des entiers pairs.
 
 Ainsi, chaque éléments du premier ensemble est associé à un et un seul élément du deuxième ensemble, et réciproquement. 
 
-On peut donc affirmer que ces deux ensembles possédent la même "cardinalité", c'est à dire, la même taille. Et c’est déjà un premier résultat étrange, puisqu’on vient de montrer que l’infini de tous les nombres entiers fait exactement la même taille que l’infini des nombres pairs, alors qu’on aurait pu croire qu’il existe plus de nombres entiers que de nombres entiers pairs.
+On peut donc affirmer que ces deux ensembles possédent la même "cardinalité", c'est à dire, la même taille. Et c’est déjà un premier résultat étrange, puisqu’on vient de montrer que l’infini de tous les nombres entiers fait exactement la même taille que l’infini des nombres pairs, alors qu’on aurait pu croire qu’il y a plus de nombres entiers que de nombres entiers pairs.
 
-Alors on pourrait penser maintenant que tous les infinis se valent, qu’il sont tous de la même « taille ». Mais c’est justement ce que Cantor va contredire, en cherchant un ensemble infini pour lequel on ne pourrait pas faire de correspandece bi-univoque avec l’ensemble des nombres entiers.
+Si on accepte ce résultat, il pourrait sembler évident de penser que tous les infinis se valent, qu’il sont tous de la même « taille ». Mais c’est justement ce que Cantor va contredire, en cherchant un ensemble infini pour lequel on ne pourrait pas faire de correspondence bi-univoque avec l’ensemble des nombres entiers.
 
-Et il va le trouver, cet ensemble, c’est l’ensemble des nombres réels, ce sont les nombres à virgules, qui forment une ligne continue si on les représentait graphiquement, à l’inverse d la nature « discrète » des nombres entiers, qui laissent des espaces vides entre les valeurs.
+Et il va le trouver un ensemble qui réponds à cette règle, c’est l’ensemble des nombres réels, ce sont les nombres à virgules, qui forment une ligne continue si on les représentait graphiquement, à l’inverse de la nature « discrète » des nombres entiers, qui laissent des espaces vides entre les valeurs.
 
-Alors la peule de Cantor est très intéressante, c’est ce qu’on appelle la méthode de « diagonalisation ». 
+Alors la démonstration que Cantor fait pour prouver cela est très intéressante, c’est ce qu’on appelle la méthode de « diagonalisation ». 
 
-Cantor commence par imaginer que l’enseble des nombres entiers et l’ensembles des nombres réels possèdent la même cardinalité, donc on peut faire une association un à un de tous les éléments que ces deux ensembles contiennent.
+Cantor commence par imaginer que l’ensemble des nombres entiers et l’ensembles des nombres réels possèdent la même cardinalité, donc on peut faire une association un à un de tous les éléments que ces deux ensembles contiennent.
 
-Et Cantor présente cette association sous forme de liste, le nombre « 1 » est associé à un nombre réel choisi aléatoirement, en dessous de lui, le nombre « 2 » est associé à un autre réel, puis le « 3 », le « 4 », et ainsi de suite jusqu’à l’infini.
+Cantor va présenter cette association sous forme de liste, le nombre « 1 » est associé à un nombre réel choisi aléatoirement, en dessous de lui, le nombre « 2 » est associé à un autre nombre réel toujours choisi aléatoirement, puis le « 3 », le « 4 », et ainsi de suite jusqu’à l’infini.
 
-À partir de cette liste, Cantor nous propose de sélectionner des chiffres spécifiques choisis, c’est la diagonalisation. On prends le chiffre à la première position du premier nombre réel, celui à la seconde position du second nombre réel, à la troisième position du troisième réel, etc.
+À partir de cette liste, Cantor va sélectionner certaine chiffres choisis spécifiquement. On va prendre le chiffre à la première position du premier nombre réel, puis celui à la seconde position du second nombre réel, celui à la troisième position du troisième réel, etc. C’est la diagonalisation.
 
-Puis, nous allons modifier chacun de ces chiffres ainsi récupérés, en suivant une règle simple : Si le chiffre est un 0, on le remplacera par un 1, si c’est autre chose qu’un 0, on le remplacera par un 0.
+Pour chacun de ces chiffres qu’on à récupérés, on va appliquer une règle simple : Si le chiffre est un 0, on le remplacera par un 1, et si c’est autre chose qu’un 0, on le remplacera par un 0.
 
-En positionnant tous ces chiffres les uns à la suite des autres, nous avons crée un nouveau nombre réel, mais qui a une particularité essentielle, il est différent de tous les nombres de la liste.
+En positionnant tous ces chiffres les uns à la suite des autres, nous avons créer un nouveau nombre réel, mais qui a une particularité essentielle, il est différent de tous les autres nombres réels présents dans la liste.
 
-Il est différent du premier nombre puisque le chiffre à la première position est différent, il est différent du second nombre puisque le chiffre à la seconde position est différent, et de même pour tous les nombres de la liste.
+Il est différent du premier nombre puisque le chiffre à la première position est différent, il est différent du second nombre puisque le chiffre à la seconde position est différent, et ainsi de suite pour tous les nombres de la liste.
 
-Mais si on peut créer un nombre, qui est un nombre réel, et qui n’est pas déjà dans la liste, ça veut dire qu’on ne peut pas, c’est impossible, faire de correspondance bi-univoque entre l’ensemble des réels et l’ensemble des entiers.
+Mais si on peut créer un nombre, qui est un nombre réel, et qui n’est pas déjà dans la liste, cela veut dire qu’on ne peut pas, c’est impossible, faire de correspondance bi-univoque entre l’ensemble des nombres réels et l’ensemble des nombres entiers.
 
-L’infini des nombres réels est donc « plus grand » que l’infini des nombres entiers. C’est une idée que je ne sais pas vraiment comment qualifier, peut-être terrifiante. il est déjà difficile de s’imaginer l’infini, mais comment est-ce que l’on peut se représenter quelque chose qui est plus grand que l’infini, c’est terrible.
+L’infini des nombres réels est donc « plus grand », puisqu’il possède plus d’éléments, nécessairement, que l’infini des nombres entiers. Et je vous avoue que c’est une idée dont je ne sais pas vraiment comment la qualifier, si ce n’est de terrifiante peut-être. C’est déjà assez difficile de s’imaginer l’infini, mais comment s’imaginer quelque chose qui soit plus grand que l’infini, c’est effectivement terrible.
 
-Et c’est justement pour étudier encore les différentes « tailles » d’infinis que Cantor va ajouter à la théorie des ensembles ce qu’il appelle les nombres ordinaux.
+Et c’est justement pour étudier plus encore les différentes « tailles » d’infinis que Cantor va ajouter à la théorie des ensembles ce qu’il appelle les nombres ordinaux.
 
 Les nombres ordinaux servent à décrire à la fois la quantité, mais aussi l'ordre des éléments d'un ensemble. Alors à chaque ensemble, ordonné, corresponds un nombre ordinal. 
 
-Et c’est là que le mathématicien italien, Cesare Burali-Forti, va trouver un problème de taille en 1897, avec les nombres ordinaux.
+Et c’est à ce moment là que le mathématicien italien, Cesare Burali-Forti, va trouver un problème de taille en 1897, avec les nombres ordinaux.
 
-Burali-Forti cherche à calculer le nombre ordinal associé à l’ensemble de tous les nombres ordinaux. Problème, dés qu’il calcule le nombre ordinal, l’ensemble de tous les ordinaux, qui sert de base au calcul, est modifié, donc le nouveau nombre ordinal ne représente pas tous les nombres ordinaux, seulement tous ceux qui le précédent.
+Burali-Forti cherche à calculer le nombre ordinal associé à l’ensemble de tous les nombres ordinaux. Problème, dés qu’il calcule ce nombre ordinal, l’ensemble de tous les nombres ordinaux, qui sert de base au calcul, est modifié, donc le nouveau nombre ordinal qu’on vient de calculer ne représente pas tous les nombres ordinaux, seulement tous ceux qui le précédent.
 
-Et c’est là le paradoxe : Tous les ensembles ordonnés devraient être associé à un nombre ordinal, et pourtant, il y ne peut pas exister de nombre ordinal pour l’ensemble des nombres ordinaux. Alors c’est un problème.
+Et c’est là le paradoxe : Tous les ensembles ordonnés devraient être associé à un nombre ordinal, et pourtant, il y ne peut pas exister de nombre ordinal pour l’ensemble des nombres ordinaux. Alors c’est un premier problème.
 
-Ensuite, c’est Bertrand Russell qui, en 1902, va mettre à jour un second paradoxe, il va dire : l'ensemble des cuillères à thé n'est pas lui-même une cuillère à thé, il ne s'appartient pas à lui-même. Qu’en est-il pour l'ensemble de tous les ensembles qui ne s'appartiennent pas à eux-mêmes ?
+Ensuite, en 1902, quelques années plus tard donc, c’est Bertrand Russell qui va mettre à jour un second paradoxe, il va dire : l'ensemble des cuillères à thé n'est pas lui-même une cuillère à thé, il ne s'appartient pas à lui-même. Alors on peut réfléchir sur l'ensemble de tous les ensembles qui ne s'appartiennent pas à eux-mêmes ?
 
-Si cet ensemble s'appartenait à lui-même, il correspondrait à sa propre définition,  c’est à dire un ensemble qui ne s'appartient pas à lui-même, donc s'il s'appartient à lui-même, il ne s'appartient pas à lui-même. Mais s'il ne s'appartient pas à lui-même, alors il mérite de faire partie de l’ensemble des ensembles qui ne s'appartiennent pas à eux-mêmes, donc, il s'appartient à lui-même.
+Si cet ensemble s'appartenait à lui-même, il correspondrait à sa propre définition,  c’est à dire un ensemble qui ne s'appartient pas à lui-même, en clair, si il s'appartient à lui-même, il ne s'appartient pas à lui-même. Mais s'il ne s'appartient pas à lui-même, alors il mérite de faire partie de l’ensemble des ensembles qui ne s'appartiennent pas à eux-mêmes, donc il s'appartient à lui-même.
 
 Pris dans son élan, Russell va appliquer la même logique à l'ordre des concepts. "Être vert" est un concept, on peut dire qu'une pomme "est verte", mais "être vert" n'est pas vert lui-même, il ne s'applique donc pas à lui-même. C’est ce qu’on appelle un concept hétérologique.
 
-Mais l’hétérologie elle-même est-elle hétérologique ? Si oui, alors le concept s’appliquerait à lui-même et ne serait donc pas hétérologique, mais s’il ne l’est pas, alors, comme il ne s’applique pas à lui-même, il devient hétérologique.
+Mais l’hétérologie est-elle elle-même hétérologique ? Si oui, alors le concept s’appliquerait à lui-même et ne serait donc pas hétérologique, mais s’il n’est pas hétérologique, alors, comme il ne s’applique pas à lui-même, il devient hétérologique.
 
-David Hilbert n'est pas surpris par les réflexions de Russuel, dans une lettre à Frege, il raconte qu’un autre mathématicien est lui aussi est arrivé à la même conclusion que Russell, et que le paradoxe est  déjà connu à Göttingen depuis trois ou quatre ans.
+David Hilbert lui, n'est pas surpris par les réflexions de Russell, dans une lettre à Frege, il raconte qu’un autre mathématicien est lui aussi est arrivé à la même conclusion que Russell, et que le paradoxe est déjà connu à Göttingen depuis au moins trois ou quatre ans.
 
-Le dernier paradoxe de la série sera attribué à Antoine Richard, en 1905, qui va emprunter la méthode de diagonalisation de Cantor.
+Le dernier paradoxe de la série qui est attribué à Antoine Richard, en 1905, va emprunter la méthode de diagonalisation de Cantor.
 
-Richard commence par faire la liste de tous les nombres définis en moins de mille mots, puis, par diagonalisation, crée une nouveau nombre qui n’est pas déjà dans la liste. Problème, la méthode de diagonalisation s’explique en moins de mille mots, donc le nouveau nombre devrait être déjà dans la liste, ce que la diagonalisation empêche.
+Richard commence par faire la liste de tous les nombres définis en moins de mille mots, puis, par diagonalisation, crée une nouveau nombre qui n’est pas déjà dans la liste. C’est un problème puisque la méthode de diagonalisation s’explique en moins de mille mots, donc le nouveau nombre devrait être déjà dans la liste, ce que la méthode de diagonalisation empêche.
 
-Alors, on pourrait penser que le problème, finalement, c’est la théorie des ensembles, qui n’est pas correcte, mais souvenez vous que la validité de la théorie des ensembles repose sur la validité de l’arithmétique. Les paradoxes trouvés en théorie des ensemble se répercutent donc sur l’arithmétique, et finalement sur l’ensemble de toutes les différentes branches mathématiques dont l’arithmétique est le support.
+Alors, on pourrait penser que le problème, finalement, c’est la théorie des ensembles, qui n’est pas correcte, mais souvenez vous que la validité de la théorie des ensembles repose, comme le reste des branches mathématiques, sur la validité de l’arithmétique. Alors les paradoxes trouvés en théorie des ensemble se répercutent donc sur l’arithmétique, et finalement sur l’ensemble de toutes les mathématiques.
 
-Il s'agit maintenant pour les mathématiciens de refaire l'arithmétique, de repenser ses axiomes, afin de supprimer les paradoxes déjà connus, et de se prévenir contre des paradoxes futurs. Il faudra fournir aux nouveaux axiomes de l’arithmétique une preuve de consistance, seulement, personne n’a la moindre idée de comment faire.
+Il va agir maintenant pour les mathématiciens de repenser les règles de l'arithmétique, de refaire ses axiomes, afin de supprimer les paradoxes qu’on connait déjà, et de se prévenir contre l’apparition de nouveaux. Pour cela, il faudra fournir aux nouveaux axiomes de l’arithmétique une preuve de consistance, une preuve que les axiomes ne sont pas contradictoires, seulement, personne n’a la moindre idée de comment faire.
 
 Hilbert en 1900 s'était déjà exprimé sur la nécessité d'une preuve de consistance pour l'arithmétique. C’était au congrès international des mathématiciens à Paris.
 
-Hilbert devait y donner une conférence, un exposé général sur les mathématiques, mais c'est Minkowski, son ami de Köningsberg qui va lui donner une autre idée. Il écrit à Hilbert le 5 janvier : "Il serait intéressant de regarder dans le futur et de faire une liste des problèmes sur lesquels les mathématiciens travaillerons dans le siècle qui vient. Avec un tel sujet, on parlera encore de ton exposé dans plusieurs décennies".
+Hilbert devait y donner une conférence, un exposé général sur les mathématiques, mais c'est Minkowski, son ami de Köningsberg qui va lui donner une autre idée. Il écrit à Hilbert le 5 janvier de 1900 : "Il serait intéressant de regarder dans le futur et de faire une liste des problèmes sur lesquels les mathématiciens travaillerons dans le siècle qui vient. Avec un tel sujet, on parlera encore de ton exposé dans plusieurs décennies".
 
-Il n’avait pas tort Minkowski, et Hilbert va présenter une liste de 23 problèmes qui vont occuper la quasi-totalité de la recherche mathématique sur la première moitié du 20ème siècle, et encore aujourd'hui, certains problèmes ne sont toujours pas résolus.
+Il n’avait pas tort Minkowski, et Hilbert va présenter une liste de 23 problèmes qui vont occuper la quasi-totalité de la recherche mathématique de la première moitié du 20ème siècle, et d’ailleurs il reste, encore aujourd'hui, certains problèmes qui ne sont toujours pas résolus.
 
-Alors, dans cette liste, j’aimerais vous lire le second problème, qui trouve au coeur de la recherche des fondements une résonance particulière : "Peut-on prouver la cohérence de l'arithmétique ? En d'autres termes, peut-on démontrer que les axiomes de l'arithmétique ne sont pas contradictoires ?".
+Alors j’aimerais vous lire le second problème de cette liste, qui trouve au coeur de la recherche du fondement une résonance particulière : "Peut-on prouver la cohérence de l'arithmétique ? En d'autres termes, peut-on démontrer que les axiomes de l'arithmétique ne sont pas contradictoires ?". Il faut avouer que ça tombe pile.
 
-En 1904 ensuite, Hilbert va tenter dans le cadre d'une conférence intitulée "Sur les fondements de la logique et de l'arithmétique", une démonstrations de consistance pour un système minimaliste d'axiomes qui ne représentent que les nombres entiers, et la notion d'égalité entre ces nombres.
+En 1904 ensuite, Hilbert va tenter dans le cadre d'une conférence intitulée "Sur les fondements de la logique et de l'arithmétique", une démonstrations de consistance pour un système minimaliste d'axiomes qui ne représente que les nombres entiers, et la notion d'égalité entre ces nombres.
 
-La démonstration sera vivement critiqué par Pointacré, mathématicien influent, qui ne partage pas certaines idées d'Hilbert.
+Cette démonstration va être assez vivement critiqué par Henri Pointacré, qui est très influent, et qui ne partage pas certaines convictions qu’à Hilbert.
 
-Hilbert estime que les objets mathématiques, les nombres par exemple, existent, qu’ils sont réels. Un nombre, n’importe lequel, existe, même si personne ne l’a jamais écrit, même si personne ne l’a jamais calculé, ce nombre, et tous les autres nombres, fonctions, droites, vecteurs, existent. 
+Hilbert estime que les objets mathématiques, les nombres par exemple, existent, qu’ils sont réels. Un nombre, n’importe lequel, existe, même si personne ne l’a jamais écrit, même si personne ne l’a jamais calculé, ce nombre, et tous les autres nombres, les fonctions, les droites, les vecteurs, tout cela existe indépendamment des mathématiciens, ou même des hommes. 
 
-C’est une conviction que Pointcaré ne partage pas, tout au contraire, pour lui, les nombres sont construit par les mathématiciens, un nombre n’existe qu’une fois que le mathématicien l’a calculé, ou définit.
+C’est une conviction que Pointcaré ne partage pas, tout au contraire, pour lui, les nombres sont construit par les mathématiciens, un nombre n’existe qu’une fois que le mathématicien l’a définit, par le calcul ou par une autre forme de définition.
 
-Et ces différents points de vue sur les mathématiques changent la façon de faire des mathématiques.
+Alors on pourrait penser que tout cela n’est que chimère, et que finalement ils ont bien le droit de penser ce qu’ils veulent, mais, en réalité, ces différents points de vue sur les mathématiques vont changer la façon de faire des mathématiques.
 
 Pour Pointacré par exemple, on ne peux pas parler d'infini, puisque les nombres n'existent pas, on ne saurait avoir une collection qui regroupe tous les nombres, ou avoir l’ensemble de tous les ensemble, comme dans la paradoxe de Russell.
 
 Pointcaré va expliquer les paradoxes du point de vue du constructivisme. Pour le paradoxe de Richard, le dernier que je vous ai raconté, il n’y a pas de paradoxe, simplement une mauvaise utilisation des mathématiques.
 
-Pourquoi le nombre crée à partir de la diagonalisation aurait dû être dans la liste des nombres définit en moins de milles mots. On ne pouvais pas l’inclure dans cette liste puisqu’au moment de créer la liste, le nombre en question n’existait tout simplement pas.
+Comment est-ce que le nombre crée à partir de la diagonalisation aurait pu être dans la liste des nombres définit en moins de milles mots puisqu’au moment de créer cette liste, ce nombre n’existait pas encore.
 
-Chez Pointacré, les paradoxes s’expliquent par le principe du cercle vicieux : ce sont tous des objets qui font référence à eux-mêmes dans leur propre définitions, ils ont besoin de déjà exister pour exister. 
+Chez Pointacré, les paradoxes s’expliquent par le principe du cercle vicieux : c’est à dire tous des objets qui font référence à eux-mêmes dans leur propre définitions, ils ont besoin de déjà exister pour exister. 
 
-Et c’est le même reproche que Pointcaré fait à la démonstration de Hilbert de 1904. Hilbert utilise les nombres pour définir les nombres, c’est le cercle vicieux qu’il faudrait interdire des mathématiques.
+Et c’est le même reproche que Pointcaré fait à la démonstration de consistance de Hilbert en 1904. Hilbert utilise les nombres pour définir les nombres, c’est le principe du cercle vicieux, et c’est une pratique qu’il faudrait exclure des mathématiques.
 
-Tout le monde, bien entendu, ne partage pas le sentiment de Pointcaré sur les mathématiques, à commencer par Hilbert. Mais il est apparu, depuis la mise en évidence du cercle vicieux, que pour donner une preuve de consistance de l’arithmétique, il fallait différencier deux choses : d’un côté, les notions que l’on veut prouver, et de l’autre, celles qui serviront à la preuve.
+Tout le monde, bien entendu, ne partage pas le sentiment de Pointcaré sur les mathématiques, à commencer par Hilbert. Mais il est apparu, depuis la mise en évidence du cercle vicieux, que pour donner une preuve de consistance de l’arithmétique, il fallait différencier deux choses : d’un côté, les notions que l’on veut prouver, et de l’autre, celles qui serviront à construire cette preuve.
 
 Principalement, c’est la notion de l'infini qui pose problème, puisque l’infini présuppose l'existence en soi des objets mathématiques. 
 
-Alors Hilbert va choisir de diviser l'arithmétique en deux domaines. D'un côté, la mathématique formelle, qui décrit l'ensembles des mathématiques, l’infini y compris. Et d'un autre côté, ce qu’on va appeler la mathématique contentuelle, puisqu’elle conserve le sens usuel, le contenu des notions mathématiques, et qui se limite à ce qui est immédiatement évident : les nombres entiers, les opérations basiques, etc.
+Alors Hilbert va choisir de diviser l'arithmétique en deux domaines. D'un côté, la mathématique formelle, qui décrit l'ensembles des mathématiques contemporaines, l’infini y compris. Et d'un autre côté, ce qu’on va appeler la mathématique contentuelle, puisqu’elle conserve le sens usuel, le contenu des notions mathématiques, et qui se limite à ce qui est immédiatement évident : les nombres entiers, les opérations de base des mathématiques comme l’addition, la multiplication, etc.
 
-L’idée d’Hilbert est simple, réussir à prouver l’ensemble de l’édifice mathématique grâce à des notions que personne ne conteste. Puisqu’en dehors du formalisme d’Hilbert, il existe d’autres courants et d’autres mathématiciens qui se sont penchés sur la question du fondement.
+L’idée d’Hilbert est simple, réussir à prouver l’ensemble de l’édifice mathématique grâce à des notions que personne ne conteste. Puisque, il faut noter qu’en dehors du formalisme d’Hilbert, il existe d’autres courants et d’autres mathématiciens qui se sont penchés sur la question du fondement.
 
-Parlons d'abord de Bertrand Russell, et de son ami, Alfred North Whitehead. Ils vont tenter une axiomatisation de l’ensemble des mathématiques, inspirés par un précédent article de Russell : « La logique mathématique fondée sur la théorie des types ».
+On peut parler par exemple de Bertrand Russell, et de son ami, Alfred Whitehead, qui vont tenter une axiomatisation de l’ensemble des mathématiques, inspirés par un précédent article de Russell : « La logique mathématique fondée sur la théorie des types ».
 
-La théorie des types cherche à hiérarchiser les différentes notions des mathématiques. Ainsi, le notions de rang 1 s’appliquent à celles de rang 2, qui s’appliquent aux notions de rang 3, etc.
+La théorie des types cherche à hiérarchiser les différentes notions des mathématiques. Ainsi, les notions de rang 1 s’appliquent uniquement aux notions de rang 2, les notions de rang 2 s’appliquent aux notions de rang 3, etc.
 
-Cette hiérarchie permet d'éviter qu'une notion ne s'applique à elle-même, et donc d’éviter le cercle vicieux décrit par Pointcaré.
+Cette hiérarchie permet d'éviter qu'une notion ne s'applique à elle-même, et donc d’éviter le cercle vicieux de Pointcaré.
 
-Russell et Whitehead vont publier leur axiomatique globale en trois volumes, intitulés « Principia Mathematica ». Le travail est colossal, et à titre d’exmple, on y trouve plus de quatre cents cinquantes pages pour prouver que 1 + 1 = 2. Et pourtant, il manque aux « principas » la preuve de consistance.
+Russell et Whitehead vont donc publier leur axiomatique globale des mathématiques en trois volumes, intitulés « Principia Mathematica ». Le travail est véritablement colossal, il leur faudra plus de dix ans pour compléter leur oeuvre, et on trouve par exemple, pour vous donner une idée, plus de quatre cents cinquante pages afin de prouver que 1 + 1 = 2. 
 
-Russell, qui s’occupe principalement des questions philosophiques liées à l’ouvrage, estime tout simplement que les axiomes présentés sont des notions intuitives, évidentes, et nécessairement vraies. Une preuve de consistance ne serait, pour lui, qu’une simple validation de l’évidence des axiomes, et n’est finalement pas très importante.
+Pourtant, il manque aux « principas » un élément essentiel, la preuve de consistance des axiomes.
 
-Mais Hilbert commentera, quelques années plus tard : "La théorie des fondements de Russell et Whitehead [...] fait reposer les mathématiques sur l'axiome de l'infini et sur un axiome dit de réductibilité. Or ces deux axiomes sont d'authentiques hypothèses qui ne peuvent s'appuyer [...] sur une preuve de consistance [... et] dont la validité universelle reste même ouverte au doute".
+Pour Russell, qui est celui qui s’occupe des questions épistémologiques liées à l’ouvrage, philosophiques on pourrait dire, il estime tout simplement que les axiomes présentés sont des notions intuitives, évidentes, et nécessairement vraies. Une preuve de consistance ne serait, pour lui, qu’une simple validation de l’évidence, de la vérité, des axiomes, et n’est finalement pas très importante.
+
+Hilbert commentera, quelques années plus tard : "La théorie des fondements de Russell et Whitehead [...] fait reposer les mathématiques sur l'axiome de l'infini et sur un axiome dit de réductibilité. Or ces deux axiomes sont d'authentiques hypothèses qui ne peuvent s'appuyer [...] sur une preuve de consistance [... et] dont la validité universelle reste même ouverte au doute".
 
 L’évidence des axiomes de Russell et Whitehead n’est donc pas si évidente que ça.
 
 Ailleurs, aux Pays-Bas, on trouve Brouwer, qui place l’évidence immédiate et l’intuition au coeur des mathématiques. Pour lui et le reste des « intuitionnistes », il faut bannir des mathématiques tout ce qui n’est pas immédiatement évident.
 
-Les paradoxes étaient un avertissement : un usage abusif des règles de la logique, qui font abstraction, comme on l’a vu, du sens des notions, crée finalement des énoncés vides, et des paradoxes.
+Les paradoxes étaient un avertissement : un usage abusif des règles de la logique, qui font abstraction, comme on l’a vu, du sens des notions, crée des énoncés vides de sens, et finalement, des paradoxes.
 
-Brouwer est finalement assez proche des positions de Pointcaré, il prône une vision constructiviste des mathématiques, et bannit l’infini, même si pour ça, il doit renoncer à certains outils les plus pratiques des mathématiques, et en particulier, le principe du « tiers exclu »..
+Brouwer est assez proche, en vérité, des positions de Pointcaré, il prône une vision constructiviste des mathématiques, et bannit l’infini, même si pour ça, il doit renoncer à certains des outils les plus pratiques des mathématiques, et en particulier, le principe du « tiers exclu ».
 
-Le principe du tiers exclu, qui repose sur les notions d'infini et d'existence en soi des objets mathématiques, permet de dire que soit une propriété est vraie, soit son opposé est vrai, il n’y a pas de troisième option.
+Le principe du tiers exclu, qui repose sur les notions d'infini et d'existence en soi des objets mathématiques, permet de dire que soit une propriété mathématique est vraie, soit son opposée est vraie, il n’y a pas de troisième possibilité.
 
-Avec le tiers exclu, un problème mathématique est soit vrai, soit faux, c'est ce qui fera dire à Brouwer que : "La question de la validité du tiers exclu équivaut à celle de la possibilité de problèmes mathématiques non résolubles".
+Avec le tiers exclu, un problème mathématique est donc soit vrai, soit faux, et c'est ce qui fera dire à Brouwer que : "La question de la validité du tiers exclu équivaut à celle de la possibilité de problèmes mathématiques non résolubles".
 
-On se rappelle, Hilbert avait défendu la résolubilité de tout problème mathématique. Il avait dit au congrès international en 1900 : « Jamais le mathématicien ne sera réduit à dire Ignorabimus ! ».
+On peut se rappeller que Hilbert avait défendu la résolubilité de tout problème mathématique. Il avait dit au congrès international en 1900 : « Jamais le mathématicien ne sera réduit à dire Ignorabimus ! ».
 
 Ignorabimus, la citation latine qui signifie « on ne sait pas, et on ne saura pas ».
 
@@ -236,19 +238,19 @@ Comprenons, en physique, l’intuition, c’est à dire l’expérience, prends 
 
 Alors Hilbert répondra également aux intuitionnistes, et va leur dire : "Oter le [tiers exclu] au mathématicien serait comme si on voulait enlever à l'astronome son télescope, au boxeur le droit de se servir de son poing. [... C'est] quasiment à renoncer à la science mathématique. Car que sont les misérables restes, qu'est-ce que la poignée de résultats incomplets et disparates que les intuitionnistes ont pu élaborer [...] à l'égard de l'étendue formidable de la mathématique contemporaine ?".
 
-C’est vrai qu’il y a un certain panache dans cette déclaration, mais encore faut-il qu’Hilbert élabore sa propre réponse au problème du fondement. Et les choses vont se préciser à partir de 1922 et jusqu’en 1930, avec une série d’article dans lesquels Hilbert dessine petit à petit son programme formaliste.
+C’est vrai qu’il y a un certain panache dans cette déclaration, mais encore faut-il qu’Hilbert élabore sa propre réponse au problème du fondement. Et les choses vont se préciser à partir de 1922 et jusqu’en 1930, avec une série d’article dans lesquels Hilbert dessine petit à petit le programme formaliste, qu’on va aussi le programme de Hilbert.
 
-L'objectif du programme est d'établir une mathématique formelle, pure de forme et vide de sens. C'est la méthode axiomatique poussée à son maximum. Une mathématique d'axiomes et de logique, où l'intuition et l'évidence immédiate n'ont pas leur place.
+L'objectif de ce programme est d'établir une mathématique formelle, pure de forme et vide de sens. C'est la méthode axiomatique poussée à son paroxysme. Une mathématique d'axiomes et de logique, où l'intuition et l'évidence immédiate n'ont pas leur place.
 
-Et pour valider, pour justifier cette mathématique formelle, Hilbert définit la mathématique contentuelle, on parlera aussi de mathématique finitiste, qui n’utilise que les notions clairement établies, et acceptées par la communautés mathématique dans son ensemble le plus large.
+Pour justifier l’utilisation , la validité de cette mathématique formelle, Hilbert définit la mathématique contentuelle, on parlera aussi de mathématique finitiste, qui n’utilise que des notions clairement établies, et acceptées par toute la communauté mathématique, dans son ensemble le plus large.
 
 Comme le dit Hilbert, il s'agit de "s'assurer par le fini le droit d'opérer sur l'infini".
 
-C’est la force du programme formaliste, on utilise les mathématiques pour justifier les mathématiques, et c’est ce qui permettra à Hilbert un petit commentaire, disant qu’il n’a "besoin ni du Bon Dieu, comme Kronecker, ni de l'hypothèse d'une faculté de conscience accordée au principe d'induction complète, comme Pointcarré, ni de l'intuition originelle de Brouwer, ni non plus des axiomes de l'infini [comme Russell et Whitehead]". 
+C’est la force du programme formaliste, on utilise les mathématiques pour justifier les mathématiques, et c’est ce qui permettra à Hilbert un commentaire acide à l’égard des autres mathématiciens qui se sont essayés au problème du fondement, il va dire qu’il n’a "besoin ni du Bon Dieu, comme Kronecker, ni de l'hypothèse d'une faculté de conscience accordée au principe d'induction complète, comme Pointcarré, ni de l'intuition originelle de Brouwer, ni non plus des axiomes de l'infini [comme Russell et Whitehead]".
 
-D’ailleurs, et ce sont les paroles de Hilbert encore, formaliser "c'est dépeindre l'activité de notre intelligence", c'est "dresser un inventaire des règles d'après lesquelles fonctionne réellement notre pensée".
+D’ailleurs, et ce sont encore les mots de Hilbert toujours, formaliser "c'est dépeindre l'activité de notre intelligence", c'est "dresser un inventaire des règles d'après lesquelles fonctionne réellement notre pensée".
 
-Pourtant, et malgrès la force philosophique, épistémologique de leurs arguments, les mathématiciens en gagés dans le programme de fondement, on peux citer Hilbert bien entendu, mais aussi Bernays, Von Neumann et Ackermann, ne réussissent pas à présenter de résultats concrets. Toutes les différentes tentatives d’axiomatisation et de preuve de consistance ont systématiquement échoués.
+Pourtant, et malgré la force philosophique, épistémologique de leurs arguments, les mathématiciens engagés dans le programme de fondement, on peux citer Hilbert bien entendu, mais aussi Bernays, Von Neumann et Ackermann, ne réussissent toujours pas à aboutir aux moindres résultats. Toutes les différentes tentatives d’axiomatisation et de preuve de consistance ont systématiquement échouées.
 
 Alors en 1928, Hilbert va prendre la parole au congrès international de Bologne, et va exposer devant ses pairs trois problèmes ouvert liés au programme formaliste : L'axiomatique formelle est-elle complète ? consistante ? et décidable ?
 
@@ -258,176 +260,184 @@ C’est la tentative de validation du principe du tiers exclu et de la résolubi
 
 Ensuite, l’axiomatique formelle est-elle consistante ? C'est la fameuse preuve de consistance, de non-contradiction que cherchent les mathématiciens depuis l'apparition des paradoxes en théorie des ensembles.
 
-Et enfin, l’axiomatique formelle est-elle décidable ? C’est à dire, est-ce qu'il existe une méthode effective, qui permette de décider si une formule donnée est démontrable ou réfutable ? c’est à dire vraie ou fausse, sans avoir à la calculer.
+Et enfin, l’axiomatique formelle est-elle décidable ? C’est à dire, est-ce qu'il existe une méthode effective, qui permette de décider si une formule donnée est démontrable ou réfutable ? C’est à dire la vérité mathématique de manière automatique.
 
 Alors il est bien entendu que Hilbert espère apporter une réponse positive à ces trois questions. Et c'est même à cette condition seulement que pourrait se concrétiser le programme formaliste. 
 
-Et en 1928, l’optimisme est de mise, tout semble bien parti puisqu’au cours de la conférence, Hilbert annonce qu'Ackermann et Von Neumann sont parvenus à prouver la consistance de l'axiomatique formelle.
+Et en 1928, l’optimisme est de mise, tout semble plutôt bien parti puisqu’au cours de la conférence, Hilbert annonce qu'Ackermann et Von Neumann sont parvenus à prouver la consistance de l'axiomatique formelle.
 
-Il annonce également qu’avec Ackermann, ils pensent pouvoir bientôt amener la preuve de la complétude des "prédicats du premier ordre », qui représentent la partie la plus importante de l’arithmétique, puisqu’ils décrivent les règles logiques applicable en mathématique.
+Il va annoncer aussi qu’avec Ackermann, ils pensent pouvoir bientôt apporter la preuve de la complétude des « prédicats du premier ordre », qui représentent la partie la plus importante de l’arithmétique, puisqu’ils décrivent les règles logiques applicable en mathématique.
 
 Alors on trouve à la conférence de Bologne un certain nombre de mathématiciens, et en particulier un jeune Autrichien qui va prêter beaucoup d’attention à l’exposé d’Hilbert, c’est Kurt Gödel.
 
-Alors je dis qu’il est Autrichien, mais la nationalité de Gödel est plutôt changeante. il est né Austro-Hongrois, mais sera naturalisé Tchécoslovaque à l’issue de la première guerre mondiale, avec la dissolution de l'Autriche-Hongrie. 
+Alors je dis qu’il est Autrichien, mais la nationalité de Gödel est assez changeante, pour ainsi dire. il est d’abord né Austro-Hongrois, mais devra être naturalisé Tchécoslovaque à l’issue de la première guerre mondiale, avec la dissolution de l'Autriche-Hongrie. 
 
-Très attaché à ses racines Autrichiennes, il se fera naturaliser en 1929, seulement pour prendre, de force, la nationalité Allemande en 1938 avec l’annexion de L’Autriche par L’allemagne. 
+Attaché à ses racines Autrichiennes, il se fera naturaliser en 1929, seulement pour devoir prendre, de force encore une fois, la nationalité Allemande en 1938 avec l’annexion de L’Autriche par L’Allemagne. 
 
-Finalement il va s'exiler aux États-Unis, de peut d’être enrôlé dans l’armée Allemande, et n’obtiendra la nationalité Américaine que grâce à son ami Albert Einstein, puisque Gödel, qui est un logicien, à bien étudié la constitution américaine, et explique au juge qui doit valider sa demande de naturalisation, que la constitution permettrait l’apparition aux États-Unis d’un dictateur. 
+Finalement il va s'exiler aux États-Unis, de peut d’être enrôlé dans l’armée Allemande, il a une santé très fragile, et n’obtiendra la nationalité Américaine que grâce à son ami Albert Einstein, puisque Gödel, qui est un logicien, à bien étudié la constitution américaine, et explique au juge qui doit valider sa demande de naturalisation, que la constitution Américaine dans sa forme actuelle permet l’émergence aux États-Unis d’un dictateur. 
 
-Mais refermons-là la parenthèse pour revenir en 1928, au congrès de Bologne. Je vous ai dit que Hilbert et Ackerman pensait pouvoir démontrer la complétude des prédicats du premier ordre, c’est e fait Gôdel qui apportera cette preuve, en 1929.
+Mais refermons-là la parenthèse pour revenir en 1928, au congrès de Bologne. Je vous ai dit que Hilbert et Ackerman pensait pouvoir démontrer la complétude des prédicats du premier ordre, c’est en fait Gödel qui apportera cette preuve, en 1929.
 
-Et puis, c’est entre 1930 et 1931 que Gödel va marquer l’histoire du programme formaliste et de la quête du fondement.
+Et puis, c’est entre 1930 et 1931 que Gödel va marquer l’histoire de la quête du fondement mathématique.
 
-En Août 1930, le 26, in tient une conférence à Köningsberg, Les différents points de vue s’affrontent, Heyting parle de l'intuitionnisme, Von Neumann parle du formalisme, et Hilbert annonce sa retraite en prononçant ces quelques mots en Allemand : "Wir müssen wissen. Wir werden wissen! », traduits en français : « Nous devons savoir. Nous le saurons! ». Des mots qui s’opposent bien entendu à l’Ignorabimus, la citation latine « nous ne savons pas et nous ne saurons pas ».
+En Août 1930, le 26, se tient une conférence à Köningsberg, Les différents points de vue s’affrontent, Heyting parle de l'intuitionnisme, Von Neumann parle du formalisme, et Hilbert annonce sa retraite en prononçant ces quelques mots en Allemand : "Wir müssen wissen. Wir werden wissen! », qui se traduit en français : « Nous devons savoir. Nous le saurons! ». Des mots qui s’opposent bien entendu au fameux Ignorabimus, pour rappel « nous ne savons pas et nous ne saurons pas ».
 
 Alors, à la faveur d’une discussion informelle qui se tient sur les côtés de la conférence, Gödel va présenter à quelques autres mathématiciens, dont Von Neumann, un théorème qu’il a découvert on imagine quelques jours plus tôt.
 
-Il dit : « Si l'arithmétique élémantaire est ω-consistante, elle comporte des formules fermées qui ne sont ni démontrables, ni réfutables à partir des axiomes ». Et Von Neumann commentera instantanément : « Tout est fini » !
+Il dit : « Si l'arithmétique élémentaire est ω-consistante, elle comporte des formules fermées qui ne sont ni démontrables, ni réfutables à partir des axiomes ». Ce à quoi Von Neumann commentera instantanément : « Tout est fini » !
 
-C’est le seul à ce moment à réaliser l’importance du théorème d’incomplétude de Gödel, qui, exposé simplement, montre que n’importe quelle axiomatique est nécessairement soit incomplète, soit inconsistante. Alors que rappelons-le, les buts du programme formaliste était de définir une axiomatique qui soit à la fois complète et consistante.
+C’est le seul à ce moment à réaliser l’importance du théorème de Gödel qu’on nommera le théorème d’incomplétude, qui, exposé simplement, montre que n’importe quelle axiomatique est nécessairement soit incomplète, soit inconsistante. Et rappelons-le, les buts du programme formaliste était de définir une axiomatique qui soit à la fois complète et consistante.
 
 La preuve de Gödel repose sur une idée simple : Il est possible, avec n’importe quelle axiomatique, tant que cette axiomatique est suffisamment expressive pour représenter les nombres entiers et les opérations d’addition et de multiplication, de créer une proposition qui dise : « Je ne suis pas démontrable ».
 
-De là, il n’y a que deux possibilités, soit la formule est démontrable, mais alors, nous avons un système d’axiome qui démontre des choses qui sont fausses, donc le système est inconsistant, et inutilisable.
+De là, il n’y a que deux possibilités, soit la formule est démontrable, mais alors, nous avons un système d’axiome qui démontre des choses qui sont fausses, donc le système est inconsistant, et inutilisable du même coup.
 
-Soit, la formule n'est pas démontrable, auquel cas, elle est vraie. Mais on se retrouve alors avec une formule qui est vraie mais pas démontrable. Le système est incomplet.
+Ou alors, la formule n'est pas démontrable, auquel cas, elle dit vraie. Mais on se retrouve alors avec une formule qui est vraie mais qui n’est pas démontrable. Le système est alors incomplet.
 
 Le 20 Novembre, donc deux mois plus tard, Von Neumann écrit à Gödel pour lui dire qu'il à trouvé un second théorème à partir du premier : "la consistance d'un système ne peut pas être établie au moyen de raisonnements qui se laisseraient formaliser dans le système".
 
-C’est à dire pour le programme formaliste, qu’il est impossible d’apporter une preuve de complétude de l’axiomatique formelle à partir de la mathématique finitiste.
+C’est à dire pour le programme formaliste, qu’il est impossible d’apporter une preuve de complétude de l’axiomatique formelle à partir de la mathématique finitiste, puisque la mathématique formelle peut s’exprimer dans l’axiomatique formelle.
 
-Gödel était en fait déjà arrivé à la même conclusion quelques jours plus tôt seulement, et à envoyé un manuscrit à une revue mathématique Viennoise qui publiera les désormais fameux théorèmes d’incomplétudes en Janvier 1931.
+Gödel était en fait déjà arrivé à la même conclusion quelques jours plus tôt seulement, et à envoyé un manuscrit, qui détaille les deux théorèmes, à une revue mathématique Viennoise qui le publiera en Janvier 1931.
 
-Alors il semblerait que Hilbert, lorsqu’il apprit le contenu de ces théorèmes, rentra dans une colère noire. Peut-être parcequ'il n'avait pas trouvé lui même ces théorèmes que Gödel considère comme une "conséquence presque triviale" des travaux de Skolem. Ou plus simplement, parce que les deux théorèmes marquent la fin du programme formaliste.
+Alors il semblerait que Hilbert, lorsqu’il a apprit le contenu de ces théorèmes, rentra dans une colère noire. Peut-être parceque il n'avait pas trouvé lui même ces théorèmes que Gödel considère comme une "conséquence presque triviale" des travaux de Skolem. Ou plus simplement, parce que les deux théorèmes marquent très probablement l’échec du programme formaliste.
 
-Et pourtant, Gödel n’est pas de cet avis, il dit : "il reste un espoir pour que dans le futur on puisse trouver des méthodes satisfaisantes [...] dépassant les limites du système [finitiste de Hilbert] et permettant de fonder l'arithmétique classique et l'analyse. Cette question ouvre un champ de recherches fécond". 
+Et pourtant, Gödel n’est pas de cet avis, il dit : "il reste un espoir pour que dans le futur on puisse trouver des méthodes satisfaisantes [...] dépassant les limites du système [finitiste de Hilbert] et permettant de fonder l'arithmétique classique et l'analyse. Cette question ouvre un champ de recherches fécond".
 
 Et il ajoutera : "la conviction dans la décidabilité de tout problème mathématique n'est pas ébranlée par ce résultat". 
 
-Vous me permettrez de penser que Gödel lui-même est déçu par les théorèmes d’incomplétudes. Il partage avec Hilbert de nombreuses conviction sur la nature des mathématiques, il dit : "les mathématiques décrivent une réalité non sensible, qui existe indépendamment des actes et des facultés de l'esprit humain et n'est que perçue, et probablement perçue de façon très incomplète".
+Vous me permettrez de penser que Gödel lui-même est très probablement tout aussi déçu qu’Hilbert par la découverte de ses théorèmes d’incomplétudes. Il partage avec lui de nombreuses conviction sur la nature des mathématiques, il dit : "les mathématiques décrivent une réalité non sensible, qui existe indépendamment des actes et des facultés de l'esprit humain et n'est que perçue, et probablement perçue de façon très incomplète".
 
-Par ailleurs, Gödel n’est pas le seul à considérer que les théorèmes d’incomplétudes ne marquent pas un point final au programme formaliste, c'est John Von Neumann par exemple qui dira: "Ce résultat imposant de l'analyse de Gödel ne doit pas être mal compris: il n'exclut pas une preuve  méta-mathématique de la consistance de l'arithmétique. [...] Gödel a montré qu'aucune preuve n'est possible qui peut être représentée au sein de l'arithmétique. Son argument ne supprime pas la possibilité de preuves strictement finitiste qui ne sont pas représentés au sein de l'arithmétique. Mais personne aujourd'hui ne semble avoir une idée claire de ce qu'une preuve finitiste serait qui ne serait pas formulable dans l'arithmétique".
+Par ailleurs, Gödel n’est pas le seul à considérer que les théorèmes d’incomplétudes ne marquent pas un point final au programme formaliste, c'est John Von Neumann par exemple qui dira: "Ce résultat imposant de l'analyse de Gödel ne doit pas être mal compris: il n'exclut pas une preuve méta-mathématique de la consistance de l'arithmétique. [...] Gödel a montré qu'aucune preuve n'est possible qui peut être représentée au sein de l'arithmétique. Son argument ne supprime pas la possibilité de preuves strictement finitiste qui ne sont pas représentés au sein de l'arithmétique. Mais personne aujourd'hui ne semble avoir une idée claire de ce qu'une preuve finitiste serait qui ne serait pas formulable dans l'arithmétique".
 
-Et puis il reste encore la question de la décidabilité à résoudre. Et cette question va prendre d’autant plus d’importance depuis les théorème de Gödel, puisqu’il est question de trouver une « procédure effective » qui puisse décider de la démontrabilité de n’importe quelle formule, et ce terme de « procédure effective », qui est au centre de la décidabilité et au centre de la généralisation des théorèmes d’incomplétude, reste à définir formellement.
+Et puis il reste encore la question de la décidabilité à résoudre. Et cette question va prendre d’autant plus d’importance depuis les théorème de Gödel, puisqu’il est question de trouver une « procédure effective » qui puisse décider de la démontrabilité de n’importe quelle formule, et ce terme de « procédure effective », qui est au centre de la décidabilité est également au centre de la généralisation des théorèmes d’incomplétude, et reste à définir formellement.
 
-L’idée de « procédure effective » dans la formulation d’Hilbert fait en réalité référence à la notion de « calculabilité ». Alors depuis le 18éme siècle, les mathématiciens ont associé l'idée de calcul avec l'idée de fonction. Mais les fonctions vont évoluer au 19ème siécle et ce qu’une fonction décrit, c’est la correspondance, la transition entre un point de départ et un point d'arrivé.
+L’idée de « procédure effective » dans la formulation d’Hilbert fait en réalité référence à la notion de « calculabilité ». Alors depuis le 18éme siècle, les mathématiciens avaient associé l'idée de calcul avec l'idée de fonction. Mais les fonctions ont évoluées au 19ème siécle et pour ne plus décrire qu’une correspondance, une transition entre un point de départ et un point d'arrivé.
 
-Alors on va dissocier deux types de fonctions, celles qui possèdent une procédure de calcul qui décrit la transformation effectuée par la fonction, par exemple la fonction qui, à n’importe quel nombre « x » associe le  nombre « x**2 », et les fonctions pour lesquelles on n’a pas de procédure de calcul, les fonction non-calculables.
+Alors on va dissocier deux types de fonctions, celles qui possèdent une procédure de calcul qui décrit la transformation effectuée par la fonction, par exemple la fonction qui, à n’importe quel nombre « x » associe le  nombre « x^2 », et les fonctions pour lesquelles on n’a pas de procédure de calcul, les fonction qui sont dites non-calculables.
 
-Et l’enjeu derrière la définition du terme « procédure effective » et de la notion de « calculabilité », c’est de réussir à trouver la limite entre les fonctions calculables et les fonctions non-calculables.
+L’enjeu derrière la définition du terme « procédure effective » et de la notion de « calculabilité », c’est de réussir à définir la limite entre les fonctions calculables et les fonctions non-calculables.
 
-Le premier à trouver une définition correcte de la calculabilité, c’est Alonzo Church, un américain, pourtant, ce n’est pas sa définition qui restera dans les mémoires, mais plutôt celle d’un jeune mathématicien anglais : Alan Turing.
+Le premier à trouver une définition satisfaisante de la calculabilité, c’est Alonzo Church, un américain, et pourtant, ce n’est pas sa définition qui restera dans les mémoires, mais plutôt celle d’un jeune mathématicien anglais : Alan Turing.
 
-Commençons par le premier, Alonzo Church, qui est établi à l’université de Princeton dans le New Jersey, proche de New York, et qui va publié en avril 1936 « Un problème insoluble de la’ théorie des nombres élémentaires », dans lequel figure la solution au problème de la décision, basé sur un système de calcul que Church à développé quelques années auparavant, et qu’il appelle le λ-calcul.
+Mais commençons tout de même par parler des travaux d’Alonzo Church, qui est établi à l’université de Princeton dans le New Jersey, donc proche de New York, et qui va publier en avril 1936 « Un problème insoluble de la théorie des nombres élémentaires », dans lequel figure la solution au problème de la décision, basé sur un système de calcul que Church à développé quelques années auparavant, et qu’il appelle le λ-calcul.
 
 L’idée derrière le λ-calcul, c’est que tout y décrit sous forme de fonction. Une fonction est décrite par une expression, qui contient soit un calcul, soit une autre fonction, ou bien une combinaison de ces deux éléments. 
 
 Pour construire des fonctions de plus en plus complexes, on peut « appliquer » une fonction à une autre, c’est à dire qu’on va utiliser le résultat d’une première fonction pour le calcul d’une seconde fonction.
 
-C'est à partir de cette base que Church définit la calculabilité, puisqu’avec le système finalement assez basique du λ-calcul, il est possible de construire n’importe quelle fonction qui soit calculable.
+C'est à partir de cette base que Church définit la calculabilité, puisqu’il est possible avec le λ-calcul de construire n’importe quelle fonction qui calculable.
 
-J’avoue préférer ne pas rentrer dans le détail du λ-calcul, si les principe de bases sont simples, la lecture et l’explication de raisonnements mathématiques basés sur le λ-calcul peuvent rapidement donner une sérieuse migraine. Et c’est d’ailleurs la faiblesse du système de Church, la difficulté à lire le λ-calcul rends la vérification de son travail presque impossible. 
+J’avoue préférer ne pas rentrer dans le détail du λ-calcul, si les principe peuvent paraitre simples, la lecture et l’explication de raisonnements mathématiques basés sur le λ-calcul peuvent rapidement donner une sérieuse migraine. Et c’est d’ailleurs la faiblesse du système de Church, la difficulté à lire le λ-calcul rends la vérification de son travail très difficile pour les autres mathématiciens. 
 
-Le mathématicien Kleene d’ailleurs, qui n’est d’abord pas convaincu par la définition de Church pour la calculabilité, pense même qu’une telle définition est impossible. 
+Stephen Kleene d’ailleurs, une autre mathématicien, n’est pas vraiment convaincu par la définition de Church pour la calculabilité, et ilpense même qu’une telle définition est impossible. 
 
-Il se souvient de la méthode de diagonalisation de Cantor, et il a l’idée que, si on possédait une définition de la calculabilité, on pourrait faire une liste de toutes les fonctions calculables, puis, par diagonalisation, créer une nouvelle fonction calculable, et en conclure donc que la définition n’est pas bonne, puisqu’elle n’englobe pas toutes les fonctions calculables.
+Il se souvient de la méthode de diagonalisation de Cantor, et il a l’idée que, si on possédait une définition de la calculabilité, on pourrait faire la liste de toutes les fonctions calculables, puis, par diagonalisation, on pourrait créer une nouvelle fonction calculable qui ne soit pas dans la liste, et en conclure donc que la définition n’est pas bonne, puisqu’elle n’englobe pas toutes les fonctions calculables.
 
-Il avait peut-être parlé un peu vite, et racontera plus tard : "Lorsque Church me proposa sa thèse [pour une définition de la calculabilité], je me mis aussitôt à la tâche de la réfuter par une diagonalisation de la classe des fonctions [calculables]. Mais, réalisant vite que la diagonalisation ne pouvait être faite de façon effective, je devins du jour au lendemain partisan de la thèse de Church".
+Il avait peut-être parlé un petit peu vite, et racontera plus tard : "Lorsque Church me proposa sa thèse [pour une définition de la calculabilité], je me mis aussitôt à la tâche de la réfuter par une diagonalisation de la classe des fonctions [calculables]. Mais, réalisant vite que la diagonalisation ne pouvait être faite de façon effective, je devins du jour au lendemain partisan de la thèse de Church".
 
-Aujourd’hui il n’y a plus aucun doute sur la validité de la définition de Church, et pourtant, c’est la définition d’Alan Turing, qui est assez jeune en 1936 puisqu’il n’a que 24 ans, et qui va marquer les esprits par sa simplicité, son évidence,  mais aussi parce qu’il y a chez Turing quelques idées totalement nouvelles, qu’on peut même qualifier de révolutionnaires.
+Aujourd’hui il n’y a plus aucun doute sur la validité de la définition de Church, et pourtant, c’est la définition d’Alan Turing, qui est assez jeune en 1936 puisqu’il n’a que 24 ans, qui va marquer les esprits par sa simplicité et son évidence, mais aussi parce qu’il y a chez Turing quelques idées totalement nouvelles, et qu’on peut même qualifier de révolutionnaires, mais en tout cas qui vont marquer le 20ème siècle.
 
-Alors en 1936, Turing à obtenu une bourse au King’s College de Cambridge, en Angleterre, mais l’année précédente il était encore étudiant et il assistait au cours de son professeur de Logique : Max Newman.
+Alors en 1936, Turing à obtenu une bourse au King’s College de Cambridge, en Angleterre, qui lui permet de faire à peu près ce qu’il veut pendant trois ans, mais l’année précédente il était encore étudiant et il assistait au cours, intitulé « fondement des mathématiques », de son professeur de logique : Max Newman.
 
 Le cours porte sur le programme formaliste de Hilbert, on y apprends aussi les théorèmes d'incomplétudes de Gödel et Newman y ajoute un commentaire personnel sur le problème de la décision, il dit : "Supposons, par exemple, que nous puissions trouver un système fini de règles qui nous permettrait de dire si une formule quelconque est ou non démontrable. Ce système contiendrait un théorème de métamathématique. Évidemment, ce théorème n'existe pas et c'est heureux, parce que s'il existait, nous aurions un ensemble mécanique de règles nous permettant de trouver la solution de tous les problèmes mathématiques et notre activité en tant que mathématiciens cesserait d'exister".
 
-C'est cette vision mécaniste du calcul, qui nous vient de John Von Neumann, "il y aurait une instruction absolument mécanique à l'aide de laquelle quiconque pourrait décider, à partir de n'importe quelle formule donnée, si elle est ou non démontrable", qui va pousser Turing à essayer de trouver la bonne machine pour définir la calculabilité.
+Vous avez bien entendu, « un ensemble mécaniques de règles ». C’est cette vision mécaniste du calcul, qui nous vient d’abord de John Von Neumann, "il y aurait une instruction absolument mécanique à l'aide de laquelle quiconque pourrait décider, à partir de n'importe quelle formule donnée, si elle est ou non démontrable", qui va pousser Turing à essayer de trouver la bonne machine pour définir la calculabilité.
 
-Il y a deux citations que j’aimerais vous lire à ce sujet, la première est de Max Newman : "et cela bien sûr conduit [Turing] au prochain défi, quel type de machine ? Et cela l'a inspiré pour essayer de définir ce que l'on voudrait dire par une machine à calculer parfaitement générale".
+Il y a deux citations que j’aimerais vous lire à ce sujet afin de valider ma pensée sur ce sujet, la première est de Max Newman : "et cela bien sûr conduit [Turing] au prochain défi, quel type de machine ? Et cela l'a inspiré pour essayer de définir ce que l'on voudrait dire par une machine à calculer parfaitement générale".
 
-L'autre citation vient de William Newman, le fils de Max Newman, qui dit : "À un moment, il a posé sa classe une question: la prouvabilité des énoncés mathématiques pourrait-elle être découvert par un procédé mécanique ? Cette question est restée dans l'esprit d'Alan, et peu à peu, il a développé le papier qui allait faire sa réputation dans le monde mathématique, et dans » une science dont je me permet de taire le nom pour l’instant, afin de conserver un peu le suspens.
+L'autre citation que je veux vous lire vient de William Newman, le fils de Max Newman, qui dit : "À un moment, il a posé à sa classe une question: la prouvabilité des énoncés mathématiques pourrait-elle être découvert par un procédé mécanique ? Cette question est restée dans l'esprit d'Alan, et peu à peu, il a développé le papier qui allait faire sa réputation dans le monde mathématique, et dans » une science dont je me permet de taire le nom pour l’instant, afin de conserver un peu de suspens.
 
-C’est à la fin de l’été 1936, seulement deux mois après la publication de Church, que Turing finit la rédaction de son article : «  »On Computable Numbers », « Sur les nombres calculables, avec une application au problème de la décision ».
+C’est à la fin de l’été 1936, seulement deux mois après la publication de Church, que Turing finit la rédaction de son article : « On Computable Numbers », « Sur les nombres calculables, avec une application au problème de la décision ».
 
 Mais il faut le signaler, Turing, quand il termine son article n’a pas encore connaissance des travaux de Church. Ce qui n’est plus le cas au moment de la publication de l’article, en janvier 1937.
 
 Alors on va trouver des mentions du λ-calcul de Church dans l’article de Turing, dans l’introduction par exemple : "Selon ma définition, un nombre est calculable si [il] peut être écrit par une machine. [...] Dans un article récent Alonzo Church a introduit l'idée de "calculabilité effective", ce qui équivaut à ma "calculabilité", mais est définie de manière très différente. Church atteint également des conclusions similaires au sujet du problème de la décision. La preuve de l'équivalence entre "calculabilité" et "calculabilité effective" est décrite dans une annexe au présent document".
 
-Turing va en réalité s’installer à Princeton juste après avoir terminé son article, pour travailler sous la direction de Church, et il a eu le temps alors d’étudier le λ-calcul de Church, et d’ajouter une annexe à son propre article.
+Turing va en réalité s’installer à Princeton juste après avoir terminé son article, pour travailler sous la direction de Church, à des problèmes de logiques, et il a eu le temps alors d’étudier le λ-calcul de Church, et d’ajouter une annexe à son propre article.
 
 C’est son ancien professeur, Newman, qui à arrangé la venue de Turing à Princeton, il écrit dans une lettre à Church : « Je dois mentionner que le travail de Turing est entièrement indépendant: il a travaillé sans supervision ou critique de quiconque. Cela rend d'autant plus important qu'il devrait entrer en contact le plus tôt possible avec les principaux travailleurs de ce domaine, de sorte qu'il ne devrait pas se transformer en un solitaire confirmé ».
 
-Mais regardons plutôt ce qui est écrit dans ce fameux article, à commencer par la définition même de ce qu’on appelle aujourd’hui la machine de Turing. Au passage, c’est Alonzo Church qui utilise pour la première fois cette expression, puisque dans son article, Turing ne parle que de machine automatiques.
+Alors on verra ce qu’il en deviendra plus tard, mais regardons plutôt ce qui est écrit dans ce fameux article, à commencer par la définition même de ce qu’on appelle aujourd’hui la machine de Turing. Au passage, c’est Alonzo Church qui utilise pour la première fois cette expression, puisque dans son article, Turing ne parle de ses machines qu’en terme de machines automatiques.
 
-"On peut comparer un homme en train de calculer un nombre à une machine qui est seulement capable d'un nombre fini de conditions, qui seront appelés "m-configurations". La machine est livrée avec une "bande" (l'analogue du papier) qui la traverse, et est divisée en sections (appelé "carrés") capables chacun de porter un "symbole". A tout moment, il y a juste un carré [...] qui est "dans la machine". Nous pouvons appeler cette place le "carré lu". Le symbole sur la carré lu peut être appelé le "symbole lu". Le "symbole lu" est le seul dont la machine est, pour ainsi dire, "directement au courant". Cependant, en modifiant sa m-configuration la machine peut se rappeler efficacement certains des symboles qu'elle a "vu" précédemment. Le comportement de la machine possible à tout moment est déterminé par la m-configuration [...] et [...] le symbole lu. Cette paire [...] sera appelé "configuration" : ainsi la configuration détermine le comportement possible de la machine. Dans certaines configurations dans lesquelles le carré lu est vierge (i.e. il ne porte pas de symbole), la machine écrit un nouveau symbole sur la place balayée: dans d'autres configurations, il efface le symbole lu. La machine peut également changer le carré en cours de lecture, mais seulement en le déplaçant d'une case à droite ou à gauche. En plus de l'une de ces opérations, la m-configuration peut être modifiée. Certains des symboles écrits formeront la séquence de chiffres [...] du nombre [...] qui est calculé. Les autres ne sont que des brouillons pour "aider la mémoire". [...] Je soutiens que ces opérations comprennent toutes celles qui sont utilisés dans le calcul d'un nombre."
+"On peut comparer un homme en train de calculer un nombre à une machine qui est seulement capable d'un nombre fini de conditions, qui seront appelés "m-configurations". La machine est livrée avec une "bande" (l'analogue du papier) qui la traverse, et est divisée en sections (appelé "carrés") capables chacun de porter un "symbole". A tout moment, il y a juste un carré [...] qui est "dans la machine". Nous pouvons appeler cette place le "carré lu". Le symbole sur le carré lu peut être appelé le "symbole lu". Le "symbole lu" est le seul dont la machine est, pour ainsi dire, "directement au courant". Cependant, en modifiant sa m-configuration la machine peut se rappeler efficacement certains des symboles qu'elle a "vu" précédemment. À tout moment, le comportement de la machine est déterminé par la m-configuration [...] et [...] le symbole lu. Cette paire [...] sera appelé "configuration" : ainsi la configuration détermine le comportement de la machine. Dans certaines configurations dans lesquelles le carré lu est vierge (i.e. il ne porte pas de symbole), la machine écrit un nouveau symbole sur le carré lu: dans d'autres configurations, il efface le symbole lu. La machine peut également changer le carré en cours de lecture, mais seulement en le déplaçant d'une case à droite ou à gauche. En plus de l'une de ces opérations, la m-configuration peut être modifiée. Certains des symboles écrits formeront la séquence de chiffres [...] du nombre [...] qui est calculé. Les autres ne sont que des brouillons pour "aider la mémoire". [...] Je soutiens que ces opérations comprennent toutes celles qui sont utilisés dans le calcul d'un nombre."
 
 Turing fait une description qui est volontairement très courte, son objectif est de forcer le lecteur à se mettre à la place de la machine s’il veut en saisir le mécanisme. Alors, mettons nous à la place de la machine, et calculons.
 
-Voici le premier exemple de calcul que nous donne Turing : "Une machine peut être construite pour calculer la séquence 01010101 ... [...] La machine possède quatre m-configurations "b", "c", "f", "e" et est capable d'écrire "0" et "1". Le comportement de la machine est décrite dans le tableau suivant dans lequel "R" signifie "la machine se déplace de sorte à lire le carré immédiatement à la droite de celui qui était auparavant lu". De même, pour "L". "E" signifie "le symbole lu est effacé" et "P" signifie "écrire". La machine démarre dans la m-configuration "b" et une bande vide. [b None P0, R c; c None R e; e None P1, R f; f None R b]"
+Voici le premier exemple de calcul que nous donne Turing : "Une machine peut être construite pour calculer la séquence 01010101 ... [...] La machine possède quatre m-configurations "b", "c", "f", "e" et est capable d'écrire "0" et "1". Le comportement de la machine est décrite dans le tableau suivant dans lequel "R" signifie "la machine se déplace de sorte à lire le carré immédiatement à la droite de celui qui était auparavant lu". De même, pour "L". "E" signifie "le symbole lu est effacé" et "P" signifie "écrire". La machine démarre dans la m-configuration "b" et avec une bande vide. [b None P0, R c; c None R e; e None P1, R f; f None R b]"
 
 Alors la machine démarre avec la m-configuration « b », et le symbole lu est vide, c’est donc la première ligne du tableau qui s’applique : La machine imprime le symbole « 0 », se décale vers la droite et passe dans la m-configuration « c ». Et on recommence, la machine est en m-configuration « c », le symbole lu est vide, c’est donc la seconde ligne du tableau qui s’applique, la machine se décale vers la droite et passe en configuration « e ».
 
-C’est ensuite la troisième ligne du tableau qui va s’appliquer, puisqu’on a un symbole vide et la m-configuration « e », on écrit un « 1 », on se décale à droite et on passe en m-configuration « f ». Finalement, cette configuration correspond à la dernière ligne du tableau, la machine se décale à droite et passe en m-configuration « b », et la boucle recommence.
+C’est ensuite la troisième ligne du tableau qui va s’appliquer, puisqu’on a un symbole vide et la m-configuration « e », on écrit un « 1 », on se décale à droite et on passe en m-configuration « f ». Finalement, cette configuration correspond à la dernière ligne du tableau, la machine se décale à droite et passe en m-configuration « b », et la boucle va recommencer.
 
-Alors je ne vais pas ici vous montrer d’exemples plus compliqués, mais j’aimerais insister sur une chose, la table d’instruction qui décrit le comportement de la machine est fixe, elle ne peux pas être modifié. Cette table représente les rouages, les mécanismes de la machine.
+Alors je ne vais pas ici vous montrer d’exemples plus compliqués, mais j’aimerais insister sur une chose, la table d’instruction qui décrit le comportement de la machine est fixe, elle ne peux pas être modifié. Cette table représente les rouages, les mécanismes, la construction de la machine.
 
-Ainsi, la machine que nous venons de simuler ne peut que calculer la suite 01010101… De la même manière, il existe une machine capable de faire une soustraction, une pour la multiplication et une autre qui calcule les décimales de π. 
+Ainsi, la machine que nous venons de simuler ne peut que calculer la séquence 01010101… De la même manière, il existe une machine capable de faire une soustraction, une pour la multiplication et une autre qui calcule les décimales de π. 
 
-et il devient alors possible de considérer qu'un calcul particulier est définissable par rapport à la machine de Turing qui effectue ce calcul. La séquence 010101 ... peut être définie par rapport à la machine de tout à l'heure. Et ce qui caractérise cette machine, c’est sa table d’instruction.
+Et il devient alors possible de considérer qu'un calcul particulier est définissable par rapport à la machine de Turing qui effectue ce calcul. La séquence 010101 ... peut être définie par rapport à la machine de tout à l'heure. Et ce qui caractérise cette machine, c’est sa construction, c’est à dire sa table d’instruction.
 
-En codant, selon un procédé particulier, chaque ligne de la table d'instruction, on obtient un nombre, le « nombre de définition » , qui est la représentation numérique d’une machine de Turing, et donc, d’ un calcul en particulier.
+En codant, selon un procédé particulier, chaque ligne de la table d'instruction, on peut obtienir un nombre, le « nombre de définition » , qui est la représentation numérique d’une machine de Turing, et donc, d’ un calcul en particulier.
 
 Voici la méthode : On commence par lister les m-configurations de la machine, de sorte à pouvoir les identifier comme la "première" m-configuration, ou la "cinquième" m-configuration. On peut alors coder une m-configuration spécifique en utilisant la lettre "D", suivie autant de fois que nécessaire par la lettre « A », afin de décrire sa position dans la liste. Par exemple, la première m-configuration sera codée par "DA", la seconde sera "DAA", et la cinquième "DAAAAA".
 
-On va procéder de la même manière pour les symboles qu'écrit la machine. On fait la liste et puis on les code avec la lettre "D" suivi de la lettre "C". Le premier symbole sera "DC" et le troisième "DCCC".
+On va procéder de la même manière pour les symboles que peut écrire la machine. On en fait la liste et puis on les code avec la lettre "D" suivi de la lettre "C". Le premier symbole sera "DC" et le troisième "DCCC".
 
-Enfin, on va associer une lettre spécifique pour chaque opération de la machine, et on va séparer chaque ligne par un « ; », ainsi, on peut représenter la table d'instruction d'une machine par un code uniquement composé des caractères "A", "C", "D", "L", "R", "N" et ";".
+Enfin, on va associer une lettre spécifique pour chaque opération de la machine, et on va séparer chaque ligne de la table d’instruction par un « ; », ainsi, on peut représenter la table d'instruction d'une machine par un code uniquement composé des caractères "A", "C", "D", "L", "R", "N" et ";".
 
-Ce code est appelée la « définition standard » de la machine, et pour passer de la « définition standard » au « nombre de définition », il suffit d'associer chaque caractère à un chiffre. Le "A" est remplacé par un "1", le "C" par  u »n2 », "D" par "3", "L" par "4", "R" par "5", "N" par "6" et finalement, le « ; » par un "7".
+Ce code est appelée la « définition standard » de la machine, et pour passer de la « définition standard » au « nombre de définition », il suffit d'associer un chiffre à chaque caractère. Le "A" est remplacé par un "1", le "C" par  un « 2 », "D" par "3", "L" par "4", "R" par "5", "N" par "6" et finalement, le « ; » est remplacé par un "7".
 
 Si on reprends la table d'instruction de la machine qui nous as servi d’exemple, et qu’on applique cette procédure, on obtient d’abord la définition standard : "DADDCRDAA;DAADDRDAAA;DAAADDCCRDAAAA;DAAAADDRDA". Et à partir de là, le nombre de définition : 31332531173113353111731113322531111731111335317.
 
-L’intérêt de cette notation de Turing, c'est qu'on va disposer maintenant d'un nombre qui décrit une machine de Turing, et qu’on va pouvoir analyser. En particulier, Turing va chercher à savoir si il est possible de prédire, à partir du nombre de la définition d'une machine prise au hasard, si cette machine va aboutir à un résultat ou pas.
+L’intérêt de cette notation de Turing, c'est qu'on va disposer maintenant d'un nombre qui décrit une machine de Turing, et on va pouvoir analyser ce nombre. En particulier, Turing va chercher à savoir si il est possible de prédire, à partir du nombre de la définition d'une machine prise au hasard, si cette machine va aboutir à un résultat ou pas. C’est le problème de l’arrêt. 
 
-C’est le problème de l’arrêt, si la machine calcule bien, elle s’arrête à la fin de son calcul, mais il existe certaines machines qui tournent en boucle, et il est facile d’imaginer une machine qui inscrirait successivement les même caractères sur le même carré de la bande, sans jamais s’arrêter, et sans jamais s’approcher d’un quelconque résultat. C’est ce que Turing appelle les machines « circulaires ».
+Si la machine calcule bien, elle finit par s’arrêter une fois qu’elle a terminé son calcul, mais il existe certaines machines qui tournent en boucle, et il est facile d’imaginer une machine qui inscrirait successivement les même caractères sur le même carré de la bande, sans jamais s’arrêter, et sans jamais s’approcher d’un quelconque résultat. C’est ce que Turing appelle les machines « circulaires », puisqu’il y a cette idée de « tourner en boucle ».
 
-Alors comme pour le problème de la décision, on peut supposer que c'est impossible de décider à l'avance si une machine de Turing que l'on choisit aléatoirement, appelons-la la machine M, si cette machine M est circulaire, donc qu'elle ne s'arrête jamais, ou bien si elle est sans cercle, c'est à dire qu'elle s'arrête.
+Alors comme pour le problème de la décision, on peut supposer qu’il est impossible de décider à l'avance si une machine de Turing que l'on choisit aléatoirement, appelons-la la machine M, si cette machine M est circulaire, donc qu'elle ne s'arrête jamais, ou bien si elle est sans cercle, c'est à dire qu'elle s'arrête.
 
 Pour résoudre ce problème, nous allons imaginer, comme Turing, qu’il existe une machine, qu’on appellera la machine D, qui soit capable de décider si la machine M, celle que l’on veut tester, est circulaire ou non.
 
-Alors comment fonctionne cette machine D ? Sur le ruban de la machine D, on inscrit le nombre de description de la machine M, et, la machine D décide que si la machine M est circulaire, elle inscrira sur le ruban le symbole « u ». Sinon, elle écrira le symbole « s ».
+Alors comment fonctionne cette machine D ? Sur le ruban de la machine D, on inscrit le nombre de description de la machine M, et, la machine D, si elle décide que la machine M est circulaire, inscrira sur le ruban le symbole « u ». Sinon, elle écrira le symbole « s ».
 
 Ensuite, Turing nous propose de construire la machine U. Son fonctionnement est simple, si elle lit sur son ruban le symbole "u", elle s'arrête immédiatement. mais si elle lit le symbole "s", la machine va alors rentrer dans une configuration de boucle infinie, et ne s’arrêtera donc pas.
 
-En associant les machines D et U, on peut créer la machine H. Donc, pour la machine H, on lui fournit d'abord le nombre de description d'une machine M, puis la machine H va calculer un premier résultat intermédiaire, et inscrira sur son ruban soit le symbole « u », soit le symbole « s », qui dépends de la « circularité » de la machine M. Enfin, la machine H va soit s’arrêter immédiatement, soit entrera dans un état de boucle permanente, et fonction du résultat intermédiaire.
+En associant les machines D et U, on peut créer la machine H. Donc, pour récapituler le fonctionnement de la machine H, on lui fournit d'abord le nombre de description d'une machine M, puis la machine H va calculer un premier résultat intermédiaire, et inscrira sur son ruban soit le symbole « u », soit le symbole « s », qui dépends de la « circularité » de la machine M. Enfin, la machine H va soit s’arrêter immédiatement, soit entrera dans un état de boucle infinie, et fonction de ce résultat intermédiaire.
 
-Et c’est à ce moment, après avoir patiament construit cette machine H, que Turing nous pose la question suivante : que se passe-t-il si on donne à la machine H sa propre définition ?
+Et c’est à ce moment, après avoir patiemment détaillé la construction de cette machine H, que Turing nous pose la question suivante : que se passe-t-il si on donne à la machine H sa propre définition ?
 
-Et bien il n’y a que deux solutions, soit, la machine D prédit que la machine H est circulaire, la machine écrit le symbole « u » sur la bande puis s’arrête. La prédiction de la machine D était donc fausse, puisque la machine D avait prédit que la machine H ne s’arrêterait pas, or, elle s’est arrêtée.
+Et bien il n’y a que deux issues possibles, soit, le résultat intermédiaire prédit que la machine H est circulaire, donc on écrit le symbole « u » sur la bande, puis la machine s’arrête. Elle n’est donc pas circulaire, et la prédiction du résultat intermédiaire, était donc fausse, puisque la prédiction était que la machine ne s’arrêterait pas, or, elle s’est arrêtée.
 
-Et puis on a l’autre cas, celui où la machine D prédit que la machine H n’est pas circulaire, qu’elle s’arrêtera. Dans ce cas, c’est le symbole « s » qui est écrit sur la bande, et la machine H va entrer dans une configuration de boucle infinie, elle est circulaire.
+Et puis on a l’autre cas, celui où le résultat intermédiaire prédit que la machine H n’est pas circulaire, donc qu’elle s’arrêtera. Dans ce cas, c’est le symbole « s » qui est écrit sur la bande, et la machine H va alors entrer dans une configuration de boucle infinie, elle est circulaire.
 
-Les prédictions de la machine D sont donc systématiquement fausses, on est face à une situation impossible, ce qui fera à Turing que la machine D n’existe pas. Il est impossible de décider à l’avance si une machine de Turing est circulaire ou pas.
+Les prédictions du résultat intermédiaire, qui sont en fait les prédictions de la machine D qu’on avait imaginée, sont donc dans les deux cas en erreur. On est face à une situation qui ne peux pas se résoudre, ce qui fera à Turing que la machine D ne peux pas exister. Il est donc impossible de décider à l’avance si une machine de Turing donnée est circulaire ou pas.
 
-Et c’est avec un raisonnement quasi-identique que Turing va également pouvoir affirmer qu’on ne peux pas décider si une machine de Turing va ou non inscrire la caractère « 0 » au cours de son calcul.
+Et c’est avec un raisonnement quasi-identique que Turing va également pouvoir affirmer qu’on ne peux pas décider si une machine de Turing va ou non écrire le caractère « 0 » au cours de son calcul.
 
-Et tout ça va prendre de l’importance, puisque Turing va montrer dans la suite de son article, et c’est une démonstration que je n’ai pas le temps d’expliquer ici, que si il existe une machine, donc une procédure effective, capable de décider si une formule mathématique est prouvable, alors il existe une procédure effective pour décider si une machine de Turing inscrit le symbole « 0 » ou non. 
+Alors ces conclusions sont importantes, puisque Turing va montrer dans la suite de son article, dans une démonstration que je n’ai pas le temps d’expliquer ici parce qu’elle est un peu compliquée et demande une certaine maitrise de l’outil mathématique, que si il existe une machine, donc une procédure effective, capable de décider si une formule mathématique est prouvable, alors il existe une procédure effective pour décider si une machine de Turing inscrit le symbole « 0 » ou non. 
 
 Et non savons déjà que ça n’est pas le cas, alors comme Turing, nous pouvons conclure que le problème de la décision d’Hilbert n’a pas de solution, il ne peux pas être résolu, on ne peux pas déterminer de procédure effective pour décider la démontrabilité d’une formule mathématique.
 
-L’article de Turing continue encore, il va faire maintenant ce qui manquait aux propositions de Church, il va justifier, d’un point de vue épistémologique, philosophique on peut dire, le modèle de calcul que représentent ses machines. Il va les comparer au cahier quadrillés de mathématiques qu’utilisent les écolier lorsqu’ils apprenant à calculer. Et il ira même jusqu’à dire que le fonctionnement de ses machine est une bonne description du fonctionnement de la pensée humaine.
+L’article de Turing continue encore, il va faire maintenant ce qui manquait aux propositions de Church, il va justifier, d’un point de vue épistémologique et philosophique, le modèle de calcul que représentent ses machines. Il va les comparer au cahier quadrillés de mathématiques qu’utilisent les écolier lorsqu’ils apprenant à calculer. Et il ira même jusqu’à dire que le fonctionnement de ses machine est une bonne description du fonctionnement de la pensée humaine.
 
-Alors je le signale, puisque j’avais dit que l’article était extrêmement important pour le monde sciences, fondateur même, mais pour l’instant, il n’y a rien de nouveau. Turing propose une définition de la calculabilité, Church l’avait fait avant lui, il trouve la solution négative au problème de la décision, Church aussi l’avait fait ! 
+Alors je le signale, puisque j’avais dit que l’article allait être extrêmement important dans le monde des sciences, fondateur même, que pour l’instant, il n’y a rien de très nouveau. Turing propose une définition de la calculabilité, mais Church l’avait fait avant lui, et il trouve la solution négative au problème de la décision, ce que Church avait également fait ! 
 
-Certes, le modèle de Turing est plus simple et plus intuitif que le λ-calcul, et je pense que personne ne me contredira, pas même Church : « l'identification avec l'effectivité dans l'ordinaire [...] semble immédiatement évident », ce sont ses mots.
+Certes, le modèle de Turing est plus simple et plus intuitif que le λ-calcul, et je pense que personne ne me contredira là dessus, pas même Church que je cite : « l'identification avec l'effectivité dans l'ordinaire [...] semble immédiatement évident ».
 
 Gödel également va ajouter une note aux théorèmes d’incomplétudes : « Grâce à certains travaux qui ont suivi cet article, en particulier ceux de A. M. Turing, nous disposons désormais d'une définition sûre, précise et adéquate du concept de système formel [...] dont la propriété est qu'en son sein, et en principe, le raisonnement peut être entièrement remplacé par des règles mécaniques ».
 
-Mais ce n’est pas sa simple simplicité qui va faire de cet article le véritable monument mathématiques qu’il est devenu, c’est plutôt grâce à un chapitre duquel je ne vous ai pas encore parlé, où Turing nous parle de ce qu’il appelle la machine « universelle ».
+Mais ce n’est pas seulement sa simplicité qui va donner à cet article sa renommée, c’est aussi grâce à un chapitre dont je ne vous ai pas encore parlé, où Turing nous explique le concept de ce qu’il appelle la machine « universelle ».
 
-Je lis la première phrase de ce chapitre : "Il est possible d'inventer une machine unique qui peut être utilisée pour calculer toute séquence calculable. [...] Si cette machine U est fournie avec une bande sur laquelle est écrite la définition standard d'une machine M, U calculera la même séquence que M".
+Je vous lis la première phrase de ce chapitre : "Il est possible d'inventer une machine unique qui peut être utilisée pour calculer toute séquence calculable. [...] Si cette machine U est fournie avec une bande sur laquelle est écrite la définition standard d'une machine M, U calculera la même séquence que M".
 
-C’est absolument extraordinaire ce que nous dit Turing. Et il faut se replacer dans le contexte de l’époque pour en saisir toute la portée. Les machines que l’on construit à cette époque là, les machines que l’on construit à cette époque sont construites dans un but particulier, pour réaliser une opération précise, un peu comme les machines de Turing.
+C’est absolument extraordinaire ce que nous dit Turing. Et il faut se replacer dans le contexte de l’époque pour en saisir toute la portée. Les machines que l’on construit à cette époque sont construites dans un but particulier, pour réaliser une opération précise, un petit peu à l’image des machines de Turing standard.
 
-Mais il est possible de créer une machine unique, qui soit capable de réaliser n’importe quelle opération, n’importe quelle tâche, à condition d’inscrire la description de cette tâche sur la bande de la machine. C’est à dire de lui fournir un programme, que la machine va lire et exécuter.
+Mais il est possible de créer une machine unique, qui soit capable de réaliser n’importe quelle opération, n’importe quelle tâche, n’importe quel calcul, à condition d’inscrire la description de ce calcul sur la bande de la machine. C’est à dire de lui fournir un programme, que la machine va lire, puis exécuter.
 
-C’est en ça que le concept de machine universelle est révolutionnaire, et que l’article de Turing est fondateur, c’est parce qu’il expose en une fois les deux piliers théoriques de la science informatique à venir : une machine unique capable de réaliser n’importe quel calculs, et un programme stocké dans la mémoire de cette machine, et donc, modifiable.
+Turing donne d’ailleurs la table d’instruction d’une telle machine dans le chapitre suivant.
+
+Et c’est en ça que le concept de machine universelle est révolutionnaire, et que l’article de Turing est fondateur, c’est parce qu’il pose là, d’un seul coup, les deux concepts qui vont devenir les deux piliers théoriques de la science informatique qui n’existe pas encore, à savoir : une machine unique capable de réaliser n’importe quel calcul, et un programme stocké dans ce qu’on pourrait appeler la mémoire de cette machine, en tout cas qui est modifiable par cette machine, et on pourrait même se prendre à imaginer une machine qui se re-programmerait elle-même.
+
+De là à dire que Turing ait inventé l’ordinateur, il n’y a qu’un pas, que certains franchissent mais que je ne ferait pas. Entre la machine de Turing universelle et l’ordinateur, si ils sont identiques d’un point de vue théorique, sont tout à fait différents du point de vue de leur construction, et faire le raccourci un peu trop évident de dire que finalement la machine de Turing universelle et l’ordinateur ne sont qu’une seule et même chose, ça serait mettre de côté tout le travail de ceux qui vont inventer les techniques qui vont permettre de construire les ordinateurs.
+
+D’ailleurs, et c’est là, je crois, le meilleur exemple de ce que je viens de dire, Turing lui-même, après avoir terminé son article, avait voulu, il avait était immédiatement intéressé par la réalisation d’une vraie machine qui soit l’incarnation de la machine universelle. Mais il ne le fera pas, et la raison est simple, il ne connait pas, en 1936, de technologie suffisamment capable pour construire une telle machine.
+
+Alors c’est ce que nous verrons dans le second chapitre de cet exposé, la partie pratique de notre histoire, c’est l’invention et l’évolution de machines, concrètes cette fois, qui servent à calculer.

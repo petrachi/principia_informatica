@@ -1,0 +1,317 @@
+
+ALL:
+http://everything.explained.today/Computer/
+http://everything.explained.today/History_of_computing_hardware/
+http://royal.pingdom.com/2008/04/08/the-history-of-computer-data-storage-in-pictures/
+https://prezi.com/ds6iydezczho/a-brief-history-of-computer-hardware/
+http://fr.slideshare.net/hplap/history-computing
+http://fr.slideshare.net/edjuma/history-of-computer-hardware?next_slideshow=1
+http://www.livescience.com/20718-computer-history.html
+http://www.tomshardware.com/reviews/upgrade-repair-pc,3000.html
+https://www.youtube.com/watch?v=d1pvc9Zh7Tg
+http://www.computerhistory.org/revolution/calculators/1
+http://www.computerhistory.org/revolution/punched-cards/2
+http://www.computerhistory.org/revolution/analog-computers/3
+http://www.computerhistory.org/revolution/birth-of-the-computer/4
+https://www.youtube.com/watch?v=qundvme1Tik
+https://www.youtube.com/watch?v=wsirYCAocZk
+http://www.computerhistory.org/timeline/
+https://aconit.inria.fr/omeka/exhibits/show/histoire-machines/prehistoire
+https://aconit.inria.fr/omeka/exhibits/show/histoire-machines/naissance-ordinateur
+http://aconit.inria.fr/omeka/archive/files/a6d964cfd9726120b8391ed526e1cd81.pdf
+http://aconit.inria.fr/omeka/exhibits/show/figures-de-l-informatique/precurseurs
+http://aconit.inria.fr/omeka/exhibits/show/figures-de-l-informatique/pionniers
+https://interstices.info/jcms/jalios_5358/glossaire-interstices?id=jalios_5358&#c_19936
+IMG 5313-5314
+IMG 5320-5322
+IMG 5331-5333
+IMG 5356-5358
+IMG 5371-5372
+IMG 5374
+IMG 5545-5564
+IMG 5565-5573
+IMG 5575-5580
+IMG 5641
+IMG 5650
+http://plato.stanford.edu/entries/computing-history/
+http://aconit.inria.fr/omeka/archive/files/a6d964cfd9726120b8391ed526e1cd81.pdf
+http://www-history.mcs.st-andrews.ac.uk/BiogIndex.html
+http://www.computerhistory.org/revolution/
+http://www.computerhistory.org/revolution/topics#exhibition
+http://www.arts-et-metiers.net/ressources
+http://history-computer.com/ModernComputer/thinkers/thinkers.html
+https://en.wikipedia.org/wiki/History_of_computing_hardware
+http://www.historyofinformation.com/expanded.php?era=-2800000
+https://fr.wikipedia.org/wiki/Ordinateur#Premi.C3.A8re_invention
+http://www.cs.ncl.ac.uk/publications/books/papers/126.pdf
+http://www.phys-astro.sonoma.edu/brucemedalists/Eddington/index.html
+https://en.wikipedia.org/wiki/Mechanical_calculator
+http://calmeca.free.fr/calculmecanique_php/index_calmeca.php?lang=fra
+http://www.eolss.net/sample-chapters/c15/e6-45-12.pdf
+https://global.britannica.com/technology/computer
+http://www.abandonware-magazines.org/index.php
+
+Napier:
+http://history-computer.com/CalculatingTools/NapiersBones.html
+https://www.youtube.com/watch?v=xRpR1rmPbJE
+http://history-computer.com/CalculatingTools/logarythms.html
+IMG 5323-5324
+
+
+—
+
+atanasoff:
+https://en.wikipedia.org/wiki/John_Vincent_Atanasoff
+http://history-computer.com/People/AtanasoffBio.html
+IMG 5694-5712
+
+
+abc:
+https://en.wikipedia.org/wiki/Atanasoff%E2%80%93Berry_computer
+https://fr.wikipedia.org/wiki/Atanasoff%E2%80%93Berry_Computer
+http://jva.cs.iastate.edu/operation.php
+https://www.youtube.com/watch?v=YyxGIbtMS9E
+http://history-computer.com/ModernComputer/Electronic/Atanasoff.html
+IMG 5341-5342
+https://www.youtube.com/watch?v=Yxrcp1QSPvw
+https://fr.wikipedia.org/wiki/Histoire_de_l%27informatique
+
+
+Sickard:
+https://fr.wikipedia.org/wiki/Wilhelm_Schickard
+https://en.wikipedia.org/wiki/Wilhelm_Schickard
+https://aconit.inria.fr/omeka/exhibits/show/histoire-machines/prehistoire/machine-schickhard
+http://history-computer.com/MechanicalCalculators/Pioneers/Schickard.html
+IMG 5327
+
+
+Pascal:
+https://fr.wikipedia.org/wiki/Blaise_Pascal
+https://www.youtube.com/watch?v=XMriWTvPXHI
+https://fr.wikipedia.org/wiki/Pascaline
+https://fr.wikisource.org/wiki/La_Machine_d%E2%80%99arithm%C3%A9tique
+https://aconit.inria.fr/omeka/exhibits/show/histoire-machines/prehistoire/pascaline
+https://www.youtube.com/watch?v=olfNFXJEZOA
+http://history-computer.com/MechanicalCalculators/Pioneers/Pascal.html
+IMG 5327
+http://clemvili.free.fr/TPE/mecanique.html
+
+
+Leibniz:
+https://en.wikipedia.org/wiki/Gottfried_Wilhelm_Leibniz
+https://fr.wikipedia.org/wiki/Gottfried_Wilhelm_Leibniz
+http://www.bibmath.net/bios/index.php?action=affiche&quoi=leibniz
+http://philosophique.revues.org/190#tocto1n16
+https://aconit.inria.fr/omeka/exhibits/show/histoire-machines/prehistoire/machine-leibniz
+http://history-computer.com/Dreamers/Leibniz.html
+IMG 5325
+http://history-computer.com/MechanicalCalculators/Pioneers/Lebniz.html
+IMG 5327
+http://clemvili.free.fr/TPE/mecanique2.html
+https://en.wikipedia.org/wiki/Gottfried_Wilhelm_Leibniz
+http://www.larousse.fr/encyclopedie/personnage/Gottfried_Wilhelm_Leibniz/129339
+
+mecanic calculator:
+https://fr.wikipedia.org/wiki/Calculatrice_m%C3%A9canique
+
+
+Boolean:
+https://fr.wikipedia.org/wiki/George_Boole
+https://fr.wikipedia.org/wiki/Les_Lois_de_la_pens%C3%A9e
+IMG 5325-5326
+https://fr.wikipedia.org/wiki/Alg%C3%A8bre_de_Boole_(logique)
+IMG 5315-5316
+https://fr.wikipedia.org/wiki/Claude_Shannon
+https://en.wikipedia.org/wiki/Claude_Shannon
+http://everything.explained.today/Claude_Shannon/
+https://en.wikipedia.org/wiki/A_Symbolic_Analysis_of_Relay_and_Switching_Circuits
+http://www.ccapitalia.net/descarga/docs/1938-shannon-analysis-relay-switching-circuits.pdf
+https://books.google.fr/books?id=K6fac9RxXREC&pg=PA570&lpg=PA570&dq=how+claude+shannon+switching+circuits+popularized&source=bl&ots=vKyivhiP1G&sig=9xEZ8XX6WEF2W6SXMmOMWwqD_50&hl=fr&sa=X&ved=0ahUKEwizi960qJvKAhXHHxoKHShUAYQQ6AEIRjAF#v=onepage&q=how%20claude%20shannon%20switching%20circuits%20popularized&f=false
+IMG 5667-5672
+https://en.wikipedia.org/wiki/General_purpose_analog_computer
+https://interstices.info/jcms/c_33558/les-calculateurs-analogiques
+http://www.cs.tut.fi/~jta/computing-history-material/remarks%20for%20switching%20theory%20rev.pdf
+http://mark.bu.edu/papers/200.pdf.pdf
+IMG 5336
+http://www.i-programmer.info/babbages-bag/235-logic-logic-everything-is-logic.html
+http://www.bbc.co.uk/education/guides/zc4bb9q/revision/2
+http://everything.explained.today/George_Boole/
+https://en.wikipedia.org/wiki/George_Boole
+http://www.historyofinformation.com/expanded.php?id=4090
+http://homepages.math.uic.edu/~kauffman/CHK.pdf
+http://computer.howstuffworks.com/boolean7.htm
+http://computer.howstuffworks.com/boolean6.htm
+https://en.wikipedia.org/wiki/The_Laws_of_Thought
+https://en.wikipedia.org/wiki/Boolean_algebra
+
+Differential Analyser:
+http://www-history.mcs.st-andrews.ac.uk/Biographies/Coriolis.html
+https://fr.wikipedia.org/wiki/Charles_Sanders_Peirce
+https://books.google.fr/books?id=DnvLHp919_wC&q=Marquand&redir_esc=y
+
+V.Bush:
+https://en.wikipedia.org/wiki/Vannevar_Bush
+http://www.meccano.us/differential_analyzers/robinson_da/DA_CHM_1-8-05.wmv
+http://www.meccano.us/differential_analyzers/robinson_da/index.html
+IMG 5339
+IMG 5647-5648
+http://everything.explained.today/Vannevar_Bush/
+http://www.cs.ncl.ac.uk/research/pubs/articles/papers/398.pdf
+
+
+Babage:
+https://fr.wikipedia.org/wiki/Charles_Babbage
+https://www.youtube.com/watch?v=KBuJqUfO4-w
+http://aconit.inria.fr/omeka/exhibits/show/figures-de-l-informatique/precurseurs/charles-babbage
+IMG 5597-5610
+https://www.youtube.com/watch?v=FlfChYGv3Z4
+https://fr.wikipedia.org/wiki/Machine_analytique
+http://history-computer.com/Babbage/AnalyticalEngine.html
+IMG 5328-5329
+http://www.fourmilab.ch/babbage/sketch.html
+http://history-computer.com/Babbage/Babbage.html
+http://projects.exeter.ac.uk/babbage/engines.html
+http://web.archive.org/web/20050124112219/http://cse.stanford.edu/classes/sophomore-college/projects-98/babbage/index.htm
+http://web.archive.org/web/20080821191451/http://cse.stanford.edu/classes/sophomore-college/projects-98/babbage/ana-mech.htm
+http://www.fourmilab.ch/babbage/contents.html
+https://www.bibnum.education.fr/calcul-informatique/calcul/notions-sur-la-machine-analytique-de-m-charles-babbage
+http://www.cbi.umn.edu/
+https://en.wikipedia.org/wiki/Analytical_Engine
+https://en.wikipedia.org/wiki/Charles_Babbage
+http://everything.explained.today/Charles_Babbage/
+
+differential analyser:
+https://en.wikipedia.org/wiki/Differential_analyser
+IMG 5644-5646
+http://everything.explained.today/Differential_analyser/
+http://everything.explained.today/Difference_engine/
+http://amg.nzfmm.co.nz/differential_analyser_explained.html
+
+Lovelace:
+https://fr.wikipedia.org/wiki/Ada_Lovelace
+http://www.biography.com/people/ada-lovelace-20825323#babbage-and-the-analytical-engine
+IMG 5325
+IMG 5585-5596
+IMG 5612-5639
+http://cs-www.cs.yale.edu/homes/tap/Files/ada-bio.html
+https://en.wikipedia.org/wiki/Ada_Lovelace
+http://www.ada-online.org/frada/spipa61e.html?rubrique77
+http://everything.explained.today/Ada_Lovelace/
+
+Jackard:
+http://history-computer.com/Dreamers/Jacquard.html
+IMG 5328
+https://fr.wikipedia.org/wiki/M%C3%A9tier_Jacquard
+https://en.wikipedia.org/wiki/Jacquard_loom
+https://en.wikipedia.org/wiki/Jacquard_weaving
+http://everything.explained.today/Loom/
+http://everything.explained.today/Joseph_Marie_Jacquard/
+
+
+Hollerith:
+http://aconit.inria.fr/omeka/exhibits/show/figures-de-l-informatique/precurseurs/herman-hollerith
+IMG 5642-5643
+
+PunchCards:
+IMG 5338-5339
+http://everything.explained.today/Punched_card/
+
+IBM:
+https://www.youtube.com/watch?v=ZPpV8X91neQ
+
+
+Aiken:
+IMG 5677-5684
+https://aconit.inria.fr/omeka/exhibits/show/histoire-machines/naissance-ordinateur/harvard-mark-1
+IMG 5342
+
+
+grace hopper:
+http://aconit.inria.fr/omeka/exhibits/show/figures-de-l-informatique/pionniers/grace-hopper
+IMG 5337
+
+shannon:
+http://neilsloane.com/doc/shannonbio.html
+https://fr.wikipedia.org/wiki/Claude_Shannon
+https://en.wikipedia.org/wiki/Claude_Shannon
+http://everything.explained.today/Claude_Shannon/
+https://en.wikipedia.org/wiki/A_Symbolic_Analysis_of_Relay_and_Switching_Circuits
+http://www.ccapitalia.net/descarga/docs/1938-shannon-analysis-relay-switching-circuits.pdf
+https://books.google.fr/books?id=K6fac9RxXREC&pg=PA570&lpg=PA570&dq=how+claude+shannon+switching+circuits+popularized&source=bl&ots=vKyivhiP1G&sig=9xEZ8XX6WEF2W6SXMmOMWwqD_50&hl=fr&sa=X&ved=0ahUKEwizi960qJvKAhXHHxoKHShUAYQQ6AEIRjAF#v=onepage&q=how%20claude%20shannon%20switching%20circuits%20popularized&f=false
+IMG 5667-5672
+https://en.wikipedia.org/wiki/General_purpose_analog_computer
+https://interstices.info/jcms/c_33558/les-calculateurs-analogiques
+http://www.mast.queensu.ca/~math474/shannon1948.pdf
+http://scienceworld.wolfram.com/biography/Shannon.html
+https://www.khanacademy.org/computing/computer-science/informationtheory/moderninfotheory/v/a-mathematical-theory-of-communication
+https://dspace.mit.edu/handle/1721.1/11174
+https://en.wikipedia.org/wiki/Claude_Shannon
+http://history-computer.com/ModernComputer/thinkers/Shannon.html
+http://www.historyofinformation.com/expanded.php?id=745
+http://www.maa.org/press/periodicals/convergence/applications-of-boolean-algebra-claude-shannon-and-circuit-design
+https://dspace.mit.edu/handle/1721.1/11173
+http://www.cs.virginia.edu/~robins/Shannon_MS_Thesis.pdf
+https://en.wikipedia.org/wiki/A_Symbolic_Analysis_of_Relay_and_Switching_Circuits
+https://www.cs.virginia.edu/~evans/greatworks/shannon38.pdf
+http://ethw.org/Oral-History:Claude_E._Shannon
+http://news.mit.edu/2001/shannon
+http://www.nyu.edu/pages/linguistics/courses/v610003/shan.html
+http://www.cs.tut.fi/~jta/computing-history-material/remarks%20for%20switching%20theory%20rev.pdf
+https://archive.org/details/IntroductionToSwitchingTheoryLogicalDesign
+http://www.springer.com/jp/book/9780387285931
+https://books.google.fr/books?id=uagvEc2jGTIC&pg=PA186&lpg=PA186&dq=charles+pierce+switch+boole&source=bl&ots=lqB5mo39U-&sig=iR-qn2NBjPQfI0Subt8vP-mzSuA&hl=fr&sa=X&ved=0ahUKEwiagufsipvKAhXHtBoKHROmBn4Q6AEIKjAB#v=onepage&q=charles%20pierce%20switch%20boole&f=false
+https://en.wikipedia.org/wiki/Information_theory
+https://fr.wikipedia.org/wiki/Th%C3%A9orie_de_l%27information
+https://dspace.mit.edu/bitstream/handle/1721.1/11173/34541425-MIT.pdf?sequence=2
+https://en.wikipedia.org/wiki/The_Information:_A_History,_a_Theory,_a_Flood
+
+stibitz:
+http://www.computer.org/web/awards/goode-george-stibitz
+http://www.universalis.fr/encyclopedie/george-robert-stibitz/
+http://everything.explained.today/George_Stibitz/
+https://en.wikipedia.org/wiki/George_Stibitz
+http://history-computer.com/People/StibitzBio.html
+http://history-computer.com/ModernComputer/Relays/Stibitz.html
+IMG 5340
+IMG 5673-5676
+IMG 5341
+IMG 5354-5355
+
+
+—
+fleming:
+IMG 5334
+IMG 5517-5525
+
+lee de forest:
+IMG 5335
+IMG 5526-5544
+
+
+Atanasoff:
+
+Mauchly:
+http://www.dictionary.com/browse/john-mauchly
+http://www.encyclopedia.com/doc/1G2-2830905901.html
+http://aconit.inria.fr/omeka/exhibits/show/figures-de-l-informatique/pionniers/eckert-mauchly
+http://history-computer.com/People/MauchlyBio.html
+http://www.universalis.fr/encyclopedie/john-william-mauchly/#i_19544
+https://fr.wikipedia.org/wiki/John_William_Mauchly
+https://en.wikipedia.org/wiki/John_Mauchly
+http://aconit.inria.fr/omeka/exhibits/show/figures-de-l-informatique/pionniers/eckert-mauchly
+http://ethw.org/John_W._Mauchly
+http://wvegter.hivemind.net/abacus/CyberHeroes/Mauchly.htm
+http://inventors.about.com/od/mstartinventors/p/JohnMauchly.htm
+http://biography.yourdictionary.com/john-mauchly
+http://www.library.upenn.edu/exhibits/rbm/mauchly/jwmintro.html
+http://history.computer.org/pioneers/mauchly.html
+http://www-history.mcs.st-andrews.ac.uk/Biographies/Mauchly.html
+http://www.universalis.fr/encyclopedie/john-william-mauchly/
+https://global.britannica.com/biography/John-Mauchly
+http://history-computer.com/People/MauchlyBio.html
+http://www.imdb.com/title/tt1462578/
+http://www.columbia.edu/cu/computinghistory/eniac.html
+https://www.amazon.com/Mauchly-Computer-Skateboard-Paul-David/dp/B005LRFPO8
+
+
+ENIAC:

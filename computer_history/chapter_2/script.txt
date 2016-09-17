@@ -1,0 +1,1 @@
+atanasoff -> abc -> 1st electronic calculator (computer means calculator) -> mechanical calculators -> Sickard/Pascal -> Leibniz -> Boolean -> Diferential analyser -> Bush/Babagge -> Jackard/punchCards/IBM -> Aiken/stibitz ->diode/triode -> Atanasoff -> Mauchly -> Eniac

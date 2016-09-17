@@ -1,0 +1,7 @@
+### Sickard ###
+
+* 1624
+* la machine à été détruite en 1624, et reconstruite d’après plans en 1960
+* Elle permettait l’addition, la soustraction et le calcul des logarithmes
+
+

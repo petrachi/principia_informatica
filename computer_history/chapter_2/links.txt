@@ -95,17 +95,22 @@ https://www.youtube.com/watch?v=olfNFXJEZOA
 http://history-computer.com/MechanicalCalculators/Pioneers/Pascal.html
 IMG 5327
 http://clemvili.free.fr/TPE/mecanique.html
+http://metastudies.net/pmwiki/pmwiki.php?n=Site.SchicardvsPascal
+https://www.youtube.com/watch?v=3h71HAJWnVU
 
 
 Leibniz:
 https://en.wikipedia.org/wiki/Gottfried_Wilhelm_Leibniz
 https://fr.wikipedia.org/wiki/Gottfried_Wilhelm_Leibniz
+https://en.wikipedia.org/wiki/Stepped_reckoner
 http://www.bibmath.net/bios/index.php?action=affiche&quoi=leibniz
 http://philosophique.revues.org/190#tocto1n16
 https://aconit.inria.fr/omeka/exhibits/show/histoire-machines/prehistoire/machine-leibniz
 http://history-computer.com/Dreamers/Leibniz.html
 IMG 5325
 http://history-computer.com/MechanicalCalculators/Pioneers/Lebniz.html
+http://history-computer.com/Library/ArteCombinatoriaLeibniz.pdf
+http://history-computer.com/People/LeibnitzBio.html
 IMG 5327
 http://clemvili.free.fr/TPE/mecanique2.html
 https://en.wikipedia.org/wiki/Gottfried_Wilhelm_Leibniz
@@ -113,6 +118,25 @@ http://www.larousse.fr/encyclopedie/personnage/Gottfried_Wilhelm_Leibniz/129339
 
 mecanic calculator:
 https://fr.wikipedia.org/wiki/Calculatrice_m%C3%A9canique
+
+george boole:
+https://fr.wikipedia.org/wiki/George_Boole
+https://fr.wikipedia.org/wiki/Les_Lois_de_la_pens%C3%A9e
+https://fr.wikipedia.org/wiki/Alg%C3%A8bre_de_Boole_(logique)
+http://www.cs.tut.fi/~jta/computing-history-material/remarks%20for%20switching%20theory%20rev.pdf
+http://www.i-programmer.info/babbages-bag/235-logic-logic-everything-is-logic.html
+http://www.bbc.co.uk/education/guides/zc4bb9q/revision/2
+https://en.wikipedia.org/wiki/George_Boole
+http://computer.howstuffworks.com/boolean7.htm
+http://computer.howstuffworks.com/boolean6.htm
+https://en.wikipedia.org/wiki/The_Laws_of_Thought
+https://en.wikipedia.org/wiki/Boolean_algebra
+
+Charles sanders pierce:
+https://books.google.fr/books?id=DnvLHp919_wC&q=Marquand&redir_esc=y
+https://fr.wikipedia.org/wiki/Charles_Sanders_Peirce
+http://www.historyofinformation.com/expanded.php?id=4090
+http://homepages.math.uic.edu/~kauffman/CHK.pdf
 
 
 Boolean:
@@ -144,48 +168,29 @@ http://computer.howstuffworks.com/boolean6.htm
 https://en.wikipedia.org/wiki/The_Laws_of_Thought
 https://en.wikipedia.org/wiki/Boolean_algebra
 
-Differential Analyser:
-http://www-history.mcs.st-andrews.ac.uk/Biographies/Coriolis.html
-https://fr.wikipedia.org/wiki/Charles_Sanders_Peirce
-https://books.google.fr/books?id=DnvLHp919_wC&q=Marquand&redir_esc=y
-
-V.Bush:
-https://en.wikipedia.org/wiki/Vannevar_Bush
-http://www.meccano.us/differential_analyzers/robinson_da/DA_CHM_1-8-05.wmv
-http://www.meccano.us/differential_analyzers/robinson_da/index.html
-IMG 5339
-IMG 5647-5648
-http://everything.explained.today/Vannevar_Bush/
-http://www.cs.ncl.ac.uk/research/pubs/articles/papers/398.pdf
-
 
 Babage:
-https://fr.wikipedia.org/wiki/Charles_Babbage
-https://www.youtube.com/watch?v=KBuJqUfO4-w
 http://aconit.inria.fr/omeka/exhibits/show/figures-de-l-informatique/precurseurs/charles-babbage
-IMG 5597-5610
-https://www.youtube.com/watch?v=FlfChYGv3Z4
+http://www.cbi.umn.edu/about/babbage.html
+http://projects.exeter.ac.uk/babbage/biograph.html
+http://ei.cs.vt.edu/~history/Babbage.html
+https://fr.wikipedia.org/wiki/Charles_Babbage
+https://en.wikipedia.org/wiki/Charles_Babbage
 https://fr.wikipedia.org/wiki/Machine_analytique
+https://www.youtube.com/watch?v=KBuJqUfO4-w
+https://www.youtube.com/watch?v=FlfChYGv3Z4
+http://history-computer.com/People/BabbageBio.html
+http://history-computer.com/Babbage/DifferentialEngine.html
 http://history-computer.com/Babbage/AnalyticalEngine.html
-IMG 5328-5329
-http://www.fourmilab.ch/babbage/sketch.html
-http://history-computer.com/Babbage/Babbage.html
+https://en.wikipedia.org/wiki/Analytical_Engine
 http://projects.exeter.ac.uk/babbage/engines.html
-http://web.archive.org/web/20050124112219/http://cse.stanford.edu/classes/sophomore-college/projects-98/babbage/index.htm
 http://web.archive.org/web/20080821191451/http://cse.stanford.edu/classes/sophomore-college/projects-98/babbage/ana-mech.htm
 http://www.fourmilab.ch/babbage/contents.html
-https://www.bibnum.education.fr/calcul-informatique/calcul/notions-sur-la-machine-analytique-de-m-charles-babbage
-http://www.cbi.umn.edu/
-https://en.wikipedia.org/wiki/Analytical_Engine
-https://en.wikipedia.org/wiki/Charles_Babbage
-http://everything.explained.today/Charles_Babbage/
-
-differential analyser:
-https://en.wikipedia.org/wiki/Differential_analyser
-IMG 5644-5646
-http://everything.explained.today/Differential_analyser/
-http://everything.explained.today/Difference_engine/
-http://amg.nzfmm.co.nz/differential_analyser_explained.html
+http://www.fourmilab.ch/babbage/sketch.html
+https://www.bibnum.education.fr/sites/default/files/babage-menabrea-texte-final.pdf
+https://books.google.fr/books?id=n2h-NMTLeEQC&pg=PA352
+https://www.bibnum.education.fr/sites/default/files/babage-menabrea-analyse.pdf
+http://history-computer.com/Library/CharlesBabbageLawsOfMechanicalNotation.pdf
 
 Lovelace:
 https://fr.wikipedia.org/wiki/Ada_Lovelace
@@ -198,6 +203,7 @@ https://en.wikipedia.org/wiki/Ada_Lovelace
 http://www.ada-online.org/frada/spipa61e.html?rubrique77
 http://everything.explained.today/Ada_Lovelace/
 
+
 Jackard:
 http://history-computer.com/Dreamers/Jacquard.html
 IMG 5328
@@ -207,6 +213,25 @@ https://en.wikipedia.org/wiki/Jacquard_weaving
 http://everything.explained.today/Loom/
 http://everything.explained.today/Joseph_Marie_Jacquard/
 
+
+Differential Analyser:
+http://www-history.mcs.st-andrews.ac.uk/Biographies/Coriolis.html
+http://amg.nzfmm.co.nz/differential_analyser_explained.html
+https://en.wikipedia.org/wiki/Differential_analyser
+https://en.wikipedia.org/wiki/Differential_analyser
+IMG 5644-5646
+http://everything.explained.today/Differential_analyser/
+http://everything.explained.today/Difference_engine/
+http://amg.nzfmm.co.nz/differential_analyser_explained.html
+
+V.Bush:
+https://en.wikipedia.org/wiki/Vannevar_Bush
+http://www.meccano.us/differential_analyzers/robinson_da/DA_CHM_1-8-05.wmv
+http://www.meccano.us/differential_analyzers/robinson_da/index.html
+IMG 5339
+IMG 5647-5648
+http://everything.explained.today/Vannevar_Bush/
+http://www.cs.ncl.ac.uk/research/pubs/articles/papers/398.pdf
 
 Hollerith:
 http://aconit.inria.fr/omeka/exhibits/show/figures-de-l-informatique/precurseurs/herman-hollerith
@@ -224,6 +249,7 @@ Aiken:
 IMG 5677-5684
 https://aconit.inria.fr/omeka/exhibits/show/histoire-machines/naissance-ordinateur/harvard-mark-1
 IMG 5342
+https://fr.wikipedia.org/wiki/Pascaline#Abaques
 
 
 grace hopper:
@@ -238,6 +264,9 @@ http://everything.explained.today/Claude_Shannon/
 https://en.wikipedia.org/wiki/A_Symbolic_Analysis_of_Relay_and_Switching_Circuits
 http://www.ccapitalia.net/descarga/docs/1938-shannon-analysis-relay-switching-circuits.pdf
 https://books.google.fr/books?id=K6fac9RxXREC&pg=PA570&lpg=PA570&dq=how+claude+shannon+switching+circuits+popularized&source=bl&ots=vKyivhiP1G&sig=9xEZ8XX6WEF2W6SXMmOMWwqD_50&hl=fr&sa=X&ved=0ahUKEwizi960qJvKAhXHHxoKHShUAYQQ6AEIRjAF#v=onepage&q=how%20claude%20shannon%20switching%20circuits%20popularized&f=false
+https://books.google.fr/books?id=K6fac9RxXREC&pg=PA570&lpg=PA570&dq=how+claude+shannon+switching+circuits+popularized&source=bl&ots=vKyivhiP1G&sig=9xEZ8XX6WEF2W6SXMmOMWwqD_50&hl=fr&sa=X&ved=0ahUKEwizi960qJvKAhXHHxoKHShUAYQQ6AEIRjAF#v=onepage&q=how%20claude%20shannon%20switching%20circuits%20popularized&f=false
+http://www.ccapitalia.net/descarga/docs/1938-shannon-analysis-relay-switching-circuits.pdf
+https://en.wikipedia.org/wiki/A_Symbolic_Analysis_of_Relay_and_Switching_Circuits
 IMG 5667-5672
 https://en.wikipedia.org/wiki/General_purpose_analog_computer
 https://interstices.info/jcms/c_33558/les-calculateurs-analogiques
@@ -257,9 +286,12 @@ http://ethw.org/Oral-History:Claude_E._Shannon
 http://news.mit.edu/2001/shannon
 http://www.nyu.edu/pages/linguistics/courses/v610003/shan.html
 http://www.cs.tut.fi/~jta/computing-history-material/remarks%20for%20switching%20theory%20rev.pdf
+http://mark.bu.edu/papers/200.pdf.pdf
 https://archive.org/details/IntroductionToSwitchingTheoryLogicalDesign
 http://www.springer.com/jp/book/9780387285931
 https://books.google.fr/books?id=uagvEc2jGTIC&pg=PA186&lpg=PA186&dq=charles+pierce+switch+boole&source=bl&ots=lqB5mo39U-&sig=iR-qn2NBjPQfI0Subt8vP-mzSuA&hl=fr&sa=X&ved=0ahUKEwiagufsipvKAhXHtBoKHROmBn4Q6AEIKjAB#v=onepage&q=charles%20pierce%20switch%20boole&f=false
+http://www.historyofinformation.com/expanded.php?id=4090
+http://homepages.math.uic.edu/~kauffman/CHK.pdf
 https://en.wikipedia.org/wiki/Information_theory
 https://fr.wikipedia.org/wiki/Th%C3%A9orie_de_l%27information
 https://dspace.mit.edu/bitstream/handle/1721.1/11173/34541425-MIT.pdf?sequence=2

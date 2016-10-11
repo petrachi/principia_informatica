@@ -51,30 +51,16 @@ http://www.eolss.net/sample-chapters/c15/e6-45-12.pdf
 https://global.britannica.com/technology/computer
 http://www.abandonware-magazines.org/index.php
 
-Napier:
-http://history-computer.com/CalculatingTools/NapiersBones.html
-https://www.youtube.com/watch?v=xRpR1rmPbJE
-http://history-computer.com/CalculatingTools/logarythms.html
-IMG 5323-5324
-
-
 —
 
-atanasoff:
-https://en.wikipedia.org/wiki/John_Vincent_Atanasoff
-http://history-computer.com/People/AtanasoffBio.html
-IMG 5694-5712
 
+Napier(useless):
+http://history-computer.com/People/NapiersBio.html
+http://history-computer.com/CalculatingTools/logarythms.html
+http://history-computer.com/CalculatingTools/NapiersBones.html
+https://www.youtube.com/watch?v=xRpR1rmPbJE
+IMG 5323-5324
 
-abc:
-https://en.wikipedia.org/wiki/Atanasoff%E2%80%93Berry_computer
-https://fr.wikipedia.org/wiki/Atanasoff%E2%80%93Berry_Computer
-http://jva.cs.iastate.edu/operation.php
-https://www.youtube.com/watch?v=YyxGIbtMS9E
-http://history-computer.com/ModernComputer/Electronic/Atanasoff.html
-IMG 5341-5342
-https://www.youtube.com/watch?v=Yxrcp1QSPvw
-https://fr.wikipedia.org/wiki/Histoire_de_l%27informatique
 
 
 Sickard:
@@ -116,8 +102,6 @@ http://clemvili.free.fr/TPE/mecanique2.html
 https://en.wikipedia.org/wiki/Gottfried_Wilhelm_Leibniz
 http://www.larousse.fr/encyclopedie/personnage/Gottfried_Wilhelm_Leibniz/129339
 
-mecanic calculator:
-https://fr.wikipedia.org/wiki/Calculatrice_m%C3%A9canique
 
 george boole:
 https://fr.wikipedia.org/wiki/George_Boole
@@ -191,18 +175,25 @@ https://www.bibnum.education.fr/sites/default/files/babage-menabrea-texte-final.
 https://books.google.fr/books?id=n2h-NMTLeEQC&pg=PA352
 https://www.bibnum.education.fr/sites/default/files/babage-menabrea-analyse.pdf
 http://history-computer.com/Library/CharlesBabbageLawsOfMechanicalNotation.pdf
+https://www.youtube.com/playlist?list=PLSOxgHhh6-o8ZuhRpL9ds8wM4doxauru-
+IMG 5597-5610
 
 Lovelace:
 https://fr.wikipedia.org/wiki/Ada_Lovelace
-http://www.biography.com/people/ada-lovelace-20825323#babbage-and-the-analytical-engine
+https://en.wikipedia.org/wiki/Ada_Lovelace
+http://projects.exeter.ac.uk/babbage/ada.html
+https://www.agnesscott.edu/lriddle/women/love.htm
+http://www.biography.com/people/ada-lovelace-20825323
+http://www.ada-online.org/frada/spipeb32.html?article101
+http://www.fourmilab.ch/babbage/sketch.html
+https://www.youtube.com/watch?v=g0Kq85fQLWE
+https://www.youtube.com/watch?v=vKUeiSJB_pc
+http://www.bbc.co.uk/programmes/p030s5bx
+http://www.franceculture.fr/emissions/la-marche-des-sciences/ada-lovelace-lady-de-l-informatique
+http://history-computer.com/ModernComputer/thinkers/Ada.html
 IMG 5325
 IMG 5585-5596
 IMG 5612-5639
-http://cs-www.cs.yale.edu/homes/tap/Files/ada-bio.html
-https://en.wikipedia.org/wiki/Ada_Lovelace
-http://www.ada-online.org/frada/spipa61e.html?rubrique77
-http://everything.explained.today/Ada_Lovelace/
-
 
 Jackard:
 http://history-computer.com/Dreamers/Jacquard.html
@@ -210,11 +201,9 @@ IMG 5328
 https://fr.wikipedia.org/wiki/M%C3%A9tier_Jacquard
 https://en.wikipedia.org/wiki/Jacquard_loom
 https://en.wikipedia.org/wiki/Jacquard_weaving
-http://everything.explained.today/Loom/
-http://everything.explained.today/Joseph_Marie_Jacquard/
 
 
-Differential Analyser:
+Differential Analyser (useless):
 http://www-history.mcs.st-andrews.ac.uk/Biographies/Coriolis.html
 http://amg.nzfmm.co.nz/differential_analyser_explained.html
 https://en.wikipedia.org/wiki/Differential_analyser
@@ -226,38 +215,34 @@ http://amg.nzfmm.co.nz/differential_analyser_explained.html
 
 V.Bush:
 https://en.wikipedia.org/wiki/Vannevar_Bush
-http://www.meccano.us/differential_analyzers/robinson_da/DA_CHM_1-8-05.wmv
-http://www.meccano.us/differential_analyzers/robinson_da/index.html
+http://history-computer.com/People/BushBio.html
+http://www.cs.ncl.ac.uk/research/pubs/articles/papers/398.pdf
 IMG 5339
 IMG 5647-5648
-http://everything.explained.today/Vannevar_Bush/
-http://www.cs.ncl.ac.uk/research/pubs/articles/papers/398.pdf
 
 Hollerith:
 http://aconit.inria.fr/omeka/exhibits/show/figures-de-l-informatique/precurseurs/herman-hollerith
-IMG 5642-5643
-
-PunchCards:
-IMG 5338-5339
-http://everything.explained.today/Punched_card/
-
-IBM:
+http://perso.telecom-paristech.fr/~blanchet/SIP_UE_INF227/histoire/prehistoire/hollerith.htm
+http://history-computer.com/ModernComputer/Basis/TabulatingMachine_Hollerith.html
 https://www.youtube.com/watch?v=ZPpV8X91neQ
-
+https://fr.wikipedia.org/wiki/Herman_Hollerith
+https://en.wikipedia.org/wiki/Herman_Hollerith
+IMG 5642-5643
+IMG 5338-5339
 
 Aiken:
-IMG 5677-5684
 https://aconit.inria.fr/omeka/exhibits/show/histoire-machines/naissance-ordinateur/harvard-mark-1
-IMG 5342
 https://fr.wikipedia.org/wiki/Pascaline#Abaques
-
-
-grace hopper:
 http://aconit.inria.fr/omeka/exhibits/show/figures-de-l-informatique/pionniers/grace-hopper
+http://history-computer.com/People/AikenBio.html
+http://history-computer.com/ModernComputer/Relays/Aiken.html
 IMG 5337
+IMG 5342
+IMG 5677-5684
 
 shannon:
 http://neilsloane.com/doc/shannonbio.html
+http://history-computer.com/ModernComputer/thinkers/Shannon.html
 https://fr.wikipedia.org/wiki/Claude_Shannon
 https://en.wikipedia.org/wiki/Claude_Shannon
 http://everything.explained.today/Claude_Shannon/
@@ -310,7 +295,22 @@ IMG 5341
 IMG 5354-5355
 
 
+atanasoff:
+https://en.wikipedia.org/wiki/John_Vincent_Atanasoff
+http://history-computer.com/People/AtanasoffBio.html
+IMG 5694-5712
+https://en.wikipedia.org/wiki/Atanasoff%E2%80%93Berry_computer
+https://fr.wikipedia.org/wiki/Atanasoff%E2%80%93Berry_Computer
+http://jva.cs.iastate.edu/operation.php
+https://www.youtube.com/watch?v=YyxGIbtMS9E
+http://history-computer.com/ModernComputer/Electronic/Atanasoff.html
+IMG 5341-5342
+https://www.youtube.com/watch?v=Yxrcp1QSPvw
+https://fr.wikipedia.org/wiki/Histoire_de_l%27informatique
+
+
 —
+
 fleming:
 IMG 5334
 IMG 5517-5525

@@ -1,3 +1,12 @@
+#################
+### John Napier ###
+
+* john napier en anglais actuel (neper en fr), jamais utilisé à son époque, il signe les documents comme Jhone Neper, Fear of Merchiston (le plus souvent), ou Napeir, Nepair, Nepeir, Napare, Naper, Naipper
+* né 1550 en écosse
+* il publie en juillet 1614 « Mirifici Logarithmorum Canonis Descriptio » (Description of the Marvelous Canon of Logarithms). Premier livre qui détaille les logarithmes en mathématiques, réduisant ainsi la multiplication et la division à des additions et soustractions sur les tables de logs.
+* les premieres traces remontent à -1800 en Babylonia, et 1500 ans plus tard avec archiméde
+* « Seeing there is nothing that is so troublesome to mathematical practice, nor that doth more molest and hinder calculators, than the multiplications, divisions, square and cubical extractions of great numbers, which besides the tedious expense of time are for the most part subject to many slippery errors, I began therefore to consider in my mind by what certain and ready art I might remove those hindrances. And having thought upon many things to this purpose, I found at length some excellent brief rules to be treated of (perhaps) hereafter. But amongst all, none more profitable than this which together with the hard and tedious multiplications, divisions, and extractions of roots, doth also cast away from the work itself even the very numbers themselves that are to be multiplied, divided and resolved into roots, and putteth other numbers in their place which perform as much as they can do, only by addition and subtraction, division by two or division by three. » (intro du livre)
+
 ######################
 ### Wilhelm Schickard ###
 
@@ -266,10 +275,21 @@ Pascal seems to have realized right from the start that the single-tooth gear, l
 
 * né 2 novembre 1815 à lincoln (royaume uni)
 * mort d’une pneumonie (il avait pris froid, et pour « soigner le mal par le mal », sa femme Mary Everest l’a alité et aspergé d’eau pour le guérir) le 8 décembre 1864 à ballintemple (irlande)
+* en 1841, il fonde une nouvelle branche des mats, la théories des invariants
+* en 1844, il a la médaille d’or de la Royal Societey pour une papier sur des méthodes pour résoudre les équations différentielles (toujours utilisées de nos jours)
 * créateur de la logique moderne, fondée sur une structure algébrique, l’algébre de boole
+* en 1847, il met sur papier ses idées d’une algébre pour la logique « Mathematical analysis of logic ».
+* pdf http://history-computer.com/Library/boole1.pdf
+* cela étands les réflexions de leibniz lui-même.
+* il semble motivé par de profondes convictions religieuses. à 17ans, il a eu une expérience mystique où Dieu l’a appellé pour lui expliquer comment l’esprit fonctionne
+* boole trouve que son travail est baclé et imparfait, il va se lancer dans une réecriture plus compléte
 * 1854, il publie « les lois de la pensée »
+* pdf http://history-computer.com/Library/Boole.pdf
 * La logique abandonne le seul domaine de la philosophie pour de venir une branche des mathématiques
+* dans cet article, boole fonde les mathématiques de la logique, et les probabilités
 * boole explique qu’on peut coder les démarches de la pensée à l’aide de « et », « ou », « non », et à l’aide de portes à deux états « zero-un » « vrai faux » « oui non » « ouvert fermé »
+* si X est tous les cochons roses, et Y tous les cochons gros, X+Y est tous les cochons roses ou gros, XY est tous les conchons roses et gros
+* si Y est tous les cochons de france, alors z(x + y) = zx + zy (l’ensembles de tous les cochons de france qui sont roses ou gros est le même que l’ensemble de tous les cochon qui sont soit de france et roses, ou de france et gros)
 * « No general method for the solution of questions in the theory of probabilities can be established which does not explicitly recognise, not only the special numerical bases of the science, but also those universal laws of thought which are the basis of all reasoning, and which, whatever they may be as to their essence, are at least mathematical as to their form. » (boole )
 
 * autodidacte (il n’a pas les moyens d’aller à l’université), il apprends le latin, l’allemand, le francais et l’italien
@@ -324,6 +344,8 @@ argument and procedure of his work rested. While he believed those opinions to b
 * son grand pére, bejamin senior, est maire de la ville de Totnes (au sud-ouest  de l’angleterre )
 * il a deux fréres (décédés in infancy) et une soeur, qui mourra aprés lui, Mary Ann, née en 1798, avec qui il sera très proche toute sa vie.
 * il était autodidcte en mathématiques, et une fois au trinity college, il avait un meilleur niveau que ses professeurs
+* pendant son enfance, sa mére l’emméne voir des « musées des merveilles » dans lesquels il peut orbserver des « automates », des poupées mécaniques. (danseuse en argent, un oiseau capable de bouger la queue, les ailes et le bec)
+* à cambridge, il fonde avec un groupe d’étudiant (dont john herschel, george peacock) un club, la « société analytique », parcequ’ils sont déçu de la façon dont on leur enseigne les mathématiques. En particulier, ils militent pour adopter la notation infitésimale de Leibniz, plutôt que celle de Newton (ancien étudiant de l’école)
 * il travaille (en parrallèle de ses recherches) comme ingénieur en machine à vapeur (1814)
 * élu membre de la royal society 1816
 * il peine à trouver un poste d’enseignant, malgrés de nombreuses applications, et dépends de l’argent de son pére (300 pound par an, son pére qui n’a pas approuvé son marriage, et avec qui la situation est tendue. Son pére n’a rien contre l’épouse de babbage, Georgiana Whitmore, mais il pense que son fils aurait dû, comme lui, attendre d’être proprement établi financiérement avant de se marrier)
@@ -345,9 +367,11 @@ argument and procedure of his work rested. While he believed those opinions to b
 * en 1830, babage veut déplacer son atelier chez lui, Joseph Clement, l’ingénieur chargé par le gouvernement de construire la machine refuse de quitter son propre attelier, et fait, selon babbage, des "inordinately extravagant demands", Babbage cessera de le payer, et les travaux sur la machine s’arrêtent
 * cela ne dérange pas babbage qui décide d’agrandir la machine, en passant de 6 digit à 20
 * « His ambitious to build immediately the largest Difference Engine that could ever be needed", wrote Bowden, "probably delayed the exploitation of his own ideas for a century » (Bowden)
+* il achéte un portrait de Jacquard et l’exhibe dans ses salons. Le portrait représente Jacquard assis, avec un métier à tisser en arriére plan. Babbage amusait ses invités en leur demandant de devinier ded quoi il s’agissait, la pluspart croyait que c’était une superbe gravure, il leur révélait alors qu’il s’agissait d’une tapisserie en soie, finement tissée, avec 24,000 rangée de fils, chacune contrôlée par une carte perforée différente.
+* un de ses invités (le prince albert, époux de la reine victoria) lui demande pourquoi la tapisserie est si interressante, babbage répond : « Elle contribuera grandement à expliquer la nature de ma calculatrice, la machine analytique »
 * 1837, il commence un projet de machine analytique, un calculateur mécanique universel (c’est un précurseur des ordinateurs modernes, avec une mémoire et un centre arithmétique, programmable à l’aide de cartes à trous (technique jacquard), un language de programmation (avec des boucles et des conditions)
 * il veut faire financer cette machine (analytic machine) par le gouvernement, arguant que construire celle-là coutera moins cher que de finir l’autre (la machine à différence), le gouvernement refuse
-* 17,000 livres de fonds publics ont été dépensés par les pouvoirs publics, et 6,000 de la poche de babbage (en 10 ans)
+* 17,000 livres (deux fois plus qu’un navire de guerre) de fonds publics ont été dépensés par les pouvoirs publics, et 6,000 de la poche de babbage (en 10 ans)
 * "He was ill-judged enough", wrote the Reverend Richard Sheepshanks, a secretary of the Royal Astronomical Society, "to press the consideration of this new machine upon the members of Government, who were already sick of the old one"
 * il continue de faire des demandes au premier ministre (qui avait accordé les premieres bourses), qui commence à l’éviter, et qui lui recommande de programmer sa machine pour calculer à quel moment elle sera utile.
 * "I would like a little previous consideration", wrote Robert Peel (le premier ministre), "before I move in a thin house of country gentlemen a large vote for the creation of a wooden man to calculate tables from the formula x^2 + x + 41".
@@ -388,6 +412,7 @@ argument and procedure of his work rested. While he believed those opinions to b
 * pour calculer la table des sinus/cosinus, on peut diviser la courbe en petite portions, puis trouver pour chacune de ces portions une équations polynomiale, la machine peut ensuite calculer les valeurs
 * le projet, prévu initialement pour 3 ans, prenanit déjà beaucoup plus de temps que prévu. en 1930, les employés de Clement (l’ingénieur) avaient produit beaucoup de piéces, mais fait peu d’assemblage.
 * peu aprés babbage et le gouvernement décident de déplacer le projet directement chez babbage. un atelier fire-proof est construit. Clément résiste, parcequ’il à déjà largement aménagé son propre atelier avec les sous de babbage, il a plein de machines et d’employés qu’il utilise pour d’autres travaux, et il dit que les machines lui appartiennent, à lui, pas à babbage ou au gouvernement.
+* par la loi, les plans appartiennent à l’ingénieur, et pas à babbage. babbage qui ne peux pas continuer à travailler sur la differential engine repart à zéro, et à l’idée pour l’analytical engine
 * en 1932, les employés vont assembler autant qu’ils peuvent avec les piéces qu’ils ont (10,000), la partir du calcul est compléte, mais pas l’imprimante, et plus rien ne sera fait ensuite. clement refuse de déplacer ses machine chez babbage, et il tranférera la machine seulement en 1834.
 * le gouvernement (qui à déjà dépensé 17,000 pound, et babbage 6,000) stopppe le financement, devant le désacord évident de babbage et Clement.
 * les spécification de la machine ne sont pas claires, il commence au début par une « plus grosse machine », en 1823 c’est 4 niveau de différence et 12 digit, puis, ça sera 6 ordres de différences, avec 18 digits en 1834, et 20 digits dans son autobiographie
@@ -401,6 +426,11 @@ argument and procedure of his work rested. While he believed those opinions to b
 
 
 * analytical engine
+* image http://ichef.bbci.co.uk/images/ic/raw/p031h4z2.jpg
+* as big as a locomotive
+* il pense à utiliser du binaire, mais la machine serait trop grosse (chaque digit est représenté par une roue dentée, en binaire on a plus de digits)
+* environ 1ko de mémoire
+* il a fait des programmes en cartes à trous en attendant que la machine soit construite
 * démarre en septembre 1837
 * « As soon as an Analytical Engine exists, it will necessarily guide the future course of the science. Whenever any result is sought by its aid, the question will then arise—By what course of calculation can these results be arrived at by the machine in the shortest time? » (babbage - life of a philosopher)
 *avec ses premiers designs du differential engine, il fallait entrer les « différences » qui servent de base au calcul à la main. Babbage améliore le circuit afin que les différences soient insérées automatiquement à partir de l’équation.
@@ -482,3 +512,180 @@ Strictly speaking, the actual figure is so long I cannot get it into a line, but
 
 * il devient misantrope à la fin de sa vie, il dit en 1861 ne jamais avoir vécu un jour heureux dans sa vie, et qu’il donnerait volontier le reste s’il pouvait vivre 3 jours seulement 500 ans plus tard
 * his friend Lionel Tollemache wrote, "there was something harmless and even kindly in his misanthropy, for... he hated mankind rather than man, and his aversion was lost in its own generality"
+
+* en français : machine aux différences, et machine analytique
+
+
+#################
+### Ada Lovelace ###
+
+* Augusta Ada King, comtesse de Lovelace, née Ada Byron 10 décembre 1815
+* seule fille légitime du « poéte maudit » Lord Byron & Annabella Milbanke
+* son premier prénom ‘augusta’ serait choisi d’aprés la demi-soeur de byron, Augusta Leigh, avec qui il aurait eu des relation incestueuses
+* [byron] savait aussi se montrer détestable avec sa femme, qu’il ne cessait de dénigrer et rabaisser en public
+* à la suite de 4 tentatives de viol en état d’ébriété, sa femme quitte Byron et garde Ada. elle ne reverra plus jamais son pére (elle a 1 mois)
+* la justice à l’époque donne la garde compléte au pére, mais byron ne fera jamais de tentative pour faire valoir son droit parental (il gardera des nouvelles via sa soeur augusta). il quitte définitivement l’angleterre 3 mois plus tard, le 21 avril
+* Les portraits de byron son cachés à ada jusqu’à son 20eme anniversaire, ils sont recouverts d’un linceul vert
+* Annabelle (sa mére) n’a pas une relation proche avec ada, elle la confie à sa propre mére (la grand mére d’ada), mais doit apparaitre comme une mére aimante (du fait qu’(elle ait gardé la garde, à l’inverse des coutumes). Elle envoie des lettres où elle s’informe du bien être d’ada, avec une note disant de conserver les lettres au cas où elle devrait prouver sa solicitude maternelle. dans une lettre, elle désigne ada par le pronom ‘it’ : "I talk to it for your satisfaction, not my own, and shall be very glad when you have it under your own." 
+* annabella adore les maths, et fait en sorte qu’ada ait une bonne éducation en math (ce qui est tout à fait inhabituel à l’époque pour une fille de la noblesse).
+* le but était aussi de contrecarrer la folie qu’ada aurait pu hériter de son pére
+*  Lady Byron was terrified that Ada might end up being a poet like her father
+* At her mother's insistence, tutors taught her mathematics and science. Such challenging subjects were not standard fare for women at the time, but her mother believed that engaging in rigorous studies would prevent Lovelace from developing her father's moody and unpredictable temperament
+* Ada was also forced to lie still for extended periods of time because her mother believed it would help her develop self-control.
+* sans nul doute, elle avait hérité du génie de son père, mais serait-elle comme son père, fantasque et immorale ? Annabella s’attacha donc à trouver à sa fille des précepteurs pour lui donner une éducation moralement irréprochable et aussi loin que possible de la poésie : Ada apprendrait les mathématiques.
+* à 13 ans, elmle devient passionnée par l’idée de voler, et construit un oiseau mécanique qui peut battre des ailes
+* A 16 ans, Ada tombe amoureuse d’un de ses précepteurs et entend bien mener ce flirt comme elle l’entend. Le scandale est évité, le précepteur est congédié et Ada est dûment sermonnée. Seulement voilà, la preuve est maintenant faite pour sa mère : il est évident qu’Ada a hérité du caractère aventureux, immoral, indépendant et passionné de son père
+* en 1832, ada rencontre Mary Sommerville, un scientifique éminente (Somerville was one of the first women to be admitted into the Royal Astronomical Society), qui à son tour lui présente babbage en 1833 (5 juin, elle a 17ans)
+* elle rencontre babbage pendant son « introduction » à la grande société londonnienne
+* elle est fascinée par la machine de babbage
+* babbage la surnomme « lady fairy »
+* elle se marie en 1835, son mari supporte son activité mathématique, mais ses grossesse mettent à mal sa santé, et la tiennent écarté des maths jusqu’en 1839
+* son mari est nommé earl of lovelace en 1838, elle devient comtesse
+* elle reprends les maths avec l’aide de son tuteur (recommandé par babbage) : Auguste De Morgan.
+* 1841, elle écrit à sa mére : « Je crois que je possède une singulière combinaison de qualités, qui semble précisément ajustées pour me prédisposer à devenir une exploratrice des réalités cachées de la Nature »
+* en 1842, elle dirige son travail autour de la machine analytique de babbage, à qui elle propose ses services pour le développement et la promotion de la machine
+* octobre 1842, Menabrea fait un mémoire en français sur la machine, ada (qui parle bien le français) va traduire ce mémoire en anglais. elle y passe 9 mois
+* elle présente en 1843 la traduction à babbage, qui n’était pas au courant, étant malade. Il demande alors pourquoi elle n’avait pas fait elle-même son propre mémoire sur la machine. L’idée ne lui était pas venue à l’esprit. Babbage lui propose alors d’ajouter ses propres notes à la traduction, pour développer certains points.
+* elle travaille avec la collaboration de babbage, qui corrige les brouillons.
+* les notes représentent 3 fois le mémoire d’origine
+* Son mémoire est publié sous ses initiales : A. A. L. afin de dissimuler son identité comme le faisait d’ordinaire les femmes
+* une des notes présente un algorithme pour calculer les nombres de Bernoulli. C’est parfois considéré comme le premier programme de l’histoire (avant, les algorithmes n’étaient pas écrit de manière formelle), et ada, la premiére programmeuse.
+* mais si on va par là, ça devrait être babbage le premier dev de l’histoire, puisqu’il écrit des programmes pour la machine bien avant (même si la majorité son non-publiés)
+* bruce collier : « Cela ne serait qu'une légère exagération de dire que les notes du mémoire ont été écrites par Babbage, et que — pour des raisons qui lui sont propres — il a entretenu l'idée dans l'esprit d'Ada Lovelace, et dans l'esprit du public, que ces notes étaient d'elle. »
+* Betty Toole, elle, pense que ada était en mesure de réaliser seule le prgramme, et il y a des lettres qui indiquent que le rôle de babbage s’est limité à fournir les formules mathématiques
+* Stephen Wolfram dit qu’on n’a jamais retrouvé dans les document de babbage d’algorithme aussi complexes que celui-là (il existe 446 algorithme de babbage, tous datés entre 1830 et 1840, celui de lovelace est de 1843 ou plus)
+* le prog d’ada reste le 1er programme PUBLIÉ.
+* babbage n’a pas imagine l’utilisation de sa machine pour le calcul alégébrique, il imagine même une autre machine pour ce type de calculs. ada elle dit : « la machine pourrait composer de manière scientifique et élaborée des morceaux de musique de n'importe quelle longueur ou degré de complexité » ET « Beaucoup de personnes […] s'imaginent que parce que la Machine fournit des résultats sous une forme numérique, alors la nature de ses processus doit être forcément arithmétique et numérique, plutôt qu'algébrique ou analytique. Ceci est une erreur. La Machine peut arranger et combiner les quantités numériques exactement comme si elles étaient des lettres, ou tout autre symbole général ; en fait elle peut donner des résultats en notation algébrique, avec des conventions appropriées. »
+* « [The Analytical Engine] might act upon other things besides number, were objects found whose mutual fundamental relations could be expressed by those of the abstract science of operations, and which should be also susceptible of adaptations to the action of the operating notation and mechanism of the engine...Supposing, for instance, that the fundamental relations of pitched sounds in the science of harmony and of musical composition were susceptible of such expression and adaptations, the engine might compose elaborate and scientific pieces of music of any degree of complexity or extent. » (lovelace, sketch of analytical engine : notes, 1842
+* Ada propose à babbage de s’occuper de la levée de fonds pour la machine (le caractére de babbage rendant la chose difficile quand il s’en occupe lui-même), lui laissant le rôle de s’occuper uniquement de la construction. Babbage refuse unilitéralement.
+* On suppose que c’est pour récolter l’argent elle-même, ce qui est sûr, c’est que Ada se met à parier sur des courses de chevaux. Elle crée une méthode mathématique pour être sûre de gagner. Cela ne fonctionne pas et elle se retrouve endétée, elle doit environ 3000 pound (500,000 actuels)
+* il faut noter qu’Ada vit richement, mais elle n’a pas le controle de son argent, détenu soit par sa mére, soit par son mari.
+* elle meurt le 27 décembre 1852, à 36 ans d’un cancer de l’utérus. (son pére aussi est mort à 36 ans)
+* sa dernière volonté est d’être entérrée au côté de son pére, contre l’avis de sa mére.
+* ses contributions seront mise en valeur à partir de 1950
+* Alan Turing découvre les notes d’Ada dans les années 40, et écrit un article à propos de ces notes. C’est gâce à lui qu’Ada est connue aujourd’hui (babbage et les autres ont peu parlé des travaux d’ada aprés qu’elle soit morte)
+
+
+* notes by the translator (Titrées de A à G)
+* A « It were much to be desired, that when mathematical processes pass through the human brain instead of through the medium of inanimate mechanism, it were equally a necessity of things that the reasonings connected with operations should hold the same just place as a clear and well-defined branch of the subject of analysis, a fundamental but yet independent ingredient in the science, which they must do in studying the engine. »
+* A « Again, it might act upon other things besides number, were objects found whose mutual fundamental relations could be expressed by those of the abstract science of operations, and which should be also susceptible of adaptations to the action of the operating notation and mechanism of the engine. Supposing, for instance, that the fundamental relations of pitched sounds in the science of harmony and of musical composition were susceptible of such expression and adaptations, the engine might compose elaborate and scientific pieces of music of any degree of complexity or extent. The Analytical Engine is an embodying of the science of operations»
+* A « If we compare together the powers and the principles of construction of the Difference and of the Analytical Engines, we shall perceive that the capabilities of the latter are immeasurably more extensive than those of the former, and that they in fact hold to each other the same relationship as that of analysis to arithmetic. »
+* A « The Difference Engine can in reality (as has been already partly explained) do nothing but add; and any other processes, not excepting those of simple subtraction, multiplication and division, can be performed by it only just to that extent in which it is possible, by judicious mathematical arrangement and artifices, to reduce them to a series of additions. … The Analytical Engine, on the contrary, can either add, subtract, multiply or divide with equal facility; and performs each of these four operations in a direct manner, without the aid of any of the other three. This one fact implies everything; and it is scarcely necessary to point out, for instance, that while the Difference Engine can merely tabulate, and is incapable of developing, the Analytical Engine can either tabulate or develope. »
+* A « The distinctive characteristic of the Analytical Engine,  … , is the introduction into it of the principle which Jacquard devised for regulating, by means of punched cards, the most complicated patterns in the fabrication of brocaded stuffs. It is in this that the distinction between the two engines lies. Nothing of the sort exists in the Difference Engine. We may say most aptly, that the Analytical Engine weaves algebraical patterns just as the Jacquard-loom weaves flowers and leaves»
+* A « Those who incline to very strictly utilitarian views may perhaps feel that the peculiar powers of the Analytical Engine bear upon questions of abstract and speculative science, rather than upon those involving every-day and ordinary human interests. These persons being likely to possess but little sympathy, or possibly acquaintance, with any branches of science which they do not find to be useful (according to their definition of that word), may conceive that the undertaking of that engine, now that the other one is already in progress, would be a barren and unproductive laying out of yet more money and labour; in fact, a work of supererogation. »
+* A « We refer the reader to the ‘Edinburgh Review’ of July 1834, for a very able account of the Difference Engine. The writer of the article we allude to has selected as his prominent matter for exposition, a wholly different view of the subject from that which M. Menabrea has chosen. The former chiefly treats it under its mechanical aspect, entering but slightly into the mathematical principles of which that engine is the representative, but giving, in considerable length, many details of the mechanism and contrivances by means of which it tabulates the various orders of differences. M. Menabrea, on the contrary, exclusively developes the analytical view; taking it for granted that mechanism is able to perform certain processes, but without attempting to explain how; and devoting his whole attention to explanations and illustrations of the manner in which analytical laws can be so arranged and combined as to bring every branch of that vast subject within the grasp of the assumed powers of mechanism. It is obvious that, in the invention of a calculating engine, these two branches of the subject are equally essential fields of investigation, and that on their mutual adjustment, one to the other, must depend all success. …  The Difference Engine, however, appears to us to be in a great measure an answer to these doubts. It is complete as far as it goes, and it does work with all the anticipated success. The Analytical Engine, far from being more complicated, will in many respects be of simpler construction; and it is a remarkable circumstance attending it, that with very simplified means it is so much more powerful. »
+* F « Without, however, stepping into the region of conjecture, we will mention a particular problem which occurs to us at this moment as being an apt illustration of the use to which such an engine may be turned for determining that which human brains find it difficult or impossible to work out unerringly. »
+* G : l’algorithme, le « premier programme » (lol) de l’histoire.
+* G « It is desirable to guard against the possibility of exaggerated ideas that might arise as to the powers of the Analytical Engine. In considering any new subject, there is frequently a tendency, first, to overrate what we find to be already interesting or remarkable; and, secondly, by a sort of natural reaction, to undervalue the true state of the case, when we do discover that our notions have surpassed those that were really tenable. »
+* G « The Analytical Engine has no pretensions whatever to originate anything. It can do whatever we know how to order it to perform. It can follow analysis; but it has no power of anticipating any analytical relations or truths. Its province is to assist us in making available what we are already acquainted with. »
+* le commentaire précédent est parfois vu comme un reniement de l’idée d’intelligence artificielle
+
+
+
+#########################
+### Joseph-Marie Jacquard ###
+
+* né 7 juillet 1752 à lyon
+* 5° enfant (sur 9) de « Jean Charles », surnommé « Jacquard », un tisseran. il ne va pas à l’école et apprends à lire grâce à son beau-frére à 13 ans
+* quand sa mére meurt, la famille tombe dans la pauvreté. Quand son pére meurt, il hérite de plus qu’attendu : l’appartement et le magasin de son pére
+* à partir de 1779, aprés s’être marié et avoir eu un enfant
+* aprés 1779, il se lance dans des investissement peu rentables et accumule les dettes. il perd son héritage et une parties des propriétés de sa femme (1783)
+* en 1793, il prends part avec son fils à la défense de la ville contre les révolutionnaires. aprés avoir perdu la bataille, ils prenent de faux noms et les rejoignent. Son fils sera tué dans une battaille en 1977.
+* jacquard rentre à lyon et fait de petits jobs, nottament réparateur de métiers à tisser
+* en 1800, il fait une demande pour un brevet, un métier à tisser à pédales. Puis, un métier à tisser pour les filets de pêche en 1803
+* il crée en 1804 le « métier jacquard », un métier à tisser programmable via des cartes à trous
+* un ouvrier seul peut maintenant tisser, sans l’assistance d’un tireur de lacs
+* un ouvrier seul peut faire 2 feet de soie décorée par jour avec le métier jaquard, comparé à 1 feet par jour pour une équipe de 2 ouvriers avant.
+* au début, le métier à tisser n’est pas bien reçu, pas parcequ’il ne fonctionne pas, mais à cause de l’opposition des ouvriers
+* au cours d’une exposition de la machine à lyon, les ouvriers, sentant leur gagne pain en danger, l’agressent et destruisent sa machine
+* lord byron, pére d’ada lovelace, soutient le mouvement (ironiquement)
+* jacquard sera 3 fois menacé par des « fanatiques »
+* « The iron was sold for old iron, the wood for fuel, while I was delivered over to universal ignominy. »
+* son invention est inspiré de celles de Basile Boucon, jean falcon et Jacques Vaucanson. Aprés ses premiers essais infructueux, il va visiter le conservatoire des arts et métier à paris, à l’insistance d’un marchant de soie de lyon.
+* là, il opbserve le métier de Vaucanson, et propose plusieurs améliorations
+* (en vérité, le nom ‘ métier jaquard’ est trompeur. Jacquard invente un « add-on » qui s’adapte sur la plupars des métiers à tisser. Mais on appelle « jacquard loom » tous les métiers qui utilisent cet « add-on ») 
+* image http://history-computer.com/Dreamers/images/jacquard-loom1.jpg
+* en avril 1805, napoléon visite lyon et voit un métier jacquard. Il accorde le brevet à la ville de lyon, en échange, jaquard reçoit une pension à vie de 300 francs (grosse somme), et des royalties de 50 francs par machine vendue (pendant 6 ans)
+* c’est un attitude généreuse, et cela rends jacquard riche
+* 11,000 unités en service en france en 1812, et malgrés les efforts pour garder l’invention secrete, la machine commence à apparaitre dans d’autres pays
+* il reçoit le prix des inventeur le 278 aout 1805. Puis la légion d’honneur en 1819
+* le métier, qui à mit plein d’ouvriers au chomage, est souvent évoqué comme une des causes de la révolte de canuts de 1831
+* mort 7 aout 1834
+
+
+##################
+### Vannevar Bush ###
+
+* né 11 mars 1890, massachusetts
+* il a trés confiance en soi-même « all of my recent ancestors [before my father] were sea captains, and they have a way of running things without any doubt. So it may have been partly that, and partly my association with my grandfather, who was a whaling skipper. That left me with some inclination to run a show once I was in it. »
+* il étudie les maths, puis l’ingénieurie. Pour payer ses études, il fait prof de maths.
+* il a son diplome en 1913 et va travailler chez General Electric, où il travaille sur de l’équipement électrique
+* en 1915, il étudie au MIT, au département électrique. Comme il a besoin d’argent rapidement, il fait sa thése en moins d’un an
+* pendant la 1er huerre mondiale, il développe une machine pour détecter les sous-marins (en mesurant les perturbations le champ électromagnétique de la terre). L’invention est sucessfull en test, mais ne sera pas correctement déployée (il faut qu’elle soit montée à partir d’un navire en bois, par en métal), et sera du coup virtuellement inutile en combat. Bush apprends que pour être un bon ingénieur, il doit aussi être un bon politique.
+* en 1919 il entre au département électrique au MIT comme professeur.
+* à partie de 1925, il commence la construction d’une machine mécanique pour faire de l’intégration
+* il construit d’abord le « product intergraph », puis le « differential analyser » (en fr : l’ananlyseur différentiel). Une machine analogique qui peut résoudre des équations différentielles à 18 variables, elle est mixte : électrique et mécanique.
+* le 1° analyseur différentiel est fini en 1931. Plus tard, Bush améliorera son analyseur différentiel à l’aide de tubes électroniques.
+* le differential analyser sera utilisé pour calculé les tables d’artillerie pdt la 2° guerre
+* il travaille aussi dans des machines pour automatiser la pensée humaine. Passionnée par la photographie, il propose au FBI une machine qui pourrait vérifier 1000 empreinte digitales par minutes, ils refusent. En 1945, il conçoit un systéme pour sauvegarder toute l’information humaine, le « memex », un prototype pour le systéme hypertexte moderne.
+* meurt d’une crise cardiaque le 28 juin 1974
+
+* il est dit que le travail de babbage à été oublié, c’est faux, Bush (et deux autres, Percy Ludgate et Leonardo torres y Quevedo) ont connaissance de ces travaux, et s’en inspirent.
+* ludgate est trés peu connu, et on a peu d’informations sur sa vie. en 1914 il écrit à propos de babbage, et conçoit sur son temps libre (c’est un comptable) une amélioration de la machine analytique de babbage.
+* torres y quevelo est trés connu, né en 1852, il sera pésident de l’cadémie des sciences de madrid, et prolifique inventeur. pionier du controle radio, et inventeur de plusieurs machines de calculs et automates.  il fabrique le 1* automate qui joue aux echecs (il en existe un antérieur, mais il s’est révélé que c’était un humain caché). en 1913 il écrit « Essays on Automatics » où il explique que la machine analytique de B. est un exemple de ses théories sur le potentiel pouvoir des machines. Torres documente un possible design d’ordinateur (comme la machine analytique) électromécanique, et va construire des prototypes. Ses travaux sont peu connus en dehors de l’espagne, et ne vont pas avoir beaucoup d’influence.
+
+* en 1936, bush publie « Instrumental Analysis » qui est un résumé des machines analogues et digitales. Il fait plusieurs références à babbage et aux travaux de son fils. Il se demande comment on pourrait construire une machine programmable qui transformerait des cartes à trous d’IBM en « “a close approach to Babbage’s large conception » (note : c’est précisément ce que AIken fera à harvard) 
+* il va même démarrer un projet pour enquêter sur la construction d’un ordinateur électronique. c’est le Rapid Arithmetical Machine. Le projet avait été oublié, et bush lui même l’avait soit poublié, soit en sous-estime consciament la valeur « Who invented the computer? I can write at once that I did not, in fact I had little to do with that whole development. »
+* le projet est redécouvert avec le procés de 1970 sur le brevet de l’eniac.
+* il travaille sur le projet à partir de 1937. On connait peu de chose sur ce projet.
+* La machine devait être totalement automatique, lis et stocke des données via des cartes à trous, et peut faire les 4 opérations de l’arithmétique, et imprimer ses résultats. Elle est controlée par un programme sur cartes à trous. Il n’y a pas, à priori, d’idée pour un branchement conditionnel.
+* la machine fait une multiplication (6 digit numbers) en 0.2 secondes
+* le projet s’arrête en 1942, quand les ingénieurs sont réattribués à la construction de la bombe atomique
+* « These reports show clearly that by the early 1940s Bush, Caldwell and MIT were on the right lines and amongst the world leaders in the application of electronics to switching and control problems. I have no doubt that their proposals were practical and hardly any doubt that if continued would ultimately have produced something like the ENIAC. » (Tommy Flowers, créateur du collossus)
+* « The great principles on which the Analytical Engine rests have been examined, admitted, recorded and demonstrated. The mechanism itself has now been reduced to unexpected simplicity. Half a century may probably elapse before anyone without those aids which I leave behind me will attempt so unpromising a task. If, unwarned by my example, any man shall undertake and shall succeed in really constructing an engine embodying in itself the whole of the executive department of mathematical analysis upon different principles or by simpler means, I have no fear of leaving my reputation in his charge, for he alone will be fully able to appreciate the nature of my efforts and the value of my results. (Babbage 1864)
+
+
+
+####################
+### Herman Hollerith ###
+
+* né 1860 à buffalo (New York, USA)
+* en 1790, l’état américain décide d’organiser un recensement tous les 10 ans, pour décider part exemple du nombre de représentant de chaque état.
+* au début, tout se passe bien, mais la population augmente, et en 1880, le calcul du recensement met 8 ans (la population augmente fortement, lié à l’immigration), avec 1500 employés
+* il obtient son diplôme d’ingénieru à l’école des mines à université de colmumbia (new york) en 1879, et part travailler au bureau du recensement américain, en vue du recensement de 1880, le bureau a besoin d’employés avec une éducaation en mathématique et en ingéniérie (c’est un de ses professeurs qui lui obtient l’emploi)
+* pendant son temps libre, il aide le docteur John Shaw Billings à compiler ses rapport. Le docteur l’invite un soir chez lui (aout 1881)
+* « One Sunday evening, at Dr. Billings' tea table, he said to me there ought to be a machine for doing the purely mechanical work of tabulating population and similar statistics. We talked the matter over and I remember… he thought of using cards with the description of the individual shown by notches punched in the edge of the card…. After studying the problem I went back to Dr. Billings and said that I thought I could work out a solution for the problem and asked him would he go in with me. The Doctor said he was not interested any further than to see some solution of the problem worked out. » (hollerith)
+* tout le recensement est fait à la main, lorsqu’on veut une statistique (disons le sexe, l’origine, niveau d’éducation, métier, etc…), les document du recensement sont envoyés aux employés, qui font une petite marque pour chaque homme/femme, les marques sont arrangées pour que 5 marques forment une petite boite, X boites forment une grande boite, etc… Ensuite, les employés peuvent facilement compter les boites et avoir le nombre demandé. C’est un process lent, cher et qui peu fiable. Ça limite aussi le potentiel d’analyse que le bureau peut faire
+* en 1882, il devient instructeur en mécanique au MIT. C’est là qu’il commence à mettre au point sa tabulatrice. À ce moment, il utilise une bande de papier perforée, mais ce systéme est problématique, il n’y a aucun moyen d’isoler une donnée précisément, et il faut repasser sur l’intégralité de la bande de papier pour retrouver une info en particulier.
+* c’est à ce moment là qu’à l’occasion d’un voyage en train, il va avoir l’idée des cartes à trous (idée que Billing avait déjà évoqué au cours du diner, mais qu’Hollerith avait dû oublier)
+* « …and I had a ticket with what I think was called a punch photograph…. The conductor… punched out a description of the individual, as light hair, dark eyes, large nose, etc. So you see, I only made a punch photograph of each person. » (Hollerith)
+* en 1884, il est ingénieur pour l’ « united states census office » (bureau du recensement).
+* avec cette amélioration, son systéme devient performant et versatile. Si on veut par exemple savoir combien de fermiers font pousser du blé, on a pas besoin de réévaluer la totalité de la population, mais juste de sélectionner les cartes de fermiers, et faire le calcul là dessus
+* le bureau du recensement va lancer un concours pour améliorer les procédures de comptages. Hollerith sera l’un des trois à se présenter
+* l’idée des cartes perforées lui est venue d’un voyage en train, lors du compostage des billets. Le contrôleur perforait des cases en fonction de la couleur des cheveux, de la taille, etc. une sorte de « photo perforée »
+* hollerith propose d’utiliser cette méthode pour le recensement, mais construit également une machine qui permet de compter et de trier les cartes selons certains critéres.
+* le principe est simple, l’utilisateur pose une carte sur la machine et fait descendre une presse couverte de tige, si il y a un trou en face de la tige, elle peut appuyer sur un interrupteur qui incrémente l’un des compteurs de la machine et ouvrir un des 24 tiroirs pour ranger la carte, sinon rien ne se passe 
+* un employé expérimenté peut traiter 80 cartes par minutes
+* il pose un brevet (en 1884, il l’obtient en 1889) pour une machine automatisée de traitement de l’information statistique : la tabulatrice. Une machine électromécanique qui utilise les cartes perforées comme support de données.
+* l’office du recensement est impressionné par la machine et méne un test en 1888 avant de s’engager définitivement. Le test est entre la tabulatrice et le « slip » systéme de William C Hunt, et le « chip » systéme de Charles F Pidgen.
+* chip : les données du recensement étaient retranscrisent sur des cartes colorées
+* slip : les données étaient écrites sur des petits bouts de papiers avec une ancre colorée.
+* dans les deux cas, les données devaient toujours êtres comptées à la main.
+* Le test demande de tabuler les données de 10491 personnes de ST Louis, receuillis durant le recensement de 1880. Le systéme de Hollerith écrase la concurence. Il tabule les données 8 à 10 fois plus rapidement que les deux autres systèmes
+* le bureau du recensement commande donc 56 tabulateurs à hollerith. Les machines entrérent en fonction en juillet 1890.
+* en 1890, la premiére étape du recensement, compter le nombre d’habitants, ce sera fait en 6 semaines (62,622,250 habitants (une carte représente une famille, les ouvrier listent environ 50,000 personnes par jour). le recensement au complet sera fini en 2,5 an grâce à cette machine (ça avait pris huit ans en 1880)
+* le recensement de 1880 avait couté 5,8 millions, celui de 1890 en coute le double, 11,5 millions. Il y a une contreverse sur les bénéfices de l’automatisation (le bureau n’a payé que 750,000 pour la location des machines d’H.)
+* En fait, le bureau à mené une étude bien plus approfondie des chiffres, et estime que les machines lui ont permis d’économiser 5 millions
+* Hollerith et sa machine sont présentées dans les journaux scientifiques de l’époque (1890)
+* hollerith cherche un emploi aux centaines de machines qu’il a loué au gouvernement en attendant le prochain recensement
+* en 1890, la machine permet seulement de compter, H. va l’améliorer pour permettre des additions, et permet donc d’étendre son emploi pour la comtabilité, les livraisons etc.
+* le systéme se répends rapidement, fin 1890, autriche, la russie, le canada, la france commandent des tabulatrices pour leur propres recensement. L’industrie privé s’y mettra bientôt
+* il s’installe dans un atelier à washinton en 1893, pour la répapartion et la production de ses machines
+* 1896, il crée à Washington la « tabulating machinery company » (TMC) pour vendre sa machine (1er entreprise de mécanographie)
+* il vend des bureaux intégrés, avec une machines pour perforer les cartes, une pour lire les données et une pour trier les cartes
+* en 1906, il améliore la machine en lui permettant d’être programmée
+* La société fonctionne bien, mais commence à avoir plus de clients qu’elle ne peut en gérer. Plutôt que de vendre les machines, il les loue. Cela permet d’avoir un revenu fiable, mais il manque du coup de capital, ce qui l’empêche de s’éentendre.
+* 1911, TMC fusionne avec CSC (qui fabrique des bala,ces de magasin) et ITRC (qui fait des pointeuses d’employés). Thomas Watson est recruté pour gérer l’ensemble, qui devient rapidement un collosse comercial, et qu’il renomme en 1924 : « International Business Machines Corporation » (IBM)
+* Hollerith avait à ce moment là vendu ses parts dans l’entreprise, et n’aura plus d’influence sur son développement
+* IBM loue les machines à ses clients et domine le marché pendant longtemps. l’entreprise ira ensuite sur le marché des calculateurs électroniques, mais ce marché n’égalera qu’en 1962 le revenu de la branche des cartes perforées.
+* meurt en 1929 à Washington

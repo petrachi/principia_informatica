@@ -116,7 +116,7 @@ http://computer.howstuffworks.com/boolean6.htm
 https://en.wikipedia.org/wiki/The_Laws_of_Thought
 https://en.wikipedia.org/wiki/Boolean_algebra
 
-Charles sanders pierce:
+Charles sanders pierce (useless):
 https://books.google.fr/books?id=DnvLHp919_wC&q=Marquand&redir_esc=y
 https://fr.wikipedia.org/wiki/Charles_Sanders_Peirce
 http://www.historyofinformation.com/expanded.php?id=4090
@@ -236,51 +236,36 @@ https://fr.wikipedia.org/wiki/Pascaline#Abaques
 http://aconit.inria.fr/omeka/exhibits/show/figures-de-l-informatique/pionniers/grace-hopper
 http://history-computer.com/People/AikenBio.html
 http://history-computer.com/ModernComputer/Relays/Aiken.html
+http://history-computer.com/Library/AikenProposal.pdf
+https://fr.wikipedia.org/wiki/Howard_Aiken
+https://fr.wikipedia.org/wiki/Harvard_Mark_I
 IMG 5337
 IMG 5342
 IMG 5677-5684
 
 shannon:
-http://neilsloane.com/doc/shannonbio.html
-http://history-computer.com/ModernComputer/thinkers/Shannon.html
+https://www.khanacademy.org/computing/computer-science/informationtheory/moderninfotheory/v/a-mathematical-theory-of-communication
+http://news.mit.edu/2001/shannon
+http://www.historyofinformation.com/expanded.php?id=745
+http://www.nyu.edu/pages/linguistics/courses/v610003/shan.html
 https://fr.wikipedia.org/wiki/Claude_Shannon
 https://en.wikipedia.org/wiki/Claude_Shannon
-http://everything.explained.today/Claude_Shannon/
-https://en.wikipedia.org/wiki/A_Symbolic_Analysis_of_Relay_and_Switching_Circuits
-http://www.ccapitalia.net/descarga/docs/1938-shannon-analysis-relay-switching-circuits.pdf
-https://books.google.fr/books?id=K6fac9RxXREC&pg=PA570&lpg=PA570&dq=how+claude+shannon+switching+circuits+popularized&source=bl&ots=vKyivhiP1G&sig=9xEZ8XX6WEF2W6SXMmOMWwqD_50&hl=fr&sa=X&ved=0ahUKEwizi960qJvKAhXHHxoKHShUAYQQ6AEIRjAF#v=onepage&q=how%20claude%20shannon%20switching%20circuits%20popularized&f=false
-https://books.google.fr/books?id=K6fac9RxXREC&pg=PA570&lpg=PA570&dq=how+claude+shannon+switching+circuits+popularized&source=bl&ots=vKyivhiP1G&sig=9xEZ8XX6WEF2W6SXMmOMWwqD_50&hl=fr&sa=X&ved=0ahUKEwizi960qJvKAhXHHxoKHShUAYQQ6AEIRjAF#v=onepage&q=how%20claude%20shannon%20switching%20circuits%20popularized&f=false
-http://www.ccapitalia.net/descarga/docs/1938-shannon-analysis-relay-switching-circuits.pdf
-https://en.wikipedia.org/wiki/A_Symbolic_Analysis_of_Relay_and_Switching_Circuits
-IMG 5667-5672
-https://en.wikipedia.org/wiki/General_purpose_analog_computer
-https://interstices.info/jcms/c_33558/les-calculateurs-analogiques
-http://www.mast.queensu.ca/~math474/shannon1948.pdf
-http://scienceworld.wolfram.com/biography/Shannon.html
-https://www.khanacademy.org/computing/computer-science/informationtheory/moderninfotheory/v/a-mathematical-theory-of-communication
-https://dspace.mit.edu/handle/1721.1/11174
-https://en.wikipedia.org/wiki/Claude_Shannon
-http://history-computer.com/ModernComputer/thinkers/Shannon.html
-http://www.historyofinformation.com/expanded.php?id=745
-http://www.maa.org/press/periodicals/convergence/applications-of-boolean-algebra-claude-shannon-and-circuit-design
-https://dspace.mit.edu/handle/1721.1/11173
-http://www.cs.virginia.edu/~robins/Shannon_MS_Thesis.pdf
-https://en.wikipedia.org/wiki/A_Symbolic_Analysis_of_Relay_and_Switching_Circuits
-https://www.cs.virginia.edu/~evans/greatworks/shannon38.pdf
-http://ethw.org/Oral-History:Claude_E._Shannon
-http://news.mit.edu/2001/shannon
-http://www.nyu.edu/pages/linguistics/courses/v610003/shan.html
 http://www.cs.tut.fi/~jta/computing-history-material/remarks%20for%20switching%20theory%20rev.pdf
+https://books.google.fr/books?id=K6fac9RxXREC&pg=PA570&lpg=PA570&dq=how+claude+shannon+switching+circuits+popularized&source=bl&ots=vKyivhiP1G&sig=9xEZ8XX6WEF2W6SXMmOMWwqD_50&hl=fr&sa=X&ved=0ahUKEwizi960qJvKAhXHHxoKHShUAYQQ6AEIRjAF#v=onepage&q=how%20claude%20shannon%20switching%20circuits%20popularized&f=false
+http://www.maa.org/press/periodicals/convergence/applications-of-boolean-algebra-claude-shannon-and-circuit-design
+http://neilsloane.com/doc/shannonbio.html
+http://scienceworld.wolfram.com/biography/Shannon.html
+http://history-computer.com/ModernComputer/thinkers/Shannon.html
 http://mark.bu.edu/papers/200.pdf.pdf
-https://archive.org/details/IntroductionToSwitchingTheoryLogicalDesign
-http://www.springer.com/jp/book/9780387285931
-https://books.google.fr/books?id=uagvEc2jGTIC&pg=PA186&lpg=PA186&dq=charles+pierce+switch+boole&source=bl&ots=lqB5mo39U-&sig=iR-qn2NBjPQfI0Subt8vP-mzSuA&hl=fr&sa=X&ved=0ahUKEwiagufsipvKAhXHtBoKHROmBn4Q6AEIKjAB#v=onepage&q=charles%20pierce%20switch%20boole&f=false
-http://www.historyofinformation.com/expanded.php?id=4090
-http://homepages.math.uic.edu/~kauffman/CHK.pdf
-https://en.wikipedia.org/wiki/Information_theory
-https://fr.wikipedia.org/wiki/Th%C3%A9orie_de_l%27information
+http://ethw.org/Oral-History:Claude_E._Shannon
+https://en.wikipedia.org/wiki/A_Symbolic_Analysis_of_Relay_and_Switching_Circuits
 https://dspace.mit.edu/bitstream/handle/1721.1/11173/34541425-MIT.pdf?sequence=2
-https://en.wikipedia.org/wiki/The_Information:_A_History,_a_Theory,_a_Flood
+http://www.ccapitalia.net/descarga/docs/1938-shannon-analysis-relay-switching-circuits.pdf
+http://www.cs.virginia.edu/~robins/Shannon_MS_Thesis.pdf
+http://www.mast.queensu.ca/~math474/shannon1948.pdf
+https://ia800307.us.archive.org/8/items/IntroductionToSwitchingTheoryLogicalDesign/HillPeterson-IntroductionToSwitchingTheoryLogicalDesign.pdf
+https://dspace.mit.edu/bitstream/handle/1721.1/11174/34541447-MIT.pdf?sequence=2
+IMG 5667-5672
 
 stibitz:
 http://www.computer.org/web/awards/goode-george-stibitz
@@ -289,6 +274,7 @@ http://everything.explained.today/George_Stibitz/
 https://en.wikipedia.org/wiki/George_Stibitz
 http://history-computer.com/People/StibitzBio.html
 http://history-computer.com/ModernComputer/Relays/Stibitz.html
+http://ed-thelen.org/comp-hist/CBC-Ch-06.pdf
 IMG 5340
 IMG 5673-5676
 IMG 5341
@@ -307,6 +293,7 @@ http://history-computer.com/ModernComputer/Electronic/Atanasoff.html
 IMG 5341-5342
 https://www.youtube.com/watch?v=Yxrcp1QSPvw
 https://fr.wikipedia.org/wiki/Histoire_de_l%27informatique
+http://www.bth.se/mam/forskning.nsf/attachments/WP%202014_7_Rouchy_Atanasoff%20invention%20input%20and%20state%20of%20computing%20knowledge_pdf/$file/WP%202014_7_Rouchy_Atanasoff%20invention%20input%20and%20state%20of%20computing%20knowledge.pdf
 
 
 —

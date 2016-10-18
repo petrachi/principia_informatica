@@ -270,7 +270,6 @@ IMG 5667-5672
 stibitz:
 http://www.computer.org/web/awards/goode-george-stibitz
 http://www.universalis.fr/encyclopedie/george-robert-stibitz/
-http://everything.explained.today/George_Stibitz/
 https://en.wikipedia.org/wiki/George_Stibitz
 http://history-computer.com/People/StibitzBio.html
 http://history-computer.com/ModernComputer/Relays/Stibitz.html
@@ -284,16 +283,15 @@ IMG 5354-5355
 atanasoff:
 https://en.wikipedia.org/wiki/John_Vincent_Atanasoff
 http://history-computer.com/People/AtanasoffBio.html
-IMG 5694-5712
 https://en.wikipedia.org/wiki/Atanasoff%E2%80%93Berry_computer
 https://fr.wikipedia.org/wiki/Atanasoff%E2%80%93Berry_Computer
 http://jva.cs.iastate.edu/operation.php
 https://www.youtube.com/watch?v=YyxGIbtMS9E
 http://history-computer.com/ModernComputer/Electronic/Atanasoff.html
-IMG 5341-5342
 https://www.youtube.com/watch?v=Yxrcp1QSPvw
-https://fr.wikipedia.org/wiki/Histoire_de_l%27informatique
 http://www.bth.se/mam/forskning.nsf/attachments/WP%202014_7_Rouchy_Atanasoff%20invention%20input%20and%20state%20of%20computing%20knowledge_pdf/$file/WP%202014_7_Rouchy_Atanasoff%20invention%20input%20and%20state%20of%20computing%20knowledge.pdf
+IMG 5341-5342
+IMG 5694-5712
 
 
 —

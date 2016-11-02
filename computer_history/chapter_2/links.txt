@@ -70,7 +70,6 @@ https://aconit.inria.fr/omeka/exhibits/show/histoire-machines/prehistoire/machin
 http://history-computer.com/MechanicalCalculators/Pioneers/Schickard.html
 IMG 5327
 
-
 Pascal:
 https://fr.wikipedia.org/wiki/Blaise_Pascal
 https://www.youtube.com/watch?v=XMriWTvPXHI
@@ -83,7 +82,6 @@ IMG 5327
 http://clemvili.free.fr/TPE/mecanique.html
 http://metastudies.net/pmwiki/pmwiki.php?n=Site.SchicardvsPascal
 https://www.youtube.com/watch?v=3h71HAJWnVU
-
 
 Leibniz:
 https://en.wikipedia.org/wiki/Gottfried_Wilhelm_Leibniz
@@ -191,6 +189,8 @@ https://www.youtube.com/watch?v=vKUeiSJB_pc
 http://www.bbc.co.uk/programmes/p030s5bx
 http://www.franceculture.fr/emissions/la-marche-des-sciences/ada-lovelace-lady-de-l-informatique
 http://history-computer.com/ModernComputer/thinkers/Ada.html
+http://www.famousscientists.org/ada-lovelace/
+https://backchannel.com/untangling-the-tale-of-ada-lovelace-4cbca62898b6#.ka3roxmax
 IMG 5325
 IMG 5585-5596
 IMG 5612-5639
@@ -239,6 +239,7 @@ http://history-computer.com/ModernComputer/Relays/Aiken.html
 http://history-computer.com/Library/AikenProposal.pdf
 https://fr.wikipedia.org/wiki/Howard_Aiken
 https://fr.wikipedia.org/wiki/Harvard_Mark_I
+http://oai.cwi.nl/oai/asset/18183/18183A.pdf
 IMG 5337
 IMG 5342
 IMG 5677-5684
@@ -290,6 +291,7 @@ https://www.youtube.com/watch?v=YyxGIbtMS9E
 http://history-computer.com/ModernComputer/Electronic/Atanasoff.html
 https://www.youtube.com/watch?v=Yxrcp1QSPvw
 http://www.bth.se/mam/forskning.nsf/attachments/WP%202014_7_Rouchy_Atanasoff%20invention%20input%20and%20state%20of%20computing%20knowledge_pdf/$file/WP%202014_7_Rouchy_Atanasoff%20invention%20input%20and%20state%20of%20computing%20knowledge.pdf
+http://history-computer.com/Library/ABC%20%20manual.pdf
 IMG 5341-5342
 IMG 5694-5712
 

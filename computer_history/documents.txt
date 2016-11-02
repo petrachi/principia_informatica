@@ -706,6 +706,7 @@ http://history-computer.com/Library/turing_Oncomputablenumbers.pdf
 http://www.franceculture.fr/emissions/une-vie-une-oeuvre/alan-turing-rediffusion-de-lemission-du-14-janvier-2012#
 https://www.youtube.com/watch?v=ksUyhJRkvNk&feature=player_embedded
 https://www.youtube.com/watch?v=p7Lv9GxigYU
+http://mind.oxfordjournals.org/content/LIX/236/433.full.pdf+html?sid=c42c2e7b-4be6-4eef-968e-648fb679601a
 
 Alan turing -> Machines de Turing:
 http://goodmath.scientopia.org/2012/06/24/turing-machines-what-they-are-what-they-arent/

@@ -36,6 +36,7 @@
 
 * machine : “arithmeticum organum” (“arithmetical instrument”)
 * la machine est construite pour Kepler (mais aucune ne lui est parvenue)
+* motivation : faciliter les opérations des multiplications et de division
 * le plus probable (on ne sait pas vraiment) : 2 machines ont été construites, le prototype (premère lettre), diparue aprés la mort de Schickard, il devait l’avoir chez lui, et la seconde, pour Kelpler, détruite dans un incendie
 * la machine n’était pas complète, et desroues et  ressorts ont été ajoutés à la reproduction
 * la machine possède des batons de napier pour multiplication/division
@@ -43,15 +44,17 @@
 * la première machine en cours de construction, en 1624, fut détruite dans un incendie. Rickard abandonna le projet
 * la machine est construite par un horloger (Johann Pfister)
 * le système de propagation des retenues (roues dentées) n’était pas approprié, et pouvait endommager la machine dans certaines configurations (1 + 9_999)
+* cependant, utilisé correctement, la machine requiert peu souvent l’intervention de l’utilisateur : on average 0.0009% of the time or less than once in every 5 months for an operator working 40 hour weeks, doing an addition every 30 seconds
 * additionne et soustrait des nombres à 6 chiffres - indique un dépassement de la mémoire à l’aide d’une cloche
 * la multiplication se fait via l’addition, à l’aide des batons de napiers (6 cylindres)
 * usage suggéré : aide au calcul des tables astronomiques
 * exemple de multiplication : Lets make a simple multiplication with the machine, for example 524x48. First we have to rotate the rightmost cylinder to 4, next cylinder to 2, and the third from right to 5 (the multiplicand is 524). Then we have to open the windows on the 8th row (units of the multiplier are 8) and we will see in the windows the first intermediate result (4192). We have to enter the 4192 in the calculating mechanism. Then we have to open the windows on the 4th (tens of multiplier are 4) row and to see the second intermediate result—20960, which we have to enter to the calculating mechanism, and we will have the result—25152.
 
-* la premiere lettre (écrit en latin)
+* la premiere lettre (écrit en latin) (20 septembre 1623)
 * « I have tried to discover a mechanical way for performing calculations, which you have done manually till now. I constructed a machine, which includes eleven full and six partial pinion-wheels, which can calculate automatically, to add, subtract, multiply and divide. You would rest satisfied, if you can see how the machine accumulates and shifts to the left tens and hundreds, and makes the opposite shift during a subtraction…. »
+* « What you have done in a logistical way (i.e. by calculation) I have just tried to do by mechanics. I have constructed a machine consisting of eleven complete and six incomplete (“mutliated”) sprocket wheels which can calculate. You would burst out laughing if you were present to see how it carries by itself from one column of tens to the next or borrows from them during subtraction »
 
-* seconde lettre (inclu un dessin de la machine)
+* seconde lettre (inclu un dessin de la machine) (1 an plus tard, 1624)
 * « ...I will describe the computer more precisely some other time, now I don't have enough time: aaa are the upper faces of vertical cylinders (see the upper figure), whose side surfaces are inscribed with multiplication tables. The digits of these tables can be looked out of the windows bbb of a sliding plate. From the inner side of the machine to the disks ddd are attached wheels with 10 cogs, and each wheel is clutched with a similar wheel in a manner that, provided some of the right wheels spins round ten revolutions, the left wheel will make one revolution, or provided the first wheel spins round 100 revolutions, the third wheel to the left will make one revolution. In order the revolutions of the wheels to be in the same direction, intermediate wheels h are necessary. [See the following sketch]. [A marginal note] Each intermediate wheel moves to the left needed carry, but not to the right, which made special caution measures necessary. »
 * « The digits, inscribed upon the each wheel, can be looked out of the windows ccc of the middle bank. In the end of the lower bank are arranged rotating heads eee, used for recording of numbers, which are the result of the calculations, and their digits can be looked out of the windows fff. I have already ordered a copy for you to our Johann Pfister, together with some other things for me, especially some copper plates, but when the work was half finished, yesterday night a fire burst out and everything burnt out, as Maestlin informed you. I take this loss very heavily, because there is no time for its replacement. »
 
@@ -68,15 +71,12 @@
 * il est obligé d’améliorer le systéme de retenues de Sickard
 * « This simple-looking device actually presents a host of problems to anyone attempting to construct an adding machine based on this principle. The major problem is caused by the fact that the single tooth must enter into the teeth of the intermediate wheel, rotate it 36 degrees (one tenth of a revolution), and exit from the teeth, all while only rotating 36 degrees itself. The most elementary solution to this problem consists of the intermediate wheel being, in effect, two different gears, one with long and one with short teeth together with a spring-loaded detente (much like the pointer used on the big wheel of the gambling game generally known as Crown and Anchor) which would allow the gears to stop only in specific locations. It is not known if Schickard used this mechanism, but it certainly works well on the reproductions constructed by von Freytag Loringhoff.» (Michael R. Williams[5], History of Computing Technology, IEEE (1997))
 * trad wiki: « ... présente une multitude de problèmes pour toute personne voulant construire une machine à calculer basée sur ce principe. Le problème le plus important vient du fait que la dent unique de la roue mutilée doit s'insérer entre les dents de la roue intermédiaire, la faire tourner de 36 degrés (un dixième de tour), puis doit se retirer, tout cela en ne tournant elle-même que de 36 degrés. La solution la plus simple à ce problème est de composer la roue intermédiaire de deux roues, une avec des dents longues et une avec des dents courtes accouplée à une détente à ressort (similaire au pointeur/curseur utilisé dans une roue de loterie) ce qui permet aux pignons de s’arrêter dans des positions fixes. Nous ne savons pas si Schickard utilisa ce mécanisme, mais il marche bien sur les reproductions de von Freytab Loringhoff. » 
-* Sickard cependant dit à Kepler dans sa lettre que la machine fonctionne, et la technologie des « ressort à détente » est connu des horlogers à l’époque
+* Sickard cependant dit à Kepler dans sa lettre que la machine fonctionne, et la technologie des « ressort à détente » est connu des horlogers à l’époque. Il dit aussi qu’il n’a pas le temps dans sa lettre de «  “describe the computer more precisely some other time, now I don’t have enough time.” »
 
-* pas d’influence sur le développement des machines à calculer (débitable)
+* pas d’influence sur le développement des machines à calculer (débatable)
 * « … it is almost certain that Pascal would not have known of Schickard's machine ...
 Pascal seems to have realized right from the start that the single-tooth gear, like that used by Schickard, would not do for a general carry mechanism. The single-tooth gear works fine if the carry is only going to be propagated a few places but, if the carry has to be propagated several places along the accumulator, the force needed to operate the machine would be of such magnitude that it would do damage to the delicate gear works. » (Michael R. Williams, History of Computing Technology, IEEE (1997))
-
-
-
-
+* We do not, for example, know who precisely knew or was inspired by Schickard’s invention.
 
 
 
@@ -111,6 +111,7 @@ Pascal seems to have realized right from the start that the single-tooth gear, l
 
 * à 19ans, il envente la 1° machine à calculer
 * blaise développe la pascaline (soustraction et addition) à partir de 1642 pour aider son pére dans son travail
+* motivation : adding and subtracting (and of course also doing more complex calculations) as vast numbers of taxes on different items from different citizens across 1,800 communities in Normandy had to be assessed, collected, paid, accounted for, and audited, with his father seldom going to sleep before 2.00 AM
 * la comptabilité est difficile, car 1 livre = 20 sols, 1 sol = 12 deniers (même idée pour longueurs et poids)
 * Une machine compte les deniers (12 par sol), les sols (20 par livre), et les livres en utilisant des roues de 12,20,et 10 dents. Une autres les lignes, pouces, pieds et toises (12,12,6,10 dents).
 * le pére est honnête, méticuleux et franc, il passe un temps considérable à faire des calculs arithmétiques. La tâche de compter les millions de denirers, sols et livres demande même l’aide de son fils Blaise, et du cousin de Blaise, Florin Perrier (qui marriera la soeur de Blaise, Gilberte)
@@ -131,6 +132,8 @@ Pascal seems to have realized right from the start that the single-tooth gear, l
 * certains commentateurs suggérent presque que Pascal était en possesion de pouvoirs magiques : « Entretien avec M. de Sacy: It was common knowledge that [Pascal] seemed able to animate copper, and to give to brass the power of thought. Little unthinking wheels, each rimmed with then ten digits, were so arranged by him that they could give accounts even to the most reasonable persons, and he could in a sense make dumb machines speak. »
 * « I find that since the invention of logarithms and rabdology, nothing of significance occurred regarding the practice of numbers other than Monsieur Pascal's instrument. It is a device truly invented with as much success and speculation as his author has intelligence and knowledge. It consists, however, in a number of wheels, springs, and movements, and one needs the head and hands of a good clockmaker to understand how it works and to manufacture it, as well as the skills and knowledge of a good arithmetician to operate it. [For all these reasons], one fears that its use will never become widespread, and that instead of being employed in financial bureaux and regional administrations to calculate taxes, or in merchant offices to compute their rules of discount and company, [the machine] will be stored in cabinets and librairies, there to be admired. » (Pierre Petit)
 * mais toutes les critiques n’étaient pas positives, en octobre 1648, Balthasar Gerbier écrit à Samuel Hartlib. Il trouve la pascaline difficile, il faut bien connaitre l’arithmétrique (ce qui est contraire aux intentions de Pascal), il faut deux pascalines pour faire une simple régle de 3, il trouve la machine lourde, grosse, difficile à transporter, et chère. Et inutile à quiconque voudrait apprendre l’arithmétique.
+* « He didn’t make one that would calculate accurately, even if you handled it with the greatest care and took hold of the wheels and cogs after taking the top off the machine, trying to help them along I have tried them myself on several of his machines which are preserved, and making due allowance for age they never could have been in any sense accurate mechanical calculators » (Dorr Eugene Felt, inventeur du comptométre, mais il faut noter qu’on est 400 ans aprés, la surprise aurait été que la machine fonctionne toujours parfaitement)
+* Pascal, pour remettre à zéro la machine, recommande de mettre tout à 99999, puis d’ajouter 1, ce qui fera passer les retenues sur tous les digits. Ça peut être une preuve de la fiabilité du mécanisme, ou bien, une vérification nécessaire afin de vérifier que la machine est bien réglée avant de commencer à calcul, si elle avait tendance à se dérégler. (la dernière option est plus probable, au vu des test fait avec des répliques, et au vu du fait qu’on a aucun document qui montre la machine utilisée dans le commerce pour remplacer durableement la méthode du jeton ou de la plume )
 
 * machine arithmétique -> roue pascaline -> pascaline
 * seulement 20 machines furent construites, c’est un echec commercial, du fait de son coût élevé (100 livres)
@@ -173,6 +176,9 @@ Pascal seems to have realized right from the start that the single-tooth gear, l
 * « il auroit eu, dès ses plus jeunes années, une inclination particulière aux sciences Mathématiques, dans lesquelles par ses études et ses observations, il a inventé plusieurs choses, et particulièrement une machine, par le moyen de laquelle on peut faire toutes sortes de supputations, Additions, Soustractions, Multiplications, Divisions, et toutes les autres Règles d'Arithmétique, tant en nombre entier que rompu, sans se servir de plume ni jettons, par une méthode beaucoup plus simple, plus facile à apprendre, plus prompte à l'exécution, et moins pénible à l'esprit que toutes les autres façons de calculer, qui ont été en usage jusqu'à présent; et qui outre ces avantages, a encore celuy d'estre hors de tout danger d'erreur, qui est la condition la plus importante de toutes dans les calculs. »
 * « Mais, d'autant que ledit instrument peut estre aisément contrefait par des ouvriers, et qu'il est néanmoins impossible qu'ils parviennent à l'exécuter dans la justesse et perfection nécessaires pour s'en servir utilement, s'ils n'y sont conduits expressement par ledit Sr Pascal, ou par une personne qui ait une entière intelligence de l'artifice de son mouvement, il seroit à craindre que, s'il étoit permis à toute sorte de personnes de tenter d'en construire de semblables, les défauts qui s'y rencontreroient infailliblement par la faute des ouvriers, ne rendissent cette invention aussi inutile qu'elle doit estre profitable estant bien exécutée. »
 
+* « In Pascal’s dedicatory letter to the chancelier Séguier, the young Archimedes—as he was sometimes called by Marin Mersenne—mentioned the difficulty of using the common method of calculations to perform lengthy arithmetical operations such as the determination of taxes. Only after an extensive period of meditation, Pascal wrote, did he determine that a simpler and faster approach could actually be discovered. It is interesting to note that Pascal’s moyens ordinaires to perform arithmetical operations was the plume and jetons, nothing else. It was the only method referred to in Séguier’s dedication, in the Avis nécessaire cited earlier in the chapter, in the privilège and in Gilberte’s Vie de Monsieur Pascal. No mention whatsoever of rabdology and logarithms, as we saw above in relation to the English context, though Pascal père and fils were most likely aware of these two, by then well-known, mathematical practices as regular members of Mersenne’s Parisian circle of mathematicians. » (Jean-François Gauvin, dans une thése de doctorat)
+* « First, rabdology and logarithms had a marginal impact on the French milieu of reckonmasters—and by ricochet on merchants, financiers and bankers, despite efforts by individuals such as Henrion, Petit and Buot. Pascal, therefore, did not find his primary insight from mathematical practitioners in developing the arithmetical machine… Second, the pascaline’s rhetoric of effortless calculations was meant to convince and meet the needs of a specially targeted clientèle, one which owned money and, contrary to Pascal’s father, did not necessarily want to learn complex mathematical procedures. » (same)
+
 * seule machine opérationelle au 17eme siecle
 * liebniz va tenter d’améliorer la pascaline à partir de la mort de pascal, et va finalement réaliser une nouvelle machine en 1694
 * postume: La Pascaline fut à l'origine de beaucoup de machines et d'inventions clés de cette industrie. En effet, c'est en cherchant à y ajouter une interface de multiplication automatique que Leibniz inventa son fameux cylindre cannelé (1671)21 ; Thomas de Colmar s'inspira des travaux de Pascal et de Leibniz quand il conçut son arithmomètre, qui, après trente ans de développement, deviendra, en 1851, la première machine à calculer commercialisée au monde ; Dorr E. Felt substitua les roues d'entrée de la pascaline par un clavier à touches pour son comptomètre, qui sera la première machine à calculer utilisant un clavier et, soixante-dix ans plus tard, la première machine à calculer à devenir électronique.
@@ -189,6 +195,11 @@ Pascal seems to have realized right from the start that the single-tooth gear, l
 * Will Durant, dans son onzième volume de l’Histoire des civilisations, juge « les pensées » comme « le livre le plus éloquent en français »
 
 * Pascal versus Schickard
+* La machine de Schickard est principalement faite pour aider à la multiplication, le système d’addition est là pour stocker les résultats intermédiaires.
+* celle de pascal est pour aider à l’addition et la multiplication
+* il est difficile de savoir quelle machine à inspiré la suite. Le système de sautoir de pascal n’à pas été repris ensuite. Et l’étape la plus importante après : leibniz, connait la machine de pascal mais ne connait probablement pas le mécanisme et les limitations de la machine. l’étape d’après, Thomas de colmart et l’arithométre ne connait le stepped reckoner de leibniz que 10 ans après l’avoir utilisé dans ses inventions (moralité : il n’y a pas de ligne droite au travers de l’histoire des machines à calculer)
+* moralité : History is littered with multiple strands of innovation catalysed not so much by a single blinding insight by a genius, but rather by forces which are collectively causing clever inventors, skilled artisans, and commercially astute partners to collaborate together in the development and marketing of new technologies. 
+
 
 
 
@@ -359,7 +370,7 @@ argument and procedure of his work rested. While he believed those opinions to b
 * s’il l’avait finie, la machine de babbage aurait eu 20,000 piéces, et pesée 13,600 kg, et fait 2,4m de haut
 * en 1824, il est approché par des investisseurs pour démarrer une compagnie d’assurance. il s’enquiert de définir les taux appropriés pour une assurance vie. il va publier en 1826 A Comparative View of the Various Institutions for the Assurance of Lives, qui est en 200 pages un guide du consomateur en rapport aux compagnies d’assurance vies, et permet de comparer les différentes compagnies et de faire le bon choix
 * en 1827, il publie les tables algorithmiques de 1 à 108,000, celles existantes comportaient des erreurs. sa publications, faite avec de nombreux clercks, était précise, et sera utilisée jusqu’au 20eme siécle
-* 1827, il hérite de son pére un grand domaine d’environ 100,000 livres (7.8 millions aujourd’hui), ce qui fait de lui un homme trés riche. la même année, son fils meurt à l’age de 10 ans. un mois aprés, sa femme tombe malade, et meurt, ainsi que son plus jeune fils. Babbage va tomber dans un « mental breakdown ».
+* 1827, il hérite de son pére un grand domaine d’environ 100,000 livres (7.8/14 millions aujourd’hui), ce qui fait de lui un homme trés riche. la même année, son fils meurt à l’age de 10 ans. un mois aprés, sa femme tombe malade, et meurt, ainsi que son plus jeune fils. Babbage va tomber dans un « mental breakdown ».
 * 1828, il devient professeur à Cambridge, cependant, il considére le poste comme une distraction de ses travaux sur ses machines, il n’habitera jamais à cambridge, et à rarement enseigné là bas.
 * il trouve cependant un grand honneur à occuper le poste : « the only honour I ever received in my own country. »(babbage)
 * il commence (1830) à héberger des soirées pour introduire ses enfants adolescents dans la haute société. en peu de temps, ses soirée deviennent un élément incontournable de la vie londonienne, hébergeant parfois 200 ou plus d’invités.
@@ -536,12 +547,12 @@ Strictly speaking, the actual figure is so long I cannot get it into a line, but
 * à 13 ans, elmle devient passionnée par l’idée de voler, et construit un oiseau mécanique qui peut battre des ailes
 * A 16 ans, Ada tombe amoureuse d’un de ses précepteurs et entend bien mener ce flirt comme elle l’entend. Le scandale est évité, le précepteur est congédié et Ada est dûment sermonnée. Seulement voilà, la preuve est maintenant faite pour sa mère : il est évident qu’Ada a hérité du caractère aventureux, immoral, indépendant et passionné de son père
 * en 1832, ada rencontre Mary Sommerville, un scientifique éminente (Somerville was one of the first women to be admitted into the Royal Astronomical Society), qui à son tour lui présente babbage en 1833 (5 juin, elle a 17ans)
-* elle rencontre babbage pendant son « introduction » à la grande société londonnienne
+* elle rencontre babbage pendant son « introduction » à la grande société londonnienne. Elle est « présentée à la cour », c-à-d rencontre le roi, à une soirée chez babbage, en 1833, 5 juin
 * elle est fascinée par la machine de babbage
 * babbage la surnomme « lady fairy »
 * elle se marie en 1835, son mari supporte son activité mathématique, mais ses grossesse mettent à mal sa santé, et la tiennent écarté des maths jusqu’en 1839
 * son mari est nommé earl of lovelace en 1838, elle devient comtesse
-* elle reprends les maths avec l’aide de son tuteur (recommandé par babbage) : Auguste De Morgan.
+* elle reprends les maths avec l’aide de son tuteur (recommandé par babbage) : Auguste De Morgan (un ami de boole, et qui lui même à trouvé quelques théorèmes en algèbre booléenne).
 * 1841, elle écrit à sa mére : « Je crois que je possède une singulière combinaison de qualités, qui semble précisément ajustées pour me prédisposer à devenir une exploratrice des réalités cachées de la Nature »
 * en 1842, elle dirige son travail autour de la machine analytique de babbage, à qui elle propose ses services pour le développement et la promotion de la machine
 * octobre 1842, Menabrea fait un mémoire en français sur la machine, ada (qui parle bien le français) va traduire ce mémoire en anglais. elle y passe 9 mois
@@ -549,7 +560,11 @@ Strictly speaking, the actual figure is so long I cannot get it into a line, but
 * elle travaille avec la collaboration de babbage, qui corrige les brouillons.
 * les notes représentent 3 fois le mémoire d’origine
 * Son mémoire est publié sous ses initiales : A. A. L. afin de dissimuler son identité comme le faisait d’ordinaire les femmes
-* une des notes présente un algorithme pour calculer les nombres de Bernoulli. C’est parfois considéré comme le premier programme de l’histoire (avant, les algorithmes n’étaient pas écrit de manière formelle), et ada, la premiére programmeuse.
+* on peut noter que dans les papier de babbage, il y a plusieurs documents décrivants la machine (comme ce que fait manebrea et lovelace) : « Of the analytical engine », « the science of number reducted to mechanism », mais, on ne sais pas pourquoi, il ne les publiera jamais. 
+* À la fin de sa vie, babbage écrit « history of the analytical engine », que son fils terminera. Il y présente un algorithme pour la division, ces travaux se situent entre 1930 et 1940. en 1937 on a un alto d’avluation d’une fonction rationnelle, en 1938, un alto de coefficient de produit deux polynômes.
+* Chez lovelace, une des notes présente un algorithme pour calculer les nombres de Bernoulli (largement plus compliqué que les altos de babbage). C’est parfois considéré comme le premier programme de l’histoire (avant, les algorithmes n’étaient pas écrit de manière formelle), et ada, la premiére programmeuse.
+* en juillet 1843, elle écrit à babbage à propos de son travail sur le programme (elle veut calculer les nombres de bernouilli) : « I am working very hard for you; like the Devil in fact; (which perhaps I am). … I want to put in something about Bernoulli’s Numbers, in one of my Notes, as an example of how an implicit function may be worked out by the engine, without having been worked out by human head & hands first…. Give me the necessary data & formulae.»
+* on peut noter qu’aujourd’hui, l’algorithme pour calculer les nombres de bernouilli est quasi le même que celui d’ada.
 * mais si on va par là, ça devrait être babbage le premier dev de l’histoire, puisqu’il écrit des programmes pour la machine bien avant (même si la majorité son non-publiés)
 * bruce collier : « Cela ne serait qu'une légère exagération de dire que les notes du mémoire ont été écrites par Babbage, et que — pour des raisons qui lui sont propres — il a entretenu l'idée dans l'esprit d'Ada Lovelace, et dans l'esprit du public, que ces notes étaient d'elle. »
 * Betty Toole, elle, pense que ada était en mesure de réaliser seule le prgramme, et il y a des lettres qui indiquent que le rôle de babbage s’est limité à fournir les formules mathématiques
@@ -557,16 +572,29 @@ Strictly speaking, the actual figure is so long I cannot get it into a line, but
 * le prog d’ada reste le 1er programme PUBLIÉ.
 * babbage n’a pas imagine l’utilisation de sa machine pour le calcul alégébrique, il imagine même une autre machine pour ce type de calculs. ada elle dit : « la machine pourrait composer de manière scientifique et élaborée des morceaux de musique de n'importe quelle longueur ou degré de complexité » ET « Beaucoup de personnes […] s'imaginent que parce que la Machine fournit des résultats sous une forme numérique, alors la nature de ses processus doit être forcément arithmétique et numérique, plutôt qu'algébrique ou analytique. Ceci est une erreur. La Machine peut arranger et combiner les quantités numériques exactement comme si elles étaient des lettres, ou tout autre symbole général ; en fait elle peut donner des résultats en notation algébrique, avec des conventions appropriées. »
 * « [The Analytical Engine] might act upon other things besides number, were objects found whose mutual fundamental relations could be expressed by those of the abstract science of operations, and which should be also susceptible of adaptations to the action of the operating notation and mechanism of the engine...Supposing, for instance, that the fundamental relations of pitched sounds in the science of harmony and of musical composition were susceptible of such expression and adaptations, the engine might compose elaborate and scientific pieces of music of any degree of complexity or extent. » (lovelace, sketch of analytical engine : notes, 1842
+* La publication est très bien reçue dans le monde scientifique, Michael Faraday l’appelle : « the rising star of Science. »
+* elle va chercher un nouveau domaine de recherche et écrit un ans après à mary sommerville: « It does not appear to me that cerebral matter need be more unmanageable to mathematicians than sidereal & planetary matter & movements; if they would but inspect it from the right point of view. I hope to bequeath to the generations a Calculus of the Nervous System. » (on peut noter la vision de la jeune femme, car boole fera exactement ça 10 ans plus tard)
 * Ada propose à babbage de s’occuper de la levée de fonds pour la machine (le caractére de babbage rendant la chose difficile quand il s’en occupe lui-même), lui laissant le rôle de s’occuper uniquement de la construction. Babbage refuse unilitéralement.
+* « I wonder if you will choose to retain the lady-fairy in your service or not. » (lovelace to B, 1843)
+* « You will have had my long letter this morning. Perhaps you will not choose to have anything more to do with me. But I hope the best… » (lovelace to B, 1843)
+* « I am uncertain as yet how the Babbage business will end…. I have written to him … very explicitly; stating my own conditions … He has so strong an idea of the advantage of having my pen as his servant, that he will probably yield; though I demand very strong concessions. If he does consent to what I propose, I shall probably be enabled to keep him out of much hot water; & to bring his engine to consummation, (which all I have seen of him & his habits the last 3 months, makes me scarcely anticipate it ever will be, unless someone really exercises a strong coercive influence over him). He is beyond measure careless & desultory at times. — I shall be willing to be his Whipper-in during the next 3 years if I see fair prospect of success. » (lovelace to her mother, 1843)
+* « Saw AAL this morning and refused all the conditions. » (babbage, inscription sur la lettre de lovelace)
+* leur amitié ne semble pas cependant être affectée par ce refus, lovelace écrit à sa mère peu de temps après : « Babbage & I are I think more friends than ever. I have never seen him so agreeable, so reasonable, or in such good spirits! » (lovelace, 18 aout)
+* « Enchantress of Number” and “my dear and much admired Interpreter » (babbage, in a letter to lovelace)
 * On suppose que c’est pour récolter l’argent elle-même, ce qui est sûr, c’est que Ada se met à parier sur des courses de chevaux. Elle crée une méthode mathématique pour être sûre de gagner. Cela ne fonctionne pas et elle se retrouve endétée, elle doit environ 3000 pound (500,000 actuels)
 * il faut noter qu’Ada vit richement, mais elle n’a pas le controle de son argent, détenu soit par sa mére, soit par son mari.
 * elle meurt le 27 décembre 1852, à 36 ans d’un cancer de l’utérus. (son pére aussi est mort à 36 ans)
 * sa dernière volonté est d’être entérrée au côté de son pére, contre l’avis de sa mére.
 * ses contributions seront mise en valeur à partir de 1950
 * Alan Turing découvre les notes d’Ada dans les années 40, et écrit un article à propos de ces notes. C’est gâce à lui qu’Ada est connue aujourd’hui (babbage et les autres ont peu parlé des travaux d’ada aprés qu’elle soit morte)
+* il écrit en 1950 sur l’IA, et s’oppose à la vision d’ADA : Lady Lovelace’s Objection” (“an AI can’t originate anything”). Il ne s’agit là que d’une noter de bas de page
+* C’est Bertram Bowden qui va véritablement ‘redécouvrir’ lovelace, pendant ses recherches sur son livre ‘faster than thought’, il va rencontrer Lady Wentworth, la petite fille d’Ada, qui va lui révéler l’histoire de sa grand-mère.
+* En 1980, le département de la défense américaine crée un nouveau language de programmation et l’appelle ADA, c’est à cette suite que des biographies du personnage vont commencer à apparaitre, et que son travail et celui de babbage vont devenir plus populaires.
+* avec parfois de grosses erreurs, comme le « problem of three bodies », dans une lettre de Babbage à lovelace, qui à été interprété comme un ménage à trois entre Babbage, lovelace et son mari, alors qu’il s’agit en fait du « three-body problem » en ‘celestial mechanics’, en astronomie.
 
 
 * notes by the translator (Titrées de A à G)
+* les notes (et la majorité de son travail) ne sont pas signé de son nom, mais des initiales AAL, elle explique à babbage : « It is not my wish to proclaim who has written it; at the same time I rather wish to append anything that may tend hereafter to individualize, & identify it, with the other productions of the said A.A.L. » (lettre juillet 1843)
 * A « It were much to be desired, that when mathematical processes pass through the human brain instead of through the medium of inanimate mechanism, it were equally a necessity of things that the reasonings connected with operations should hold the same just place as a clear and well-defined branch of the subject of analysis, a fundamental but yet independent ingredient in the science, which they must do in studying the engine. »
 * A « Again, it might act upon other things besides number, were objects found whose mutual fundamental relations could be expressed by those of the abstract science of operations, and which should be also susceptible of adaptations to the action of the operating notation and mechanism of the engine. Supposing, for instance, that the fundamental relations of pitched sounds in the science of harmony and of musical composition were susceptible of such expression and adaptations, the engine might compose elaborate and scientific pieces of music of any degree of complexity or extent. The Analytical Engine is an embodying of the science of operations»
 * A « If we compare together the powers and the principles of construction of the Difference and of the Analytical Engines, we shall perceive that the capabilities of the latter are immeasurably more extensive than those of the former, and that they in fact hold to each other the same relationship as that of analysis to arithmetic. »
@@ -702,7 +730,9 @@ Strictly speaking, the actual figure is so long I cannot get it into a line, but
 * grace à son diplome, il est promu chef electricien (à Madison Gas and Electric Company, où il travaillait la nuit).
 * il change de société en 1927, pour être ingénieur général à Central Station Division of the Westinghouse Electrical and Manufacturing Company.
 * il change en 1931 pour devenir manager à Line Material Company in Detroit
-* la management ne lui plait pas, et il décide de retourner à l’école. en 1932 il va à l’université de chicago, mais n’aime pas le programme, et ira en 1933 à harvard, où il sera diplomé en 1939 en physique, et complétera sa thése en 1938
+* la management ne lui plait pas, et il décide de retourner à l’école. en 1932 il va à l’université de chicago, mais n’aime pas le programme, et ira en 1933 à harvard (il a alors 32 ans, il est bien plus agé que la majorité des étudiants), où il sera diplomé en 1939 en physique, et complétera sa thése en 1938
+* sa thèse porte sur la physique des tubes à vides (c’est du coup d’autant plus étonnant qu’il choisisse ensuite des relais pour sa machine). Aiken en fait n’a pas de préférence pour aucune technologie, il n’est pas intéressé par l’innovation technique, il a choisi les relais surtout par rapport à l’aspect financier, et parceque IBM, avec qui il va s’associer, construit et possède déjà beaucoup de relais.
+* « But what it comes down to is this : if Monroe had decided to pay the bill, this thing would have been made out of mechanical parts. If RCA had been interested, it might have been electronic. And it was made out of tabulating machine parts because IBM was willing to pay the bill » (Aiken, interview un peu avant 1973)
 * il deviendra assistant prof à harvard en 1941, puis prof en 1946
 * Le travail préliminaire pour sa thése nécéssite de résoudre plein d’équations différentielles non-linéaires. C’est un travail trés long, et la seule aide mécanique dont il dispose est un calculateur de bureau. 
 * Aiken réalise que ce travail pourrait être automatisé, il en parle au directeur de son département qui lui dit qu’il y a dans les combles les rouages d’une vielle machine qui semble similaire à ce qu’il désirait : c’est un des prototypes de la machine analytique de babbage, réalisé et envoyée à haravard par son fils henry. (il récupérera même deux roues qu’il fera monter dans son calculateur)
@@ -712,6 +742,7 @@ Strictly speaking, the actual figure is so long I cannot get it into a line, but
 * chase est trés entousiaste et tente de convaincre les responsables de la société, sans le moindre succés.
 * chase recommande à aiken d’aller voir un professeur à havard, Theodore Brown, qui connait bien Thomas J Watson, le président d’IBM
 * comme chase, l’ingénieur en chef d’IBM, Bryce, est également convaincu qu’il faut construire la machine. IBM approuvera cette décision.
+* Pour IBM, c’est un ‘one-time’, cette machine sera la contribution d’IBM à la science, et une bonne publicité. Aiken lui considère la machine comme la première d’une longue série, toujours plus puissantes et versatiles (il l’appellera d’ailleur la Mark 1).
 * dans le document « proposed automatic calculating machine », de aiken
 * l’introduction fait un rappel de l’histoire bréve des mùachines à calculer. Il parle de la machine de babbage (un des prototypes construit par le fils de babbage avait été envoyé à harvard), et des cartes à trous de hollerith.
 * il dira plus tard, voyant sa machine fonctionner "he felt that Babbage was addressing him personally from the past"
@@ -727,18 +758,20 @@ Strictly speaking, the actual figure is so long I cannot get it into a line, but
 * C’est à ce moment que Grace Hopper invente le terme de « bug », puisqu’une mite (morte) s’était coincé dans la machine, et bloquait le lecteur du papier perforé. Le terme « débugger » signifie aujourd’hui résoudre les problémes dans un programme informatique.
 * entre 1944 et 1945, le Mark 1 tourne presque en continu, 24h par jour et 7 jours par semaine. Elle est utilisée pour étudier les champs magnétiques associés à la protection des navires des mines magnétiques, et pour étudier certains aspect mathématiques liée à l’utilisation et au design des radars.
 * Le probléme le plus important traité sur la machine est sans doute lié au dévellopement de la bombe atomique.
-* Le succés de la machine conduira, début 1945, la marine à demander à Aiken d’en construire une seconde version, ce qu’il fera : le Mark 2
+* Le succés de la machine conduira, début 1945, la marine à demander à Aiken d’en construire une seconde version, ce qu’il fera : le Mark 2. Elle sera plus rapide et peut se ‘diviser’ en deux machines, chacune utilisant 50% de la mémoire et 50% du surcuit arithmétique
 * le mark 1 fait 2,5m de haut, 16m de long, 1m de profondeur. 5 tonnes et 760,000 piéces. 800km de fils et 3,000,000 de ‘wire connections’.
+* la machine est énorme : 20 mètres de long, 2.5 mètres de haut, 1 mètre de large.
+* elle est aussi très bruyante : « A characteristic of Mark 1, remembered by anyone who ever witnessed its operation, was the constant humming or whirring sound of the main drive shafts. This poeasant sound has been described as like that of a giant sewing machine. Aiken sat in an office near Mark 1, with his door open, so that he could hear the constant sound of the machine. I well remember being with him one time when he detected a variation in the sound. He leap out of his seat, ran to the main switch, and stopper the operation until the fault could be located and corrected. » (Bernard Cohen, ‘Howard Aiken and the Beginnings of Computer science’)
 * la machine se base sur la technologie d’IBM (les tabulatrices d’hollerith) et utilise les relais électromagnétiques ‘classiques’, des conpteurs, des cartes à trous.
 * les développeurs codent le programme (et de leurs mémoire, cela ressemble énormément au développement qu’ils feront plus tard avec des languages de prog), puis donnent ce programme à un opérateur qui va perforer la bande en fonction des instructions du programme.
 * le circuit de multiplication n’est pas fait via addition successive (comme c’est souvent le cas dans les calculateurs mécaniques) mais en empruntant une idée à babbage
 * à la fin de chaque instruction, les programmeurs devaient mettre un 7 pour indiquer à la machine de passer à l’instruction suivante, sinon elle s’arrêtait (c’est trés souvent le contraire qu’on fait, la machine continue jusqu’à l’instruction d’arrêt). C’était trés pratique pour débugger ‘pas-à-pas’
-* la machine va continuer à être utilisée à havard 14 ans aprés la guerre, et est mise à la retraite en 1959. pendant ce temps, aike à développé un language de prog, et les étudiants l’apprennent pour avoir leur doctorat (c’est le début d’un doctorat d’informatique)
-* le mark 1 démontre qu’une machine peut être programmé pour faire n’importe quoi (et elle aura droit à beacoup de publicité, annonçant l’ére de l’informatique), mais elle n’aura pas beaucoup d’influence sur le développement du reste de l’informatique, à cause de sa technologie (les relais) trop ancienne, et trop lente (comparée à l’ENIAC electronique, presque à la même époque, même s’il est plus versatile que l’eniac, et programmable (ce que l’eniac n’est pas vraiment))
+* la machine va continuer à être utilisée à havard 14 ans aprés la guerre, et est mise à la retraite en 1959 (c’est le record de longévité pour toutes ces machines ‘première génération). pendant ce temps, aike à développé un language de prog, et les étudiants l’apprennent pour avoir leur doctorat (c’est le début d’un doctorat d’informatique)
+* le mark 1 démontre qu’une machine peut être programmé pour faire n’importe quoi (et elle aura droit à beacoup de publicité, annonçant l’ére de l’informatique), mais elle n’aura pas beaucoup d’influence sur le développement du reste de l’informatique (en termes de technique de construction ou de design), à cause de sa technologie (les relais) trop ancienne, et trop lente (comparée à l’ENIAC electronique, presque à la même époque, même s’il est plus versatile que l’eniac, et programmable (ce que l’eniac n’est pas vraiment))
 * aiken construira en tout 4 machines, mais Aiken refuse le concept de programme stocké (une seule mémoire pour le programme et les données) qui deviendra un inconditionnel en informatique. 
 * Aiken va donner beaucoup de conférence sur l’informatique, et cela va favoriser le travail et la recherche dans ce domaine
 * il innove aussi dans l’utilisation de ces machines, puisque il est un des premiers (si ce n’est le premier) à conçevoir des programmes, non plus pour des problémes scientifiques seulement, mais pour des applis de compabilité et de facturation.
-* il établit aussi le premier programme scolaire (graduate program) d’informatique (computer science) à harvard. Certains historiens estiment que c’est l’accomplissement le plus important d’aiken (Aiken’s Havard Computer Lab)
+* il établit aussi le premier programme scolaire (graduate program) d’informatique (computer science) à harvard (contre la volonté d’harvard). Certains historiens estiment que c’est l’accomplissement le plus important d’aiken (Aiken’s Havard Computer Lab)
 
 * en 1938, il prépare une thése de physique à Havard, et à l’idée d’un calculateur pour faciliter la résolution d’équations différentielles
 * il est inspiré par la machine analytique de babbage
@@ -757,9 +790,11 @@ The next advance was made by Leibniz who conceived a multiplying machine in 1671
 * meurt 14 mars 1973
 
 * Howard Aiken was a giant of a man in force of will, in originality of mind, and in achievements. Standing almost two meters, he had a huge dome of a head, piercing eyes, and huge, somewhat satanic eyebrows. He judged others rigorously and he related to others in extremes. Some colleagues and some former students remained devoted to him for the rest of their lives; others tend to remember only occasions when he was intransigent and difficult.
-
+* « Howard Aiken was a giant man, in body as well as in mind, towering six feet four inches. A man of deep convictions, he had strong likes ans dislikes. He often formed his opinion of others at the instant of first encounter. It was said that on a scale from 1 to 10 he rated people as either 0 or 11. » (Bernard Cohen, ‘Howard Aiken and the Beginnings of Computer science’)
+* « The digital computer age began when the Automatic Sequence Controlled Calculator [Harvard Mark 1] started working in April 1944 » (Encyclopedia of Computer Sciece and Engineering)
+* « The Harvard Mark 1, also called the IBM Automatic Sequence Controlled Calculator… marked the beginning of the era of the modern computer » (same, another entry)
 * « Only six electronic digital computers would be required to satisfy the computing needs of the entire United States. » ‘howard aiken, 1946, la source n’est pas fiable, mais la citation est connue)
-
+* « The day will come when manufactures will give away hardware in order to sell software » (Aiken)bu
 
 
 ####################
@@ -903,7 +938,7 @@ My grandmother married twice more after that. My father was 13 years old when he
 * premier calculateur éléctronique
 * C’est une machine spécialisée : elle peut résoudre des systémes d’équations linéaires (jusqu’à 29 équations à 29 inconnues), en utilisant la méthode standard d’élimination gaussienne (Gaussian elimination algorithm)
 * plusieurs tests sont éffectués, qui montrent que toutes les parties principales (centre arithmétique et mémoire) de la machine fonctionnent parfaitement, mais le système entré-sortie utilisateur (perforage des cartes à trous) à parfois des problèmes (1/10,000 taux d’erreur). Même si le taux d’erreur est faible, cela peut tout de même corrompre les résultats pour de grands nombres d’équations (le systéme est utilisé pour stocker les résultats intermédiaires).
-* en décembre 1941, les états unis entrent dans la 2* guerre, et Atanasoff et Berry vont devoir quitter l’Iowa (pour entrer dans l’armée) avant d’avoir pu résoudre ce problème.
+* en décembre 1941, les états unis entrent dans la 2* guerre, et Atanasoffva devoir quitter l’Iowa (pour entrer dans l’armée, Naval Ordnance Laboratory) avant d’avoir pu résoudre ce problème. Et Berry ira rejoindre une compagnie d’ingéniérie en Californie.
 * la machine va être entreposé dans un des sous-sols de l’université, mais rapidement, plus personne ne sait à quoi elle sert. Lorsqu’il fallut faire de la place, un étudiant la démonta et mit la plupart des pièces au rebut.
 * en visite à l’université en 1948, Atanasoff est déçu, il découvre que la machine à été démontée et retirée du batiment de physique, seules quelques piéces sont encore en état de fonctionner.
 * la machine d’atanasoff est quasi-inconnue, elle n’a été mentionné (on est en 1967) que dans 3 courts articles de journaux, et un livre écrit par R.K.richards, un des amis d’atanasoff. Elle deviendra plus populaire au moment du procés sur les brevets de l’enaic
@@ -918,3 +953,21 @@ My grandmother married twice more after that. My father was 13 years old when he
 
 * « Àl’époque, je n’avais qu’une connaissance sommaire des travaux de Babbage et j’ignorais donc qu’il appelait ‘magasin’ le même concept […] Le mot me plaît et peut-être l’aurais-je adopté si j’avais su; ’mémoire’ me plaît aussi, à cause de l’analogie avec le cerveau » (atanasoff)
 * « I came here from Berkeley,You know Berkeley must have 20 Nobel prizes and they are proud of them; poets, physicists, chemists... When I found out Atanasoff's story and read his paper... It occurred to me that if Atanasoff had been at Berkeley in 1939 (with the Atanasoff-Berry Computer) he would have gotten a Nobel prize right away. Berkeley would not have waited a minute before going after a Nobel Prize and becoming known as the birthplace of the electronic digital computer. Here at Iowa State, it was just dropped » (Iowa State University Associate Professor of Physics John Hauptman, à propos d’atanasoff )
+
+
+
+##################
+### Konrad Zuse ###
+
+* commence sa carrière comme ‘stress analyst’ dans une compagnie aéronautique, Henschel Aircraft Company, à Berlin
+* déjà avant avoir eu son diplôme, il réfléchir à une machine à calculer  générale qui utiliserait une arithmétique binaire.
+* Quand son travail commence à lui demander de résoudre des équations linéaires simultanées (mm chose que l’ABC), Zuse décide que ces calculs pourraient et devraient être mécanisés.
+* à 26 ans, en 1936, il commence à construire sa première machine.
+* le V1 (plus tard rebaptisé Z1, pour ne pas confondre avec les missiles V1 - V2 construit pas l’Allemagne durant la guerre)  est un assemblage mécanique, elle utilise le binaire et est contrôlé par une bande perforée. 
+* il construit le Z1 dans l’appartement de ses parents. 
+* Même si le Z1 ne sera jamais totalement opérationnel, Zuse est convaincu qu’il est sur la bonne voie.
+* Il commence alors une collaboration avec Helmut Schreyer, un ingénieur en électronique, et commence la construction du Z2, toujours dans l’appartement de ses parents.
+* Le Z2 utilise des relais électromagnétiques, comme chez Stibitz et Aiken.
+* en 1942, il commence la production du Z3, une machine qui utilise les tubes à vides, et encore quelques relais. La machine n’est plus contrôlée par une bande perforée, mais par un programme stocké.
+* Le Z3 sera totalement détruit au cours d’un raid aérien sur Berlin, en avril 1945.
+* Zuse commence alors la construction du Z4, une machine encore plus ambitieuse, mais perturbé par la situation politique et économique de l’Allemagne, la machine ne sera pas complétée à temps pour avoir une grande influence sur le développement de l’informatique.

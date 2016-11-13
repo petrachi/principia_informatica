@@ -1,0 +1,4 @@
+* La carrière de Pascal
+* L’Horloge mécanique de Schickard
+* Multiplier avec les baton de Napier
+* d’où vient le binaire ?

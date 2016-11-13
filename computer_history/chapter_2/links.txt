@@ -50,6 +50,8 @@ http://calmeca.free.fr/calculmecanique_php/index_calmeca.php?lang=fra
 http://www.eolss.net/sample-chapters/c15/e6-45-12.pdf
 https://global.britannica.com/technology/computer
 http://www.abandonware-magazines.org/index.php
+https://www.youtube.com/watch?v=WhNyURBiJcU
+
 
 —
 
@@ -201,7 +203,9 @@ IMG 5328
 https://fr.wikipedia.org/wiki/M%C3%A9tier_Jacquard
 https://en.wikipedia.org/wiki/Jacquard_loom
 https://en.wikipedia.org/wiki/Jacquard_weaving
-
+http://trentcentre.ca/documents/public/4129FinalReport.pdf
+https://books.google.fr/books?id=LdVNAQAAMAAJ&pg=PA331
+http://www.archives-lyon.fr/static/archives/contenu/64parcours/Recherch/huchard/texte.htm
 
 Differential Analyser (useless):
 http://www-history.mcs.st-andrews.ac.uk/Biographies/Coriolis.html
@@ -292,6 +296,7 @@ http://history-computer.com/ModernComputer/Electronic/Atanasoff.html
 https://www.youtube.com/watch?v=Yxrcp1QSPvw
 http://www.bth.se/mam/forskning.nsf/attachments/WP%202014_7_Rouchy_Atanasoff%20invention%20input%20and%20state%20of%20computing%20knowledge_pdf/$file/WP%202014_7_Rouchy_Atanasoff%20invention%20input%20and%20state%20of%20computing%20knowledge.pdf
 http://history-computer.com/Library/ABC%20%20manual.pdf
+https://www.youtube.com/watch?v=Yxrcp1QSPvw
 IMG 5341-5342
 IMG 5694-5712
 

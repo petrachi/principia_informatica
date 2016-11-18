@@ -2,3 +2,4 @@
 * L’Horloge mécanique de Schickard
 * Multiplier avec les baton de Napier
 * d’où vient le binaire ?
+* la machine à différences de babbage
